@@ -1,0 +1,6 @@
+# build 
+build/
+
+# chemical network
+rate12_complex.rates
+
