@@ -22281,2187 +22281,2230 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[7069] = opt_frz * 1.0 * pi * rG * rG
         * gdens * sqrt(8.0 * kerg * Tgas/ (pi*amu*132.0)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7070] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7070] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHI/(pi*pi*amu*1.0)) *
         exp(-eb_GHI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7071] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7071] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GH2I/(pi*pi*amu*2.0)) *
         exp(-eb_GH2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7072] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7072] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHeI/(pi*pi*amu*4.0)) *
         exp(-eb_GHeI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7073] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7073] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCI/(pi*pi*amu*12.0)) *
         exp(-eb_GCI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7074] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7074] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCHI/(pi*pi*amu*13.0)) *
         exp(-eb_GCHI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7075] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7075] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH2I/(pi*pi*amu*14.0)) *
         exp(-eb_GCH2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7076] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7076] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GNI/(pi*pi*amu*14.0)) *
         exp(-eb_GNI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7077] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7077] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH3I/(pi*pi*amu*15.0)) *
         exp(-eb_GCH3I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7078] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7078] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GNHI/(pi*pi*amu*15.0)) *
         exp(-eb_GNHI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7079] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7079] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GNH2I/(pi*pi*amu*16.0)) *
         exp(-eb_GNH2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7080] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7080] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH4I/(pi*pi*amu*16.0)) *
         exp(-eb_GCH4I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7081] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7081] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GOI/(pi*pi*amu*16.0)) *
         exp(-eb_GOI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7082] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7082] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GNH3I/(pi*pi*amu*17.0)) *
         exp(-eb_GNH3I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7083] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7083] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GOHI/(pi*pi*amu*17.0)) *
         exp(-eb_GOHI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7084] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7084] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GH2OI/(pi*pi*amu*18.0)) *
         exp(-eb_GH2OI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7085] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7085] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GFI/(pi*pi*amu*19.0)) *
         exp(-eb_GFI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7086] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7086] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHFI/(pi*pi*amu*20.0)) *
         exp(-eb_GHFI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7087] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7087] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GNaI/(pi*pi*amu*23.0)) *
         exp(-eb_GNaI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7088] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7088] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GMgI/(pi*pi*amu*24.0)) *
         exp(-eb_GMgI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7089] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7089] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC2I/(pi*pi*amu*24.0)) *
         exp(-eb_GC2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7090] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7090] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC2HI/(pi*pi*amu*25.0)) *
         exp(-eb_GC2HI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7091] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7091] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCNI/(pi*pi*amu*26.0)) *
         exp(-eb_GCNI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7092] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7092] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC2H2I/(pi*pi*amu*26.0)) *
         exp(-eb_GC2H2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7093] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7093] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHCNI/(pi*pi*amu*27.0)) *
         exp(-eb_GHCNI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7094] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7094] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC2H3I/(pi*pi*amu*27.0)) *
         exp(-eb_GC2H3I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7095] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7095] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHNCI/(pi*pi*amu*27.0)) *
         exp(-eb_GHNCI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7096] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7096] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GH2CNI/(pi*pi*amu*28.0)) *
         exp(-eb_GH2CNI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7097] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7097] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GSiI/(pi*pi*amu*28.0)) *
         exp(-eb_GSiI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7098] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7098] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GN2I/(pi*pi*amu*28.0)) *
         exp(-eb_GN2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7099] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7099] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC2H4I/(pi*pi*amu*28.0)) *
         exp(-eb_GC2H4I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7100] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7100] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCOI/(pi*pi*amu*28.0)) *
         exp(-eb_GCOI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7101] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7101] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHCOI/(pi*pi*amu*29.0)) *
         exp(-eb_GHCOI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7102] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7102] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GSiHI/(pi*pi*amu*29.0)) *
         exp(-eb_GSiHI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7103] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7103] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH2NHI/(pi*pi*amu*29.0)) *
         exp(-eb_GCH2NHI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7104] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7104] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC2H5I/(pi*pi*amu*29.0)) *
         exp(-eb_GC2H5I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7105] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7105] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC2H6I/(pi*pi*amu*30.0)) *
         exp(-eb_GC2H6I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7106] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7106] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GSiH2I/(pi*pi*amu*30.0)) *
         exp(-eb_GSiH2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7107] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7107] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GNOI/(pi*pi*amu*30.0)) *
         exp(-eb_GNOI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7108] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7108] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GH2COI/(pi*pi*amu*30.0)) *
         exp(-eb_GH2COI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7109] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7109] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GSiH3I/(pi*pi*amu*31.0)) *
         exp(-eb_GSiH3I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7110] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7110] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GPI/(pi*pi*amu*31.0)) *
         exp(-eb_GPI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7111] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7111] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH2OHI/(pi*pi*amu*31.0)) *
         exp(-eb_GCH2OHI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7112] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7112] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHNOI/(pi*pi*amu*31.0)) *
         exp(-eb_GHNOI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7113] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7113] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH3OI/(pi*pi*amu*31.0)) *
         exp(-eb_GCH3OI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7114] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7114] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GSI/(pi*pi*amu*32.0)) *
         exp(-eb_GSI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7115] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7115] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GPHI/(pi*pi*amu*32.0)) *
         exp(-eb_GPHI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7116] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7116] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GO2I/(pi*pi*amu*32.0)) *
         exp(-eb_GO2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7117] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7117] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GSiH4I/(pi*pi*amu*32.0)) *
         exp(-eb_GSiH4I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7118] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7118] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH3OHI/(pi*pi*amu*32.0)) *
         exp(-eb_GCH3OHI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7119] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7119] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GO2HI/(pi*pi*amu*33.0)) *
         exp(-eb_GO2HI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7120] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7120] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHSI/(pi*pi*amu*33.0)) *
         exp(-eb_GHSI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7121] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7121] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GPH2I/(pi*pi*amu*33.0)) *
         exp(-eb_GPH2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7122] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7122] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GH2O2I/(pi*pi*amu*34.0)) *
         exp(-eb_GH2O2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7123] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7123] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GH2SI/(pi*pi*amu*34.0)) *
         exp(-eb_GH2SI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7124] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7124] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GClI/(pi*pi*amu*35.0)) *
         exp(-eb_GClI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7125] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7125] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC3I/(pi*pi*amu*36.0)) *
         exp(-eb_GC3I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7126] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7126] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHClI/(pi*pi*amu*36.0)) *
         exp(-eb_GHClI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7127] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7127] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC3HI/(pi*pi*amu*37.0)) *
         exp(-eb_GC3HI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7128] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7128] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GH2CCCI/(pi*pi*amu*38.0)) *
         exp(-eb_GH2CCCI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7129] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7129] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC2NI/(pi*pi*amu*38.0)) *
         exp(-eb_GC2NI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7130] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7130] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC3H2I/(pi*pi*amu*38.0)) *
         exp(-eb_GC3H2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7131] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7131] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHCCNI/(pi*pi*amu*39.0)) *
         exp(-eb_GHCCNI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7132] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7132] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH2CCHI/(pi*pi*amu*39.0)) *
         exp(-eb_GCH2CCHI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7133] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7133] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH2CCH2I/(pi*pi*amu*40.0)) *
         exp(-eb_GCH2CCH2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7134] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7134] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH3CCHI/(pi*pi*amu*40.0)) *
         exp(-eb_GCH3CCHI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7135] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7135] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH2CNI/(pi*pi*amu*40.0)) *
         exp(-eb_GCH2CNI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7136] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7136] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC2OI/(pi*pi*amu*40.0)) *
         exp(-eb_GC2OI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7137] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7137] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GSiCI/(pi*pi*amu*40.0)) *
         exp(-eb_GSiCI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7138] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7138] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHCSiI/(pi*pi*amu*41.0)) *
         exp(-eb_GHCSiI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7139] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7139] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH3CNI/(pi*pi*amu*41.0)) *
         exp(-eb_GCH3CNI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7140] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7140] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHC2OI/(pi*pi*amu*41.0)) *
         exp(-eb_GHC2OI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7141] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7141] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH3CHCH2I/(pi*pi*amu*42.0)) *
         exp(-eb_GCH3CHCH2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7142] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7142] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCNOI/(pi*pi*amu*42.0)) *
         exp(-eb_GCNOI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7143] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7143] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH2COI/(pi*pi*amu*42.0)) *
         exp(-eb_GCH2COI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7144] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7144] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GNH2CNI/(pi*pi*amu*42.0)) *
         exp(-eb_GNH2CNI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7145] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7145] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GSiCH2I/(pi*pi*amu*42.0)) *
         exp(-eb_GSiCH2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7146] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7146] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GOCNI/(pi*pi*amu*42.0)) *
         exp(-eb_GOCNI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7147] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7147] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GSiNI/(pi*pi*amu*42.0)) *
         exp(-eb_GSiNI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7148] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7148] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH3COI/(pi*pi*amu*43.0)) *
         exp(-eb_GCH3COI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7149] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7149] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHNSiI/(pi*pi*amu*43.0)) *
         exp(-eb_GHNSiI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7150] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7150] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHNCOI/(pi*pi*amu*43.0)) *
         exp(-eb_GHNCOI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7151] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7151] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHOCNI/(pi*pi*amu*43.0)) *
         exp(-eb_GHOCNI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7152] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7152] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GSiCH3I/(pi*pi*amu*43.0)) *
         exp(-eb_GSiCH3I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7153] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7153] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHCNOI/(pi*pi*amu*43.0)) *
         exp(-eb_GHCNOI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7154] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7154] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCPI/(pi*pi*amu*43.0)) *
         exp(-eb_GCPI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7155] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7155] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHONCI/(pi*pi*amu*43.0)) *
         exp(-eb_GHONCI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7156] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7156] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GN2OI/(pi*pi*amu*44.0)) *
         exp(-eb_GN2OI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7157] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7157] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCSI/(pi*pi*amu*44.0)) *
         exp(-eb_GCSI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7158] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7158] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHCPI/(pi*pi*amu*44.0)) *
         exp(-eb_GHCPI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7159] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7159] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH3CHOI/(pi*pi*amu*44.0)) *
         exp(-eb_GCH3CHOI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7160] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7160] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCO2I/(pi*pi*amu*44.0)) *
         exp(-eb_GCO2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7161] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7161] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GSiOI/(pi*pi*amu*44.0)) *
         exp(-eb_GSiOI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7162] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7162] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHCSI/(pi*pi*amu*45.0)) *
         exp(-eb_GHCSI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7163] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7163] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCOOHI/(pi*pi*amu*45.0)) *
         exp(-eb_GCOOHI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7164] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7164] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GPNI/(pi*pi*amu*45.0)) *
         exp(-eb_GPNI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7165] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7165] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH3OCH3I/(pi*pi*amu*46.0)) *
         exp(-eb_GCH3OCH3I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7166] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7166] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH2PHI/(pi*pi*amu*46.0)) *
         exp(-eb_GCH2PHI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7167] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7167] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GNO2I/(pi*pi*amu*46.0)) *
         exp(-eb_GNO2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7168] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7168] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHCOOHI/(pi*pi*amu*46.0)) *
         exp(-eb_GHCOOHI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7169] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7169] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC2H5OHI/(pi*pi*amu*46.0)) *
         exp(-eb_GC2H5OHI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7170] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7170] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GH2SiOI/(pi*pi*amu*46.0)) *
         exp(-eb_GH2SiOI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7171] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7171] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GH2CSI/(pi*pi*amu*46.0)) *
         exp(-eb_GH2CSI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7172] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7172] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GNSI/(pi*pi*amu*46.0)) *
         exp(-eb_GNSI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7173] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7173] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCClI/(pi*pi*amu*47.0)) *
         exp(-eb_GCClI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7174] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7174] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GPOI/(pi*pi*amu*47.0)) *
         exp(-eb_GPOI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7175] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7175] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHPOI/(pi*pi*amu*48.0)) *
         exp(-eb_GHPOI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7176] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7176] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GSOI/(pi*pi*amu*48.0)) *
         exp(-eb_GSOI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7177] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7177] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC4I/(pi*pi*amu*48.0)) *
         exp(-eb_GC4I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7178] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7178] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC4HI/(pi*pi*amu*49.0)) *
         exp(-eb_GC4HI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7179] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7179] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC3NI/(pi*pi*amu*50.0)) *
         exp(-eb_GC3NI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7180] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7180] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC4H2I/(pi*pi*amu*50.0)) *
         exp(-eb_GC4H2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7181] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7181] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GClOI/(pi*pi*amu*51.0)) *
         exp(-eb_GClOI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7182] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7182] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHNC3I/(pi*pi*amu*51.0)) *
         exp(-eb_GHNC3I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7183] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7183] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHC3NI/(pi*pi*amu*51.0)) *
         exp(-eb_GHC3NI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7184] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7184] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC4H3I/(pi*pi*amu*51.0)) *
         exp(-eb_GC4H3I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7185] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7185] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GSiC2I/(pi*pi*amu*52.0)) *
         exp(-eb_GSiC2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7186] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7186] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH2CHCCHI/(pi*pi*amu*52.0)) *
         exp(-eb_GCH2CHCCHI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7187] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7187] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GNCCNI/(pi*pi*amu*52.0)) *
         exp(-eb_GNCCNI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7188] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7188] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC3OI/(pi*pi*amu*52.0)) *
         exp(-eb_GC3OI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7189] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7189] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH2CHCNI/(pi*pi*amu*53.0)) *
         exp(-eb_GCH2CHCNI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7190] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7190] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GSiC2HI/(pi*pi*amu*53.0)) *
         exp(-eb_GSiC2HI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7191] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7191] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC4H6I/(pi*pi*amu*54.0)) *
         exp(-eb_GC4H6I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7192] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7192] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GSiC2H2I/(pi*pi*amu*54.0)) *
         exp(-eb_GSiC2H2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7193] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7193] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC2H4CNI/(pi*pi*amu*54.0)) *
         exp(-eb_GC2H4CNI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7194] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7194] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GSiNCI/(pi*pi*amu*54.0)) *
         exp(-eb_GSiNCI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7195] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7195] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC2H5CNI/(pi*pi*amu*55.0)) *
         exp(-eb_GC2H5CNI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7196] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7196] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCCPI/(pi*pi*amu*55.0)) *
         exp(-eb_GCCPI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7197] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7197] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC2SI/(pi*pi*amu*56.0)) *
         exp(-eb_GC2SI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7198] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7198] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GFeI/(pi*pi*amu*56.0)) *
         exp(-eb_GFeI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7199] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7199] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHC2PI/(pi*pi*amu*56.0)) *
         exp(-eb_GHC2PI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7200] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7200] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH3COCH3I/(pi*pi*amu*58.0)) *
         exp(-eb_GCH3COCH3I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7201] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7201] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCOOCH3I/(pi*pi*amu*59.0)) *
         exp(-eb_GCOOCH3I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7202] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7202] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH2OHCOI/(pi*pi*amu*59.0)) *
         exp(-eb_GCH2OHCOI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7203] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7203] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHCOOCH3I/(pi*pi*amu*60.0)) *
         exp(-eb_GHCOOCH3I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7204] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7204] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GOCSI/(pi*pi*amu*60.0)) *
         exp(-eb_GOCSI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7205] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7205] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GSiSI/(pi*pi*amu*60.0)) *
         exp(-eb_GSiSI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7206] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7206] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC5I/(pi*pi*amu*60.0)) *
         exp(-eb_GC5I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7207] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7207] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GSiO2I/(pi*pi*amu*60.0)) *
         exp(-eb_GSiO2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7208] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7208] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH2OHCHOI/(pi*pi*amu*60.0)) *
         exp(-eb_GCH2OHCHOI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7209] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7209] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH3COOHI/(pi*pi*amu*60.0)) *
         exp(-eb_GCH3COOHI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7210] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7210] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC5HI/(pi*pi*amu*61.0)) *
         exp(-eb_GC5HI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7211] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7211] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC5H2I/(pi*pi*amu*62.0)) *
         exp(-eb_GC5H2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7212] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7212] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC4NI/(pi*pi*amu*62.0)) *
         exp(-eb_GC4NI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7213] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7213] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GSiC3I/(pi*pi*amu*64.0)) *
         exp(-eb_GSiC3I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7214] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7214] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GSO2I/(pi*pi*amu*64.0)) *
         exp(-eb_GSO2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7215] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7215] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GS2I/(pi*pi*amu*64.0)) *
         exp(-eb_GS2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7216] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7216] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH3C4HI/(pi*pi*amu*64.0)) *
         exp(-eb_GCH3C4HI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7217] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7217] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GSiC3HI/(pi*pi*amu*65.0)) *
         exp(-eb_GSiC3HI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7218] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7218] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH3C3NI/(pi*pi*amu*65.0)) *
         exp(-eb_GCH3C3NI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7219] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7219] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHS2I/(pi*pi*amu*65.0)) *
         exp(-eb_GHS2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7220] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7220] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GH2S2I/(pi*pi*amu*66.0)) *
         exp(-eb_GH2S2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7221] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7221] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC3PI/(pi*pi*amu*67.0)) *
         exp(-eb_GC3PI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7222] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7222] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC3SI/(pi*pi*amu*68.0)) *
         exp(-eb_GC3SI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7223] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7223] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC6I/(pi*pi*amu*72.0)) *
         exp(-eb_GC6I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7224] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7224] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC6HI/(pi*pi*amu*73.0)) *
         exp(-eb_GC6HI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7225] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7225] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC6H2I/(pi*pi*amu*74.0)) *
         exp(-eb_GC6H2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7226] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7226] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC5NI/(pi*pi*amu*74.0)) *
         exp(-eb_GC5NI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7227] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7227] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHC5NI/(pi*pi*amu*75.0)) *
         exp(-eb_GHC5NI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7228] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7228] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GSiC4I/(pi*pi*amu*76.0)) *
         exp(-eb_GSiC4I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7229] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7229] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC6H6I/(pi*pi*amu*78.0)) *
         exp(-eb_GC6H6I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7230] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7230] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC4PI/(pi*pi*amu*79.0)) *
         exp(-eb_GC4PI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7231] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7231] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC4SI/(pi*pi*amu*80.0)) *
         exp(-eb_GC4SI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7232] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7232] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC7I/(pi*pi*amu*84.0)) *
         exp(-eb_GC7I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7233] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7233] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC7HI/(pi*pi*amu*85.0)) *
         exp(-eb_GC7HI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7234] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7234] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC7H2I/(pi*pi*amu*86.0)) *
         exp(-eb_GC7H2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7235] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7235] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH3C6HI/(pi*pi*amu*88.0)) *
         exp(-eb_GCH3C6HI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7236] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7236] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH3C5NI/(pi*pi*amu*89.0)) *
         exp(-eb_GCH3C5NI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7237] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7237] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC8I/(pi*pi*amu*96.0)) *
         exp(-eb_GC8I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7238] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7238] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC8HI/(pi*pi*amu*97.0)) *
         exp(-eb_GC8HI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7239] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7239] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC7NI/(pi*pi*amu*98.0)) *
         exp(-eb_GC7NI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7240] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7240] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC8H2I/(pi*pi*amu*98.0)) *
         exp(-eb_GC8H2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7241] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7241] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHC7NI/(pi*pi*amu*99.0)) *
         exp(-eb_GHC7NI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7242] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7242] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC9I/(pi*pi*amu*108.0)) *
         exp(-eb_GC9I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7243] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7243] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC9HI/(pi*pi*amu*109.0)) *
         exp(-eb_GC9HI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7244] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7244] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC9H2I/(pi*pi*amu*110.0)) *
         exp(-eb_GC9H2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7245] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7245] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GCH3C7NI/(pi*pi*amu*113.0)) *
         exp(-eb_GCH3C7NI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7246] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7246] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC10I/(pi*pi*amu*120.0)) *
         exp(-eb_GC10I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7247] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7247] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC10HI/(pi*pi*amu*121.0)) *
         exp(-eb_GC10HI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7248] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7248] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC9NI/(pi*pi*amu*122.0)) *
         exp(-eb_GC9NI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7249] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7249] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC10H2I/(pi*pi*amu*122.0)) *
         exp(-eb_GC10H2I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7250] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7250] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GHC9NI/(pi*pi*amu*123.0)) *
         exp(-eb_GHC9NI/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7251] = cov * opt_thd * nMono *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7251] = opt_thd * cov * nMono *
         densites * sqrt(2.0*sites*kerg*eb_GC11I/(pi*pi*amu*132.0)) *
         exp(-eb_GC11I/(Tdust)); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7252] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHI/(pi*pi*amu*1.0)) *
-        exp(-eb_GHI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7252] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHI/(pi*pi*amu*1.0)) * exp(-eb_GHI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7253] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GH2I/(pi*pi*amu*2.0)) *
-        exp(-eb_GH2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7253] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GH2I/(pi*pi*amu*2.0)) * exp(-eb_GH2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7254] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHeI/(pi*pi*amu*4.0)) *
-        exp(-eb_GHeI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7254] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHeI/(pi*pi*amu*4.0)) * exp(-eb_GHeI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7255] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCI/(pi*pi*amu*12.0)) *
-        exp(-eb_GCI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7255] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCI/(pi*pi*amu*12.0)) * exp(-eb_GCI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7256] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCHI/(pi*pi*amu*13.0)) *
-        exp(-eb_GCHI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7256] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCHI/(pi*pi*amu*13.0)) * exp(-eb_GCHI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7257] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH2I/(pi*pi*amu*14.0)) *
-        exp(-eb_GCH2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7257] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH2I/(pi*pi*amu*14.0)) * exp(-eb_GCH2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7258] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GNI/(pi*pi*amu*14.0)) *
-        exp(-eb_GNI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7258] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GNI/(pi*pi*amu*14.0)) * exp(-eb_GNI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7259] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH3I/(pi*pi*amu*15.0)) *
-        exp(-eb_GCH3I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7259] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH3I/(pi*pi*amu*15.0)) * exp(-eb_GCH3I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7260] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GNHI/(pi*pi*amu*15.0)) *
-        exp(-eb_GNHI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7260] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GNHI/(pi*pi*amu*15.0)) * exp(-eb_GNHI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7261] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GNH2I/(pi*pi*amu*16.0)) *
-        exp(-eb_GNH2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7261] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GNH2I/(pi*pi*amu*16.0)) * exp(-eb_GNH2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7262] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH4I/(pi*pi*amu*16.0)) *
-        exp(-eb_GCH4I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7262] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH4I/(pi*pi*amu*16.0)) * exp(-eb_GCH4I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7263] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GOI/(pi*pi*amu*16.0)) *
-        exp(-eb_GOI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7263] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GOI/(pi*pi*amu*16.0)) * exp(-eb_GOI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7264] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GNH3I/(pi*pi*amu*17.0)) *
-        exp(-eb_GNH3I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7264] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GNH3I/(pi*pi*amu*17.0)) * exp(-eb_GNH3I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7265] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GOHI/(pi*pi*amu*17.0)) *
-        exp(-eb_GOHI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7265] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GOHI/(pi*pi*amu*17.0)) * exp(-eb_GOHI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7266] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GH2OI/(pi*pi*amu*18.0)) *
-        exp(-eb_GH2OI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7266] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GH2OI/(pi*pi*amu*18.0)) * exp(-eb_GH2OI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7267] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GFI/(pi*pi*amu*19.0)) *
-        exp(-eb_GFI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7267] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GFI/(pi*pi*amu*19.0)) * exp(-eb_GFI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7268] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHFI/(pi*pi*amu*20.0)) *
-        exp(-eb_GHFI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7268] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHFI/(pi*pi*amu*20.0)) * exp(-eb_GHFI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7269] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GNaI/(pi*pi*amu*23.0)) *
-        exp(-eb_GNaI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7269] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GNaI/(pi*pi*amu*23.0)) * exp(-eb_GNaI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7270] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GMgI/(pi*pi*amu*24.0)) *
-        exp(-eb_GMgI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7270] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GMgI/(pi*pi*amu*24.0)) * exp(-eb_GMgI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7271] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC2I/(pi*pi*amu*24.0)) *
-        exp(-eb_GC2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7271] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC2I/(pi*pi*amu*24.0)) * exp(-eb_GC2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7272] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC2HI/(pi*pi*amu*25.0)) *
-        exp(-eb_GC2HI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7272] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC2HI/(pi*pi*amu*25.0)) * exp(-eb_GC2HI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7273] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCNI/(pi*pi*amu*26.0)) *
-        exp(-eb_GCNI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7273] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCNI/(pi*pi*amu*26.0)) * exp(-eb_GCNI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7274] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC2H2I/(pi*pi*amu*26.0)) *
-        exp(-eb_GC2H2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7274] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC2H2I/(pi*pi*amu*26.0)) * exp(-eb_GC2H2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7275] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHCNI/(pi*pi*amu*27.0)) *
-        exp(-eb_GHCNI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7275] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHCNI/(pi*pi*amu*27.0)) * exp(-eb_GHCNI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7276] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC2H3I/(pi*pi*amu*27.0)) *
-        exp(-eb_GC2H3I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7276] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC2H3I/(pi*pi*amu*27.0)) * exp(-eb_GC2H3I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7277] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHNCI/(pi*pi*amu*27.0)) *
-        exp(-eb_GHNCI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7277] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHNCI/(pi*pi*amu*27.0)) * exp(-eb_GHNCI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7278] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GH2CNI/(pi*pi*amu*28.0)) *
-        exp(-eb_GH2CNI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7278] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GH2CNI/(pi*pi*amu*28.0)) * exp(-eb_GH2CNI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7279] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GSiI/(pi*pi*amu*28.0)) *
-        exp(-eb_GSiI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7279] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GSiI/(pi*pi*amu*28.0)) * exp(-eb_GSiI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7280] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GN2I/(pi*pi*amu*28.0)) *
-        exp(-eb_GN2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7280] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GN2I/(pi*pi*amu*28.0)) * exp(-eb_GN2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7281] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC2H4I/(pi*pi*amu*28.0)) *
-        exp(-eb_GC2H4I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7281] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC2H4I/(pi*pi*amu*28.0)) * exp(-eb_GC2H4I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7282] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCOI/(pi*pi*amu*28.0)) *
-        exp(-eb_GCOI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7282] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCOI/(pi*pi*amu*28.0)) * exp(-eb_GCOI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7283] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHCOI/(pi*pi*amu*29.0)) *
-        exp(-eb_GHCOI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7283] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHCOI/(pi*pi*amu*29.0)) * exp(-eb_GHCOI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7284] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GSiHI/(pi*pi*amu*29.0)) *
-        exp(-eb_GSiHI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7284] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GSiHI/(pi*pi*amu*29.0)) * exp(-eb_GSiHI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7285] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH2NHI/(pi*pi*amu*29.0)) *
-        exp(-eb_GCH2NHI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7285] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH2NHI/(pi*pi*amu*29.0)) * exp(-eb_GCH2NHI/Tcr);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7286] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC2H5I/(pi*pi*amu*29.0)) *
-        exp(-eb_GC2H5I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7286] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC2H5I/(pi*pi*amu*29.0)) * exp(-eb_GC2H5I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7287] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC2H6I/(pi*pi*amu*30.0)) *
-        exp(-eb_GC2H6I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7287] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC2H6I/(pi*pi*amu*30.0)) * exp(-eb_GC2H6I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7288] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GSiH2I/(pi*pi*amu*30.0)) *
-        exp(-eb_GSiH2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7288] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GSiH2I/(pi*pi*amu*30.0)) * exp(-eb_GSiH2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7289] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GNOI/(pi*pi*amu*30.0)) *
-        exp(-eb_GNOI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7289] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GNOI/(pi*pi*amu*30.0)) * exp(-eb_GNOI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7290] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GH2COI/(pi*pi*amu*30.0)) *
-        exp(-eb_GH2COI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7290] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GH2COI/(pi*pi*amu*30.0)) * exp(-eb_GH2COI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7291] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GSiH3I/(pi*pi*amu*31.0)) *
-        exp(-eb_GSiH3I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7291] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GSiH3I/(pi*pi*amu*31.0)) * exp(-eb_GSiH3I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7292] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GPI/(pi*pi*amu*31.0)) *
-        exp(-eb_GPI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7292] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GPI/(pi*pi*amu*31.0)) * exp(-eb_GPI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7293] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH2OHI/(pi*pi*amu*31.0)) *
-        exp(-eb_GCH2OHI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7293] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH2OHI/(pi*pi*amu*31.0)) * exp(-eb_GCH2OHI/Tcr);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7294] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHNOI/(pi*pi*amu*31.0)) *
-        exp(-eb_GHNOI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7294] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHNOI/(pi*pi*amu*31.0)) * exp(-eb_GHNOI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7295] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH3OI/(pi*pi*amu*31.0)) *
-        exp(-eb_GCH3OI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7295] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH3OI/(pi*pi*amu*31.0)) * exp(-eb_GCH3OI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7296] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GSI/(pi*pi*amu*32.0)) *
-        exp(-eb_GSI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7296] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GSI/(pi*pi*amu*32.0)) * exp(-eb_GSI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7297] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GPHI/(pi*pi*amu*32.0)) *
-        exp(-eb_GPHI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7297] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GPHI/(pi*pi*amu*32.0)) * exp(-eb_GPHI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7298] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GO2I/(pi*pi*amu*32.0)) *
-        exp(-eb_GO2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7298] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GO2I/(pi*pi*amu*32.0)) * exp(-eb_GO2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7299] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GSiH4I/(pi*pi*amu*32.0)) *
-        exp(-eb_GSiH4I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7299] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GSiH4I/(pi*pi*amu*32.0)) * exp(-eb_GSiH4I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7300] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH3OHI/(pi*pi*amu*32.0)) *
-        exp(-eb_GCH3OHI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7300] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH3OHI/(pi*pi*amu*32.0)) * exp(-eb_GCH3OHI/Tcr);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7301] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GO2HI/(pi*pi*amu*33.0)) *
-        exp(-eb_GO2HI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7301] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GO2HI/(pi*pi*amu*33.0)) * exp(-eb_GO2HI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7302] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHSI/(pi*pi*amu*33.0)) *
-        exp(-eb_GHSI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7302] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHSI/(pi*pi*amu*33.0)) * exp(-eb_GHSI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7303] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GPH2I/(pi*pi*amu*33.0)) *
-        exp(-eb_GPH2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7303] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GPH2I/(pi*pi*amu*33.0)) * exp(-eb_GPH2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7304] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GH2O2I/(pi*pi*amu*34.0)) *
-        exp(-eb_GH2O2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7304] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GH2O2I/(pi*pi*amu*34.0)) * exp(-eb_GH2O2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7305] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GH2SI/(pi*pi*amu*34.0)) *
-        exp(-eb_GH2SI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7305] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GH2SI/(pi*pi*amu*34.0)) * exp(-eb_GH2SI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7306] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GClI/(pi*pi*amu*35.0)) *
-        exp(-eb_GClI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7306] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GClI/(pi*pi*amu*35.0)) * exp(-eb_GClI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7307] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC3I/(pi*pi*amu*36.0)) *
-        exp(-eb_GC3I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7307] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC3I/(pi*pi*amu*36.0)) * exp(-eb_GC3I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7308] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHClI/(pi*pi*amu*36.0)) *
-        exp(-eb_GHClI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7308] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHClI/(pi*pi*amu*36.0)) * exp(-eb_GHClI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7309] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC3HI/(pi*pi*amu*37.0)) *
-        exp(-eb_GC3HI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7309] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC3HI/(pi*pi*amu*37.0)) * exp(-eb_GC3HI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7310] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GH2CCCI/(pi*pi*amu*38.0)) *
-        exp(-eb_GH2CCCI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7310] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GH2CCCI/(pi*pi*amu*38.0)) * exp(-eb_GH2CCCI/Tcr);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7311] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC2NI/(pi*pi*amu*38.0)) *
-        exp(-eb_GC2NI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7311] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC2NI/(pi*pi*amu*38.0)) * exp(-eb_GC2NI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7312] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC3H2I/(pi*pi*amu*38.0)) *
-        exp(-eb_GC3H2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7312] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC3H2I/(pi*pi*amu*38.0)) * exp(-eb_GC3H2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7313] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHCCNI/(pi*pi*amu*39.0)) *
-        exp(-eb_GHCCNI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7313] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHCCNI/(pi*pi*amu*39.0)) * exp(-eb_GHCCNI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7314] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH2CCHI/(pi*pi*amu*39.0)) *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7314] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH2CCHI/(pi*pi*amu*39.0)) *
         exp(-eb_GCH2CCHI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7315] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH2CCH2I/(pi*pi*amu*40.0)) *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7315] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH2CCH2I/(pi*pi*amu*40.0)) *
         exp(-eb_GCH2CCH2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7316] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH3CCHI/(pi*pi*amu*40.0)) *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7316] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH3CCHI/(pi*pi*amu*40.0)) *
         exp(-eb_GCH3CCHI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7317] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH2CNI/(pi*pi*amu*40.0)) *
-        exp(-eb_GCH2CNI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7317] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH2CNI/(pi*pi*amu*40.0)) * exp(-eb_GCH2CNI/Tcr);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7318] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC2OI/(pi*pi*amu*40.0)) *
-        exp(-eb_GC2OI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7318] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC2OI/(pi*pi*amu*40.0)) * exp(-eb_GC2OI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7319] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GSiCI/(pi*pi*amu*40.0)) *
-        exp(-eb_GSiCI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7319] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GSiCI/(pi*pi*amu*40.0)) * exp(-eb_GSiCI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7320] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHCSiI/(pi*pi*amu*41.0)) *
-        exp(-eb_GHCSiI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7320] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHCSiI/(pi*pi*amu*41.0)) * exp(-eb_GHCSiI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7321] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH3CNI/(pi*pi*amu*41.0)) *
-        exp(-eb_GCH3CNI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7321] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH3CNI/(pi*pi*amu*41.0)) * exp(-eb_GCH3CNI/Tcr);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7322] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHC2OI/(pi*pi*amu*41.0)) *
-        exp(-eb_GHC2OI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7322] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHC2OI/(pi*pi*amu*41.0)) * exp(-eb_GHC2OI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7323] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH3CHCH2I/(pi*pi*amu*42.0)) *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7323] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH3CHCH2I/(pi*pi*amu*42.0)) *
         exp(-eb_GCH3CHCH2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7324] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCNOI/(pi*pi*amu*42.0)) *
-        exp(-eb_GCNOI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7324] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCNOI/(pi*pi*amu*42.0)) * exp(-eb_GCNOI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7325] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH2COI/(pi*pi*amu*42.0)) *
-        exp(-eb_GCH2COI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7325] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH2COI/(pi*pi*amu*42.0)) * exp(-eb_GCH2COI/Tcr);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7326] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GNH2CNI/(pi*pi*amu*42.0)) *
-        exp(-eb_GNH2CNI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7326] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GNH2CNI/(pi*pi*amu*42.0)) * exp(-eb_GNH2CNI/Tcr);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7327] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GSiCH2I/(pi*pi*amu*42.0)) *
-        exp(-eb_GSiCH2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7327] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GSiCH2I/(pi*pi*amu*42.0)) * exp(-eb_GSiCH2I/Tcr);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7328] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GOCNI/(pi*pi*amu*42.0)) *
-        exp(-eb_GOCNI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7328] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GOCNI/(pi*pi*amu*42.0)) * exp(-eb_GOCNI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7329] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GSiNI/(pi*pi*amu*42.0)) *
-        exp(-eb_GSiNI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7329] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GSiNI/(pi*pi*amu*42.0)) * exp(-eb_GSiNI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7330] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH3COI/(pi*pi*amu*43.0)) *
-        exp(-eb_GCH3COI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7330] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH3COI/(pi*pi*amu*43.0)) * exp(-eb_GCH3COI/Tcr);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7331] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHNSiI/(pi*pi*amu*43.0)) *
-        exp(-eb_GHNSiI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7331] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHNSiI/(pi*pi*amu*43.0)) * exp(-eb_GHNSiI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7332] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHNCOI/(pi*pi*amu*43.0)) *
-        exp(-eb_GHNCOI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7332] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHNCOI/(pi*pi*amu*43.0)) * exp(-eb_GHNCOI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7333] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHOCNI/(pi*pi*amu*43.0)) *
-        exp(-eb_GHOCNI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7333] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHOCNI/(pi*pi*amu*43.0)) * exp(-eb_GHOCNI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7334] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GSiCH3I/(pi*pi*amu*43.0)) *
-        exp(-eb_GSiCH3I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7334] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GSiCH3I/(pi*pi*amu*43.0)) * exp(-eb_GSiCH3I/Tcr);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7335] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHCNOI/(pi*pi*amu*43.0)) *
-        exp(-eb_GHCNOI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7335] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHCNOI/(pi*pi*amu*43.0)) * exp(-eb_GHCNOI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7336] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCPI/(pi*pi*amu*43.0)) *
-        exp(-eb_GCPI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7336] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCPI/(pi*pi*amu*43.0)) * exp(-eb_GCPI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7337] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHONCI/(pi*pi*amu*43.0)) *
-        exp(-eb_GHONCI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7337] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHONCI/(pi*pi*amu*43.0)) * exp(-eb_GHONCI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7338] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GN2OI/(pi*pi*amu*44.0)) *
-        exp(-eb_GN2OI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7338] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GN2OI/(pi*pi*amu*44.0)) * exp(-eb_GN2OI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7339] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCSI/(pi*pi*amu*44.0)) *
-        exp(-eb_GCSI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7339] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCSI/(pi*pi*amu*44.0)) * exp(-eb_GCSI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7340] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHCPI/(pi*pi*amu*44.0)) *
-        exp(-eb_GHCPI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7340] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHCPI/(pi*pi*amu*44.0)) * exp(-eb_GHCPI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7341] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH3CHOI/(pi*pi*amu*44.0)) *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7341] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH3CHOI/(pi*pi*amu*44.0)) *
         exp(-eb_GCH3CHOI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7342] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCO2I/(pi*pi*amu*44.0)) *
-        exp(-eb_GCO2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7342] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCO2I/(pi*pi*amu*44.0)) * exp(-eb_GCO2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7343] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GSiOI/(pi*pi*amu*44.0)) *
-        exp(-eb_GSiOI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7343] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GSiOI/(pi*pi*amu*44.0)) * exp(-eb_GSiOI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7344] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHCSI/(pi*pi*amu*45.0)) *
-        exp(-eb_GHCSI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7344] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHCSI/(pi*pi*amu*45.0)) * exp(-eb_GHCSI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7345] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCOOHI/(pi*pi*amu*45.0)) *
-        exp(-eb_GCOOHI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7345] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCOOHI/(pi*pi*amu*45.0)) * exp(-eb_GCOOHI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7346] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GPNI/(pi*pi*amu*45.0)) *
-        exp(-eb_GPNI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7346] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GPNI/(pi*pi*amu*45.0)) * exp(-eb_GPNI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7347] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH3OCH3I/(pi*pi*amu*46.0)) *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7347] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH3OCH3I/(pi*pi*amu*46.0)) *
         exp(-eb_GCH3OCH3I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7348] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH2PHI/(pi*pi*amu*46.0)) *
-        exp(-eb_GCH2PHI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7348] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH2PHI/(pi*pi*amu*46.0)) * exp(-eb_GCH2PHI/Tcr);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7349] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GNO2I/(pi*pi*amu*46.0)) *
-        exp(-eb_GNO2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7349] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GNO2I/(pi*pi*amu*46.0)) * exp(-eb_GNO2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7350] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHCOOHI/(pi*pi*amu*46.0)) *
-        exp(-eb_GHCOOHI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7350] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHCOOHI/(pi*pi*amu*46.0)) * exp(-eb_GHCOOHI/Tcr);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7351] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC2H5OHI/(pi*pi*amu*46.0)) *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7351] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC2H5OHI/(pi*pi*amu*46.0)) *
         exp(-eb_GC2H5OHI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7352] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GH2SiOI/(pi*pi*amu*46.0)) *
-        exp(-eb_GH2SiOI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7352] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GH2SiOI/(pi*pi*amu*46.0)) * exp(-eb_GH2SiOI/Tcr);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7353] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GH2CSI/(pi*pi*amu*46.0)) *
-        exp(-eb_GH2CSI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7353] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GH2CSI/(pi*pi*amu*46.0)) * exp(-eb_GH2CSI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7354] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GNSI/(pi*pi*amu*46.0)) *
-        exp(-eb_GNSI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7354] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GNSI/(pi*pi*amu*46.0)) * exp(-eb_GNSI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7355] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCClI/(pi*pi*amu*47.0)) *
-        exp(-eb_GCClI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7355] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCClI/(pi*pi*amu*47.0)) * exp(-eb_GCClI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7356] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GPOI/(pi*pi*amu*47.0)) *
-        exp(-eb_GPOI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7356] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GPOI/(pi*pi*amu*47.0)) * exp(-eb_GPOI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7357] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHPOI/(pi*pi*amu*48.0)) *
-        exp(-eb_GHPOI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7357] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHPOI/(pi*pi*amu*48.0)) * exp(-eb_GHPOI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7358] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GSOI/(pi*pi*amu*48.0)) *
-        exp(-eb_GSOI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7358] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GSOI/(pi*pi*amu*48.0)) * exp(-eb_GSOI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7359] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC4I/(pi*pi*amu*48.0)) *
-        exp(-eb_GC4I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7359] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC4I/(pi*pi*amu*48.0)) * exp(-eb_GC4I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7360] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC4HI/(pi*pi*amu*49.0)) *
-        exp(-eb_GC4HI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7360] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC4HI/(pi*pi*amu*49.0)) * exp(-eb_GC4HI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7361] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC3NI/(pi*pi*amu*50.0)) *
-        exp(-eb_GC3NI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7361] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC3NI/(pi*pi*amu*50.0)) * exp(-eb_GC3NI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7362] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC4H2I/(pi*pi*amu*50.0)) *
-        exp(-eb_GC4H2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7362] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC4H2I/(pi*pi*amu*50.0)) * exp(-eb_GC4H2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7363] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GClOI/(pi*pi*amu*51.0)) *
-        exp(-eb_GClOI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7363] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GClOI/(pi*pi*amu*51.0)) * exp(-eb_GClOI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7364] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHNC3I/(pi*pi*amu*51.0)) *
-        exp(-eb_GHNC3I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7364] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHNC3I/(pi*pi*amu*51.0)) * exp(-eb_GHNC3I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7365] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHC3NI/(pi*pi*amu*51.0)) *
-        exp(-eb_GHC3NI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7365] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHC3NI/(pi*pi*amu*51.0)) * exp(-eb_GHC3NI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7366] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC4H3I/(pi*pi*amu*51.0)) *
-        exp(-eb_GC4H3I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7366] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC4H3I/(pi*pi*amu*51.0)) * exp(-eb_GC4H3I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7367] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GSiC2I/(pi*pi*amu*52.0)) *
-        exp(-eb_GSiC2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7367] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GSiC2I/(pi*pi*amu*52.0)) * exp(-eb_GSiC2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7368] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH2CHCCHI/(pi*pi*amu*52.0)) *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7368] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH2CHCCHI/(pi*pi*amu*52.0)) *
         exp(-eb_GCH2CHCCHI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7369] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GNCCNI/(pi*pi*amu*52.0)) *
-        exp(-eb_GNCCNI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7369] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GNCCNI/(pi*pi*amu*52.0)) * exp(-eb_GNCCNI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7370] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC3OI/(pi*pi*amu*52.0)) *
-        exp(-eb_GC3OI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7370] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC3OI/(pi*pi*amu*52.0)) * exp(-eb_GC3OI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7371] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH2CHCNI/(pi*pi*amu*53.0)) *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7371] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH2CHCNI/(pi*pi*amu*53.0)) *
         exp(-eb_GCH2CHCNI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7372] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GSiC2HI/(pi*pi*amu*53.0)) *
-        exp(-eb_GSiC2HI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7372] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GSiC2HI/(pi*pi*amu*53.0)) * exp(-eb_GSiC2HI/Tcr);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7373] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC4H6I/(pi*pi*amu*54.0)) *
-        exp(-eb_GC4H6I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7373] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC4H6I/(pi*pi*amu*54.0)) * exp(-eb_GC4H6I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7374] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GSiC2H2I/(pi*pi*amu*54.0)) *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7374] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GSiC2H2I/(pi*pi*amu*54.0)) *
         exp(-eb_GSiC2H2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7375] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC2H4CNI/(pi*pi*amu*54.0)) *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7375] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC2H4CNI/(pi*pi*amu*54.0)) *
         exp(-eb_GC2H4CNI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7376] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GSiNCI/(pi*pi*amu*54.0)) *
-        exp(-eb_GSiNCI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7376] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GSiNCI/(pi*pi*amu*54.0)) * exp(-eb_GSiNCI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7377] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC2H5CNI/(pi*pi*amu*55.0)) *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7377] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC2H5CNI/(pi*pi*amu*55.0)) *
         exp(-eb_GC2H5CNI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7378] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCCPI/(pi*pi*amu*55.0)) *
-        exp(-eb_GCCPI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7378] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCCPI/(pi*pi*amu*55.0)) * exp(-eb_GCCPI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7379] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC2SI/(pi*pi*amu*56.0)) *
-        exp(-eb_GC2SI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7379] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC2SI/(pi*pi*amu*56.0)) * exp(-eb_GC2SI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7380] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GFeI/(pi*pi*amu*56.0)) *
-        exp(-eb_GFeI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7380] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GFeI/(pi*pi*amu*56.0)) * exp(-eb_GFeI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7381] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHC2PI/(pi*pi*amu*56.0)) *
-        exp(-eb_GHC2PI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7381] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHC2PI/(pi*pi*amu*56.0)) * exp(-eb_GHC2PI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7382] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH3COCH3I/(pi*pi*amu*58.0)) *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7382] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH3COCH3I/(pi*pi*amu*58.0)) *
         exp(-eb_GCH3COCH3I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7383] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCOOCH3I/(pi*pi*amu*59.0)) *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7383] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCOOCH3I/(pi*pi*amu*59.0)) *
         exp(-eb_GCOOCH3I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7384] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH2OHCOI/(pi*pi*amu*59.0)) *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7384] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH2OHCOI/(pi*pi*amu*59.0)) *
         exp(-eb_GCH2OHCOI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7385] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHCOOCH3I/(pi*pi*amu*60.0)) *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7385] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHCOOCH3I/(pi*pi*amu*60.0)) *
         exp(-eb_GHCOOCH3I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7386] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GOCSI/(pi*pi*amu*60.0)) *
-        exp(-eb_GOCSI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7386] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GOCSI/(pi*pi*amu*60.0)) * exp(-eb_GOCSI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7387] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GSiSI/(pi*pi*amu*60.0)) *
-        exp(-eb_GSiSI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7387] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GSiSI/(pi*pi*amu*60.0)) * exp(-eb_GSiSI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7388] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC5I/(pi*pi*amu*60.0)) *
-        exp(-eb_GC5I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7388] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC5I/(pi*pi*amu*60.0)) * exp(-eb_GC5I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7389] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GSiO2I/(pi*pi*amu*60.0)) *
-        exp(-eb_GSiO2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7389] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GSiO2I/(pi*pi*amu*60.0)) * exp(-eb_GSiO2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7390] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH2OHCHOI/(pi*pi*amu*60.0)) *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7390] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH2OHCHOI/(pi*pi*amu*60.0)) *
         exp(-eb_GCH2OHCHOI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7391] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH3COOHI/(pi*pi*amu*60.0)) *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7391] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH3COOHI/(pi*pi*amu*60.0)) *
         exp(-eb_GCH3COOHI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7392] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC5HI/(pi*pi*amu*61.0)) *
-        exp(-eb_GC5HI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7392] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC5HI/(pi*pi*amu*61.0)) * exp(-eb_GC5HI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7393] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC5H2I/(pi*pi*amu*62.0)) *
-        exp(-eb_GC5H2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7393] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC5H2I/(pi*pi*amu*62.0)) * exp(-eb_GC5H2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7394] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC4NI/(pi*pi*amu*62.0)) *
-        exp(-eb_GC4NI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7394] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC4NI/(pi*pi*amu*62.0)) * exp(-eb_GC4NI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7395] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GSiC3I/(pi*pi*amu*64.0)) *
-        exp(-eb_GSiC3I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7395] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GSiC3I/(pi*pi*amu*64.0)) * exp(-eb_GSiC3I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7396] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GSO2I/(pi*pi*amu*64.0)) *
-        exp(-eb_GSO2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7396] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GSO2I/(pi*pi*amu*64.0)) * exp(-eb_GSO2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7397] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GS2I/(pi*pi*amu*64.0)) *
-        exp(-eb_GS2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7397] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GS2I/(pi*pi*amu*64.0)) * exp(-eb_GS2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7398] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH3C4HI/(pi*pi*amu*64.0)) *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7398] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH3C4HI/(pi*pi*amu*64.0)) *
         exp(-eb_GCH3C4HI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7399] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GSiC3HI/(pi*pi*amu*65.0)) *
-        exp(-eb_GSiC3HI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7399] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GSiC3HI/(pi*pi*amu*65.0)) * exp(-eb_GSiC3HI/Tcr);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7400] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH3C3NI/(pi*pi*amu*65.0)) *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7400] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH3C3NI/(pi*pi*amu*65.0)) *
         exp(-eb_GCH3C3NI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7401] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHS2I/(pi*pi*amu*65.0)) *
-        exp(-eb_GHS2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7401] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHS2I/(pi*pi*amu*65.0)) * exp(-eb_GHS2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7402] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GH2S2I/(pi*pi*amu*66.0)) *
-        exp(-eb_GH2S2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7402] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GH2S2I/(pi*pi*amu*66.0)) * exp(-eb_GH2S2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7403] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC3PI/(pi*pi*amu*67.0)) *
-        exp(-eb_GC3PI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7403] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC3PI/(pi*pi*amu*67.0)) * exp(-eb_GC3PI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7404] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC3SI/(pi*pi*amu*68.0)) *
-        exp(-eb_GC3SI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7404] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC3SI/(pi*pi*amu*68.0)) * exp(-eb_GC3SI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7405] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC6I/(pi*pi*amu*72.0)) *
-        exp(-eb_GC6I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7405] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC6I/(pi*pi*amu*72.0)) * exp(-eb_GC6I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7406] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC6HI/(pi*pi*amu*73.0)) *
-        exp(-eb_GC6HI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7406] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC6HI/(pi*pi*amu*73.0)) * exp(-eb_GC6HI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7407] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC6H2I/(pi*pi*amu*74.0)) *
-        exp(-eb_GC6H2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7407] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC6H2I/(pi*pi*amu*74.0)) * exp(-eb_GC6H2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7408] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC5NI/(pi*pi*amu*74.0)) *
-        exp(-eb_GC5NI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7408] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC5NI/(pi*pi*amu*74.0)) * exp(-eb_GC5NI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7409] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHC5NI/(pi*pi*amu*75.0)) *
-        exp(-eb_GHC5NI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7409] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHC5NI/(pi*pi*amu*75.0)) * exp(-eb_GHC5NI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7410] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GSiC4I/(pi*pi*amu*76.0)) *
-        exp(-eb_GSiC4I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7410] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GSiC4I/(pi*pi*amu*76.0)) * exp(-eb_GSiC4I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7411] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC6H6I/(pi*pi*amu*78.0)) *
-        exp(-eb_GC6H6I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7411] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC6H6I/(pi*pi*amu*78.0)) * exp(-eb_GC6H6I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7412] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC4PI/(pi*pi*amu*79.0)) *
-        exp(-eb_GC4PI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7412] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC4PI/(pi*pi*amu*79.0)) * exp(-eb_GC4PI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7413] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC4SI/(pi*pi*amu*80.0)) *
-        exp(-eb_GC4SI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7413] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC4SI/(pi*pi*amu*80.0)) * exp(-eb_GC4SI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7414] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC7I/(pi*pi*amu*84.0)) *
-        exp(-eb_GC7I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7414] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC7I/(pi*pi*amu*84.0)) * exp(-eb_GC7I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7415] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC7HI/(pi*pi*amu*85.0)) *
-        exp(-eb_GC7HI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7415] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC7HI/(pi*pi*amu*85.0)) * exp(-eb_GC7HI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7416] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC7H2I/(pi*pi*amu*86.0)) *
-        exp(-eb_GC7H2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7416] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC7H2I/(pi*pi*amu*86.0)) * exp(-eb_GC7H2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7417] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH3C6HI/(pi*pi*amu*88.0)) *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7417] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH3C6HI/(pi*pi*amu*88.0)) *
         exp(-eb_GCH3C6HI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7418] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH3C5NI/(pi*pi*amu*89.0)) *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7418] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH3C5NI/(pi*pi*amu*89.0)) *
         exp(-eb_GCH3C5NI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7419] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC8I/(pi*pi*amu*96.0)) *
-        exp(-eb_GC8I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7419] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC8I/(pi*pi*amu*96.0)) * exp(-eb_GC8I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7420] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC8HI/(pi*pi*amu*97.0)) *
-        exp(-eb_GC8HI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7420] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC8HI/(pi*pi*amu*97.0)) * exp(-eb_GC8HI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7421] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC7NI/(pi*pi*amu*98.0)) *
-        exp(-eb_GC7NI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7421] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC7NI/(pi*pi*amu*98.0)) * exp(-eb_GC7NI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7422] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC8H2I/(pi*pi*amu*98.0)) *
-        exp(-eb_GC8H2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7422] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC8H2I/(pi*pi*amu*98.0)) * exp(-eb_GC8H2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7423] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHC7NI/(pi*pi*amu*99.0)) *
-        exp(-eb_GHC7NI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7423] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHC7NI/(pi*pi*amu*99.0)) * exp(-eb_GHC7NI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7424] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC9I/(pi*pi*amu*108.0)) *
-        exp(-eb_GC9I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7424] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC9I/(pi*pi*amu*108.0)) * exp(-eb_GC9I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7425] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC9HI/(pi*pi*amu*109.0)) *
-        exp(-eb_GC9HI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7425] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC9HI/(pi*pi*amu*109.0)) * exp(-eb_GC9HI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7426] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC9H2I/(pi*pi*amu*110.0)) *
-        exp(-eb_GC9H2I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7426] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC9H2I/(pi*pi*amu*110.0)) * exp(-eb_GC9H2I/Tcr);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7427] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GCH3C7NI/(pi*pi*amu*113.0)) *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7427] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH3C7NI/(pi*pi*amu*113.0)) *
         exp(-eb_GCH3C7NI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7428] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC10I/(pi*pi*amu*120.0)) *
-        exp(-eb_GC10I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7428] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC10I/(pi*pi*amu*120.0)) * exp(-eb_GC10I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7429] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC10HI/(pi*pi*amu*121.0)) *
-        exp(-eb_GC10HI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7429] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC10HI/(pi*pi*amu*121.0)) * exp(-eb_GC10HI/Tcr);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7430] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC9NI/(pi*pi*amu*122.0)) *
-        exp(-eb_GC9NI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7430] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC9NI/(pi*pi*amu*122.0)) * exp(-eb_GC9NI/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7431] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC10H2I/(pi*pi*amu*122.0)) *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7431] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC10H2I/(pi*pi*amu*122.0)) *
         exp(-eb_GC10H2I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7432] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GHC9NI/(pi*pi*amu*123.0)) *
-        exp(-eb_GHC9NI/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7432] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GHC9NI/(pi*pi*amu*123.0)) * exp(-eb_GHC9NI/Tcr);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7433] = cov * duty * nMono * densites
-        * (zeta_cr/zism) * sqrt(2.0*sites*kerg*eb_GC11I/(pi*pi*amu*132.0)) *
-        exp(-eb_GC11I/Tcr); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7433] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GC11I/(pi*pi*amu*132.0)) * exp(-eb_GC11I/Tcr); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7434] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7434] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7435] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7435] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7436] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7436] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7437] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7437] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7438] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7438] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7439] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7439] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7440] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7440] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7441] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7441] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7442] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7442] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7443] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7443] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7444] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7444] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7445] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7445] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7446] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7446] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7447] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7447] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7448] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7448] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.0013 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7449] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7449] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7450] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7450] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7451] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7451] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7452] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7452] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7453] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7453] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7454] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7454] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7455] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7455] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7456] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7456] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7457] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7457] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7458] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7458] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7459] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7459] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7460] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7460] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7461] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7461] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7462] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7462] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.00018 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7463] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7463] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7464] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7464] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.0027 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7465] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7465] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7466] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7466] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7467] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7467] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7468] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7468] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7469] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7469] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7470] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7470] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7471] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7471] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7472] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7472] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7473] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7473] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7474] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7474] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7475] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7475] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7476] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7476] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7477] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7477] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7478] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7478] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7479] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7479] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7480] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7480] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7481] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7481] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7482] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7482] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.0021 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7483] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7483] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7484] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7484] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7485] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7485] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7486] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7486] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7487] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7487] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7488] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7488] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7489] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7489] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7490] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7490] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7491] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7491] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7492] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7492] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7493] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7493] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7494] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7494] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7495] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7495] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7496] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7496] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7497] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7497] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7498] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7498] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7499] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7499] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7500] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7500] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7501] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7501] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7502] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7502] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7503] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7503] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7504] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7504] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7505] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7505] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7506] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7506] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7507] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7507] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7508] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7508] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7509] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7509] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7510] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7510] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7511] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7511] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7512] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7512] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7513] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7513] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7514] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7514] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7515] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7515] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7516] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7516] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7517] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7517] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7518] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7518] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7519] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7519] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7520] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7520] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7521] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7521] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7522] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7522] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7523] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7523] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7524] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7524] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.0023 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7525] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7525] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7526] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7526] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7527] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7527] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7528] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7528] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7529] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7529] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7530] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7530] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7531] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7531] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7532] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7532] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7533] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7533] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7534] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7534] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7535] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7535] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7536] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7536] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7537] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7537] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7538] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7538] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7539] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7539] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7540] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7540] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7541] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7541] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7542] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7542] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7543] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7543] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7544] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7544] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7545] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7545] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7546] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7546] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7547] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7547] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7548] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7548] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7549] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7549] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7550] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7550] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7551] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7551] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7552] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7552] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7553] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7553] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7554] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7554] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7555] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7555] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7556] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7556] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7557] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7557] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7558] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7558] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7559] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7559] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7560] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7560] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7561] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7561] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7562] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7562] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7563] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7563] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7564] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7564] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7565] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7565] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7566] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7566] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7567] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7567] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7568] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7568] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7569] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7569] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7570] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7570] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7571] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7571] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7572] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7572] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7573] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7573] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7574] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7574] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7575] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7575] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7576] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7576] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7577] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7577] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7578] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7578] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7579] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7579] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7580] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7580] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7581] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7581] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7582] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7582] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7583] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7583] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7584] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7584] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7585] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7585] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7586] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7586] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7587] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7587] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7588] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7588] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7589] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7589] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7590] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7590] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7591] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7591] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7592] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7592] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7593] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7593] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7594] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7594] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7595] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7595] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7596] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7596] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7597] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7597] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7598] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7598] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7599] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7599] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7600] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7600] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7601] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7601] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7602] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7602] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7603] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7603] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7604] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7604] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7605] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7605] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7606] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7606] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7607] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7607] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7608] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7608] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7609] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7609] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7610] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7610] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7611] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7611] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7612] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7612] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7613] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7613] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7614] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7614] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7615] = cov *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7615] = opt_uvd * cov *
         (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
         garea; }
         
@@ -28300,91 +28343,91 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
         sqrt(1090.0/16.0) * exp(-1090.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8576] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8576] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*12.0)/(1.0+12.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8577] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8577] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*13.0)/(1.0+13.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8578] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8578] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*14.0)/(1.0+14.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(945.0/14.0) * exp(-945.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8579] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8579] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*15.0)/(1.0+15.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(1018.0/15.0) * exp(-1018.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8580] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8580] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*14.0)/(1.0+14.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(800.0/14.0) * exp(-800.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8581] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8581] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*15.0)/(1.0+15.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(1577.0/15.0) * exp(-1577.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8582] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8582] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*16.0)/(1.0+16.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(2354.0/16.0) * exp(-2354.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8583] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8583] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*16.0)/(1.0+16.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(800.0/16.0) * exp(-800.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8584] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8584] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*17.0)/(1.0+17.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(2850.0/17.0) * exp(-2850.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8585] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8585] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*19.0)/(1.0+19.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(450.0/19.0) * exp(-450.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8586] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8586] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*24.0)/(1.0+24.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(1600.0/24.0) * exp(-1600.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8587] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8587] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*25.0)/(1.0+25.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(2137.0/25.0) * exp(-2137.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8588] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8588] = opt_rcd * branch *
         fmax(exp(-1210.0/Tdust), exp(quan *
         sqrt(((1.0*26.0)/(1.0+26.0))*1210.0))) * (fmax(freq * sqrt(600.0/1.0) *
         exp(-600.0*hop/Tdust)/unisites, freq * sqrt(600.0/1.0) * exp(quan *
@@ -28392,42 +28435,42 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
         exp(-2587.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
         cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8589] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8589] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*27.0)/(1.0+27.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(3037.0/27.0) * exp(-3037.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8590] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8590] = opt_rcd * branch *
         fmax(exp(-750.0/Tdust), exp(quan * sqrt(((1.0*28.0)/(1.0+28.0))*750.0)))
         * (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(3487.0/28.0) * exp(-3487.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8591] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8591] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*29.0)/(1.0+29.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(3937.0/29.0) * exp(-3937.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8592] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8592] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*26.0)/(1.0+26.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(1600.0/26.0) * exp(-1600.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8593] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8593] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*28.0)/(1.0+28.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(2400.0/28.0) * exp(-2400.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8594] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8594] = opt_rcd * branch *
         fmax(exp(-2500.0/Tdust), exp(quan *
         sqrt(((1.0*28.0)/(1.0+28.0))*2500.0))) * (fmax(freq * sqrt(600.0/1.0) *
         exp(-600.0*hop/Tdust)/unisites, freq * sqrt(600.0/1.0) * exp(quan *
@@ -28435,14 +28478,14 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
         exp(-855.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
         cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8595] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8595] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*29.0)/(1.0+29.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(1600.0/29.0) * exp(-1600.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8596] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8596] = opt_rcd * branch *
         fmax(exp(-2500.0/Tdust), exp(quan *
         sqrt(((1.0*30.0)/(1.0+30.0))*2500.0))) * (fmax(freq * sqrt(600.0/1.0) *
         exp(-600.0*hop/Tdust)/unisites, freq * sqrt(600.0/1.0) * exp(quan *
@@ -28450,7 +28493,7 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
         exp(-2050.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
         cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8597] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8597] = opt_rcd * branch *
         fmax(exp(-2500.0/Tdust), exp(quan *
         sqrt(((1.0*30.0)/(1.0+30.0))*2500.0))) * (fmax(freq * sqrt(600.0/1.0) *
         exp(-600.0*hop/Tdust)/unisites, freq * sqrt(600.0/1.0) * exp(quan *
@@ -28458,56 +28501,56 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
         exp(-2050.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
         cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8598] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8598] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*31.0)/(1.0+31.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(2655.0/31.0) * exp(-2655.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8599] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8599] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*31.0)/(1.0+31.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(4330.0/31.0) * exp(-4330.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8600] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8600] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*28.0)/(1.0+28.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(2700.0/28.0) * exp(-2700.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8601] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8601] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*29.0)/(1.0+29.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(3150.0/29.0) * exp(-3150.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8602] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8602] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*30.0)/(1.0+30.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(3600.0/30.0) * exp(-3600.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8603] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8603] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*31.0)/(1.0+31.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(4050.0/31.0) * exp(-4050.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8604] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8604] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*30.0)/(1.0+30.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(1600.0/30.0) * exp(-1600.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8605] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8605] = opt_rcd * branch *
         fmax(exp(-1200.0/Tdust), exp(quan *
         sqrt(((1.0*32.0)/(1.0+32.0))*1200.0))) * (fmax(freq * sqrt(600.0/1.0) *
         exp(-600.0*hop/Tdust)/unisites, freq * sqrt(600.0/1.0) * exp(quan *
@@ -28515,49 +28558,49 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
         exp(-1000.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
         cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8606] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8606] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*33.0)/(1.0+33.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(3650.0/33.0) * exp(-3650.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8607] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8607] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*32.0)/(1.0+32.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(1100.0/32.0) * exp(-1100.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8608] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8608] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*33.0)/(1.0+33.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(1500.0/33.0) * exp(-1500.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8609] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8609] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*35.0)/(1.0+35.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(850.0/35.0) * exp(-850.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8610] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8610] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*36.0)/(1.0+36.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(2400.0/36.0) * exp(-2400.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8611] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8611] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*37.0)/(1.0+37.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(2937.0/37.0) * exp(-2937.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8612] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8612] = opt_rcd * branch *
         fmax(exp(-1210.0/Tdust), exp(quan *
         sqrt(((1.0*38.0)/(1.0+38.0))*1210.0))) * (fmax(freq * sqrt(600.0/1.0) *
         exp(-600.0*hop/Tdust)/unisites, freq * sqrt(600.0/1.0) * exp(quan *
@@ -28565,7 +28608,7 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
         exp(-3387.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
         cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8613] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8613] = opt_rcd * branch *
         fmax(exp(-1210.0/Tdust), exp(quan *
         sqrt(((1.0*38.0)/(1.0+38.0))*1210.0))) * (fmax(freq * sqrt(600.0/1.0) *
         exp(-600.0*hop/Tdust)/unisites, freq * sqrt(600.0/1.0) * exp(quan *
@@ -28573,84 +28616,84 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
         exp(-2110.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
         cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8614] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8614] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*39.0)/(1.0+39.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(3837.0/39.0) * exp(-3837.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8615] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8615] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*39.0)/(1.0+39.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(3837.0/39.0) * exp(-3837.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8616] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8616] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*38.0)/(1.0+38.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(2400.0/38.0) * exp(-2400.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8617] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8617] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*39.0)/(1.0+39.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(3780.0/39.0) * exp(-3780.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8618] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8618] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*40.0)/(1.0+40.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(4230.0/40.0) * exp(-4230.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8619] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8619] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*40.0)/(1.0+40.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(1950.0/40.0) * exp(-1950.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8620] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8620] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*41.0)/(1.0+41.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(2400.0/41.0) * exp(-2400.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8621] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8621] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*42.0)/(1.0+42.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(2400.0/42.0) * exp(-2400.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8622] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8622] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*42.0)/(1.0+42.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(2400.0/42.0) * exp(-2400.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8623] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8623] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*42.0)/(1.0+42.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(2400.0/42.0) * exp(-2400.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8624] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8624] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*42.0)/(1.0+42.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(2400.0/42.0) * exp(-2400.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8625] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8625] = opt_rcd * branch *
         fmax(exp(-1000.0/Tdust), exp(quan *
         sqrt(((1.0*44.0)/(1.0+44.0))*1000.0))) * (fmax(freq * sqrt(600.0/1.0) *
         exp(-600.0*hop/Tdust)/unisites, freq * sqrt(600.0/1.0) * exp(quan *
@@ -28658,42 +28701,42 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
         exp(-1900.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
         cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8626] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8626] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*43.0)/(1.0+43.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(2320.0/43.0) * exp(-2320.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8627] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8627] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*45.0)/(1.0+45.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(2350.0/45.0) * exp(-2350.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8628] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8628] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*45.0)/(1.0+45.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(5120.0/45.0) * exp(-5120.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8629] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8629] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*48.0)/(1.0+48.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(3200.0/48.0) * exp(-3200.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8630] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8630] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*49.0)/(1.0+49.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(3737.0/49.0) * exp(-3737.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8631] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8631] = opt_rcd * branch *
         fmax(exp(-1210.0/Tdust), exp(quan *
         sqrt(((1.0*50.0)/(1.0+50.0))*1210.0))) * (fmax(freq * sqrt(600.0/1.0) *
         exp(-600.0*hop/Tdust)/unisites, freq * sqrt(600.0/1.0) * exp(quan *
@@ -28701,154 +28744,154 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
         exp(-4187.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
         cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8632] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8632] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*51.0)/(1.0+51.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(4637.0/51.0) * exp(-4637.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8633] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8633] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*50.0)/(1.0+50.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(3200.0/50.0) * exp(-3200.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8634] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8634] = opt_rcd * branch *
         fmax(exp(-750.0/Tdust), exp(quan * sqrt(((1.0*53.0)/(1.0+53.0))*750.0)))
         * (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(5480.0/53.0) * exp(-5480.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8635] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8635] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*54.0)/(1.0+54.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(5930.0/54.0) * exp(-5930.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8636] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8636] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*60.0)/(1.0+60.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(4000.0/60.0) * exp(-4000.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8637] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8637] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*61.0)/(1.0+61.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(4537.0/61.0) * exp(-4537.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8638] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8638] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*72.0)/(1.0+72.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(4800.0/72.0) * exp(-4800.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8639] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8639] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*73.0)/(1.0+73.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(5337.0/73.0) * exp(-5337.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8640] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8640] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*74.0)/(1.0+74.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(4800.0/74.0) * exp(-4800.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8641] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8641] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*84.0)/(1.0+84.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(5600.0/84.0) * exp(-5600.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8642] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8642] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*85.0)/(1.0+85.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(6137.0/85.0) * exp(-6137.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8643] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8643] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*96.0)/(1.0+96.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(6400.0/96.0) * exp(-6400.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8644] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8644] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*97.0)/(1.0+97.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(6937.0/97.0) * exp(-6937.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8645] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8645] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*98.0)/(1.0+98.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(6400.0/98.0) * exp(-6400.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8646] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8646] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*108.0)/(1.0+108.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(7200.0/108.0) * exp(-7200.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8647] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8647] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*109.0)/(1.0+109.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(7737.0/109.0) * exp(-7737.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8648] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8648] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*120.0)/(1.0+120.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(8000.0/120.0) * exp(-8000.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8649] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8649] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*121.0)/(1.0+121.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(8537.0/121.0) * exp(-8537.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8650] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8650] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*122.0)/(1.0+122.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(8000.0/122.0) * exp(-8000.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8651] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8651] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*59.0)/(1.0+59.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(3650.0/59.0) * exp(-3650.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8652] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8652] = opt_rcd * branch *
         fmax(exp(-0.0/Tdust), exp(quan * sqrt(((1.0*59.0)/(1.0+59.0))*0.0))) *
         (fmax(freq * sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq *
         sqrt(600.0/1.0) * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq *
         sqrt(6230.0/59.0) * exp(-6230.0*hop/Tdust)/unisites) *
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8653] = branch *
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8653] = opt_rcd * branch *
         fmax(exp(-2500.0/Tdust), exp(quan *
         sqrt(((2.0*12.0)/(2.0+12.0))*2500.0))) * (fmax(freq * sqrt(430.0/2.0) *
         exp(-430.0*hop/Tdust)/unisites, freq * sqrt(430.0/2.0) * exp(quan *
@@ -28856,550 +28899,659 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
         exp(-800.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
         cov * cov; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8654] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8655] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8656] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(945.0/14.0) * exp(-945.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8657] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(800.0/14.0) * exp(-800.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8658] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(1600.0/30.0) * exp(-1600.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8659] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(1577.0/15.0) * exp(-1577.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8660] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(1018.0/15.0) * exp(-1018.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8661] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(800.0/16.0) * exp(-800.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8662] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(1600.0/24.0) * exp(-1600.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8663] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(2137.0/25.0) * exp(-2137.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8664] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(1600.0/26.0) * exp(-1600.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8665] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(3037.0/27.0) * exp(-3037.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8666] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(1100.0/32.0) * exp(-1100.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8667] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(2400.0/36.0) * exp(-2400.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8668] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(2937.0/37.0) * exp(-2937.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8669] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(2400.0/38.0) * exp(-2400.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8670] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(1950.0/40.0) * exp(-1950.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8671] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(3200.0/48.0) * exp(-3200.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8672] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(3737.0/49.0) * exp(-3737.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8673] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(5320.0/56.0) * exp(-5320.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8674] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(4000.0/60.0) * exp(-4000.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8675] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(4537.0/61.0) * exp(-4537.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8676] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(4800.0/72.0) * exp(-4800.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8677] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(5337.0/73.0) * exp(-5337.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8678] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(5600.0/84.0) * exp(-5600.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8679] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(6137.0/85.0) * exp(-6137.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8680] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(6400.0/96.0) * exp(-6400.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8681] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(6937.0/97.0) * exp(-6937.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8682] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(7200.0/108.0) * exp(-7200.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8683] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(7737.0/109.0) * exp(-7737.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8684] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/12.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(8000.0/120.0) * exp(-8000.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8685] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/16.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8686] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/16.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(945.0/14.0) * exp(-945.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8687] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/16.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(1577.0/15.0) * exp(-1577.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8688] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/16.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(1018.0/15.0) * exp(-1018.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8689] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/16.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(800.0/16.0) * exp(-800.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8690] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/16.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(2850.0/17.0) * exp(-2850.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8691] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/16.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(1600.0/24.0) * exp(-1600.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8692] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/16.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(1600.0/26.0) * exp(-1600.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8693] = branch * exp(-1000.0/Tdust) *
-        (freq * sqrt(800.0/16.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(855.0/28.0) * exp(-855.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8694] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/16.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(1100.0/32.0) * exp(-1100.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8695] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/16.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(2400.0/36.0) * exp(-2400.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8696] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/16.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(1900.0/44.0) * exp(-1900.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8697] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/16.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(2600.0/48.0) * exp(-2600.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8698] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/14.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8699] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/14.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(945.0/14.0) * exp(-945.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8700] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/14.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(800.0/14.0) * exp(-800.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8701] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/14.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(1018.0/15.0) * exp(-1018.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8702] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/14.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(800.0/16.0) * exp(-800.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8703] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/14.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(1600.0/24.0) * exp(-1600.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8704] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/14.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(1100.0/32.0) * exp(-1100.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8705] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/14.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(2400.0/36.0) * exp(-2400.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8706] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/14.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(2937.0/37.0) * exp(-2937.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8707] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/14.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(4000.0/60.0) * exp(-4000.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8708] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/14.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(4537.0/61.0) * exp(-4537.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8709] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/14.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(5600.0/84.0) * exp(-5600.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8710] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/14.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(6137.0/85.0) * exp(-6137.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8711] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/14.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(7200.0/108.0) * exp(-7200.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8712] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(800.0/14.0) * exp(-800.0*hop/Tdust)/unisites+freq *
-        sqrt(7737.0/109.0) * exp(-7737.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8713] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(1100.0/32.0) * exp(-1100.0*hop/Tdust)/unisites+freq *
-        sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8714] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(1100.0/32.0) * exp(-1100.0*hop/Tdust)/unisites+freq *
-        sqrt(855.0/28.0) * exp(-855.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8715] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites+freq *
-        sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8716] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites+freq *
-        sqrt(945.0/14.0) * exp(-945.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8717] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites+freq *
-        sqrt(2354.0/16.0) * exp(-2354.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8718] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites+freq *
-        sqrt(1018.0/15.0) * exp(-1018.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8719] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites+freq *
-        sqrt(1600.0/24.0) * exp(-1600.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8720] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites+freq *
-        sqrt(2137.0/25.0) * exp(-2137.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8721] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites+freq *
-        sqrt(1600.0/26.0) * exp(-1600.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8722] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites+freq *
-        sqrt(3037.0/27.0) * exp(-3037.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8723] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites+freq *
-        sqrt(3037.0/27.0) * exp(-3037.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8724] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites+freq *
-        sqrt(2400.0/36.0) * exp(-2400.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8725] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites+freq *
-        sqrt(2937.0/37.0) * exp(-2937.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8726] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites+freq *
-        sqrt(3200.0/48.0) * exp(-3200.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8727] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites+freq *
-        sqrt(3737.0/49.0) * exp(-3737.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8728] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites+freq *
-        sqrt(4000.0/60.0) * exp(-4000.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8729] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites+freq *
-        sqrt(4537.0/61.0) * exp(-4537.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8730] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites+freq *
-        sqrt(4800.0/72.0) * exp(-4800.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8731] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites+freq *
-        sqrt(5337.0/73.0) * exp(-5337.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8732] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites+freq *
-        sqrt(5600.0/84.0) * exp(-5600.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8733] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites+freq *
-        sqrt(6137.0/85.0) * exp(-6137.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8734] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites+freq *
-        sqrt(6400.0/96.0) * exp(-6400.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8735] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites+freq *
-        sqrt(6937.0/97.0) * exp(-6937.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8736] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(873.0/13.0) * exp(-873.0*hop/Tdust)/unisites+freq *
-        sqrt(7737.0/109.0) * exp(-7737.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8737] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(2850.0/17.0) * exp(-2850.0*hop/Tdust)/unisites+freq *
-        sqrt(1018.0/15.0) * exp(-1018.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8738] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(2850.0/17.0) * exp(-2850.0*hop/Tdust)/unisites+freq *
-        sqrt(2850.0/17.0) * exp(-2850.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8739] = branch * exp(-3000.0/Tdust) *
-        (freq * sqrt(2850.0/17.0) * exp(-2850.0*hop/Tdust)/unisites+freq *
-        sqrt(855.0/28.0) * exp(-855.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8740] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(2850.0/17.0) * exp(-2850.0*hop/Tdust)/unisites+freq *
-        sqrt(1600.0/29.0) * exp(-1600.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8741] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(2850.0/17.0) * exp(-2850.0*hop/Tdust)/unisites+freq *
-        sqrt(945.0/14.0) * exp(-945.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8742] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(2850.0/17.0) * exp(-2850.0*hop/Tdust)/unisites+freq *
-        sqrt(2320.0/43.0) * exp(-2320.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8743] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(1577.0/15.0) * exp(-1577.0*hop/Tdust)/unisites+freq *
-        sqrt(945.0/14.0) * exp(-945.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8744] = branch * exp(-3000.0/Tdust) *
-        (freq * sqrt(1577.0/15.0) * exp(-1577.0*hop/Tdust)/unisites+freq *
-        sqrt(855.0/28.0) * exp(-855.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8745] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(945.0/14.0) * exp(-945.0*hop/Tdust)/unisites+freq *
-        sqrt(945.0/14.0) * exp(-945.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8746] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(945.0/14.0) * exp(-945.0*hop/Tdust)/unisites+freq *
-        sqrt(1018.0/15.0) * exp(-1018.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8747] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(945.0/14.0) * exp(-945.0*hop/Tdust)/unisites+freq *
-        sqrt(1600.0/26.0) * exp(-1600.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8748] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(1018.0/15.0) * exp(-1018.0*hop/Tdust)/unisites+freq *
-        sqrt(1018.0/15.0) * exp(-1018.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8749] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(1018.0/15.0) * exp(-1018.0*hop/Tdust)/unisites+freq *
-        sqrt(1600.0/26.0) * exp(-1600.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8750] = branch * exp(-3460.0/Tdust) *
-        (freq * sqrt(1018.0/15.0) * exp(-1018.0*hop/Tdust)/unisites+freq *
-        sqrt(855.0/28.0) * exp(-855.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8751] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(1018.0/15.0) * exp(-1018.0*hop/Tdust)/unisites+freq *
-        sqrt(1600.0/29.0) * exp(-1600.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8752] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(1018.0/15.0) * exp(-1018.0*hop/Tdust)/unisites+freq *
-        sqrt(2655.0/31.0) * exp(-2655.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8753] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(1018.0/15.0) * exp(-1018.0*hop/Tdust)/unisites+freq *
-        sqrt(4330.0/31.0) * exp(-4330.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8754] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(1018.0/15.0) * exp(-1018.0*hop/Tdust)/unisites+freq *
-        sqrt(2320.0/43.0) * exp(-2320.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8755] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(1018.0/15.0) * exp(-1018.0*hop/Tdust)/unisites+freq *
-        sqrt(5120.0/45.0) * exp(-5120.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8756] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(1018.0/15.0) * exp(-1018.0*hop/Tdust)/unisites+freq *
-        sqrt(3200.0/50.0) * exp(-3200.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8757] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(1018.0/15.0) * exp(-1018.0*hop/Tdust)/unisites+freq *
-        sqrt(4800.0/74.0) * exp(-4800.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8758] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(1018.0/15.0) * exp(-1018.0*hop/Tdust)/unisites+freq *
-        sqrt(6400.0/98.0) * exp(-6400.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8759] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(2655.0/31.0) * exp(-2655.0*hop/Tdust)/unisites+freq *
-        sqrt(1600.0/29.0) * exp(-1600.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8760] = branch * exp(-3000.0/Tdust) *
-        (freq * sqrt(2655.0/31.0) * exp(-2655.0*hop/Tdust)/unisites+freq *
-        sqrt(855.0/28.0) * exp(-855.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8761] = branch * exp(-3000.0/Tdust) *
-        (freq * sqrt(4330.0/31.0) * exp(-4330.0*hop/Tdust)/unisites+freq *
-        sqrt(855.0/28.0) * exp(-855.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
-        
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8762] = branch * exp(-0.0/Tdust) *
-        (freq * sqrt(4330.0/31.0) * exp(-4330.0*hop/Tdust)/unisites+freq *
-        sqrt(1600.0/29.0) * exp(-1600.0*hop/Tdust)/unisites) *
-        pow((nMono*densites), 2.0) / gdens * cov * cov; }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8654] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8655] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8656] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(945.0/14.0) *
+        exp(-945.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8657] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(800.0/14.0) *
+        exp(-800.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8658] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(1600.0/30.0) *
+        exp(-1600.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8659] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(1577.0/15.0) *
+        exp(-1577.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8660] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(1018.0/15.0) *
+        exp(-1018.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8661] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(800.0/16.0) *
+        exp(-800.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8662] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(1600.0/24.0) *
+        exp(-1600.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8663] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(2137.0/25.0) *
+        exp(-2137.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8664] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(1600.0/26.0) *
+        exp(-1600.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8665] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(3037.0/27.0) *
+        exp(-3037.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8666] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(1100.0/32.0) *
+        exp(-1100.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8667] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(2400.0/36.0) *
+        exp(-2400.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8668] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(2937.0/37.0) *
+        exp(-2937.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8669] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(2400.0/38.0) *
+        exp(-2400.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8670] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(1950.0/40.0) *
+        exp(-1950.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8671] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(3200.0/48.0) *
+        exp(-3200.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8672] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(3737.0/49.0) *
+        exp(-3737.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8673] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(5320.0/56.0) *
+        exp(-5320.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8674] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(4000.0/60.0) *
+        exp(-4000.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8675] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(4537.0/61.0) *
+        exp(-4537.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8676] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(4800.0/72.0) *
+        exp(-4800.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8677] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(5337.0/73.0) *
+        exp(-5337.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8678] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(5600.0/84.0) *
+        exp(-5600.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8679] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(6137.0/85.0) *
+        exp(-6137.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8680] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(6400.0/96.0) *
+        exp(-6400.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8681] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(6937.0/97.0) *
+        exp(-6937.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8682] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(7200.0/108.0) *
+        exp(-7200.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8683] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(7737.0/109.0) *
+        exp(-7737.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8684] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/12.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(8000.0/120.0) *
+        exp(-8000.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8685] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/16.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8686] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/16.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(945.0/14.0) *
+        exp(-945.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8687] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/16.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(1577.0/15.0) *
+        exp(-1577.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8688] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/16.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(1018.0/15.0) *
+        exp(-1018.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8689] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/16.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(800.0/16.0) *
+        exp(-800.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8690] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/16.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(2850.0/17.0) *
+        exp(-2850.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8691] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/16.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(1600.0/24.0) *
+        exp(-1600.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8692] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/16.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(1600.0/26.0) *
+        exp(-1600.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8693] = opt_rcd * branch *
+        exp(-1000.0/Tdust) * (freq * sqrt(800.0/16.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(855.0/28.0) *
+        exp(-855.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8694] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/16.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(1100.0/32.0) *
+        exp(-1100.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8695] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/16.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(2400.0/36.0) *
+        exp(-2400.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8696] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/16.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(1900.0/44.0) *
+        exp(-1900.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8697] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/16.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(2600.0/48.0) *
+        exp(-2600.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8698] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/14.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8699] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/14.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(945.0/14.0) *
+        exp(-945.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8700] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/14.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(800.0/14.0) *
+        exp(-800.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8701] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/14.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(1018.0/15.0) *
+        exp(-1018.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8702] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/14.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(800.0/16.0) *
+        exp(-800.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8703] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/14.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(1600.0/24.0) *
+        exp(-1600.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8704] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/14.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(1100.0/32.0) *
+        exp(-1100.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8705] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/14.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(2400.0/36.0) *
+        exp(-2400.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8706] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/14.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(2937.0/37.0) *
+        exp(-2937.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8707] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/14.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(4000.0/60.0) *
+        exp(-4000.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8708] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/14.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(4537.0/61.0) *
+        exp(-4537.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8709] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/14.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(5600.0/84.0) *
+        exp(-5600.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8710] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/14.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(6137.0/85.0) *
+        exp(-6137.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8711] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/14.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(7200.0/108.0) *
+        exp(-7200.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8712] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(800.0/14.0) *
+        exp(-800.0*hop/Tdust)/unisites+freq * sqrt(7737.0/109.0) *
+        exp(-7737.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8713] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(1100.0/32.0) *
+        exp(-1100.0*hop/Tdust)/unisites+freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8714] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(1100.0/32.0) *
+        exp(-1100.0*hop/Tdust)/unisites+freq * sqrt(855.0/28.0) *
+        exp(-855.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8715] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites+freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8716] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites+freq * sqrt(945.0/14.0) *
+        exp(-945.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8717] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites+freq * sqrt(2354.0/16.0) *
+        exp(-2354.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8718] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites+freq * sqrt(1018.0/15.0) *
+        exp(-1018.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8719] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites+freq * sqrt(1600.0/24.0) *
+        exp(-1600.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8720] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites+freq * sqrt(2137.0/25.0) *
+        exp(-2137.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8721] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites+freq * sqrt(1600.0/26.0) *
+        exp(-1600.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8722] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites+freq * sqrt(3037.0/27.0) *
+        exp(-3037.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8723] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites+freq * sqrt(3037.0/27.0) *
+        exp(-3037.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8724] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites+freq * sqrt(2400.0/36.0) *
+        exp(-2400.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8725] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites+freq * sqrt(2937.0/37.0) *
+        exp(-2937.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8726] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites+freq * sqrt(3200.0/48.0) *
+        exp(-3200.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8727] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites+freq * sqrt(3737.0/49.0) *
+        exp(-3737.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8728] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites+freq * sqrt(4000.0/60.0) *
+        exp(-4000.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8729] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites+freq * sqrt(4537.0/61.0) *
+        exp(-4537.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8730] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites+freq * sqrt(4800.0/72.0) *
+        exp(-4800.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8731] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites+freq * sqrt(5337.0/73.0) *
+        exp(-5337.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8732] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites+freq * sqrt(5600.0/84.0) *
+        exp(-5600.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8733] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites+freq * sqrt(6137.0/85.0) *
+        exp(-6137.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8734] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites+freq * sqrt(6400.0/96.0) *
+        exp(-6400.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8735] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites+freq * sqrt(6937.0/97.0) *
+        exp(-6937.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8736] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(873.0/13.0) *
+        exp(-873.0*hop/Tdust)/unisites+freq * sqrt(7737.0/109.0) *
+        exp(-7737.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8737] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(2850.0/17.0) *
+        exp(-2850.0*hop/Tdust)/unisites+freq * sqrt(1018.0/15.0) *
+        exp(-1018.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8738] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(2850.0/17.0) *
+        exp(-2850.0*hop/Tdust)/unisites+freq * sqrt(2850.0/17.0) *
+        exp(-2850.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8739] = opt_rcd * branch *
+        exp(-3000.0/Tdust) * (freq * sqrt(2850.0/17.0) *
+        exp(-2850.0*hop/Tdust)/unisites+freq * sqrt(855.0/28.0) *
+        exp(-855.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8740] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(2850.0/17.0) *
+        exp(-2850.0*hop/Tdust)/unisites+freq * sqrt(1600.0/29.0) *
+        exp(-1600.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8741] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(2850.0/17.0) *
+        exp(-2850.0*hop/Tdust)/unisites+freq * sqrt(945.0/14.0) *
+        exp(-945.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8742] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(2850.0/17.0) *
+        exp(-2850.0*hop/Tdust)/unisites+freq * sqrt(2320.0/43.0) *
+        exp(-2320.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8743] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(1577.0/15.0) *
+        exp(-1577.0*hop/Tdust)/unisites+freq * sqrt(945.0/14.0) *
+        exp(-945.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8744] = opt_rcd * branch *
+        exp(-3000.0/Tdust) * (freq * sqrt(1577.0/15.0) *
+        exp(-1577.0*hop/Tdust)/unisites+freq * sqrt(855.0/28.0) *
+        exp(-855.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8745] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(945.0/14.0) *
+        exp(-945.0*hop/Tdust)/unisites+freq * sqrt(945.0/14.0) *
+        exp(-945.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8746] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(945.0/14.0) *
+        exp(-945.0*hop/Tdust)/unisites+freq * sqrt(1018.0/15.0) *
+        exp(-1018.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8747] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(945.0/14.0) *
+        exp(-945.0*hop/Tdust)/unisites+freq * sqrt(1600.0/26.0) *
+        exp(-1600.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8748] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(1018.0/15.0) *
+        exp(-1018.0*hop/Tdust)/unisites+freq * sqrt(1018.0/15.0) *
+        exp(-1018.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8749] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(1018.0/15.0) *
+        exp(-1018.0*hop/Tdust)/unisites+freq * sqrt(1600.0/26.0) *
+        exp(-1600.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8750] = opt_rcd * branch *
+        exp(-3460.0/Tdust) * (freq * sqrt(1018.0/15.0) *
+        exp(-1018.0*hop/Tdust)/unisites+freq * sqrt(855.0/28.0) *
+        exp(-855.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8751] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(1018.0/15.0) *
+        exp(-1018.0*hop/Tdust)/unisites+freq * sqrt(1600.0/29.0) *
+        exp(-1600.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8752] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(1018.0/15.0) *
+        exp(-1018.0*hop/Tdust)/unisites+freq * sqrt(2655.0/31.0) *
+        exp(-2655.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8753] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(1018.0/15.0) *
+        exp(-1018.0*hop/Tdust)/unisites+freq * sqrt(4330.0/31.0) *
+        exp(-4330.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8754] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(1018.0/15.0) *
+        exp(-1018.0*hop/Tdust)/unisites+freq * sqrt(2320.0/43.0) *
+        exp(-2320.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8755] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(1018.0/15.0) *
+        exp(-1018.0*hop/Tdust)/unisites+freq * sqrt(5120.0/45.0) *
+        exp(-5120.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8756] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(1018.0/15.0) *
+        exp(-1018.0*hop/Tdust)/unisites+freq * sqrt(3200.0/50.0) *
+        exp(-3200.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8757] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(1018.0/15.0) *
+        exp(-1018.0*hop/Tdust)/unisites+freq * sqrt(4800.0/74.0) *
+        exp(-4800.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8758] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(1018.0/15.0) *
+        exp(-1018.0*hop/Tdust)/unisites+freq * sqrt(6400.0/98.0) *
+        exp(-6400.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8759] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(2655.0/31.0) *
+        exp(-2655.0*hop/Tdust)/unisites+freq * sqrt(1600.0/29.0) *
+        exp(-1600.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8760] = opt_rcd * branch *
+        exp(-3000.0/Tdust) * (freq * sqrt(2655.0/31.0) *
+        exp(-2655.0*hop/Tdust)/unisites+freq * sqrt(855.0/28.0) *
+        exp(-855.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8761] = opt_rcd * branch *
+        exp(-3000.0/Tdust) * (freq * sqrt(4330.0/31.0) *
+        exp(-4330.0*hop/Tdust)/unisites+freq * sqrt(855.0/28.0) *
+        exp(-855.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8762] = opt_rcd * branch *
+        exp(-0.0/Tdust) * (freq * sqrt(4330.0/31.0) *
+        exp(-4330.0*hop/Tdust)/unisites+freq * sqrt(1600.0/29.0) *
+        exp(-1600.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[8763] = pi * rG * rG *
         sqrt(8.0*kerg*(Tgas)/pi/amu/meu); }
