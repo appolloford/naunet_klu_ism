@@ -10,9 +10,11 @@
 #include "naunet_macros.h"
 #include "naunet_physics.h"
 
-#define IJth(A, i, j)        SM_ELEMENT_D(A, i, j)
-#define NVEC_CUDA_CONTENT(x) ((N_VectorContent_Cuda)(x->content))
-#define NVEC_CUDA_STREAM(x)  (NVEC_CUDA_CONTENT(x)->stream_exec_policy->stream())
+#define IJth(A, i, j)            SM_ELEMENT_D(A, i, j)
+#define NVEC_CUDA_CONTENT(x)     ((N_VectorContent_Cuda)(x->content))
+#define NVEC_CUDA_STREAM(x)      (NVEC_CUDA_CONTENT(x)->stream_exec_policy->stream())
+#define NVEC_CUDA_BLOCKSIZE(x)   (NVEC_CUDA_CONTENT(x)->stream_exec_policy->blockSize())
+#define NVEC_CUDA_GRIDSIZE(x, n) (NVEC_CUDA_CONTENT(x)->stream_exec_policy->gridSize(n))
 
 /* */
 
@@ -22,6 +24,14 @@ int Fex(realtype t, N_Vector u, N_Vector udot, void *user_data) {
     realtype *ydot         = N_VGetArrayPointer(udot);
     NaunetData *u_data     = (NaunetData *)user_data;
     // clang-format off
+    realtype nH = u_data->nH;
+    realtype Tgas = u_data->Tgas;
+    realtype zeta_cr = u_data->zeta_cr;
+    realtype zeta_xr = u_data->zeta_xr;
+    realtype Tdust = u_data->Tdust;
+    realtype Av = u_data->Av;
+    realtype G0 = u_data->G0;
+    realtype omega = u_data->omega;
     realtype rG = u_data->rG;
     realtype barr = u_data->barr;
     realtype sites = u_data->sites;
@@ -30,20 +40,44 @@ int Fex(realtype t, N_Vector u, N_Vector udot, void *user_data) {
     realtype duty = u_data->duty;
     realtype Tcr = u_data->Tcr;
     realtype branch = u_data->branch;
-    realtype nH = u_data->nH;
-    realtype zeta_cr = u_data->zeta_cr;
-    realtype zeta_xr = u_data->zeta_xr;
-    realtype Tgas = u_data->Tgas;
-    realtype Tdust = u_data->Tdust;
-    realtype Av = u_data->Av;
-    realtype G0 = u_data->G0;
-    realtype omega = u_data->omega;
+    realtype opt_frz = u_data->opt_frz;
+    realtype opt_thd = u_data->opt_thd;
+    realtype opt_uvd = u_data->opt_uvd;
+    realtype opt_crd = u_data->opt_crd;
+    realtype opt_rcd = u_data->opt_rcd;
     
+    double h2col = 0.5*1.59e21*Av;
+    double cocol = 1e-5 * h2col;
+    double n2col = 1e-5 * h2col;
+    double gdens = y[IDX_GRAIN0I] + y[IDX_GRAINM];
+    double mant = GetMantleDens(y);
+    double garea = (4*pi*rG*rG) * gdens;
+    double unisites = sites * (4*pi*rG*rG);
+    double densites = sites * (4*pi*rG*rG) * gdens;
+    double freq = sqrt((2.0*sites*kerg)/((pi*pi)*amu));
+    double quan = -2.0*(barr/hbar) * sqrt(2.0*amu*kerg);
+    double layers = mant/(nMono*densites);
+    double cov = (mant == 0.0) ? 0.0 : fmin(layers/mant, 1.0/mant);
     
+#if (NHEATPROCS || NCOOLPROCS)
+    if (mu < 0) mu = GetMu(y);
+    if (gamma < 0) gamma = GetGamma(y);
+#endif
+
     // clang-format on
 
     realtype k[NREACTIONS] = {0.0};
     EvalRates(k, y, u_data);
+
+#if NHEATPROCS
+    realtype kh[NHEATPROCS] = {0.0};
+    EvalHeatingRates(kh, y, u_data);
+#endif 
+
+#if NCOOLPROCS
+    realtype kc[NCOOLPROCS] = {0.0};
+    EvalCoolingRates(kc, y, u_data);
+#endif
 
     // clang-format off
     ydot[IDX_CI] = 0.0 - k[0]*y[IDX_CM]*y[IDX_CI] -
@@ -17975,7 +18009,6 @@ int Fex(realtype t, N_Vector u, N_Vector udot, void *user_data) {
         k[6306]*y[IDX_MgI] + k[6307]*y[IDX_ClI] -
         k[8763]*y[IDX_GRAIN0I]*y[IDX_eM];
     
-    double garea = (4*pi*rG*rG) * (y[IDX_GRAIN0I]+y[IDX_GRAINM]);
     double stick1 = (1.0 / (1.0 + 4.2e-2*sqrt(Tgas+Tdust) + 2.3e-3*Tgas - 1.3e-7*Tgas*Tgas));
     double stick2 = exp(-1741.0/Tgas) / (1.0 + 5e-2*sqrt(Tgas+Tdust) + 1e-14*pow(Tgas, 4.0));
     double stick = stick1 + stick2;
@@ -17983,7 +18016,11 @@ int Fex(realtype t, N_Vector u, N_Vector udot, void *user_data) {
     ydot[IDX_H2I] += 0.5*hloss*y[IDX_HI];
     ydot[IDX_HI] -= hloss*y[IDX_HI];
     
-// clang-format on
+#if ((NHEATPROCS || NCOOLPROCS) && NAUNET_DEBUG)
+    printf("Total heating/cooling rate: %13.7e\n", ydot[IDX_TGAS]);
+#endif
+
+    // clang-format on
 
     /* */
 

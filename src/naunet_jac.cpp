@@ -10,9 +10,11 @@
 #include "naunet_macros.h"
 #include "naunet_physics.h"
 
-#define IJth(A, i, j)        SM_ELEMENT_D(A, i, j)
-#define NVEC_CUDA_CONTENT(x) ((N_VectorContent_Cuda)(x->content))
-#define NVEC_CUDA_STREAM(x)  (NVEC_CUDA_CONTENT(x)->stream_exec_policy->stream())
+#define IJth(A, i, j)            SM_ELEMENT_D(A, i, j)
+#define NVEC_CUDA_CONTENT(x)     ((N_VectorContent_Cuda)(x->content))
+#define NVEC_CUDA_STREAM(x)      (NVEC_CUDA_CONTENT(x)->stream_exec_policy->stream())
+#define NVEC_CUDA_BLOCKSIZE(x)   (NVEC_CUDA_CONTENT(x)->stream_exec_policy->blockSize())
+#define NVEC_CUDA_GRIDSIZE(x, n) (NVEC_CUDA_CONTENT(x)->stream_exec_policy->gridSize(n))
 
 /* */
 
@@ -26,11 +28,47 @@ int Jac(realtype t, N_Vector u, N_Vector fu, SUNMatrix jmatrix, void *user_data,
     NaunetData *u_data     = (NaunetData *)user_data;
 
     // clang-format off
+    realtype nH = u_data->nH;
+    realtype Tgas = u_data->Tgas;
+    realtype zeta_cr = u_data->zeta_cr;
+    realtype zeta_xr = u_data->zeta_xr;
+    realtype Tdust = u_data->Tdust;
+    realtype Av = u_data->Av;
+    realtype G0 = u_data->G0;
+    realtype omega = u_data->omega;
+    realtype rG = u_data->rG;
+    realtype barr = u_data->barr;
+    realtype sites = u_data->sites;
+    realtype hop = u_data->hop;
+    realtype nMono = u_data->nMono;
+    realtype duty = u_data->duty;
+    realtype Tcr = u_data->Tcr;
+    realtype branch = u_data->branch;
+    realtype opt_frz = u_data->opt_frz;
+    realtype opt_thd = u_data->opt_thd;
+    realtype opt_uvd = u_data->opt_uvd;
+    realtype opt_crd = u_data->opt_crd;
+    realtype opt_rcd = u_data->opt_rcd;
         
+#if (NHEATPROCS || NCOOLPROCS)
+    if (mu < 0) mu = GetMu(y);
+    if (gamma < 0) gamma = GetGamma(y);
+#endif
+
     // clang-format on
 
     realtype k[NREACTIONS] = {0.0};
     EvalRates(k, y, u_data);
+
+#if NHEATPROCS
+    realtype kh[NHEATPROCS] = {0.0};
+    EvalHeatingRates(kh, y, u_data);
+#endif 
+
+#if NCOOLPROCS
+    realtype kc[NCOOLPROCS] = {0.0};
+    EvalCoolingRates(kc, y, u_data);
+#endif
 
     // clang-format off
     // number of non-zero elements in each row

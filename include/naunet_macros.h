@@ -8,6 +8,8 @@
 #define NSPECIES 669
 #define NEQUATIONS 669
 #define NREACTIONS 8764
+#define NHEATPROCS 0
+#define NCOOLPROCS 0
 #define NNZ 20813
 #define MAX_NSYSTEMS 1
 
