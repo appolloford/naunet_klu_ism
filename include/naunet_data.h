@@ -7,7 +7,7 @@ struct NaunetData {
     double nH;
     double Tgas;
     double zeta_cr = 1.300e-17;
-    double zeta_xr;
+    double zeta_xr = 0.000e+00;
     double Tdust = 1.500e+01;
     double Av = 1.000e+00;
     double G0 = 1.000e+00;
