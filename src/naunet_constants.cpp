@@ -113,6 +113,7 @@ const double eb_GCH3COI      = 2320.0;
 const double eb_GCH3COCH3I   = 3300.0;
 const double eb_GCH3COOHI    = 6300.0;
 const double eb_GCH3OI       = 2655.0;
+const double eb_GCH3OCH2I    = 3000.0;
 const double eb_GCH3OCH3I    = 3300.0;
 const double eb_GCH3OHI      = 4930.0;
 const double eb_GCH4I        = 1090.0;

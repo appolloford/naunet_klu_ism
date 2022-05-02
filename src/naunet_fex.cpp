@@ -364,7 +364,8 @@ int Fex(realtype t, N_Vector u, N_Vector udot, void *user_data) {
         + k[6856]*y[IDX_C9II]*y[IDX_GRAINM] + k[6857]*y[IDX_C9HII]*y[IDX_GRAINM]
         + k[6870]*y[IDX_C10II]*y[IDX_GRAINM] +
         k[6879]*y[IDX_C10H3II]*y[IDX_GRAINM] - k[6891]*y[IDX_CI] +
-        k[7073]*y[IDX_GCI] + k[7255]*y[IDX_GCI] + k[7437]*y[IDX_GCI];
+        k[7073]*y[IDX_GCI] + k[7255]*y[IDX_GCI] + k[7437]*y[IDX_GCI] -
+        k[8771]*y[IDX_CI]*y[IDX_CH3OCH2I];
     ydot[IDX_CII] = 0.0 - k[147]*y[IDX_CII]*y[IDX_C10HI] -
         k[148]*y[IDX_CII]*y[IDX_C2H4I] - k[149]*y[IDX_CII]*y[IDX_C2H5I] -
         k[150]*y[IDX_CII]*y[IDX_C2H5OHI] - k[151]*y[IDX_CII]*y[IDX_C2OI] -
@@ -1226,7 +1227,7 @@ int Fex(realtype t, N_Vector u, N_Vector udot, void *user_data) {
         k[6687]*y[IDX_PC2H3II]*y[IDX_GRAINM] - k[6910]*y[IDX_C2H2I] +
         k[7092]*y[IDX_GC2H2I] + k[7274]*y[IDX_GC2H2I] + k[7456]*y[IDX_GC2H2I] +
         k[8587]*y[IDX_GHI]*y[IDX_GC2HI] + k[8656]*y[IDX_GCI]*y[IDX_GCH2I] +
-        k[8715]*y[IDX_GCHI]*y[IDX_GCHI];
+        k[8715]*y[IDX_GCHI]*y[IDX_GCHI] + k[8771]*y[IDX_CI]*y[IDX_CH3OCH2I];
     ydot[IDX_C2H2II] = 0.0 - k[214]*y[IDX_C2H2II]*y[IDX_C2H3I] -
         k[215]*y[IDX_C2H2II]*y[IDX_C2H4I] - k[216]*y[IDX_C2H2II]*y[IDX_C5H2I] -
         k[217]*y[IDX_C2H2II]*y[IDX_C6H2I] - k[218]*y[IDX_C2H2II]*y[IDX_C7H2I] -
@@ -5674,7 +5675,12 @@ int Fex(realtype t, N_Vector u, N_Vector udot, void *user_data) {
         k[6289]*y[IDX_CH3OI] + k[6293]*y[IDX_COOCH3I] +
         k[6695]*y[IDX_COOCH3II]*y[IDX_GRAINM] - k[6931]*y[IDX_CH3OI] +
         k[7113]*y[IDX_GCH3OI] + k[7295]*y[IDX_GCH3OI] + k[7477]*y[IDX_GCH3OI] +
-        k[8596]*y[IDX_GHI]*y[IDX_GH2COI] + k[8688]*y[IDX_GOI]*y[IDX_GCH3I];
+        k[8596]*y[IDX_GHI]*y[IDX_GH2COI] + k[8688]*y[IDX_GOI]*y[IDX_GCH3I] +
+        k[8770]*y[IDX_NI]*y[IDX_CH3OCH2I] + k[8771]*y[IDX_CI]*y[IDX_CH3OCH2I];
+    ydot[IDX_CH3OCH2I] = 0.0 + k[8765]*y[IDX_GCH3OCH2I] -
+        k[8766]*y[IDX_CH3OCH2I] + k[8767]*y[IDX_GCH3OCH2I] +
+        k[8768]*y[IDX_GCH3OCH2I] - k[8770]*y[IDX_NI]*y[IDX_CH3OCH2I] -
+        k[8771]*y[IDX_CI]*y[IDX_CH3OCH2I];
     ydot[IDX_CH3OCH3I] = 0.0 - k[169]*y[IDX_CII]*y[IDX_CH3OCH3I] -
         k[369]*y[IDX_HII]*y[IDX_CH3OCH3I] - k[671]*y[IDX_O2II]*y[IDX_CH3OCH3I] -
         k[714]*y[IDX_SOII]*y[IDX_CH3OCH3I] + k[958]*y[IDX_CH3OCH4II]*y[IDX_eM] -
@@ -7621,7 +7627,8 @@ int Fex(realtype t, N_Vector u, N_Vector udot, void *user_data) {
         k[8563]*y[IDX_GCH3OI]*y[IDX_GCH3CHOI] -
         k[8571]*y[IDX_GCH2OHI]*y[IDX_GCH3CHOI] -
         k[8572]*y[IDX_GCH2OHI]*y[IDX_GCH3CHOI] -
-        k[8573]*y[IDX_GCH2OHI]*y[IDX_GCH3CHOI];
+        k[8573]*y[IDX_GCH2OHI]*y[IDX_GCH3CHOI] -
+        k[8764]*y[IDX_GHI]*y[IDX_GCH3CHOI];
     ydot[IDX_GCH3CNI] = 0.0 + k[6957]*y[IDX_CH3CNI] - k[7139]*y[IDX_GCH3CNI]
         - k[7321]*y[IDX_GCH3CNI] - k[7503]*y[IDX_GCH3CNI] -
         k[7735]*y[IDX_GCH3CNI] - k[7736]*y[IDX_GCH3CNI] - k[7737]*y[IDX_GCH3CNI]
@@ -7672,12 +7679,17 @@ int Fex(realtype t, N_Vector u, N_Vector udot, void *user_data) {
         k[8567]*y[IDX_GCH3OI]*y[IDX_GCH2OHCHOI] -
         k[8598]*y[IDX_GHI]*y[IDX_GCH3OI] - k[8752]*y[IDX_GCH3I]*y[IDX_GCH3OI] -
         k[8759]*y[IDX_GCH3OI]*y[IDX_GHCOI] - k[8760]*y[IDX_GCH3OI]*y[IDX_GCOI];
+    ydot[IDX_GCH3OCH2I] = 0.0 + k[8764]*y[IDX_GHI]*y[IDX_GCH3CHOI] -
+        k[8765]*y[IDX_GCH3OCH2I] + k[8766]*y[IDX_CH3OCH2I] -
+        k[8767]*y[IDX_GCH3OCH2I] - k[8768]*y[IDX_GCH3OCH2I] -
+        k[8769]*y[IDX_GHI]*y[IDX_GCH3OCH2I];
     ydot[IDX_GCH3OCH3I] = 0.0 + k[6983]*y[IDX_CH3OCH3I] -
         k[7165]*y[IDX_GCH3OCH3I] - k[7347]*y[IDX_GCH3OCH3I] -
         k[7529]*y[IDX_GCH3OCH3I] - k[7769]*y[IDX_GCH3OCH3I] -
         k[7770]*y[IDX_GCH3OCH3I] - k[7771]*y[IDX_GCH3OCH3I] -
         k[8089]*y[IDX_GCH3OCH3I] - k[8090]*y[IDX_GCH3OCH3I] -
-        k[8091]*y[IDX_GCH3OCH3I] + k[8545]*y[IDX_GCH3I]*y[IDX_GCH3OI];
+        k[8091]*y[IDX_GCH3OCH3I] + k[8545]*y[IDX_GCH3I]*y[IDX_GCH3OI] +
+        k[8769]*y[IDX_GHI]*y[IDX_GCH3OCH2I];
     ydot[IDX_GCH3OHI] = 0.0 + k[6936]*y[IDX_CH3OHI] - k[7118]*y[IDX_GCH3OHI]
         - k[7300]*y[IDX_GCH3OHI] - k[7482]*y[IDX_GCH3OHI] -
         k[7697]*y[IDX_GCH3OHI] - k[7698]*y[IDX_GCH3OHI] - k[7699]*y[IDX_GCH3OHI]
@@ -8050,8 +8062,9 @@ int Fex(realtype t, N_Vector u, N_Vector udot, void *user_data) {
         k[8645]*y[IDX_GHI]*y[IDX_GC7NI] - k[8646]*y[IDX_GHI]*y[IDX_GC9I] -
         k[8647]*y[IDX_GHI]*y[IDX_GC9HI] - k[8648]*y[IDX_GHI]*y[IDX_GC10I] -
         k[8649]*y[IDX_GHI]*y[IDX_GC10HI] - k[8650]*y[IDX_GHI]*y[IDX_GC9NI] -
-        k[8651]*y[IDX_GHI]*y[IDX_GCOOCH3I] -
-        k[8652]*y[IDX_GHI]*y[IDX_GCH2OHCOI];
+        k[8651]*y[IDX_GHI]*y[IDX_GCOOCH3I] - k[8652]*y[IDX_GHI]*y[IDX_GCH2OHCOI]
+        - k[8764]*y[IDX_GHI]*y[IDX_GCH3CHOI] -
+        k[8769]*y[IDX_GHI]*y[IDX_GCH3OCH2I];
     ydot[IDX_GH2I] = 0.0 + k[6889]*y[IDX_H2I] - k[7071]*y[IDX_GH2I] -
         k[7253]*y[IDX_GH2I] - k[7435]*y[IDX_GH2I] - k[7617]*y[IDX_GH2I] +
         k[7620]*y[IDX_GCH2I] + k[7626]*y[IDX_GCH3I] + k[7628]*y[IDX_GCH3I] +
@@ -11779,7 +11792,7 @@ int Fex(realtype t, N_Vector u, N_Vector udot, void *user_data) {
         k[5396]*y[IDX_OI]*y[IDX_H2CNI] - k[5835]*y[IDX_H2CNI] -
         k[6151]*y[IDX_H2CNI] - k[6914]*y[IDX_H2CNI] + k[7096]*y[IDX_GH2CNI] +
         k[7278]*y[IDX_GH2CNI] + k[7460]*y[IDX_GH2CNI] +
-        k[8699]*y[IDX_GNI]*y[IDX_GCH2I];
+        k[8699]*y[IDX_GNI]*y[IDX_GCH2I] + k[8770]*y[IDX_NI]*y[IDX_CH3OCH2I];
     ydot[IDX_H2CNOII] = 0.0 - k[994]*y[IDX_H2CNOII]*y[IDX_eM] -
         k[995]*y[IDX_H2CNOII]*y[IDX_eM] + k[2695]*y[IDX_H3II]*y[IDX_HCNOI] +
         k[2897]*y[IDX_HCNOII]*y[IDX_H2I] - k[6536]*y[IDX_H2CNOII]*y[IDX_GRAINM]
@@ -14532,7 +14545,8 @@ int Fex(realtype t, N_Vector u, N_Vector udot, void *user_data) {
         + k[6530]*y[IDX_N2OII]*y[IDX_GRAINM] + k[6560]*y[IDX_PNII]*y[IDX_GRAINM]
         + k[6572]*y[IDX_HPNII]*y[IDX_GRAINM] + k[6581]*y[IDX_NSII]*y[IDX_GRAINM]
         + k[6635]*y[IDX_C2N2II]*y[IDX_GRAINM] - k[6894]*y[IDX_NI] +
-        k[7076]*y[IDX_GNI] + k[7258]*y[IDX_GNI] + k[7440]*y[IDX_GNI];
+        k[7076]*y[IDX_GNI] + k[7258]*y[IDX_GNI] + k[7440]*y[IDX_GNI] -
+        k[8770]*y[IDX_NI]*y[IDX_CH3OCH2I];
     ydot[IDX_NII] = 0.0 - k[292]*y[IDX_CHI]*y[IDX_NII] -
         k[542]*y[IDX_NII]*y[IDX_C2I] - k[543]*y[IDX_NII]*y[IDX_C2HI] -
         k[544]*y[IDX_NII]*y[IDX_CH2I] - k[545]*y[IDX_NII]*y[IDX_CH3OHI] -

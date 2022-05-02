@@ -28,18 +28,18 @@ double GetMantleDens(double *y) {
         y[IDX_GCH3I] + y[IDX_GCH3C3NI] + y[IDX_GCH3C4HI] + y[IDX_GCH3C5NI] +
         y[IDX_GCH3C6HI] + y[IDX_GCH3C7NI] + y[IDX_GCH3CCHI] + y[IDX_GCH3CHCH2I]
         + y[IDX_GCH3CHOI] + y[IDX_GCH3CNI] + y[IDX_GCH3COI] + y[IDX_GCH3COCH3I]
-        + y[IDX_GCH3COOHI] + y[IDX_GCH3OI] + y[IDX_GCH3OCH3I] + y[IDX_GCH3OHI] +
-        y[IDX_GCH4I] + y[IDX_GCNI] + y[IDX_GCNOI] + y[IDX_GCOI] + y[IDX_GCO2I] +
-        y[IDX_GCOOCH3I] + y[IDX_GCOOHI] + y[IDX_GCPI] + y[IDX_GCSI] +
-        y[IDX_GClI] + y[IDX_GClOI] + y[IDX_GFI] + y[IDX_GFeI] + y[IDX_GHI] +
-        y[IDX_GH2I] + y[IDX_GH2CCCI] + y[IDX_GH2CNI] + y[IDX_GH2COI] +
-        y[IDX_GH2CSI] + y[IDX_GH2OI] + y[IDX_GH2O2I] + y[IDX_GH2SI] +
-        y[IDX_GH2S2I] + y[IDX_GH2SiOI] + y[IDX_GHC2OI] + y[IDX_GHC2PI] +
-        y[IDX_GHC3NI] + y[IDX_GHC5NI] + y[IDX_GHC7NI] + y[IDX_GHC9NI] +
-        y[IDX_GHCCNI] + y[IDX_GHCNI] + y[IDX_GHCNOI] + y[IDX_GHCOI] +
-        y[IDX_GHCOOCH3I] + y[IDX_GHCOOHI] + y[IDX_GHCPI] + y[IDX_GHCSI] +
-        y[IDX_GHCSiI] + y[IDX_GHClI] + y[IDX_GHFI] + y[IDX_GHNCI] +
-        y[IDX_GHNC3I] + y[IDX_GHNCOI] + y[IDX_GHNOI] + y[IDX_GHNSiI] +
+        + y[IDX_GCH3COOHI] + y[IDX_GCH3OI] + y[IDX_GCH3OCH2I] + y[IDX_GCH3OCH3I]
+        + y[IDX_GCH3OHI] + y[IDX_GCH4I] + y[IDX_GCNI] + y[IDX_GCNOI] +
+        y[IDX_GCOI] + y[IDX_GCO2I] + y[IDX_GCOOCH3I] + y[IDX_GCOOHI] +
+        y[IDX_GCPI] + y[IDX_GCSI] + y[IDX_GClI] + y[IDX_GClOI] + y[IDX_GFI] +
+        y[IDX_GFeI] + y[IDX_GHI] + y[IDX_GH2I] + y[IDX_GH2CCCI] + y[IDX_GH2CNI]
+        + y[IDX_GH2COI] + y[IDX_GH2CSI] + y[IDX_GH2OI] + y[IDX_GH2O2I] +
+        y[IDX_GH2SI] + y[IDX_GH2S2I] + y[IDX_GH2SiOI] + y[IDX_GHC2OI] +
+        y[IDX_GHC2PI] + y[IDX_GHC3NI] + y[IDX_GHC5NI] + y[IDX_GHC7NI] +
+        y[IDX_GHC9NI] + y[IDX_GHCCNI] + y[IDX_GHCNI] + y[IDX_GHCNOI] +
+        y[IDX_GHCOI] + y[IDX_GHCOOCH3I] + y[IDX_GHCOOHI] + y[IDX_GHCPI] +
+        y[IDX_GHCSI] + y[IDX_GHCSiI] + y[IDX_GHClI] + y[IDX_GHFI] + y[IDX_GHNCI]
+        + y[IDX_GHNC3I] + y[IDX_GHNCOI] + y[IDX_GHNOI] + y[IDX_GHNSiI] +
         y[IDX_GHOCNI] + y[IDX_GHONCI] + y[IDX_GHPOI] + y[IDX_GHSI] +
         y[IDX_GHS2I] + y[IDX_GHeI] + y[IDX_GMgI] + y[IDX_GNI] + y[IDX_GN2I] +
         y[IDX_GN2OI] + y[IDX_GNCCNI] + y[IDX_GNHI] + y[IDX_GNH2I] +
@@ -110,33 +110,34 @@ double GetHNuclei(double *y) {
         6.0e+00*y[IDX_CH3COCH3II] + 7.0e+00*y[IDX_CH3COCH4II] +
         4.0e+00*y[IDX_CH3COOHI] + 4.0e+00*y[IDX_CH3COOHII] +
         5.0e+00*y[IDX_CH3COOH2II] + 3.0e+00*y[IDX_CH3CSII] +
-        4.0e+00*y[IDX_CH3NHII] + 3.0e+00*y[IDX_CH3OI] + 6.0e+00*y[IDX_CH3OCH3I]
-        + 6.0e+00*y[IDX_CH3OCH3II] + 7.0e+00*y[IDX_CH3OCH4II] +
-        4.0e+00*y[IDX_CH3OHI] + 4.0e+00*y[IDX_CH3OHII] + 5.0e+00*y[IDX_CH3OH2II]
-        + 4.0e+00*y[IDX_CH4I] + 4.0e+00*y[IDX_CH4II] + 5.0e+00*y[IDX_CH5II] +
-        3.0e+00*y[IDX_COOCH3I] + 3.0e+00*y[IDX_COOCH3II] + 1.0e+00*y[IDX_COOHI]
-        + 1.0e+00*y[IDX_GC10HI] + 2.0e+00*y[IDX_GC10H2I] + 1.0e+00*y[IDX_GC2HI]
-        + 2.0e+00*y[IDX_GC2H2I] + 3.0e+00*y[IDX_GC2H3I] + 4.0e+00*y[IDX_GC2H4I]
-        + 4.0e+00*y[IDX_GC2H4CNI] + 5.0e+00*y[IDX_GC2H5I] +
-        5.0e+00*y[IDX_GC2H5CNI] + 6.0e+00*y[IDX_GC2H5OHI] +
-        6.0e+00*y[IDX_GC2H6I] + 1.0e+00*y[IDX_GC3HI] + 2.0e+00*y[IDX_GC3H2I] +
-        1.0e+00*y[IDX_GC4HI] + 2.0e+00*y[IDX_GC4H2I] + 3.0e+00*y[IDX_GC4H3I] +
-        6.0e+00*y[IDX_GC4H6I] + 1.0e+00*y[IDX_GC5HI] + 2.0e+00*y[IDX_GC5H2I] +
-        1.0e+00*y[IDX_GC6HI] + 2.0e+00*y[IDX_GC6H2I] + 6.0e+00*y[IDX_GC6H6I] +
-        1.0e+00*y[IDX_GC7HI] + 2.0e+00*y[IDX_GC7H2I] + 1.0e+00*y[IDX_GC8HI] +
-        2.0e+00*y[IDX_GC8H2I] + 1.0e+00*y[IDX_GC9HI] + 2.0e+00*y[IDX_GC9H2I] +
-        1.0e+00*y[IDX_GCHI] + 2.0e+00*y[IDX_GCH2I] + 3.0e+00*y[IDX_GCH2CCHI] +
-        4.0e+00*y[IDX_GCH2CCH2I] + 4.0e+00*y[IDX_GCH2CHCCHI] +
-        3.0e+00*y[IDX_GCH2CHCNI] + 2.0e+00*y[IDX_GCH2CNI] +
-        2.0e+00*y[IDX_GCH2COI] + 3.0e+00*y[IDX_GCH2NHI] + 3.0e+00*y[IDX_GCH2OHI]
-        + 4.0e+00*y[IDX_GCH2OHCHOI] + 3.0e+00*y[IDX_GCH2OHCOI] +
-        3.0e+00*y[IDX_GCH2PHI] + 3.0e+00*y[IDX_GCH3I] + 3.0e+00*y[IDX_GCH3C3NI]
-        + 4.0e+00*y[IDX_GCH3C4HI] + 3.0e+00*y[IDX_GCH3C5NI] +
-        4.0e+00*y[IDX_GCH3C6HI] + 3.0e+00*y[IDX_GCH3C7NI] +
-        4.0e+00*y[IDX_GCH3CCHI] + 6.0e+00*y[IDX_GCH3CHCH2I] +
-        4.0e+00*y[IDX_GCH3CHOI] + 3.0e+00*y[IDX_GCH3CNI] +
-        3.0e+00*y[IDX_GCH3COI] + 6.0e+00*y[IDX_GCH3COCH3I] +
-        4.0e+00*y[IDX_GCH3COOHI] + 3.0e+00*y[IDX_GCH3OI] +
+        4.0e+00*y[IDX_CH3NHII] + 3.0e+00*y[IDX_CH3OI] + 5.0e+00*y[IDX_CH3OCH2I]
+        + 6.0e+00*y[IDX_CH3OCH3I] + 6.0e+00*y[IDX_CH3OCH3II] +
+        7.0e+00*y[IDX_CH3OCH4II] + 4.0e+00*y[IDX_CH3OHI] +
+        4.0e+00*y[IDX_CH3OHII] + 5.0e+00*y[IDX_CH3OH2II] + 4.0e+00*y[IDX_CH4I] +
+        4.0e+00*y[IDX_CH4II] + 5.0e+00*y[IDX_CH5II] + 3.0e+00*y[IDX_COOCH3I] +
+        3.0e+00*y[IDX_COOCH3II] + 1.0e+00*y[IDX_COOHI] + 1.0e+00*y[IDX_GC10HI] +
+        2.0e+00*y[IDX_GC10H2I] + 1.0e+00*y[IDX_GC2HI] + 2.0e+00*y[IDX_GC2H2I] +
+        3.0e+00*y[IDX_GC2H3I] + 4.0e+00*y[IDX_GC2H4I] + 4.0e+00*y[IDX_GC2H4CNI]
+        + 5.0e+00*y[IDX_GC2H5I] + 5.0e+00*y[IDX_GC2H5CNI] +
+        6.0e+00*y[IDX_GC2H5OHI] + 6.0e+00*y[IDX_GC2H6I] + 1.0e+00*y[IDX_GC3HI] +
+        2.0e+00*y[IDX_GC3H2I] + 1.0e+00*y[IDX_GC4HI] + 2.0e+00*y[IDX_GC4H2I] +
+        3.0e+00*y[IDX_GC4H3I] + 6.0e+00*y[IDX_GC4H6I] + 1.0e+00*y[IDX_GC5HI] +
+        2.0e+00*y[IDX_GC5H2I] + 1.0e+00*y[IDX_GC6HI] + 2.0e+00*y[IDX_GC6H2I] +
+        6.0e+00*y[IDX_GC6H6I] + 1.0e+00*y[IDX_GC7HI] + 2.0e+00*y[IDX_GC7H2I] +
+        1.0e+00*y[IDX_GC8HI] + 2.0e+00*y[IDX_GC8H2I] + 1.0e+00*y[IDX_GC9HI] +
+        2.0e+00*y[IDX_GC9H2I] + 1.0e+00*y[IDX_GCHI] + 2.0e+00*y[IDX_GCH2I] +
+        3.0e+00*y[IDX_GCH2CCHI] + 4.0e+00*y[IDX_GCH2CCH2I] +
+        4.0e+00*y[IDX_GCH2CHCCHI] + 3.0e+00*y[IDX_GCH2CHCNI] +
+        2.0e+00*y[IDX_GCH2CNI] + 2.0e+00*y[IDX_GCH2COI] + 3.0e+00*y[IDX_GCH2NHI]
+        + 3.0e+00*y[IDX_GCH2OHI] + 4.0e+00*y[IDX_GCH2OHCHOI] +
+        3.0e+00*y[IDX_GCH2OHCOI] + 3.0e+00*y[IDX_GCH2PHI] + 3.0e+00*y[IDX_GCH3I]
+        + 3.0e+00*y[IDX_GCH3C3NI] + 4.0e+00*y[IDX_GCH3C4HI] +
+        3.0e+00*y[IDX_GCH3C5NI] + 4.0e+00*y[IDX_GCH3C6HI] +
+        3.0e+00*y[IDX_GCH3C7NI] + 4.0e+00*y[IDX_GCH3CCHI] +
+        6.0e+00*y[IDX_GCH3CHCH2I] + 4.0e+00*y[IDX_GCH3CHOI] +
+        3.0e+00*y[IDX_GCH3CNI] + 3.0e+00*y[IDX_GCH3COI] +
+        6.0e+00*y[IDX_GCH3COCH3I] + 4.0e+00*y[IDX_GCH3COOHI] +
+        3.0e+00*y[IDX_GCH3OI] + 5.0e+00*y[IDX_GCH3OCH2I] +
         6.0e+00*y[IDX_GCH3OCH3I] + 4.0e+00*y[IDX_GCH3OHI] + 4.0e+00*y[IDX_GCH4I]
         + 3.0e+00*y[IDX_GCOOCH3I] + 1.0e+00*y[IDX_GCOOHI] + 1.0e+00*y[IDX_GHI] +
         2.0e+00*y[IDX_GH2I] + 2.0e+00*y[IDX_GH2CCCI] + 2.0e+00*y[IDX_GH2CNI] +
@@ -288,49 +289,50 @@ double GetMu(double *y) {
         y[IDX_CH3COI]*43.0 + y[IDX_CH3COII]*43.0 + y[IDX_CH3COCH3I]*58.0 +
         y[IDX_CH3COCH3II]*58.0 + y[IDX_CH3COCH4II]*59.0 + y[IDX_CH3COOHI]*60.0 +
         y[IDX_CH3COOHII]*60.0 + y[IDX_CH3COOH2II]*61.0 + y[IDX_CH3CSII]*59.0 +
-        y[IDX_CH3NHII]*30.0 + y[IDX_CH3OI]*31.0 + y[IDX_CH3OCH3I]*46.0 +
-        y[IDX_CH3OCH3II]*46.0 + y[IDX_CH3OCH4II]*47.0 + y[IDX_CH3OHI]*32.0 +
-        y[IDX_CH3OHII]*32.0 + y[IDX_CH3OH2II]*33.0 + y[IDX_CH4I]*16.0 +
-        y[IDX_CH4II]*16.0 + y[IDX_CH5II]*17.0 + y[IDX_CNI]*26.0 +
-        y[IDX_CNII]*26.0 + y[IDX_CNM]*26.0 + y[IDX_CNCII]*38.0 +
-        y[IDX_CNOI]*42.0 + y[IDX_COI]*28.0 + y[IDX_COII]*28.0 + y[IDX_CO2I]*44.0
-        + y[IDX_CO2II]*44.0 + y[IDX_COOCH3I]*59.0 + y[IDX_COOCH3II]*59.0 +
-        y[IDX_COOHI]*45.0 + y[IDX_CPI]*43.0 + y[IDX_CPII]*43.0 + y[IDX_CSI]*44.0
-        + y[IDX_CSII]*44.0 + y[IDX_ClI]*35.0 + y[IDX_ClII]*35.0 +
-        y[IDX_ClOI]*51.0 + y[IDX_ClOII]*51.0 + y[IDX_FI]*19.0 + y[IDX_FII]*19.0
-        + y[IDX_FeI]*56.0 + y[IDX_FeII]*56.0 + y[IDX_GCI]*12.0 +
-        y[IDX_GC10I]*120.0 + y[IDX_GC10HI]*121.0 + y[IDX_GC10H2I]*122.0 +
-        y[IDX_GC11I]*132.0 + y[IDX_GC2I]*24.0 + y[IDX_GC2HI]*25.0 +
-        y[IDX_GC2H2I]*26.0 + y[IDX_GC2H3I]*27.0 + y[IDX_GC2H4I]*28.0 +
-        y[IDX_GC2H4CNI]*54.0 + y[IDX_GC2H5I]*29.0 + y[IDX_GC2H5CNI]*55.0 +
-        y[IDX_GC2H5OHI]*46.0 + y[IDX_GC2H6I]*30.0 + y[IDX_GC2NI]*38.0 +
-        y[IDX_GC2OI]*40.0 + y[IDX_GC2SI]*56.0 + y[IDX_GC3I]*36.0 +
-        y[IDX_GC3HI]*37.0 + y[IDX_GC3H2I]*38.0 + y[IDX_GC3NI]*50.0 +
-        y[IDX_GC3OI]*52.0 + y[IDX_GC3PI]*67.0 + y[IDX_GC3SI]*68.0 +
-        y[IDX_GC4I]*48.0 + y[IDX_GC4HI]*49.0 + y[IDX_GC4H2I]*50.0 +
-        y[IDX_GC4H3I]*51.0 + y[IDX_GC4H6I]*54.0 + y[IDX_GC4NI]*62.0 +
-        y[IDX_GC4PI]*79.0 + y[IDX_GC4SI]*80.0 + y[IDX_GC5I]*60.0 +
-        y[IDX_GC5HI]*61.0 + y[IDX_GC5H2I]*62.0 + y[IDX_GC5NI]*74.0 +
-        y[IDX_GC6I]*72.0 + y[IDX_GC6HI]*73.0 + y[IDX_GC6H2I]*74.0 +
-        y[IDX_GC6H6I]*78.0 + y[IDX_GC7I]*84.0 + y[IDX_GC7HI]*85.0 +
-        y[IDX_GC7H2I]*86.0 + y[IDX_GC7NI]*98.0 + y[IDX_GC8I]*96.0 +
-        y[IDX_GC8HI]*97.0 + y[IDX_GC8H2I]*98.0 + y[IDX_GC9I]*108.0 +
-        y[IDX_GC9HI]*109.0 + y[IDX_GC9H2I]*110.0 + y[IDX_GC9NI]*122.0 +
-        y[IDX_GCCPI]*55.0 + y[IDX_GCClI]*47.0 + y[IDX_GCHI]*13.0 +
-        y[IDX_GCH2I]*14.0 + y[IDX_GCH2CCHI]*39.0 + y[IDX_GCH2CCH2I]*40.0 +
-        y[IDX_GCH2CHCCHI]*52.0 + y[IDX_GCH2CHCNI]*53.0 + y[IDX_GCH2CNI]*40.0 +
-        y[IDX_GCH2COI]*42.0 + y[IDX_GCH2NHI]*29.0 + y[IDX_GCH2OHI]*31.0 +
-        y[IDX_GCH2OHCHOI]*60.0 + y[IDX_GCH2OHCOI]*59.0 + y[IDX_GCH2PHI]*46.0 +
-        y[IDX_GCH3I]*15.0 + y[IDX_GCH3C3NI]*65.0 + y[IDX_GCH3C4HI]*64.0 +
-        y[IDX_GCH3C5NI]*89.0 + y[IDX_GCH3C6HI]*88.0 + y[IDX_GCH3C7NI]*113.0 +
-        y[IDX_GCH3CCHI]*40.0 + y[IDX_GCH3CHCH2I]*42.0 + y[IDX_GCH3CHOI]*44.0 +
-        y[IDX_GCH3CNI]*41.0 + y[IDX_GCH3COI]*43.0 + y[IDX_GCH3COCH3I]*58.0 +
-        y[IDX_GCH3COOHI]*60.0 + y[IDX_GCH3OI]*31.0 + y[IDX_GCH3OCH3I]*46.0 +
-        y[IDX_GCH3OHI]*32.0 + y[IDX_GCH4I]*16.0 + y[IDX_GCNI]*26.0 +
-        y[IDX_GCNOI]*42.0 + y[IDX_GCOI]*28.0 + y[IDX_GCO2I]*44.0 +
-        y[IDX_GCOOCH3I]*59.0 + y[IDX_GCOOHI]*45.0 + y[IDX_GCPI]*43.0 +
-        y[IDX_GCSI]*44.0 + y[IDX_GClI]*35.0 + y[IDX_GClOI]*51.0 +
-        y[IDX_GFI]*19.0 + y[IDX_GFeI]*56.0 + y[IDX_GHI]*1.0 + y[IDX_GH2I]*2.0 +
+        y[IDX_CH3NHII]*30.0 + y[IDX_CH3OI]*31.0 + y[IDX_CH3OCH2I]*45.0 +
+        y[IDX_CH3OCH3I]*46.0 + y[IDX_CH3OCH3II]*46.0 + y[IDX_CH3OCH4II]*47.0 +
+        y[IDX_CH3OHI]*32.0 + y[IDX_CH3OHII]*32.0 + y[IDX_CH3OH2II]*33.0 +
+        y[IDX_CH4I]*16.0 + y[IDX_CH4II]*16.0 + y[IDX_CH5II]*17.0 +
+        y[IDX_CNI]*26.0 + y[IDX_CNII]*26.0 + y[IDX_CNM]*26.0 + y[IDX_CNCII]*38.0
+        + y[IDX_CNOI]*42.0 + y[IDX_COI]*28.0 + y[IDX_COII]*28.0 +
+        y[IDX_CO2I]*44.0 + y[IDX_CO2II]*44.0 + y[IDX_COOCH3I]*59.0 +
+        y[IDX_COOCH3II]*59.0 + y[IDX_COOHI]*45.0 + y[IDX_CPI]*43.0 +
+        y[IDX_CPII]*43.0 + y[IDX_CSI]*44.0 + y[IDX_CSII]*44.0 + y[IDX_ClI]*35.0
+        + y[IDX_ClII]*35.0 + y[IDX_ClOI]*51.0 + y[IDX_ClOII]*51.0 +
+        y[IDX_FI]*19.0 + y[IDX_FII]*19.0 + y[IDX_FeI]*56.0 + y[IDX_FeII]*56.0 +
+        y[IDX_GCI]*12.0 + y[IDX_GC10I]*120.0 + y[IDX_GC10HI]*121.0 +
+        y[IDX_GC10H2I]*122.0 + y[IDX_GC11I]*132.0 + y[IDX_GC2I]*24.0 +
+        y[IDX_GC2HI]*25.0 + y[IDX_GC2H2I]*26.0 + y[IDX_GC2H3I]*27.0 +
+        y[IDX_GC2H4I]*28.0 + y[IDX_GC2H4CNI]*54.0 + y[IDX_GC2H5I]*29.0 +
+        y[IDX_GC2H5CNI]*55.0 + y[IDX_GC2H5OHI]*46.0 + y[IDX_GC2H6I]*30.0 +
+        y[IDX_GC2NI]*38.0 + y[IDX_GC2OI]*40.0 + y[IDX_GC2SI]*56.0 +
+        y[IDX_GC3I]*36.0 + y[IDX_GC3HI]*37.0 + y[IDX_GC3H2I]*38.0 +
+        y[IDX_GC3NI]*50.0 + y[IDX_GC3OI]*52.0 + y[IDX_GC3PI]*67.0 +
+        y[IDX_GC3SI]*68.0 + y[IDX_GC4I]*48.0 + y[IDX_GC4HI]*49.0 +
+        y[IDX_GC4H2I]*50.0 + y[IDX_GC4H3I]*51.0 + y[IDX_GC4H6I]*54.0 +
+        y[IDX_GC4NI]*62.0 + y[IDX_GC4PI]*79.0 + y[IDX_GC4SI]*80.0 +
+        y[IDX_GC5I]*60.0 + y[IDX_GC5HI]*61.0 + y[IDX_GC5H2I]*62.0 +
+        y[IDX_GC5NI]*74.0 + y[IDX_GC6I]*72.0 + y[IDX_GC6HI]*73.0 +
+        y[IDX_GC6H2I]*74.0 + y[IDX_GC6H6I]*78.0 + y[IDX_GC7I]*84.0 +
+        y[IDX_GC7HI]*85.0 + y[IDX_GC7H2I]*86.0 + y[IDX_GC7NI]*98.0 +
+        y[IDX_GC8I]*96.0 + y[IDX_GC8HI]*97.0 + y[IDX_GC8H2I]*98.0 +
+        y[IDX_GC9I]*108.0 + y[IDX_GC9HI]*109.0 + y[IDX_GC9H2I]*110.0 +
+        y[IDX_GC9NI]*122.0 + y[IDX_GCCPI]*55.0 + y[IDX_GCClI]*47.0 +
+        y[IDX_GCHI]*13.0 + y[IDX_GCH2I]*14.0 + y[IDX_GCH2CCHI]*39.0 +
+        y[IDX_GCH2CCH2I]*40.0 + y[IDX_GCH2CHCCHI]*52.0 + y[IDX_GCH2CHCNI]*53.0 +
+        y[IDX_GCH2CNI]*40.0 + y[IDX_GCH2COI]*42.0 + y[IDX_GCH2NHI]*29.0 +
+        y[IDX_GCH2OHI]*31.0 + y[IDX_GCH2OHCHOI]*60.0 + y[IDX_GCH2OHCOI]*59.0 +
+        y[IDX_GCH2PHI]*46.0 + y[IDX_GCH3I]*15.0 + y[IDX_GCH3C3NI]*65.0 +
+        y[IDX_GCH3C4HI]*64.0 + y[IDX_GCH3C5NI]*89.0 + y[IDX_GCH3C6HI]*88.0 +
+        y[IDX_GCH3C7NI]*113.0 + y[IDX_GCH3CCHI]*40.0 + y[IDX_GCH3CHCH2I]*42.0 +
+        y[IDX_GCH3CHOI]*44.0 + y[IDX_GCH3CNI]*41.0 + y[IDX_GCH3COI]*43.0 +
+        y[IDX_GCH3COCH3I]*58.0 + y[IDX_GCH3COOHI]*60.0 + y[IDX_GCH3OI]*31.0 +
+        y[IDX_GCH3OCH2I]*45.0 + y[IDX_GCH3OCH3I]*46.0 + y[IDX_GCH3OHI]*32.0 +
+        y[IDX_GCH4I]*16.0 + y[IDX_GCNI]*26.0 + y[IDX_GCNOI]*42.0 +
+        y[IDX_GCOI]*28.0 + y[IDX_GCO2I]*44.0 + y[IDX_GCOOCH3I]*59.0 +
+        y[IDX_GCOOHI]*45.0 + y[IDX_GCPI]*43.0 + y[IDX_GCSI]*44.0 +
+        y[IDX_GClI]*35.0 + y[IDX_GClOI]*51.0 + y[IDX_GFI]*19.0 +
+        y[IDX_GFeI]*56.0 + y[IDX_GHI]*1.0 + y[IDX_GH2I]*2.0 +
         y[IDX_GH2CCCI]*38.0 + y[IDX_GH2CNI]*28.0 + y[IDX_GH2COI]*30.0 +
         y[IDX_GH2CSI]*46.0 + y[IDX_GH2OI]*18.0 + y[IDX_GH2O2I]*34.0 +
         y[IDX_GH2SI]*34.0 + y[IDX_GH2S2I]*66.0 + y[IDX_GH2SiOI]*46.0 +
@@ -485,44 +487,44 @@ double GetMu(double *y) {
         y[IDX_CH3COII] + y[IDX_CH3COCH3I] + y[IDX_CH3COCH3II] +
         y[IDX_CH3COCH4II] + y[IDX_CH3COOHI] + y[IDX_CH3COOHII] +
         y[IDX_CH3COOH2II] + y[IDX_CH3CSII] + y[IDX_CH3NHII] + y[IDX_CH3OI] +
-        y[IDX_CH3OCH3I] + y[IDX_CH3OCH3II] + y[IDX_CH3OCH4II] + y[IDX_CH3OHI] +
-        y[IDX_CH3OHII] + y[IDX_CH3OH2II] + y[IDX_CH4I] + y[IDX_CH4II] +
-        y[IDX_CH5II] + y[IDX_CNI] + y[IDX_CNII] + y[IDX_CNM] + y[IDX_CNCII] +
-        y[IDX_CNOI] + y[IDX_COI] + y[IDX_COII] + y[IDX_CO2I] + y[IDX_CO2II] +
-        y[IDX_COOCH3I] + y[IDX_COOCH3II] + y[IDX_COOHI] + y[IDX_CPI] +
-        y[IDX_CPII] + y[IDX_CSI] + y[IDX_CSII] + y[IDX_ClI] + y[IDX_ClII] +
-        y[IDX_ClOI] + y[IDX_ClOII] + y[IDX_FI] + y[IDX_FII] + y[IDX_FeI] +
-        y[IDX_FeII] + y[IDX_GCI] + y[IDX_GC10I] + y[IDX_GC10HI] + y[IDX_GC10H2I]
-        + y[IDX_GC11I] + y[IDX_GC2I] + y[IDX_GC2HI] + y[IDX_GC2H2I] +
-        y[IDX_GC2H3I] + y[IDX_GC2H4I] + y[IDX_GC2H4CNI] + y[IDX_GC2H5I] +
-        y[IDX_GC2H5CNI] + y[IDX_GC2H5OHI] + y[IDX_GC2H6I] + y[IDX_GC2NI] +
-        y[IDX_GC2OI] + y[IDX_GC2SI] + y[IDX_GC3I] + y[IDX_GC3HI] + y[IDX_GC3H2I]
-        + y[IDX_GC3NI] + y[IDX_GC3OI] + y[IDX_GC3PI] + y[IDX_GC3SI] +
-        y[IDX_GC4I] + y[IDX_GC4HI] + y[IDX_GC4H2I] + y[IDX_GC4H3I] +
-        y[IDX_GC4H6I] + y[IDX_GC4NI] + y[IDX_GC4PI] + y[IDX_GC4SI] + y[IDX_GC5I]
-        + y[IDX_GC5HI] + y[IDX_GC5H2I] + y[IDX_GC5NI] + y[IDX_GC6I] +
-        y[IDX_GC6HI] + y[IDX_GC6H2I] + y[IDX_GC6H6I] + y[IDX_GC7I] +
-        y[IDX_GC7HI] + y[IDX_GC7H2I] + y[IDX_GC7NI] + y[IDX_GC8I] + y[IDX_GC8HI]
-        + y[IDX_GC8H2I] + y[IDX_GC9I] + y[IDX_GC9HI] + y[IDX_GC9H2I] +
-        y[IDX_GC9NI] + y[IDX_GCCPI] + y[IDX_GCClI] + y[IDX_GCHI] + y[IDX_GCH2I]
-        + y[IDX_GCH2CCHI] + y[IDX_GCH2CCH2I] + y[IDX_GCH2CHCCHI] +
-        y[IDX_GCH2CHCNI] + y[IDX_GCH2CNI] + y[IDX_GCH2COI] + y[IDX_GCH2NHI] +
+        y[IDX_CH3OCH2I] + y[IDX_CH3OCH3I] + y[IDX_CH3OCH3II] + y[IDX_CH3OCH4II]
+        + y[IDX_CH3OHI] + y[IDX_CH3OHII] + y[IDX_CH3OH2II] + y[IDX_CH4I] +
+        y[IDX_CH4II] + y[IDX_CH5II] + y[IDX_CNI] + y[IDX_CNII] + y[IDX_CNM] +
+        y[IDX_CNCII] + y[IDX_CNOI] + y[IDX_COI] + y[IDX_COII] + y[IDX_CO2I] +
+        y[IDX_CO2II] + y[IDX_COOCH3I] + y[IDX_COOCH3II] + y[IDX_COOHI] +
+        y[IDX_CPI] + y[IDX_CPII] + y[IDX_CSI] + y[IDX_CSII] + y[IDX_ClI] +
+        y[IDX_ClII] + y[IDX_ClOI] + y[IDX_ClOII] + y[IDX_FI] + y[IDX_FII] +
+        y[IDX_FeI] + y[IDX_FeII] + y[IDX_GCI] + y[IDX_GC10I] + y[IDX_GC10HI] +
+        y[IDX_GC10H2I] + y[IDX_GC11I] + y[IDX_GC2I] + y[IDX_GC2HI] +
+        y[IDX_GC2H2I] + y[IDX_GC2H3I] + y[IDX_GC2H4I] + y[IDX_GC2H4CNI] +
+        y[IDX_GC2H5I] + y[IDX_GC2H5CNI] + y[IDX_GC2H5OHI] + y[IDX_GC2H6I] +
+        y[IDX_GC2NI] + y[IDX_GC2OI] + y[IDX_GC2SI] + y[IDX_GC3I] + y[IDX_GC3HI]
+        + y[IDX_GC3H2I] + y[IDX_GC3NI] + y[IDX_GC3OI] + y[IDX_GC3PI] +
+        y[IDX_GC3SI] + y[IDX_GC4I] + y[IDX_GC4HI] + y[IDX_GC4H2I] +
+        y[IDX_GC4H3I] + y[IDX_GC4H6I] + y[IDX_GC4NI] + y[IDX_GC4PI] +
+        y[IDX_GC4SI] + y[IDX_GC5I] + y[IDX_GC5HI] + y[IDX_GC5H2I] + y[IDX_GC5NI]
+        + y[IDX_GC6I] + y[IDX_GC6HI] + y[IDX_GC6H2I] + y[IDX_GC6H6I] +
+        y[IDX_GC7I] + y[IDX_GC7HI] + y[IDX_GC7H2I] + y[IDX_GC7NI] + y[IDX_GC8I]
+        + y[IDX_GC8HI] + y[IDX_GC8H2I] + y[IDX_GC9I] + y[IDX_GC9HI] +
+        y[IDX_GC9H2I] + y[IDX_GC9NI] + y[IDX_GCCPI] + y[IDX_GCClI] + y[IDX_GCHI]
+        + y[IDX_GCH2I] + y[IDX_GCH2CCHI] + y[IDX_GCH2CCH2I] + y[IDX_GCH2CHCCHI]
+        + y[IDX_GCH2CHCNI] + y[IDX_GCH2CNI] + y[IDX_GCH2COI] + y[IDX_GCH2NHI] +
         y[IDX_GCH2OHI] + y[IDX_GCH2OHCHOI] + y[IDX_GCH2OHCOI] + y[IDX_GCH2PHI] +
         y[IDX_GCH3I] + y[IDX_GCH3C3NI] + y[IDX_GCH3C4HI] + y[IDX_GCH3C5NI] +
         y[IDX_GCH3C6HI] + y[IDX_GCH3C7NI] + y[IDX_GCH3CCHI] + y[IDX_GCH3CHCH2I]
         + y[IDX_GCH3CHOI] + y[IDX_GCH3CNI] + y[IDX_GCH3COI] + y[IDX_GCH3COCH3I]
-        + y[IDX_GCH3COOHI] + y[IDX_GCH3OI] + y[IDX_GCH3OCH3I] + y[IDX_GCH3OHI] +
-        y[IDX_GCH4I] + y[IDX_GCNI] + y[IDX_GCNOI] + y[IDX_GCOI] + y[IDX_GCO2I] +
-        y[IDX_GCOOCH3I] + y[IDX_GCOOHI] + y[IDX_GCPI] + y[IDX_GCSI] +
-        y[IDX_GClI] + y[IDX_GClOI] + y[IDX_GFI] + y[IDX_GFeI] + y[IDX_GHI] +
-        y[IDX_GH2I] + y[IDX_GH2CCCI] + y[IDX_GH2CNI] + y[IDX_GH2COI] +
-        y[IDX_GH2CSI] + y[IDX_GH2OI] + y[IDX_GH2O2I] + y[IDX_GH2SI] +
-        y[IDX_GH2S2I] + y[IDX_GH2SiOI] + y[IDX_GHC2OI] + y[IDX_GHC2PI] +
-        y[IDX_GHC3NI] + y[IDX_GHC5NI] + y[IDX_GHC7NI] + y[IDX_GHC9NI] +
-        y[IDX_GHCCNI] + y[IDX_GHCNI] + y[IDX_GHCNOI] + y[IDX_GHCOI] +
-        y[IDX_GHCOOCH3I] + y[IDX_GHCOOHI] + y[IDX_GHCPI] + y[IDX_GHCSI] +
-        y[IDX_GHCSiI] + y[IDX_GHClI] + y[IDX_GHFI] + y[IDX_GHNCI] +
-        y[IDX_GHNC3I] + y[IDX_GHNCOI] + y[IDX_GHNOI] + y[IDX_GHNSiI] +
+        + y[IDX_GCH3COOHI] + y[IDX_GCH3OI] + y[IDX_GCH3OCH2I] + y[IDX_GCH3OCH3I]
+        + y[IDX_GCH3OHI] + y[IDX_GCH4I] + y[IDX_GCNI] + y[IDX_GCNOI] +
+        y[IDX_GCOI] + y[IDX_GCO2I] + y[IDX_GCOOCH3I] + y[IDX_GCOOHI] +
+        y[IDX_GCPI] + y[IDX_GCSI] + y[IDX_GClI] + y[IDX_GClOI] + y[IDX_GFI] +
+        y[IDX_GFeI] + y[IDX_GHI] + y[IDX_GH2I] + y[IDX_GH2CCCI] + y[IDX_GH2CNI]
+        + y[IDX_GH2COI] + y[IDX_GH2CSI] + y[IDX_GH2OI] + y[IDX_GH2O2I] +
+        y[IDX_GH2SI] + y[IDX_GH2S2I] + y[IDX_GH2SiOI] + y[IDX_GHC2OI] +
+        y[IDX_GHC2PI] + y[IDX_GHC3NI] + y[IDX_GHC5NI] + y[IDX_GHC7NI] +
+        y[IDX_GHC9NI] + y[IDX_GHCCNI] + y[IDX_GHCNI] + y[IDX_GHCNOI] +
+        y[IDX_GHCOI] + y[IDX_GHCOOCH3I] + y[IDX_GHCOOHI] + y[IDX_GHCPI] +
+        y[IDX_GHCSI] + y[IDX_GHCSiI] + y[IDX_GHClI] + y[IDX_GHFI] + y[IDX_GHNCI]
+        + y[IDX_GHNC3I] + y[IDX_GHNCOI] + y[IDX_GHNOI] + y[IDX_GHNSiI] +
         y[IDX_GHOCNI] + y[IDX_GHONCI] + y[IDX_GHPOI] + y[IDX_GHSI] +
         y[IDX_GHS2I] + y[IDX_GHeI] + y[IDX_GMgI] + y[IDX_GNI] + y[IDX_GN2I] +
         y[IDX_GN2OI] + y[IDX_GNCCNI] + y[IDX_GNHI] + y[IDX_GNH2I] +

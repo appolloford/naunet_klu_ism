@@ -114,6 +114,7 @@ extern const double eb_GCH3COI     ;
 extern const double eb_GCH3COCH3I  ;
 extern const double eb_GCH3COOHI   ;
 extern const double eb_GCH3OI      ;
+extern const double eb_GCH3OCH2I   ;
 extern const double eb_GCH3OCH3I   ;
 extern const double eb_GCH3OHI     ;
 extern const double eb_GCH4I       ;

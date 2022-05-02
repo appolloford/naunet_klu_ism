@@ -26399,16 +26399,16 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
         pow((nMono*densites), 2.0) / gdens * cov * cov; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[8596] = opt_rcd * branch *
-        fmax(exp(-2500.0/Tdust), exp(quan *
-        sqrt(((1.0*30.0)/(1.0+30.0))*2500.0))) * (fmax(freq * sqrt(600.0/1.0) *
+        fmax(exp(-2200.0/Tdust), exp(quan *
+        sqrt(((1.0*30.0)/(1.0+30.0))*2200.0))) * (fmax(freq * sqrt(600.0/1.0) *
         exp(-600.0*hop/Tdust)/unisites, freq * sqrt(600.0/1.0) * exp(quan *
         sqrt(hop*1.0*600.0)) / unisites)+freq * sqrt(2050.0/30.0) *
         exp(-2050.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
         cov * cov; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[8597] = opt_rcd * branch *
-        fmax(exp(-2500.0/Tdust), exp(quan *
-        sqrt(((1.0*30.0)/(1.0+30.0))*2500.0))) * (fmax(freq * sqrt(600.0/1.0) *
+        fmax(exp(-5400.0/Tdust), exp(quan *
+        sqrt(((1.0*30.0)/(1.0+30.0))*5400.0))) * (fmax(freq * sqrt(600.0/1.0) *
         exp(-600.0*hop/Tdust)/unisites, freq * sqrt(600.0/1.0) * exp(quan *
         sqrt(hop*1.0*600.0)) / unisites)+freq * sqrt(2050.0/30.0) *
         exp(-2050.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
@@ -27468,6 +27468,40 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[8763] = pi * rG * rG *
         sqrt(8.0*kerg*(Tgas)/pi/amu/meu); }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8764] = fmax(exp(-0.0/Tdust),
+        exp(quan * sqrt(((1.0*44.0)/(1.0+44.0))*0.0))) * (fmax(freq *
+        sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq * sqrt(600.0/1.0)
+        * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq * sqrt(3800.0/44.0) *
+        exp(-3800.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8765] = opt_thd * cov * nMono *
+        densites * sqrt(2.0*sites*kerg*eb_GCH3OCH2I/(pi*pi*amu*45.0)) *
+        exp(-eb_GCH3OCH2I/(Tdust)); }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8766] = opt_frz * 1.0 * pi * rG * rG
+        * gdens * sqrt(8.0 * kerg * Tgas/ (pi*amu*45.0)); }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8767] = opt_uvd * cov *
+        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        garea; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8768] = opt_crd * cov * duty * nMono
+        * densites * (zeta_cr/zism) *
+        sqrt(2.0*sites*kerg*eb_GCH3OCH2I/(pi*pi*amu*45.0)) *
+        exp(-eb_GCH3OCH2I/Tcr); }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8769] = fmax(exp(-1.0/Tdust),
+        exp(quan * sqrt(((1.0*45.0)/(1.0+45.0))*1.0))) * (fmax(freq *
+        sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq * sqrt(600.0/1.0)
+        * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+freq * sqrt(3000.0/45.0) *
+        exp(-3000.0*hop/Tdust)/unisites) * pow((nMono*densites), 2.0) / gdens *
+        cov * cov; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8770] = 3e-11; }
+        
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8771] = 3e-10; }
         
     
     k[8273] = 0.0;
