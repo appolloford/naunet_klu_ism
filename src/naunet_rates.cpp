@@ -62,227 +62,154 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
 
     // reaaction rate (k) of each reaction
     // clang-format off
-    if (Tgas>=5.0 && Tgas<41000.0) { k[0] = 5e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[0] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1] = 5e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2] = 5e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3] = 4.7e-11 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3] = 4.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4] = 5e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5] = 5e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[6] = 5e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[6] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[7] = 5e-11 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[7] = 5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8] = 5e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[8] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[9] = 5e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[9] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[10] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[10] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[11] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[11] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[12] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[12] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[13] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[13] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[14] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[14] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[15] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[15] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[16] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[16] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[17] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[17] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[18] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[18] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[19] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[19] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[20] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[20] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[21] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[21] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[22] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[22] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[23] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[23] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[24] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[24] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[25] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[25] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[26] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[26] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[27] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[27] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[28] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[28] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[29] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[29] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[30] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[30] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[31] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[31] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[32] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[32] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[33] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[33] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[34] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[34] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[35] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[35] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[36] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[36] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[37] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[37] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[38] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[38] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[39] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[39] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[40] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[40] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[41] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[41] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[42] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[42] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[43] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[43] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[44] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[44] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[45] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[45] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[46] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[46] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[47] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[47] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[48] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[48] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[49] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[49] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[50] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[50] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[51] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[51] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[52] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[52] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[53] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[53] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[54] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[54] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[55] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[55] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[56] = 5e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[56] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[57] = 5e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[57] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[58] = 1e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[58] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[59] = 5e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[59] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[60] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[60] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[61] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[61] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[62] = 5e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[62] = 5e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[63] = 1.09e-11 * pow(Tgas/300.0,
         -2.19) * exp(-165.1/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[64] = 5e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[64] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[65] = 3e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[65] = 3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[66] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[66] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[67] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[67] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[68] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[68] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[69] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[69] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[70] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[70] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[71] = 1e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[71] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[72] = 1e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[72] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[73] = 2e-11 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[73] = 2e-11; }
         
     if (Tgas>=5.0 && Tgas<100.0) { k[74] = 4.82e-09 * pow(Tgas/300.0, 0.02)
         * exp(-4.3/Tgas); }
@@ -290,731 +217,568 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=100.0 && Tgas<3000.0) { k[75] = 4.32e-09 * pow(Tgas/300.0,
         -0.39) * exp(-39.4/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[76] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[76] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[77] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[77] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[78] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[78] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[79] = 1e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[79] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[80] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[80] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[81] = 1e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[81] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[82] = 1e-13 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[82] = 1e-13; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[83] = 7e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[83] = 7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[84] = 5e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[84] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[85] = 1.8e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[85] = 1.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[86] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[86] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[87] = 7.7e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[87] = 7.7e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[88] = 1.6e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[88] = 1.6e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[89] = 7.7e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[89] = 7.7e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[90] = 1e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[90] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[91] = 5.4e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[91] = 5.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[92] = 6.2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[92] = 6.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[93] = 8.3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[93] = 8.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[94] = 6.2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[94] = 6.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[95] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[95] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[96] = 5.8e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[96] = 5.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[97] = 6.1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[97] = 6.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[98] = 5e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[98] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[99] = 2.83e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[99] = 2.83e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[100] = 7.4e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[100] = 7.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[101] = 2.41e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[101] = 2.41e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[102] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[102] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[103] = 1.22e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[103] = 1.22e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[104] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[104] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[105] = 1e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[105] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[106] = 6.3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[106] = 6.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[107] = 5e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[107] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[108] = 1.4e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[108] = 1.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[109] = 1e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[109] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[110] = 1.15e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[110] = 1.15e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[111] = 3e-12 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[111] = 3e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[112] = 1e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[112] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[113] = 5e-12 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[113] = 5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[114] = 1e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[114] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[115] = 3e-12 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[115] = 3e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[116] = 1.35e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[116] = 1.35e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[117] = 5e-12 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[117] = 5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[118] = 1.1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[118] = 1.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[119] = 5e-12 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[119] = 5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[120] = 1e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[120] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[121] = 5e-12 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[121] = 5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[122] = 2.2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[122] = 2.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[123] = 1e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[123] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[124] = 6.5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[124] = 6.5e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[125] = 3.1e-10 * pow(Tgas/300.0,
-        -0.83) * exp(-0.0/Tgas); }
+        -0.83); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[126] = 1.9e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[126] = 1.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[127] = 3e-11 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[127] = 3e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[128] = 2.9e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[128] = 2.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[129] = 3.1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[129] = 3.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[130] = 5e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[130] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[131] = 5e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[131] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[132] = 1e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[132] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[133] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[133] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[134] = 6e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-40200.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[134] = 6e-09 * exp(-40200.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[135] = 1e-08 * pow(Tgas/300.0, 0.0) *
-        exp(-84100.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[135] = 1e-08 * exp(-84100.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[136] = 5.8e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-52900.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[136] = 5.8e-09 * exp(-52900.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[137] = 3.8e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[137] = 3.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[138] = 6e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-52300.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[138] = 6e-09 * exp(-52300.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[139] = 6e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-50900.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[139] = 6e-09 * exp(-50900.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[140] = 3.22e-09 * pow(Tgas/300.0,
         0.35) * exp(-102000.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[141] = 6e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-40200.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[141] = 6e-09 * exp(-40200.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[142] = 4.67e-07 * pow(Tgas/300.0,
         -1.0) * exp(-55000.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[143] = 5.8e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-52900.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[143] = 5.8e-09 * exp(-52900.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[144] = 6e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-52300.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[144] = 6e-09 * exp(-52300.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[145] = 6e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-50900.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[145] = 6e-09 * exp(-50900.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[146] = 7e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[146] = 7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[147] = 5e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[147] = 5e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[148] = 1.7e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[148] = 1.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[149] = 5e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[149] = 5e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[150] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[151] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[151] = 1e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[152] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[152] = 5e-10 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[153] = 3.33e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[154] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[154] = 5e-10 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[155] = 3.1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[155] = 3.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[156] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[156] = 5e-10 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[157] = 1.61e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[157] = 1.61e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[158] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[158] = 5e-10 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[159] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[159] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[160] = 5.2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[160] = 5.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[161] = 2.1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[161] = 2.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[162] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[162] = 1e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[163] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[163] = 2e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[164] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[164] = 2e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[165] = 5.7e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[165] = 5.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[166] = 2e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[166] = 2e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[167] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[168] = 4.15e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[169] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[169] = 2e-09 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[170] = 3.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[171] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[171] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[172] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[172] = 1e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[173] = 2.6e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[173] = 2.6e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[174] = 7.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[175] = 6e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[175] = 6e-10 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[176] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[176] = 2e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[177] = 1.31e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[177] = 1.31e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[178] = 4.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[179] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[179] = 3e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[180] = 5e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[180] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[181] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[181] = 1e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[182] = 1.1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[182] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[183] = 2e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[183] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[184] = 1.7e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[184] = 1.7e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[185] = 6.72e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[186] = 7.05e-10 * pow(Tgas/300.0,
         -0.03) * exp(+16.7/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[187] = 7.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[188] = 1.1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[188] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[189] = 4e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[189] = 4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[190] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[190] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[191] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[191] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[192] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[192] = 1e-09 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[193] = 2.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[194] = 2.1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[194] = 2.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[195] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[195] = 2e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[196] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[196] = 1e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[197] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[197] = 2e-09 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[198] = 2.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[199] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[199] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[200] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[200] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[201] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[201] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[202] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[202] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[203] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[203] = 1e-09 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[204] = 2.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[205] = 3.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[206] = 3.4e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[206] = 3.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[207] = 5.8e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[207] = 5.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[208] = 8.5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[208] = 8.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[209] = 8.4e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[209] = 8.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[210] = 8.4e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[210] = 8.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[211] = 4.1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[211] = 4.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[212] = 1.2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[212] = 1.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[213] = 1.2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[213] = 1.2e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[214] = 3.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[215] = 4.14e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[215] = 4.14e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[216] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[216] = 1e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[217] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[217] = 5e-10 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[218] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[218] = 1e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[219] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[219] = 1e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[220] = 5e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[220] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[221] = 2e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[221] = 2e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[222] = 8.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[223] = 2.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[224] = 1.26e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[224] = 1.26e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[225] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[225] = 5e-10 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[226] = 1.2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[226] = 1.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[227] = 2.5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[227] = 2.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[228] = 7.3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[228] = 7.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[229] = 1.28e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[229] = 1.28e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[230] = 1.5e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[230] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[231] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[231] = 5e-10 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[232] = 8e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[232] = 8e-10 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[233] = 6.57e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[234] = 1.3e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[234] = 1.3e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[235] = 3.96e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[235] = 3.96e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[236] = 3.06e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[236] = 3.06e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[237] = 1.15e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[237] = 1.15e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[238] = 1.5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[238] = 1.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[239] = 5.36e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[239] = 5.36e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[240] = 6.8e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[240] = 6.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[241] = 8e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[241] = 8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[242] = 3.9e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[242] = 3.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[243] = 7.9e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[243] = 7.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[244] = 1.1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[244] = 1.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[245] = 1.1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[245] = 1.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[246] = 1.1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[246] = 1.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[247] = 1.1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[247] = 1.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[248] = 5.2e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[248] = 5.2e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[249] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[249] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[250] = 2.6e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[250] = 2.6e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[251] = 4.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[252] = 3.6e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[252] = 3.6e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[253] = 4.59e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[254] = 7.6e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[254] = 7.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[255] = 3.5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[255] = 3.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[256] = 4.7e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[256] = 4.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[257] = 2e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[257] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[258] = 4.2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[258] = 4.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[259] = 4.5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[259] = 4.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[260] = 8.8e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[260] = 8.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[261] = 4.3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[261] = 4.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[262] = 4.3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[262] = 4.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[263] = 4.7e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[263] = 4.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[264] = 8.7e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[264] = 8.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[265] = 4.9e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[265] = 4.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[266] = 9.7e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[266] = 9.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[267] = 4.3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[267] = 4.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[268] = 4.8e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[268] = 4.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[269] = 3e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[269] = 3e-10 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[270] = 2.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[271] = 2.4e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[271] = 2.4e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[272] = 4.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[273] = 3.5e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[273] = 3.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[274] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[274] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[275] = 3.4e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[275] = 3.4e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[276] = 1.98e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[277] = 1.13e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[277] = 1.13e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[278] = 1.38e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[278] = 1.38e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[279] = 1.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[280] = 1.62e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[281] = 9.45e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[282] = 1.65e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[283] = 3.9e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[283] = 3.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[284] = 4.2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[284] = 4.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[285] = 7.93e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[285] = 7.93e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[286] = 5.5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[286] = 5.5e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[287] = 3.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[288] = 6.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[289] = 3.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[290] = 3.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[291] = 3.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[292] = 3.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[293] = 6.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[294] = 3.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[295] = 3.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[296] = 3.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[297] = 3.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[298] = 3e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[298] = 3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[299] = 6.3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[299] = 6.3e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[300] = 5.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[301] = 1.79e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[302] = 3.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[303] = 5.7e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[303] = 5.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[304] = 2.58e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[304] = 2.58e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[305] = 1.1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[305] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[306] = 1e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[306] = 1e-10 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[307] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[307] = 1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[308] = 1.35e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[309] = 2.44e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[310] = 7.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[311] = 3.3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[311] = 3.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[312] = 1.2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[312] = 1.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[313] = 1.1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[313] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[314] = 9.6e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[314] = 9.6e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[315] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[316] = 7.4e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[316] = 7.4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[317] = 1.7e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[317] = 1.7e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[318] = 6.2e-11 * pow(Tgas/300.0,
         0.79) * exp(-6920.0/Tgas); }
@@ -1022,2522 +786,2307 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[319] = 9.3e-11 * pow(Tgas/300.0,
         0.73) * exp(-232.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[320] = 2.76e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[320] = 2.76e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[321] = 2e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[321] = 2e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[322] = 3.98e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[323] = 3.1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[323] = 3.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[324] = 5.4e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[324] = 5.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[325] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[325] = 2e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[326] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[326] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[327] = 3.06e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[327] = 3.06e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[328] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[328] = 3e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[329] = 1.5e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[329] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[330] = 4e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[330] = 4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[331] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[331] = 1e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[332] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[332] = 1e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[333] = 4e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[333] = 4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[334] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[334] = 2e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[335] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[335] = 2e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[336] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[336] = 1e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[337] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[337] = 1e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[338] = 4e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[338] = 4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[339] = 2e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[339] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[340] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[340] = 2e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[341] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[341] = 1e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[342] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[342] = 1e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[343] = 4e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[343] = 4e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[344] = 2.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[345] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[345] = 3e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[346] = 4e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[346] = 4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[347] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[347] = 2e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[348] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[348] = 2e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[349] = 4e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[349] = 4e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[350] = 2.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[351] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[351] = 3e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[352] = 4e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[352] = 4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[353] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[353] = 2e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[354] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[354] = 2e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[355] = 4e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[355] = 4e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[356] = 2.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[357] = 3.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[358] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[358] = 1e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[359] = 1.4e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[359] = 1.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[360] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[360] = 2e-09 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[361] = 6.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[362] = 3.4e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[362] = 3.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[363] = 2e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[363] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[364] = 2e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[364] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[365] = 2e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[365] = 2e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[366] = 3.6e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[367] = 8.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[368] = 4e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[368] = 4e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[369] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[369] = 2e-09 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[370] = 5.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[371] = 1.5e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[371] = 1.5e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[372] = 1.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[373] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[373] = 1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[374] = 4.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[375] = 7.4e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[375] = 7.4e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[376] = 2.96e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[377] = 4.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[378] = 6.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[379] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[379] = 3e-09 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[380] = 5.28e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[381] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[382] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[382] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[383] = 4e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[383] = 4e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[384] = 2e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[384] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[385] = 4e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[385] = 4e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[386] = 1e-08 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[386] = 1e-08 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[387] = 1e-08 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[387] = 1e-08 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[388] = 1.05e-08 * pow(Tgas/300.0,
-        -0.13) * exp(-0.0/Tgas); }
+        -0.13); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[389] = 9.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[390] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[390] = 3e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[391] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[391] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[392] = 1.5e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[392] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[393] = 3.3e-09 * pow(Tgas/300.0, 1.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[393] = 3.3e-09 * pow(Tgas/300.0,
+        1.0); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[394] = 1.5e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[394] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[395] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[395] = 1e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[396] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[396] = 3e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[397] = 1.6e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[397] = 1.6e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[398] = 1.1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[398] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[399] = 1.85e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[399] = 1.85e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[400] = 2.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[401] = 3.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[402] = 2.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[403] = 2.9e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[403] = 2.9e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[404] = 4.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[405] = 2e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[405] = 2e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[406] = 6.86e-10 * pow(Tgas/300.0,
         0.26) * exp(-224.3/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[407] = 2.1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[407] = 2.1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[408] = 2.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[409] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[409] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[410] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[410] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[411] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[411] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[412] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[412] = 1e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[413] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[413] = 1e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[414] = 3e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[414] = 3e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[415] = 1.3e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[415] = 1.3e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[416] = 5.78e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[417] = 3.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[418] = 9.9e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[418] = 9.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[419] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[419] = 3e-09 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[420] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[421] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[422] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[422] = 3e-09 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[423] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[424] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[425] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[425] = 3e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[426] = 1.5e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[426] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[427] = 1.5e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[427] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[428] = 1.5e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[428] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[429] = 1.5e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[429] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[430] = 1.5e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[430] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[431] = 1.7e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[431] = 1.7e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[432] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[432] = 3e-09 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[433] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[433] = 3e-09 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[434] = 3.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[435] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[436] = 1.1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[436] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[437] = 4.82e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[437] = 4.82e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[438] = 2.21e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[438] = 2.21e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[439] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[439] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[440] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[440] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[441] = 2.94e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[441] = 2.94e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[442] = 1.4e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[442] = 1.4e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[443] = 7.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[444] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[445] = 6.44e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[445] = 6.44e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[446] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[447] = 3.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[448] = 2.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[449] = 2.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[450] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[450] = 1e-09 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[451] = 2.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[452] = 5.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[453] = 7.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[454] = 1.1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[454] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[455] = 8e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[455] = 8e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[456] = 7.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[457] = 6.24e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[457] = 6.24e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[458] = 7.2e-15 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[458] = 7.2e-15; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[459] = 1.9e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[459] = 1.9e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[460] = 5.5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[460] = 5.5e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[461] = 2.07e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[462] = 4.7e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[462] = 4.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[463] = 1.9e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[463] = 1.9e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[464] = 1.5e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[464] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[465] = 4.4e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[465] = 4.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[466] = 6.4e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[466] = 6.4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[467] = 1.5e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[467] = 1.5e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[468] = 1.41e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[469] = 9.72e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[470] = 2.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[471] = 2.2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[471] = 2.2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[472] = 2.7e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[472] = 2.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[473] = 6.2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[473] = 6.2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[474] = 4.6e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[474] = 4.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[475] = 2.5e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[475] = 2.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[476] = 4.3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[476] = 4.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[477] = 3e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[477] = 3e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[478] = 1.72e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[479] = 2.04e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[480] = 1.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[481] = 2.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[482] = 1.89e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[483] = 1.8e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[483] = 1.8e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[484] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[485] = 8.45e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[486] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[487] = 6.4e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[487] = 6.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[488] = 7.5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[488] = 7.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[489] = 6.4e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[489] = 6.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[490] = 3.7e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[490] = 3.7e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[491] = 1.2e-15 * pow(Tgas/300.0,
-        0.25) * exp(-0.0/Tgas); }
+        0.25); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[492] = 5.66e-10 * pow(Tgas/300.0,
         0.36) * exp(+8.6/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[493] = 8.9e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[493] = 8.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[494] = 8.1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[494] = 8.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[495] = 3.2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[495] = 3.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[496] = 5.7e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[496] = 5.7e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[497] = 3.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[498] = 3.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[499] = 1.9e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[499] = 1.9e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[500] = 3.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[501] = 7e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[501] = 7e-10 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[502] = 3.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[503] = 3.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[504] = 6.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[505] = 1.6e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[505] = 1.6e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[506] = 1.5e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[506] = 1.5e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[507] = 1.5e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[508] = 5e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[508] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[509] = 2.54e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[509] = 2.54e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[510] = 2.4e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[510] = 2.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[511] = 5e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[511] = 5e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[512] = 8.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[513] = 6.3e-15 * pow(Tgas/300.0,
-        0.75) * exp(-0.0/Tgas); }
+        0.75); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[514] = 5.1e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[514] = 5.1e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[515] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[515] = 5e-10 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[516] = 1.21e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[516] = 1.21e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[517] = 9.69e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[518] = 6.05e-11 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[519] = 3.08e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[520] = 8.39e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[521] = 5.68e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[522] = 1.03e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[523] = 6.4e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[523] = 6.4e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[524] = 2.64e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[525] = 3.3e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[525] = 3.3e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[526] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[526] = 1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[527] = 4.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[528] = 3.3e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[528] = 3.3e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[529] = 3e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[529] = 3e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[530] = 2.7e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[530] = 2.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[531] = 2.9e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[531] = 2.9e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[532] = 2.8e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[532] = 2.8e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[533] = 2.9e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[533] = 2.9e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[534] = 2.6e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[534] = 2.6e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[535] = 7e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[535] = 7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[536] = 8.1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[536] = 8.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[537] = 1.2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[537] = 1.2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[538] = 2.8e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[538] = 2.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[539] = 1e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[539] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[540] = 2.9e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[540] = 2.9e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[541] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[541] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[542] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[542] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[543] = 9.5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[543] = 9.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[544] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[544] = 1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[545] = 1.24e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[546] = 2.8e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[546] = 2.8e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[547] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[548] = 7.5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[548] = 7.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[549] = 8.25e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[549] = 8.25e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[550] = 1.5e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[550] = 1.5e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[551] = 1.88e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[552] = 2.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[553] = 1.06e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[554] = 3.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[555] = 4.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[556] = 1.2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[556] = 1.2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[557] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[557] = 1e-09 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[558] = 1.97e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[559] = 3.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[560] = 4.51e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[560] = 4.51e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[561] = 3.11e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[561] = 3.11e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[562] = 1.02e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[562] = 1.02e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[563] = 3.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[564] = 7.7e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[564] = 7.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[565] = 4.3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[565] = 4.3e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[566] = 3.77e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[567] = 1.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[568] = 3.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[569] = 4.4e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[569] = 4.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[570] = 5e-11 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[570] = 5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[571] = 2.6e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[571] = 2.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[572] = 1.1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[572] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[573] = 1e-11 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[573] = 1e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[574] = 9.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[575] = 1.05e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[576] = 1.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[577] = 7.12e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[577] = 7.12e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[578] = 4.51e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[578] = 4.51e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[579] = 6.9e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[579] = 6.9e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[580] = 7.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[581] = 4.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[582] = 6.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[583] = 7e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[583] = 7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[584] = 4.4e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[584] = 4.4e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[585] = 4.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[586] = 9.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[587] = 4.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[588] = 4.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[589] = 8.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[590] = 8.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[591] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[591] = 5e-10 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[592] = 2.3e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[592] = 2.3e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[593] = 4.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[594] = 3.3e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[594] = 3.3e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[595] = 7.2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[595] = 7.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[596] = 3.2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[596] = 3.2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[597] = 1.9e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[597] = 1.9e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[598] = 2.14e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[599] = 1.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[600] = 3.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[601] = 6.24e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[602] = 2.02e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[603] = 1.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[604] = 4.25e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[605] = 2.21e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[606] = 3.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[607] = 1.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[608] = 1.68e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[609] = 5.25e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[610] = 1.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[611] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[611] = 2e-09 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[612] = 2.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[613] = 3.08e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[614] = 1.44e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[615] = 1.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[616] = 6.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[617] = 3.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[618] = 6.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[619] = 3.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[620] = 9.2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[620] = 9.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[621] = 1.3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[621] = 1.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[622] = 3.8e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[622] = 3.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[623] = 1.2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[623] = 1.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[624] = 7.8e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[624] = 7.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[625] = 3.7e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[625] = 3.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[626] = 7e-10 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[626] = 7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[627] = 4.5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[627] = 4.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[628] = 4.6e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[628] = 4.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[629] = 3.7e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[629] = 3.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[630] = 5.1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[630] = 5.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[631] = 7.2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[631] = 7.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[632] = 2.7e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[632] = 2.7e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[633] = 2.3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[633] = 2.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[634] = 1e-11 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[634] = 1e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[635] = 2.6e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[635] = 2.6e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[636] = 2.5e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[636] = 2.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[637] = 2.6e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[637] = 2.6e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[638] = 2.2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[638] = 2.2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[639] = 1e-11 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[639] = 1e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[640] = 2e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[640] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[641] = 7.7e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[641] = 7.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[642] = 7.1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[642] = 7.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[643] = 2.6e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[643] = 2.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[644] = 2.3e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[644] = 2.3e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[645] = 2.7e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[645] = 2.7e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[646] = 4.8e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[646] = 4.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[647] = 3.9e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[647] = 3.9e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[648] = 7e-11 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[648] = 7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[649] = 4.6e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[649] = 4.6e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[650] = 2.94e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[651] = 4.75e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[652] = 8.9e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[652] = 8.9e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[653] = 4.9e-12 * pow(Tgas/300.0, 0.5)
         * exp(-4580.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[654] = 2.9e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[654] = 2.9e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[655] = 2.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[656] = 3.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[657] = 1.36e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[658] = 4.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[659] = 6.3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[659] = 6.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[660] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[660] = 1e-09 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[661] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[662] = 1.9e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[662] = 1.9e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[663] = 6.5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[663] = 6.5e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[664] = 3.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[665] = 2.04e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[666] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[666] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[667] = 7.3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-890.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[667] = 7.3e-10 * exp(-890.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[668] = 1.11e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[668] = 1.11e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[669] = 1.22e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[669] = 1.22e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[670] = 7.5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[670] = 7.5e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[671] = 4.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[672] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[672] = 5e-10 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[673] = 1.1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[673] = 1.1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[674] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[675] = 1.26e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[676] = 6.6e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[676] = 6.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[677] = 5.4e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[677] = 5.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[678] = 5.3e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[678] = 5.3e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[679] = 4.6e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[679] = 4.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[680] = 2.5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[680] = 2.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[681] = 6.5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[681] = 6.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[682] = 1.4e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[682] = 1.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[683] = 9.62e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[683] = 9.62e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[684] = 1e-11 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[684] = 1e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[685] = 4.8e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[685] = 4.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[686] = 4.5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[686] = 4.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[687] = 4.8e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[687] = 4.8e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[688] = 7.44e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[689] = 1.59e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[690] = 1.23e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[691] = 2.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[692] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[693] = 3.59e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[693] = 3.59e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[694] = 5.9e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[694] = 5.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[695] = 4.3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[695] = 4.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[696] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[696] = 1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[697] = 6.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[698] = 6.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[699] = 3.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[700] = 6.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[701] = 4.34e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[702] = 1.44e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[702] = 1.44e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[703] = 1.8e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[703] = 1.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[704] = 7.2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[704] = 7.2e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[705] = 3.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[706] = 3.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<5000.0) { k[707] = 5e-11 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<5000.0) { k[707] = 5e-11; }
         
     if (Tgas>=5000.0 && Tgas<50000.0) { k[708] = 5.54e-12 * pow(Tgas/300.0,
         0.86) * exp(-680.7/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[709] = 1.1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[709] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[710] = 9.7e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[710] = 9.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[711] = 6.84e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[711] = 6.84e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[712] = 1.82e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[712] = 1.82e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[713] = 1.26e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[713] = 1.26e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[714] = 1.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[715] = 1.6e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[715] = 1.6e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[716] = 1.9e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[716] = 1.9e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[717] = 1.5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[717] = 1.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[718] = 2e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[718] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[719] = 1.6e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[719] = 1.6e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[720] = 1.4e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[720] = 1.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[721] = 1.6e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[721] = 1.6e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[722] = 1.6e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[722] = 1.6e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[723] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[723] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[724] = 1.6e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[724] = 1.6e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[725] = 4.2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[725] = 4.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[726] = 1e-09 * pow(Tgas/300.0, 0.0) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[726] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[727] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[727] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[728] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[728] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[729] = 1.53e-06 * pow(Tgas/300.0,
-        -0.3) * exp(-0.0/Tgas); }
+        -0.3); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[730] = 5.4e-08 * pow(Tgas/300.0,
-        -0.3) * exp(-0.0/Tgas); }
+        -0.3); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[731] = 3.92e-07 * pow(Tgas/300.0,
-        -0.3) * exp(-0.0/Tgas); }
+        -0.3); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[732] = 1.35e-06 * pow(Tgas/300.0,
-        -0.3) * exp(-0.0/Tgas); }
+        -0.3); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[733] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[733] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[734] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[734] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[735] = 8.39e-08 * pow(Tgas/300.0,
-        -0.3) * exp(-0.0/Tgas); }
+        -0.3); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[736] = 2.66e-08 * pow(Tgas/300.0,
-        -0.3) * exp(-0.0/Tgas); }
+        -0.3); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[737] = 1.2e-06 * pow(Tgas/300.0,
-        -0.3) * exp(-0.0/Tgas); }
+        -0.3); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[738] = 6.76e-07 * pow(Tgas/300.0,
-        -0.3) * exp(-0.0/Tgas); }
+        -0.3); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[739] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[739] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[740] = 1.16e-07 * pow(Tgas/300.0,
-        -0.76) * exp(-0.0/Tgas); }
+        -0.76); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[741] = 1.53e-07 * pow(Tgas/300.0,
-        -0.76) * exp(-0.0/Tgas); }
+        -0.76); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[742] = 9e-08 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[742] = 9e-08 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[743] = 9e-08 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[743] = 9e-08 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[744] = 9e-08 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[744] = 9e-08 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<1000.0) { k[745] = 1.5e-08 * pow(Tgas/300.0,
-        -0.84) * exp(-0.0/Tgas); }
+        -0.84); }
         
     if (Tgas>=1000.0 && Tgas<30000.0) { k[746] = 2.87e-08 * pow(Tgas/300.0,
-        -1.38) * exp(-0.0/Tgas); }
+        -1.38); }
         
     if (Tgas>=5.0 && Tgas<1000.0) { k[747] = 1.45e-07 * pow(Tgas/300.0,
-        -0.84) * exp(-0.0/Tgas); }
+        -0.84); }
         
     if (Tgas>=1000.0 && Tgas<30000.0) { k[748] = 2.78e-07 * pow(Tgas/300.0,
-        -1.38) * exp(-0.0/Tgas); }
+        -1.38); }
         
-    if (Tgas>=5.0 && Tgas<1000.0) { k[749] = 3e-08 * pow(Tgas/300.0, -0.84)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<1000.0) { k[749] = 3e-08 * pow(Tgas/300.0, -0.84);
+    }
         
     if (Tgas>=1000.0 && Tgas<30000.0) { k[750] = 5.75e-08 * pow(Tgas/300.0,
-        -1.38) * exp(-0.0/Tgas); }
+        -1.38); }
         
     if (Tgas>=5.0 && Tgas<1000.0) { k[751] = 2.95e-07 * pow(Tgas/300.0,
-        -0.84) * exp(-0.0/Tgas); }
+        -0.84); }
         
     if (Tgas>=1000.0 && Tgas<30000.0) { k[752] = 5.65e-07 * pow(Tgas/300.0,
-        -1.38) * exp(-0.0/Tgas); }
+        -1.38); }
         
     if (Tgas>=5.0 && Tgas<1000.0) { k[753] = 1.5e-08 * pow(Tgas/300.0,
-        -0.84) * exp(-0.0/Tgas); }
+        -0.84); }
         
     if (Tgas>=1000.0 && Tgas<30000.0) { k[754] = 2.87e-08 * pow(Tgas/300.0,
-        -1.38) * exp(-0.0/Tgas); }
+        -1.38); }
         
-    if (Tgas>=5.0 && Tgas<1000.0) { k[755] = 3e-09 * pow(Tgas/300.0, -0.84)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<1000.0) { k[755] = 3e-09 * pow(Tgas/300.0, -0.84);
+    }
         
     if (Tgas>=1000.0 && Tgas<30000.0) { k[756] = 5.75e-09 * pow(Tgas/300.0,
-        -1.38) * exp(-0.0/Tgas); }
+        -1.38); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[757] = 3.36e-08 * pow(Tgas/300.0,
-        -0.76) * exp(-0.0/Tgas); }
+        -0.76); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[758] = 3.7e-07 * pow(Tgas/300.0,
-        -0.76) * exp(-0.0/Tgas); }
+        -0.76); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[759] = 6.16e-08 * pow(Tgas/300.0,
-        -0.76) * exp(-0.0/Tgas); }
+        -0.76); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[760] = 5.6e-08 * pow(Tgas/300.0,
-        -0.76) * exp(-0.0/Tgas); }
+        -0.76); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[761] = 2.24e-08 * pow(Tgas/300.0,
-        -0.76) * exp(-0.0/Tgas); }
+        -0.76); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[762] = 1.12e-08 * pow(Tgas/300.0,
-        -0.76) * exp(-0.0/Tgas); }
+        -0.76); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[763] = 5.6e-09 * pow(Tgas/300.0,
-        -0.76) * exp(-0.0/Tgas); }
+        -0.76); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[764] = 8.12e-08 * pow(Tgas/300.0,
-        -0.79) * exp(-0.0/Tgas); }
+        -0.79); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[765] = 3.64e-08 * pow(Tgas/300.0,
-        -0.79) * exp(-0.0/Tgas); }
+        -0.79); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[766] = 7.56e-08 * pow(Tgas/300.0,
-        -0.79) * exp(-0.0/Tgas); }
+        -0.79); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[767] = 3.36e-08 * pow(Tgas/300.0,
-        -0.79) * exp(-0.0/Tgas); }
+        -0.79); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[768] = 4.76e-08 * pow(Tgas/300.0,
-        -0.79) * exp(-0.0/Tgas); }
+        -0.79); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[769] = 2.06e-07 * pow(Tgas/300.0,
-        -0.76) * exp(-0.0/Tgas); }
+        -0.76); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[770] = 6.32e-07 * pow(Tgas/300.0,
-        -0.76) * exp(-0.0/Tgas); }
+        -0.76); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[771] = 6.32e-07 * pow(Tgas/300.0,
-        -0.76) * exp(-0.0/Tgas); }
+        -0.76); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[772] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[773] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[774] = 1.77e-06 * pow(Tgas/300.0,
-        -0.73) * exp(-0.0/Tgas); }
+        -0.73); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[775] = 1.77e-06 * pow(Tgas/300.0,
-        -0.73) * exp(-0.0/Tgas); }
+        -0.73); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[776] = 1.77e-06 * pow(Tgas/300.0,
-        -0.73) * exp(-0.0/Tgas); }
+        -0.73); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[777] = 1.3e-07 * pow(Tgas/300.0,
-        -0.73) * exp(-0.0/Tgas); }
+        -0.73); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[778] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[779] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[780] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[781] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[782] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[783] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[784] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[784] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[785] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[785] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[786] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[787] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[788] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[788] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[789] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[790] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[791] = 3e-08 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[791] = 3e-08 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[792] = 3e-08 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[792] = 3e-08 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[793] = 6e-08 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[793] = 6e-08 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[794] = 6e-08 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[794] = 6e-08 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[795] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[795] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[796] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[797] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[798] = 7e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[798] = 7e-07 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[799] = 4.4e-08 * pow(Tgas/300.0,
-        -0.67) * exp(-0.0/Tgas); }
+        -0.67); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[800] = 2.56e-06 * pow(Tgas/300.0,
-        -0.67) * exp(-0.0/Tgas); }
+        -0.67); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[801] = 2.6e-07 * pow(Tgas/300.0,
-        -0.67) * exp(-0.0/Tgas); }
+        -0.67); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[802] = 1.48e-07 * pow(Tgas/300.0,
-        -0.67) * exp(-0.0/Tgas); }
+        -0.67); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[803] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[804] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[805] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[806] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[807] = 2.53e-08 * pow(Tgas/300.0,
-        -0.73) * exp(-0.0/Tgas); }
+        -0.73); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[808] = 4.37e-08 * pow(Tgas/300.0,
-        -0.73) * exp(-0.0/Tgas); }
+        -0.73); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[809] = 9.2e-09 * pow(Tgas/300.0,
-        -0.73) * exp(-0.0/Tgas); }
+        -0.73); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[810] = 3.3e-08 * pow(Tgas/300.0,
-        -0.73) * exp(-0.0/Tgas); }
+        -0.73); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[811] = 3.3e-08 * pow(Tgas/300.0,
-        -0.73) * exp(-0.0/Tgas); }
+        -0.73); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[812] = 9.2e-09 * pow(Tgas/300.0,
-        -0.73) * exp(-0.0/Tgas); }
+        -0.73); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[813] = 9.66e-08 * pow(Tgas/300.0,
-        -0.73) * exp(-0.0/Tgas); }
+        -0.73); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[814] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[814] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[815] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[815] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[816] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[816] = 1e-07 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[817] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[817] = 1e-07 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[818] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[818] = 1e-07 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[819] = 1.2e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[820] = 1.8e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[821] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[821] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[822] = 2.75e-07 * pow(Tgas/300.0,
-        -0.79) * exp(-0.0/Tgas); }
+        -0.79); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[823] = 8.25e-07 * pow(Tgas/300.0,
-        -0.79) * exp(-0.0/Tgas); }
+        -0.79); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[824] = 3.1e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[825] = 3.1e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[826] = 3.3e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[827] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[828] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[829] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[830] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[830] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[831] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[832] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[833] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[834] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[835] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[835] = 1e-07 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[836] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[836] = 1e-07 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[837] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[837] = 1e-07 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[838] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[838] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[839] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[839] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[840] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[840] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[841] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[842] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[843] = 4.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[844] = 4.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[845] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[845] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[846] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[846] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[847] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[847] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[848] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[848] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[849] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[849] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[850] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[850] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[851] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[851] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[852] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[852] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[853] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[853] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[854] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[854] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[855] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[855] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[856] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[856] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[857] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[857] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[858] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[858] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[859] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[859] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[860] = 1e-06 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[860] = 1e-06 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[861] = 5e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[861] = 5e-07 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[862] = 5e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[862] = 5e-07 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[863] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[863] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[864] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[864] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[865] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[865] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[866] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[866] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[867] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[867] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[868] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[868] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[869] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[869] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[870] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[870] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[871] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[871] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[872] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[872] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[873] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[873] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[874] = 3.5e-07 * pow(Tgas/300.0,
-        -0.3) * exp(-0.0/Tgas); }
+        -0.3); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[875] = 3.5e-07 * pow(Tgas/300.0,
-        -0.3) * exp(-0.0/Tgas); }
+        -0.3); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[876] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[876] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[877] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[877] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[878] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[878] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[879] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[879] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[880] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[880] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[881] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[881] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[882] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[882] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[883] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[883] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[884] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[884] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[885] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[885] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[886] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[886] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[887] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[888] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[889] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[889] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[890] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[890] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[891] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[891] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[892] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[892] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[893] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[893] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[894] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[894] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[895] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[895] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[896] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[896] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[897] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[897] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[898] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[898] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[899] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[900] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[901] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[901] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[902] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[903] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[904] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[904] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[905] = 5.2e-08 * pow(Tgas/300.0,
-        -0.8) * exp(-0.0/Tgas); }
+        -0.8); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[906] = 1.5e-07 * pow(Tgas/300.0,
-        -0.42) * exp(-0.0/Tgas); }
+        -0.42); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[907] = 7.68e-08 * pow(Tgas/300.0,
-        -0.6) * exp(-0.0/Tgas); }
+        -0.6); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[908] = 4.03e-07 * pow(Tgas/300.0,
-        -0.6) * exp(-0.0/Tgas); }
+        -0.6); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[909] = 1.6e-07 * pow(Tgas/300.0,
-        -0.6) * exp(-0.0/Tgas); }
+        -0.6); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[910] = 5e-08 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[910] = 5e-08 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[911] = 5e-08 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[911] = 5e-08 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[912] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[913] = 4.45e-07 * pow(Tgas/300.0,
-        -0.8) * exp(-0.0/Tgas); }
+        -0.8); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[914] = 4.45e-07 * pow(Tgas/300.0,
-        -0.8) * exp(-0.0/Tgas); }
+        -0.8); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[915] = 8.9e-07 * pow(Tgas/300.0,
-        -0.8) * exp(-0.0/Tgas); }
+        -0.8); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[916] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[917] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[918] = 2e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[918] = 2e-07 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[919] = 2e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[919] = 2e-07 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[920] = 2e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[920] = 2e-07 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[921] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[922] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[923] = 7.75e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[924] = 1.95e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[925] = 2e-07 * pow(Tgas/300.0, -0.4)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[925] = 2e-07 * pow(Tgas/300.0, -0.4);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[926] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[926] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[927] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[927] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[928] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[928] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[929] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[929] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[930] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[930] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[931] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[931] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[932] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[932] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[933] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[933] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[934] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[934] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[935] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[936] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[937] = 4.2e-07 * pow(Tgas/300.0,
-        -0.7) * exp(-0.0/Tgas); }
+        -0.7); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[938] = 1.08e-06 * pow(Tgas/300.0,
-        -0.7) * exp(-0.0/Tgas); }
+        -0.7); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[939] = 8.47e-07 * pow(Tgas/300.0,
-        -0.74) * exp(-0.0/Tgas); }
+        -0.74); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[940] = 8.47e-07 * pow(Tgas/300.0,
-        -0.74) * exp(-0.0/Tgas); }
+        -0.74); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[941] = 3e-07 * pow(Tgas/300.0, -0.74)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[941] = 3e-07 * pow(Tgas/300.0,
+        -0.74); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[942] = 8.47e-07 * pow(Tgas/300.0,
-        -0.74) * exp(-0.0/Tgas); }
+        -0.74); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[943] = 8.47e-07 * pow(Tgas/300.0,
-        -0.74) * exp(-0.0/Tgas); }
+        -0.74); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[944] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[945] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[946] = 5.28e-07 * pow(Tgas/300.0,
-        -0.69) * exp(-0.0/Tgas); }
+        -0.69); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[947] = 2.85e-07 * pow(Tgas/300.0,
-        -0.69) * exp(-0.0/Tgas); }
+        -0.69); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[948] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[948] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[949] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[949] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[950] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[951] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[952] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[953] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[954] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[954] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[955] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[956] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[957] = 7.48e-07 * pow(Tgas/300.0,
-        -0.7) * exp(-0.0/Tgas); }
+        -0.7); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[958] = 1.19e-07 * pow(Tgas/300.0,
-        -0.7) * exp(-0.0/Tgas); }
+        -0.7); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[959] = 8.33e-07 * pow(Tgas/300.0,
-        -0.7) * exp(-0.0/Tgas); }
+        -0.7); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[960] = 6.49e-07 * pow(Tgas/300.0,
-        -0.66) * exp(-0.0/Tgas); }
+        -0.66); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[961] = 8.61e-07 * pow(Tgas/300.0,
-        -0.66) * exp(-0.0/Tgas); }
+        -0.66); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[962] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[962] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[963] = 1.87e-07 * pow(Tgas/300.0,
-        -0.59) * exp(-0.0/Tgas); }
+        -0.59); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[964] = 8.01e-08 * pow(Tgas/300.0,
-        -0.59) * exp(-0.0/Tgas); }
+        -0.59); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[965] = 4.54e-07 * pow(Tgas/300.0,
-        -0.59) * exp(-0.0/Tgas); }
+        -0.59); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[966] = 2.67e-08 * pow(Tgas/300.0,
-        -0.59) * exp(-0.0/Tgas); }
+        -0.59); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[967] = 8.9e-08 * pow(Tgas/300.0,
-        -0.59) * exp(-0.0/Tgas); }
+        -0.59); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[968] = 1.75e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[969] = 1.75e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[970] = 3e-08 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[970] = 3e-08 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[971] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[971] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[972] = 4.76e-08 * pow(Tgas/300.0,
-        -0.52) * exp(-0.0/Tgas); }
+        -0.52); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[973] = 1.4e-08 * pow(Tgas/300.0,
-        -0.52) * exp(-0.0/Tgas); }
+        -0.52); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[974] = 1.96e-07 * pow(Tgas/300.0,
-        -0.52) * exp(-0.0/Tgas); }
+        -0.52); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[975] = 1.4e-08 * pow(Tgas/300.0,
-        -0.52) * exp(-0.0/Tgas); }
+        -0.52); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[976] = 8.4e-09 * pow(Tgas/300.0,
-        -0.52) * exp(-0.0/Tgas); }
+        -0.52); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[977] = 1.8e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[978] = 2e-08 * pow(Tgas/300.0, -0.6)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[978] = 2e-08 * pow(Tgas/300.0, -0.6);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[979] = 3.8e-07 * pow(Tgas/300.0,
-        -0.6) * exp(-0.0/Tgas); }
+        -0.6); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[980] = 2e-07 * pow(Tgas/300.0, -0.48)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[980] = 2e-07 * pow(Tgas/300.0,
+        -0.48); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[981] = 3.8e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[982] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[983] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[984] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[984] = 1e-07 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[985] = 2e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[985] = 2e-07 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[986] = 2e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[986] = 2e-07 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[987] = 1.6e-08 * pow(Tgas/300.0,
-        -0.43) * exp(-0.0/Tgas); }
+        -0.43); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[988] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[988] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[989] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[989] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[990] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[990] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[991] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[991] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[992] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[992] = 1e-06 * pow(Tgas/300.0, -0.3);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[993] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[993] = 3e-07 * pow(Tgas/300.0, -0.5);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[994] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[995] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[996] = 2.5e-08 * pow(Tgas/300.0,
-        -0.7) * exp(-0.0/Tgas); }
+        -0.7); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[997] = 7.5e-08 * pow(Tgas/300.0,
-        -0.7) * exp(-0.0/Tgas); }
+        -0.7); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[998] = 2.5e-07 * pow(Tgas/300.0,
-        -0.7) * exp(-0.0/Tgas); }
+        -0.7); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[999] = 1.6e-07 * pow(Tgas/300.0,
-        -0.7) * exp(-0.0/Tgas); }
+        -0.7); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1000] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1000] = 3e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1001] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1001] = 3e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1002] = 1.08e-07 * pow(Tgas/300.0,
-        -0.85) * exp(-0.0/Tgas); }
+        -0.85); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1003] = 1e-08 * pow(Tgas/300.0,
-        -0.85) * exp(-0.0/Tgas); }
+        -0.85); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1004] = 3.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1005] = 3.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1006] = 1.8e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1007] = 1.8e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1008] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1009] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1010] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1011] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1012] = 3.9e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1013] = 3.05e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1014] = 8.6e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1015] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1016] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1017] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1018] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1019] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1020] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1021] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1022] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1023] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1024] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1025] = 2.34e-08 * pow(Tgas/300.0,
-        -0.52) * exp(-0.0/Tgas); }
+        -0.52); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1026] = 4.36e-08 * pow(Tgas/300.0,
-        -0.52) * exp(-0.0/Tgas); }
+        -0.52); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1027] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1027] = 3e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1028] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1028] = 1e-06 * pow(Tgas/300.0,
+        -0.3); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1029] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1029] = 1e-06 * pow(Tgas/300.0,
+        -0.3); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1030] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1030] = 1e-06 * pow(Tgas/300.0,
+        -0.3); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1031] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1031] = 1e-06 * pow(Tgas/300.0,
+        -0.3); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1032] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1032] = 1e-06 * pow(Tgas/300.0,
+        -0.3); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1033] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1033] = 1e-06 * pow(Tgas/300.0,
+        -0.3); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1034] = 4.2e-08 * pow(Tgas/300.0,
-        -0.78) * exp(-0.0/Tgas); }
+        -0.78); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1035] = 1.4e-08 * pow(Tgas/300.0,
-        -0.78) * exp(-0.0/Tgas); }
+        -0.78); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1036] = 2.1e-07 * pow(Tgas/300.0,
-        -0.78) * exp(-0.0/Tgas); }
+        -0.78); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1037] = 2.17e-07 * pow(Tgas/300.0,
-        -0.78) * exp(-0.0/Tgas); }
+        -0.78); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1038] = 2.17e-07 * pow(Tgas/300.0,
-        -0.78) * exp(-0.0/Tgas); }
+        -0.78); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1039] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1039] = 3e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1040] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1040] = 3e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1041] = 7.09e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1042] = 5.6e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1043] = 5.37e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1044] = 3.05e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1045] = 4.76e-08 * pow(Tgas/300.0,
-        -0.86) * exp(-0.0/Tgas); }
+        -0.86); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1046] = 4.2e-08 * pow(Tgas/300.0,
-        -0.86) * exp(-0.0/Tgas); }
+        -0.86); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1047] = 1.62e-07 * pow(Tgas/300.0,
-        -0.86) * exp(-0.0/Tgas); }
+        -0.86); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1048] = 2.8e-08 * pow(Tgas/300.0,
-        -0.86) * exp(-0.0/Tgas); }
+        -0.86); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1049] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1050] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1051] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1052] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1053] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1054] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1055] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1056] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1056] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1057] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1058] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1058] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1059] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1060] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1061] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1062] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1063] = 6.6e-07 * pow(Tgas/300.0,
-        -0.6) * exp(-0.0/Tgas); }
+        -0.6); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1064] = 3.6e-07 * pow(Tgas/300.0,
-        -0.6) * exp(-0.0/Tgas); }
+        -0.6); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1065] = 3.6e-07 * pow(Tgas/300.0,
-        -0.6) * exp(-0.0/Tgas); }
+        -0.6); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1066] = 7.2e-07 * pow(Tgas/300.0,
-        -0.58) * exp(-0.0/Tgas); }
+        -0.58); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1067] = 4.9e-08 * pow(Tgas/300.0,
-        -0.58) * exp(-0.0/Tgas); }
+        -0.58); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1068] = 7.31e-07 * pow(Tgas/300.0,
-        -0.58) * exp(-0.0/Tgas); }
+        -0.58); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1069] = 7.5e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1070] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1070] = 3e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1071] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1072] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1073] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1073] = 3e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1074] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1074] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1075] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1075] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1076] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1076] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1077] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1078] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1079] = 8e-08 * pow(Tgas/300.0, -0.7)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1079] = 8e-08 * pow(Tgas/300.0,
+        -0.7); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1080] = 1.2e-07 * pow(Tgas/300.0,
-        -0.7) * exp(-0.0/Tgas); }
+        -0.7); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1081] = 9.2e-07 * pow(Tgas/300.0,
-        -0.7) * exp(-0.0/Tgas); }
+        -0.7); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1082] = 4.4e-07 * pow(Tgas/300.0,
-        -0.7) * exp(-0.0/Tgas); }
+        -0.7); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1083] = 4.4e-07 * pow(Tgas/300.0,
-        -0.7) * exp(-0.0/Tgas); }
+        -0.7); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1084] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1084] = 1e-06 * pow(Tgas/300.0,
+        -0.3); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1085] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1085] = 1e-06 * pow(Tgas/300.0,
+        -0.3); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1086] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1086] = 1e-06 * pow(Tgas/300.0,
+        -0.3); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1087] = 1e-06 * pow(Tgas/300.0, -0.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1087] = 1e-06 * pow(Tgas/300.0,
+        -0.3); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1088] = 2e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1088] = 2e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1089] = 9.3e-08 * pow(Tgas/300.0,
-        -0.65) * exp(-0.0/Tgas); }
+        -0.65); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1090] = 9.5e-08 * pow(Tgas/300.0,
-        -0.65) * exp(-0.0/Tgas); }
+        -0.65); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1091] = 9.5e-08 * pow(Tgas/300.0,
-        -0.65) * exp(-0.0/Tgas); }
+        -0.65); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1092] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1093] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1094] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1094] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1095] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1095] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1096] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1096] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1097] = 2.4e-07 * pow(Tgas/300.0,
-        -0.69) * exp(-0.0/Tgas); }
+        -0.69); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1098] = 6e-08 * pow(Tgas/300.0,
-        -0.64) * exp(-0.0/Tgas); }
+        -0.64); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1099] = 8.1e-07 * pow(Tgas/300.0,
-        -0.64) * exp(-0.0/Tgas); }
+        -0.64); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1100] = 3.2e-07 * pow(Tgas/300.0,
-        -0.64) * exp(-0.0/Tgas); }
+        -0.64); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1101] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1102] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1103] = 7.33e-07 * pow(Tgas/300.0,
-        -0.78) * exp(-0.0/Tgas); }
+        -0.78); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1104] = 1.1e-07 * pow(Tgas/300.0,
-        -0.78) * exp(-0.0/Tgas); }
+        -0.78); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1105] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1106] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1107] = 7.87e-07 * pow(Tgas/300.0,
-        -0.57) * exp(-0.0/Tgas); }
+        -0.57); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1108] = 1.84e-07 * pow(Tgas/300.0,
-        -0.57) * exp(-0.0/Tgas); }
+        -0.57); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1109] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1110] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1111] = 2e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1111] = 2e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1112] = 2e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1112] = 2e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1113] = 5.6e-07 * pow(Tgas/300.0,
-        -0.74) * exp(-0.0/Tgas); }
+        -0.74); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1114] = 6.44e-07 * pow(Tgas/300.0,
-        -0.74) * exp(-0.0/Tgas); }
+        -0.74); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1115] = 2e-08 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1115] = 2e-08 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1116] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1117] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1118] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1118] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1119] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1119] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1120] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1120] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1121] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1121] = 3e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1122] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1122] = 3e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1123] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1124] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1125] = 1.1e-07 * pow(Tgas/300.0,
-        -1.0) * exp(-0.0/Tgas); }
+        -1.0); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1126] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1127] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1128] = 2e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1128] = 2e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1129] = 2e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1129] = 2e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1130] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1131] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1132] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1132] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1133] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1133] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1134] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1134] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1135] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1135] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1136] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1137] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1138] = 2e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1138] = 2e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1139] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1140] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1141] = 2e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1141] = 2e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1142] = 2e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1142] = 2e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1143] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1143] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1144] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1144] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1145] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1146] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1147] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1148] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1149] = 1e-08 * pow(Tgas/300.0, -0.6)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1149] = 1e-08 * pow(Tgas/300.0,
+        -0.6); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1150] = 1.7e-07 * pow(Tgas/300.0,
-        -0.3) * exp(-0.0/Tgas); }
+        -0.3); }
         
     if (Tgas>=5.0 && Tgas<150.0) { k[1151] = 2.77e-07 * pow(Tgas/300.0,
-        -0.74) * exp(-0.0/Tgas); }
+        -0.74); }
         
     if (Tgas>=150.0 && Tgas<41000.0) { k[1152] = 2.55e-07 * pow(Tgas/300.0,
-        -0.84) * exp(-0.0/Tgas); }
+        -0.84); }
         
     if (Tgas>=5.0 && Tgas<150.0) { k[1153] = 2.09e-08 * pow(Tgas/300.0,
-        -0.74) * exp(-0.0/Tgas); }
+        -0.74); }
         
     if (Tgas>=150.0 && Tgas<41000.0) { k[1154] = 1.92e-08 * pow(Tgas/300.0,
-        -0.84) * exp(-0.0/Tgas); }
+        -0.84); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1155] = 6e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1155] = 6e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1156] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1156] = 3e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1157] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1157] = 3e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1158] = 4.3e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<12400.0) { k[1159] = 1.78e-07 * pow(Tgas/300.0,
         -0.8) * exp(-17.1/Tgas); }
@@ -3545,4547 +3094,3822 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<12400.0) { k[1160] = 9.21e-08 * pow(Tgas/300.0,
         -0.79) * exp(-17.1/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1161] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1161] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1162] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1162] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1163] = 1.55e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1164] = 1.55e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1165] = 4.72e-08 * pow(Tgas/300.0,
-        -0.6) * exp(-0.0/Tgas); }
+        -0.6); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1166] = 3.77e-08 * pow(Tgas/300.0,
-        -0.6) * exp(-0.0/Tgas); }
+        -0.6); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1167] = 8.49e-07 * pow(Tgas/300.0,
-        -0.6) * exp(-0.0/Tgas); }
+        -0.6); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1168] = 4.3e-07 * pow(Tgas/300.0,
-        -0.37) * exp(-0.0/Tgas); }
+        -0.37); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1169] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1169] = 3e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1170] = 1.6e-07 * pow(Tgas/300.0,
-        -0.06) * exp(-0.0/Tgas); }
+        -0.06); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1171] = 1.2e-07 * pow(Tgas/300.0,
-        -0.06) * exp(-0.0/Tgas); }
+        -0.06); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1172] = 5.34e-08 * pow(Tgas/300.0,
-        -0.06) * exp(-0.0/Tgas); }
+        -0.06); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1173] = 2e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1173] = 2e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1174] = 1.95e-07 * pow(Tgas/300.0,
-        -0.7) * exp(-0.0/Tgas); }
+        -0.7); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1175] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1175] = 3e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1176] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1176] = 3e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1177] = 1.05e-08 * pow(Tgas/300.0,
-        -0.62) * exp(-0.0/Tgas); }
+        -0.62); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1178] = 4.9e-08 * pow(Tgas/300.0,
-        -0.62) * exp(-0.0/Tgas); }
+        -0.62); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1179] = 2.91e-07 * pow(Tgas/300.0,
-        -0.62) * exp(-0.0/Tgas); }
+        -0.62); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1180] = 3.75e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1181] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1181] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1182] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1182] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1183] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1183] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1184] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1184] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1185] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1185] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1186] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1186] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1187] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1187] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1188] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1188] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1189] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1189] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1190] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1190] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1191] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1191] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1192] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1192] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1193] = 7.5e-08 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1193] = 7.5e-08; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1194] = 7.5e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1195] = 7.5e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1196] = 7.5e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1197] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1198] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1199] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1200] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1201] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1201] = 3e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1202] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1203] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1204] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1204] = 3e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1205] = 1e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1205] = 1e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1206] = 5.36e-08 * pow(Tgas/300.0,
-        -0.64) * exp(-0.0/Tgas); }
+        -0.64); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1207] = 5.23e-07 * pow(Tgas/300.0,
-        -0.64) * exp(-0.0/Tgas); }
+        -0.64); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1208] = 9.38e-08 * pow(Tgas/300.0,
-        -0.64) * exp(-0.0/Tgas); }
+        -0.64); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1209] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1210] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1211] = 1.8e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1212] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1212] = 3e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1213] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1214] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1215] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1215] = 3e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1216] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1217] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1218] = 1.8e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1219] = 2e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1219] = 2e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1220] = 2e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1220] = 2e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1221] = 1.79e-07 * pow(Tgas/300.0,
-        -0.52) * exp(-0.0/Tgas); }
+        -0.52); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1222] = 2.81e-07 * pow(Tgas/300.0,
-        -0.52) * exp(-0.0/Tgas); }
+        -0.52); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1223] = 2e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1223] = 2e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1224] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1225] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1226] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1227] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1228] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1229] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1230] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1231] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1232] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1233] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1234] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1235] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1236] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1237] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1238] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1239] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1240] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1241] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1242] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1243] = 2e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1243] = 2e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1244] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1245] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1246] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1247] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1248] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1249] = 2e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1249] = 2e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1250] = 2e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1250] = 2e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1251] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1252] = 2e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1252] = 2e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1253] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1254] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1255] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1256] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1257] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1258] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1259] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1260] = 2e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1260] = 2e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1261] = 3e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1261] = 3e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1262] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1263] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1264] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1265] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1266] = 2e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1266] = 2e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1267] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1268] = 1.5e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1269] = 2e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1269] = 2e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1270] = 2.7e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1271] = 3e-08 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1271] = 3e-08 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1272] = 1.43e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1273] = 1.43e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1274] = 1.5e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1275] = 9e-08 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1275] = 9e-08 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1276] = 9e-08 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1276] = 9e-08 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1277] = 9e-08 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1277] = 9e-08 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1278] = 1.5e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1279] = 1.5e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1280] = 3e-08 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1280] = 3e-08 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1281] = 2.4e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1282] = 1.5e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1283] = 1.5e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1284] = 6.75e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1285] = 6.75e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1286] = 6.75e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1287] = 6.75e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1288] = 1.5e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1289] = 1.5e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1290] = 5.4e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1291] = 5.4e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1292] = 5.4e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1293] = 5.4e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1294] = 5.4e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1295] = 1.5e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1296] = 1.5e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1297] = 2.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1297] = 2.4e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1298] = 4.75e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1299] = 2.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1300] = 1.78e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1300] = 1.78e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1301] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1301] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1302] = 8.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1302] = 8.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1303] = 8.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1303] = 8.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1304] = 3.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1304] = 3.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1305] = 1.02e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1305] = 1.02e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1306] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1306] = 5e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1307] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1308] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1308] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1309] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1309] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1310] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1310] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1311] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1311] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1312] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1312] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1313] = 3.33e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1314] = 3.33e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1315] = 1e-11 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1315] = 1e-11 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1316] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1316] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1317] = 3.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1317] = 3.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1318] = 3.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1318] = 3.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1319] = 3.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1319] = 3.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1320] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1320] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1321] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1321] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1322] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1322] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1323] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1324] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1325] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1325] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1326] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1327] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1328] = 1.44e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1328] = 1.44e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1329] = 4.08e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1329] = 4.08e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1330] = 2.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1330] = 2.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1331] = 2e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1331] = 2e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1332] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1333] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1334] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1334] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1335] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1336] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1337] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1338] = 2.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1339] = 4.98e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1339] = 4.98e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1340] = 4e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1340] = 4e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1341] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1341] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1342] = 5.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1342] = 5.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1343] = 2.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1343] = 2.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1344] = 3.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1344] = 3.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1345] = 5.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1345] = 5.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1346] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1346] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1347] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1347] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1348] = 9.84e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1349] = 1.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1350] = 1.19e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1351] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1351] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1352] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1352] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1353] = 1.3e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1353] = 1.3e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1354] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1354] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1355] = 5e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1355] = 5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1356] = 7.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1356] = 7.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1357] = 7.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1357] = 7.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1358] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1358] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1359] = 5e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1359] = 5e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1360] = 7.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1360] = 7.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1361] = 7.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1361] = 7.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1362] = 5e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1362] = 5e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1363] = 1.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1363] = 1.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1364] = 1.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1364] = 1.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1365] = 5.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1365] = 5.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1366] = 3.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1366] = 3.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1367] = 8.25e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1367] = 8.25e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1368] = 4.95e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1368] = 4.95e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1369] = 1.16e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1369] = 1.16e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1370] = 2.31e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1370] = 2.31e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1371] = 1.65e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1371] = 1.65e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1372] = 7.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1372] = 7.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1373] = 3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1373] = 3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1374] = 6e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1374] = 6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1375] = 3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1375] = 3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1376] = 4e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1376] = 4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1377] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1377] = 2e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1378] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1379] = 5.6e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1380] = 4.15e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1381] = 5.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1382] = 2.08e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1383] = 3.89e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1383] = 3.89e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1384] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1384] = 1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1385] = 3.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1386] = 8.98e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1387] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1387] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1388] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1388] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1389] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1389] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1390] = 2.34e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1391] = 7.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1392] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1393] = 9e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1393] = 9e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1394] = 2.09e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1395] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1396] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1396] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1397] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1397] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1398] = 1e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1398] = 1e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1399] = 2.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1400] = 3.25e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1401] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1402] = 1.45e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1402] = 1.45e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1403] = 1.45e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1403] = 1.45e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1404] = 6e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1404] = 6e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1405] = 6e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1405] = 6e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1406] = 6e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1406] = 6e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1407] = 3.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1408] = 4.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1409] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1409] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1410] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1410] = 2e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1411] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1412] = 7.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1413] = 3.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1414] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1414] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1415] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1415] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1416] = 9.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1416] = 9.1e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1417] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1418] = 1.61e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1419] = 1.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1420] = 7.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1421] = 7.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1422] = 3.42e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1422] = 3.42e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1423] = 4.54e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1423] = 4.54e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1424] = 3.8e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1424] = 3.8e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1425] = 1.6e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1425] = 1.6e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1426] = 7.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1427] = 2.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1428] = 2.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1429] = 2.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1430] = 2.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1431] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1431] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1432] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1432] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1433] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1433] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1434] = 2.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1435] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1435] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1436] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1436] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1437] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1437] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1438] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1438] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1439] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1439] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1440] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1440] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1441] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1441] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1442] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1442] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1443] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1443] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1444] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1444] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1445] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1445] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1446] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1446] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1447] = 5.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1448] = 2.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1449] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1449] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1450] = 4e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1450] = 4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1451] = 8.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1451] = 8.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1452] = 1.7e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1452] = 1.7e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1453] = 2.6e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1454] = 3.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1455] = 8e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1455] = 8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1456] = 5.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1456] = 5.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1457] = 8.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1457] = 8.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1458] = 8.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1458] = 8.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1459] = 8.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1459] = 8.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1460] = 8.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1460] = 8.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1461] = 8.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1461] = 8.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1462] = 4.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1462] = 4.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1463] = 8.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1463] = 8.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1464] = 8.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1464] = 8.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1465] = 7.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1465] = 7.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1466] = 1.7e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1466] = 1.7e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1467] = 9.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1468] = 9.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1468] = 9.4e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1469] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1470] = 7.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1471] = 4.56e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1472] = 1.41e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1473] = 1.18e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1474] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1475] = 1.35e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1476] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1477] = 7.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1478] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1479] = 4.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1479] = 4.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1480] = 9.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1480] = 9.1e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1481] = 3.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1482] = 3.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1483] = 3.17e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1483] = 3.17e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1484] = 6.62e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1484] = 6.62e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1485] = 7e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1485] = 7e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1486] = 1.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1487] = 1.75e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1488] = 1.75e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1489] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1489] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1490] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1490] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1491] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1491] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1492] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1492] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1493] = 1.75e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1494] = 1.75e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1495] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1495] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1496] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1496] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1497] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1498] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1499] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1499] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1500] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1500] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1501] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1501] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1502] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1502] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1503] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1503] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1504] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1504] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1505] = 5e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1505] = 5e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1506] = 5e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1506] = 5e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1507] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1507] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1508] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1508] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1509] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1509] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1510] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1510] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1511] = 2.48e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1511] = 2.48e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1512] = 7.45e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1512] = 7.45e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1513] = 1.06e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1514] = 1.06e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1515] = 8.36e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1516] = 7e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1516] = 7e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1517] = 1.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1518] = 4.6e-11 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1519] = 4.6e-11 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1520] = 1e-17 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1520] = 1e-17; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1521] = 1.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1521] = 1.4e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1522] = 1.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1523] = 2.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1524] = 3.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1525] = 2.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1526] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1526] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1527] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1527] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1528] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1528] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1529] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1529] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1530] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1530] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1531] = 6.6e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1531] = 6.6e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1532] = 4.4e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1532] = 4.4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1533] = 1.65e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1533] = 1.65e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1534] = 7.26e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1534] = 7.26e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1535] = 7.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1535] = 7.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1536] = 6.45e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1536] = 6.45e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1537] = 1.93e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1537] = 1.93e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1538] = 6.84e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1538] = 6.84e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1539] = 1.22e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1539] = 1.22e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1540] = 8e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1540] = 8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1541] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1541] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1542] = 5.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1542] = 5.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1543] = 1.7e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1543] = 1.7e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1544] = 8.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1544] = 8.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1545] = 5.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1545] = 5.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1546] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1546] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1547] = 4.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1547] = 4.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1548] = 3.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1548] = 3.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1549] = 1.92e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1549] = 1.92e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1550] = 1.41e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1550] = 1.41e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1551] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1551] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1552] = 7e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1552] = 7e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1553] = 1.2e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1553] = 1.2e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1554] = 9e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1554] = 9e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1555] = 8e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1555] = 8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1556] = 1.8e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1556] = 1.8e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1557] = 5.32e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1557] = 5.32e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1558] = 8.68e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1558] = 8.68e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1559] = 5.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1559] = 5.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1560] = 3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1560] = 3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1561] = 7e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1561] = 7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1562] = 2.47e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1562] = 2.47e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1563] = 9.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1563] = 9.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1564] = 1.43e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1564] = 1.43e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1565] = 5.12e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1565] = 5.12e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1566] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1566] = 1.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1567] = 1.37e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1567] = 1.37e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1568] = 1.41e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1568] = 1.41e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1569] = 1.24e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1569] = 1.24e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1570] = 1.3e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1570] = 1.3e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1571] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1571] = 1.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1572] = 5.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1572] = 5.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1573] = 9.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1573] = 9.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1574] = 2.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1574] = 2.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1575] = 5.16e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1575] = 5.16e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1576] = 2e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1576] = 2e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1577] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1577] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1578] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1578] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1579] = 8.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1579] = 8.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1580] = 8e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1580] = 8e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1581] = 8e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1581] = 8e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1582] = 8e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1582] = 8e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1583] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1583] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1584] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1584] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1585] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1585] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1586] = 4e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1586] = 4e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1587] = 4e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1587] = 4e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1588] = 4e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1588] = 4e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1589] = 8e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1589] = 8e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1590] = 8e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1590] = 8e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1591] = 8e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1591] = 8e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1592] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1592] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1593] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1593] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1594] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1594] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1595] = 3e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1595] = 3e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1596] = 3e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1596] = 3e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1597] = 3e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1597] = 3e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1598] = 1.6e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1598] = 1.6e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1599] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1599] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1600] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1600] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1601] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1601] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1602] = 8e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1602] = 8e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1603] = 8e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1603] = 8e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1604] = 8e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1604] = 8e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1605] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1606] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1607] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1608] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1608] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1609] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1609] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1610] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1610] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1611] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1611] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1612] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1612] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1613] = 2.91e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1613] = 2.91e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1614] = 2.48e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1614] = 2.48e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1615] = 8.06e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1615] = 8.06e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1616] = 8e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1616] = 8e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1617] = 8e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1617] = 8e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1618] = 8e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1618] = 8e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1619] = 8.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1620] = 3.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1621] = 3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1621] = 3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1622] = 3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1622] = 3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1623] = 3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1623] = 3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1624] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1624] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1625] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1625] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1626] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1626] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1627] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1627] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1628] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1628] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1629] = 6e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1629] = 6e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1630] = 6e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1630] = 6e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1631] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1632] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1632] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1633] = 3e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1633] = 3e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1634] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1635] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1635] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1636] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1636] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1637] = 8e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1637] = 8e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1638] = 4e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1638] = 4e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1639] = 8e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1639] = 8e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1640] = 4e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1640] = 4e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1641] = 8e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1641] = 8e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1642] = 4e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1642] = 4e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1643] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1644] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1645] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1645] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1646] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1646] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1647] = 7.11e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1647] = 7.11e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1648] = 7.9e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1648] = 7.9e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1649] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1650] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1650] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1651] = 1.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1652] = 6.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1653] = 7.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1654] = 2.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1655] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1656] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1656] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1657] = 2.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1658] = 7e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1658] = 7e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1659] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1659] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1660] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1660] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1661] = 7.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1662] = 2.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1663] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1664] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1664] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1665] = 2.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1666] = 7.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1667] = 8e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1667] = 8e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1668] = 8e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1668] = 8e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1669] = 8e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1669] = 8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1670] = 5.15e-13 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1670] = 5.15e-13; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1671] = 4.64e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1671] = 4.64e-12; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1672] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1673] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1673] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1674] = 7.42e-11 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1675] = 3.29e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1676] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1677] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1677] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1678] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1678] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1679] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1679] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1680] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1680] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1681] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1681] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1682] = 1.96e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1682] = 1.96e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1683] = 6.16e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1683] = 6.16e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1684] = 5.04e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1684] = 5.04e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1685] = 3.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1685] = 3.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1686] = 1.35e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1686] = 1.35e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1687] = 2.34e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1687] = 2.34e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1688] = 1.35e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1688] = 1.35e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1689] = 5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1689] = 5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1690] = 9e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1690] = 9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1691] = 6.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1691] = 6.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1692] = 4.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1692] = 4.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1693] = 1.1e-19 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1693] = 1.1e-19; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1694] = 7.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1694] = 7.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1695] = 7.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1695] = 7.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1696] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1696] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1697] = 8e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1697] = 8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1698] = 5.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1698] = 5.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1699] = 2.72e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1699] = 2.72e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1700] = 4.59e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1700] = 4.59e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1701] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1701] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1702] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1702] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1703] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1703] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1704] = 8.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1704] = 8.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1705] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1705] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1706] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1706] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1707] = 1.34e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1707] = 1.34e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1708] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1708] = 1.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1709] = 5.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1709] = 5.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1710] = 1.2e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1710] = 1.2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1711] = 8.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1711] = 8.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1712] = 3.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1712] = 3.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1713] = 1.06e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1713] = 1.06e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1714] = 1.44e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1714] = 1.44e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1715] = 9.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1715] = 9.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1716] = 2.38e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1716] = 2.38e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1717] = 6.18e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1717] = 6.18e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1718] = 2.24e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1718] = 2.24e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1719] = 3.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1720] = 3.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1721] = 6.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1722] = 3.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1723] = 2.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1724] = 1.62e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1725] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1725] = 1.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1726] = 3.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1726] = 3.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1727] = 3.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1727] = 3.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1728] = 3.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1728] = 3.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1729] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1729] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1730] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1730] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1731] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1731] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1732] = 7.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1732] = 7.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1733] = 7.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1733] = 7.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1734] = 6e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1734] = 6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1735] = 6e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1735] = 6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1736] = 1.3e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1736] = 1.3e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1737] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1737] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1738] = 1.2e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1738] = 1.2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1739] = 1.2e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1739] = 1.2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1740] = 1.2e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1740] = 1.2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1741] = 7.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1741] = 7.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1742] = 7.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1742] = 7.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1743] = 3.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1743] = 3.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1744] = 7.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1744] = 7.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1745] = 7.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1745] = 7.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1746] = 7.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1746] = 7.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1747] = 7.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1747] = 7.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1748] = 7.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1748] = 7.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1749] = 7.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1749] = 7.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1750] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1750] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1751] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1751] = 1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1752] = 3.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1753] = 2e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1753] = 2e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1754] = 1.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1754] = 1.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1755] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1755] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1756] = 4.27e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1756] = 4.27e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1757] = 1.22e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1757] = 1.22e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1758] = 6.1e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1758] = 6.1e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1759] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1759] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1760] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1760] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1761] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1761] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1762] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1762] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1763] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1763] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1764] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1764] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1765] = 1.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1766] = 1.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1767] = 3e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1767] = 3e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1768] = 3e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1768] = 3e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1769] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1769] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1770] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1770] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1771] = 5.6e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1771] = 5.6e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1772] = 1.96e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1772] = 1.96e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1773] = 7e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1773] = 7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1774] = 1.26e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1774] = 1.26e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1775] = 2.94e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1775] = 2.94e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1776] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1776] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1777] = 1.17e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1777] = 1.17e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1778] = 1.56e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1778] = 1.56e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1779] = 5.33e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1779] = 5.33e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1780] = 2.34e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1780] = 2.34e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1781] = 2.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1781] = 2.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1782] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1782] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1783] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1783] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1784] = 3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1784] = 3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1785] = 3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1785] = 3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1786] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1786] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1787] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1787] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1788] = 2.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1789] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1790] = 6e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1790] = 6e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1791] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1792] = 6e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1792] = 6e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1793] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1794] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1794] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1795] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1795] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1796] = 7.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1797] = 7.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1798] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1798] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1799] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1799] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1800] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1801] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1802] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1802] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1803] = 7.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1804] = 7.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1805] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1806] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1807] = 1.06e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1807] = 1.06e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1808] = 5.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1808] = 5.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1809] = 7.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1809] = 7.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1810] = 9.68e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1810] = 9.68e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1811] = 1.98e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1811] = 1.98e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1812] = 8.8e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1812] = 8.8e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1813] = 7.48e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1813] = 7.48e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1814] = 1.15e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1814] = 1.15e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1815] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1815] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1816] = 1e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1816] = 1e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1817] = 7.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1817] = 7.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1818] = 1.9e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1818] = 1.9e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1819] = 2.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1820] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1821] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1822] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1823] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1824] = 2.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1825] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1825] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1826] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1826] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1827] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1827] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1828] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1829] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1830] = 6e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1830] = 6e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1831] = 6e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1831] = 6e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1832] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1832] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1833] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1833] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1834] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1834] = 1.5e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1835] = 2.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1836] = 2.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1837] = 1.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1837] = 1.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1838] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1838] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1839] = 7e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1839] = 7e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1840] = 7e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1840] = 7e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1841] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1841] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1842] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1842] = 5e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1843] = 1.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1844] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1844] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1845] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1846] = 4.75e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1846] = 4.75e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1847] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1847] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1848] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1848] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1849] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1849] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1850] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1850] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1851] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1851] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1852] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1852] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1853] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1853] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1854] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1854] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1855] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1855] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1856] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1856] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1857] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1857] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1858] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1858] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1859] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1859] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1860] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1860] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1861] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1861] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1862] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1862] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1863] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1863] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1864] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1864] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1865] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1865] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1866] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1866] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1867] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1867] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1868] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1868] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1869] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1869] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1870] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1870] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1871] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1871] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1872] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1872] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1873] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1873] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1874] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1874] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1875] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1875] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1876] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1876] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1877] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1877] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1878] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1878] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1879] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1879] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1880] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1880] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1881] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1881] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1882] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1882] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1883] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1883] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1884] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1884] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1885] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1885] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1886] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1886] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1887] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1887] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1888] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1888] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1889] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1889] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1890] = 1.2e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1890] = 1.2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1891] = 1.2e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1891] = 1.2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1892] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1892] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1893] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1893] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1894] = 1.2e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1894] = 1.2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1895] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1895] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1896] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1896] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1897] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1897] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1898] = 1.2e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1898] = 1.2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1899] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1899] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1900] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1900] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1901] = 1e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1901] = 1e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1902] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1902] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1903] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1903] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1904] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1904] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1905] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1905] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1906] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1906] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1907] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1907] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1908] = 9.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1908] = 9.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1909] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1909] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1910] = 1.6e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1910] = 1.6e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1911] = 1e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1911] = 1e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1912] = 5.2e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1912] = 5.2e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1913] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1913] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1914] = 1.2e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1914] = 1.2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1915] = 3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1915] = 3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1916] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1916] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1917] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1917] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1918] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1918] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1919] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1919] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1920] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1920] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1921] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1921] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1922] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1922] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1923] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1923] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1924] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1924] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1925] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1925] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1926] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1926] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1927] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1927] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1928] = 3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1928] = 3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1929] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1929] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1930] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1930] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1931] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1931] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1932] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1932] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1933] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1933] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1934] = 2.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1934] = 2.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1935] = 9.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1935] = 9.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1936] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1936] = 1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1937] = 1.16e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1938] = 1.45e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1939] = 2.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1940] = 1.43e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1940] = 1.43e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1941] = 1.09e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1941] = 1.09e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1942] = 6.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1942] = 6.5e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1943] = 7.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1944] = 5.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1945] = 5.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1946] = 1.6e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1946] = 1.6e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1947] = 3.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1948] = 9.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1949] = 9.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1950] = 9.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1951] = 5.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1952] = 5.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1953] = 2.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1954] = 6.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1955] = 1.47e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1956] = 3.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1957] = 2.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1958] = 1.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1959] = 4.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1960] = 1.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1961] = 1.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1961] = 1.9e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1962] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1963] = 1.84e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1964] = 4.05e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1965] = 7.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1966] = 1e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1966] = 1e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1967] = 9.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1967] = 9.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1968] = 1e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1968] = 1e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1969] = 3.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1969] = 3.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1970] = 1.05e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1970] = 1.05e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1971] = 8.55e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1971] = 8.55e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1972] = 7.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1973] = 4.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1973] = 4.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1974] = 4.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1974] = 4.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1975] = 9.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1975] = 9.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1976] = 8.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1976] = 8.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1977] = 3.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1977] = 3.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1978] = 1.6e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1978] = 1.6e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1979] = 1.65e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1980] = 3.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1981] = 2.81e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1982] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1983] = 1.84e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1984] = 2.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1985] = 2.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1986] = 1.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1987] = 4.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1988] = 1.54e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[1989] = 1.26e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1990] = 9.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1990] = 9.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1991] = 7.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1991] = 7.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1992] = 7.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1992] = 7.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1993] = 1.08e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1993] = 1.08e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1994] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1994] = 1.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1995] = 4.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1995] = 4.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1996] = 4.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1996] = 4.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1997] = 4.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1997] = 4.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1998] = 8.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1998] = 8.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[1999] = 9.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[1999] = 9.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2000] = 9.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2000] = 9.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2001] = 4.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2001] = 4.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2002] = 4.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2002] = 4.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2003] = 4.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2003] = 4.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2004] = 9.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2004] = 9.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2005] = 8.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2005] = 8.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2006] = 4.35e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2006] = 4.35e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2007] = 4.35e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2007] = 4.35e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2008] = 8.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2008] = 8.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2009] = 8.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2009] = 8.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2010] = 8.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2010] = 8.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2011] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2011] = 1.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2012] = 4.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2012] = 4.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2013] = 9.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2013] = 9.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2014] = 4.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2014] = 4.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2015] = 8.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2015] = 8.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2016] = 4.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2016] = 4.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2017] = 1e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2017] = 1e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2018] = 8.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2018] = 8.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2019] = 8.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2019] = 8.2e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2020] = 7.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2021] = 7.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2022] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2022] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2023] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2023] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2024] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2025] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2026] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2026] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2027] = 7.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2028] = 7.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2029] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2030] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2031] = 1.06e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2031] = 1.06e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2032] = 2.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2033] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2033] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2034] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2034] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2035] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2035] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2036] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2036] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2037] = 7e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2037] = 7e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2038] = 7e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2038] = 7e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2039] = 7e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2039] = 7e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2040] = 7e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2040] = 7e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2041] = 9.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2041] = 9.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2042] = 1.2e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2042] = 1.2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2043] = 1e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2043] = 1e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2044] = 6e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2044] = 6e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2045] = 3.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2045] = 3.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2046] = 5.24e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2046] = 5.24e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2047] = 4.6e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2047] = 4.6e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2048] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2048] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2049] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2049] = 5e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2050] = 2.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2051] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2051] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2052] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2052] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2053] = 2.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2054] = 3.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2055] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2056] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2056] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2057] = 2.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2058] = 3.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2059] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2060] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2060] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2061] = 4e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2061] = 4e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2062] = 1.48e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2062] = 1.48e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2063] = 1.57e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2063] = 1.57e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2064] = 1.04e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2064] = 1.04e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2065] = 1.65e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2066] = 3.03e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2067] = 1.98e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2068] = 6.66e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2069] = 1.04e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2070] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2071] = 2.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2072] = 3.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2073] = 2.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2074] = 1.2e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2074] = 1.2e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2075] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2076] = 2.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2077] = 1.6e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2078] = 1.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2079] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2079] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2080] = 1.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2080] = 1.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2081] = 1.27e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2081] = 1.27e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2082] = 4.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2083] = 5.72e-11 * pow(Tgas/300.0,
         -2.25) * exp(-47.5/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2084] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2084] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2085] = 1.3e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2085] = 1.3e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2086] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2086] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2087] = 1.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2088] = 3.04e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2089] = 5e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2089] = 5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2090] = 4e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2090] = 4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2091] = 4e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2091] = 4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2092] = 1.3e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2092] = 1.3e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2093] = 7.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2094] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2094] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2095] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2095] = 1.4e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2096] = 9.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2097] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2097] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2098] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2098] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2099] = 1.8e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2099] = 1.8e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2100] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2100] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2101] = 1e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2101] = 1e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2102] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2102] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2103] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2103] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2104] = 3.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2104] = 3.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2105] = 1.2e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2105] = 1.2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2106] = 1.26e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2106] = 1.26e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2107] = 1.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2107] = 1.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2108] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2108] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2109] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2109] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2110] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2110] = 1.1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2111] = 8.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2112] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-1057.2/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2112] = 1.1e-09 * exp(-1057.2/Tgas);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2113] = 2.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2114] = 2.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2115] = 3.6e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2116] = 4.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2117] = 4.07e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2118] = 4e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2118] = 4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2119] = 4e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2119] = 4e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2120] = 3.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2121] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2121] = 1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2122] = 2.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2123] = 1.76e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2124] = 3e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2124] = 3e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2125] = 7.6e-11 * pow(Tgas/300.0,
-        -1.6) * exp(-0.0/Tgas); }
+        -1.6); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2126] = 1.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2127] = 2.29e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2128] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2129] = 5.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2130] = 1.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2131] = 1.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2132] = 7.83e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2133] = 1.23e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2133] = 1.23e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2134] = 1.51e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2134] = 1.51e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2135] = 4.23e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2135] = 4.23e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2136] = 4e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2136] = 4e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2137] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2138] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2138] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2139] = 1.2e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2139] = 1.2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2140] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2140] = 1.4e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2141] = 1.98e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2142] = 2.6e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2143] = 1.16e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2144] = 1.15e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2145] = 9.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2145] = 9.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2146] = 2.38e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2146] = 2.38e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2147] = 1.82e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2147] = 1.82e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2148] = 1.96e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2148] = 1.96e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2149] = 5.74e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2149] = 5.74e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2150] = 2.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2150] = 2.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2151] = 3.74e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2151] = 3.74e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2152] = 1.32e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2152] = 1.32e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2153] = 3.74e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2153] = 3.74e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2154] = 1.76e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2154] = 1.76e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2155] = 6.64e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2155] = 6.64e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2156] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2156] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2157] = 2.38e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2157] = 2.38e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2158] = 3.61e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2158] = 3.61e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2159] = 3.52e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2159] = 3.52e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2160] = 7.83e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2160] = 7.83e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2161] = 8.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2161] = 8.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2162] = 5.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2162] = 5.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2163] = 8.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2163] = 8.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2164] = 1.56e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2164] = 1.56e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2165] = 1.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2165] = 1.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2166] = 3.74e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2166] = 3.74e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2167] = 1.09e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2167] = 1.09e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2168] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2168] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2169] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2169] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2170] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2170] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2171] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2171] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2172] = 1.43e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2172] = 1.43e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2173] = 1.71e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2173] = 1.71e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2174] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2174] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2175] = 2.85e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2175] = 2.85e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2176] = 2.64e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2176] = 2.64e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2177] = 3.61e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2177] = 3.61e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2178] = 9.68e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2178] = 9.68e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2179] = 1.58e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2179] = 1.58e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2180] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2180] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2181] = 8e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2181] = 8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2182] = 2.32e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2182] = 2.32e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2183] = 1.22e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2183] = 1.22e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2184] = 2.26e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2184] = 2.26e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2185] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2185] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2186] = 8e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2186] = 8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2187] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2187] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2188] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2188] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2189] = 5.2e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2189] = 5.2e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2190] = 4.55e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2190] = 4.55e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2191] = 5.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2191] = 5.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2192] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2192] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2193] = 1.65e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2193] = 1.65e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2194] = 9.35e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2194] = 9.35e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2195] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2195] = 1.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2196] = 8.3e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2196] = 8.3e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2197] = 4.57e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2197] = 4.57e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2198] = 2.91e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2198] = 2.91e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2199] = 2.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2199] = 2.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2200] = 1.04e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2200] = 1.04e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2201] = 7.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2201] = 7.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2202] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2202] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2203] = 2.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2203] = 2.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2204] = 7e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2204] = 7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2205] = 9.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2205] = 9.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2206] = 8.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2206] = 8.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2207] = 4.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2207] = 4.8e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2208] = 3.8e-12 * pow(Tgas/300.0,
-        -1.8) * exp(-0.0/Tgas); }
+        -1.8); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2209] = 1.95e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2209] = 1.95e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2210] = 1.31e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2210] = 1.31e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2211] = 9.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2211] = 9.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2212] = 1.05e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2212] = 1.05e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2213] = 5.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2213] = 5.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2214] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2214] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2215] = 3.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2215] = 3.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2216] = 2e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2216] = 2e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2217] = 9.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2217] = 9.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2218] = 1.6e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2218] = 1.6e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2219] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2219] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2220] = 9e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2220] = 9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2221] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2221] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2222] = 1.2e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2222] = 1.2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2223] = 3.2e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2223] = 3.2e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2224] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2224] = 1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2225] = 4.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2226] = 3.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2227] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2228] = 4.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2229] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2230] = 8.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2231] = 2.06e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2232] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2233] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2233] = 1.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2234] = 9e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2234] = 9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2235] = 1.3e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2235] = 1.3e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2236] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2236] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2237] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2237] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2238] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2238] = 2e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2239] = 3.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2240] = 3.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2241] = 3.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2242] = 6.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2243] = 7.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2244] = 6.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2245] = 3.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2246] = 3.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2247] = 3.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2248] = 6.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2249] = 6.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2250] = 6.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2251] = 3.15e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2252] = 3.15e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2253] = 6.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2254] = 6.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2255] = 5.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2256] = 3.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2257] = 6.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2258] = 9.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2259] = 3.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2260] = 6.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2261] = 3.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2262] = 3.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2263] = 6.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2264] = 3.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2265] = 6.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2266] = 6.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2267] = 6e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2267] = 6e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2268] = 5.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2269] = 2.25e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2269] = 2.25e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2270] = 2.25e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2270] = 2.25e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2271] = 5.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2272] = 3.15e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2273] = 3.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2274] = 1.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2274] = 1.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2275] = 8.6e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2275] = 8.6e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2276] = 8.6e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2276] = 8.6e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2277] = 9e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2277] = 9e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2278] = 8.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2279] = 8.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2280] = 1.65e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2281] = 1.56e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2282] = 1.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2283] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2283] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2284] = 7.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2284] = 7.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2285] = 7.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2285] = 7.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2286] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2286] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2287] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2287] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2288] = 8.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2288] = 8.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2289] = 8.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2289] = 8.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2290] = 3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2290] = 3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2291] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2291] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2292] = 7.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2292] = 7.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2293] = 1.23e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2293] = 1.23e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2294] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2294] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2295] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2295] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2296] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2296] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2297] = 3e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2297] = 3e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2298] = 1.65e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2298] = 1.65e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2299] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2299] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2300] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2300] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2301] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2301] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2302] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2302] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2303] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2303] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2304] = 2.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2305] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2305] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2306] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2306] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2307] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2307] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2308] = 2.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2309] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2309] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2310] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2310] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2311] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2311] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2312] = 2.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2313] = 3.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2314] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2314] = 1.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2315] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2315] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2316] = 7.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2317] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2317] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2318] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2318] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2319] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2319] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2320] = 8e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2320] = 8e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2321] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2321] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2322] = 9e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2322] = 9e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2323] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2323] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2324] = 1e-08 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2324] = 1e-08 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2325] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2325] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2326] = 2.8e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2326] = 2.8e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2327] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2327] = 1.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2328] = 6e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2328] = 6e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2329] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2329] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2330] = 5.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2331] = 3.84e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2332] = 8.85e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2333] = 2.3e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2333] = 2.3e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2334] = 3.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2334] = 3.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2335] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2335] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2336] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2336] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2337] = 1.06e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2338] = 3.57e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2339] = 9.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2340] = 3.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2341] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2342] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2342] = 2e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2343] = 1.17e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2344] = 9.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2345] = 9.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2346] = 4e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2346] = 4e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2347] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2347] = 1.5e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2348] = 7.94e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2349] = 4e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2349] = 4e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2350] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2350] = 1.5e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2351] = 6.25e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2352] = 1.45e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2353] = 1.6e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2353] = 1.6e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2354] = 3.52e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2354] = 3.52e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2355] = 1.9e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2355] = 1.9e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2356] = 2.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2356] = 2.1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2357] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2358] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2359] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2360] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2360] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2361] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2361] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2362] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2362] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2363] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2363] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2364] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2364] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2365] = 1.7e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2365] = 1.7e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2366] = 3.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2366] = 3.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2367] = 4.8e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2367] = 4.8e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2368] = 3.8e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2368] = 3.8e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2369] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2369] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2370] = 4.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2370] = 4.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2371] = 8.82e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2371] = 8.82e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2372] = 1.81e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2372] = 1.81e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2373] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2373] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2374] = 2.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2374] = 2.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2375] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2375] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2376] = 2.35e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2376] = 2.35e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2377] = 1.37e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2377] = 1.37e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2378] = 2.3e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2378] = 2.3e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2379] = 1.14e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2379] = 1.14e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2380] = 7.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2381] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2382] = 2.35e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2382] = 2.35e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2383] = 2.16e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2383] = 2.16e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2384] = 2.08e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2384] = 2.08e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2385] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2386] = 3.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2387] = 8.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2388] = 7.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2389] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2389] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2390] = 1.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2390] = 1.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2391] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2391] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2392] = 1.9e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2392] = 1.9e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2393] = 7.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2394] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2394] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2395] = 1.9e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2395] = 1.9e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2396] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2396] = 1.5e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2397] = 7.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2398] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-4640.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2398] = 1e-10 * exp(-4640.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2399] = 1e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2399] = 1e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2400] = 1e-17 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2400] = 1e-17; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2401] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2401] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2402] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2402] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2403] = 1e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2403] = 1e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2404] = 9e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2404] = 9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2405] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2405] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2406] = 2.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2406] = 2.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2407] = 5.2e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2407] = 5.2e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2408] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-2000.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2408] = 1.5e-09 * exp(-2000.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2409] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2409] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2410] = 8e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2410] = 8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2411] = 3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2411] = 3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2412] = 1.65e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2412] = 1.65e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2413] = 2.2e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2413] = 2.2e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2414] = 6.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2414] = 6.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2415] = 1e-17 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2415] = 1e-17; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2416] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2416] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2417] = 5.4e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2417] = 5.4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2418] = 1.3e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2418] = 1.3e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2419] = 1.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2419] = 1.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2420] = 1e-17 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2420] = 1e-17; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2421] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2421] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2422] = 4.7e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2422] = 4.7e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2423] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2423] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2424] = 4.1e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2424] = 4.1e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2425] = 1e-17 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2425] = 1e-17; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2426] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2426] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2427] = 1.2e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2427] = 1.2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2428] = 1.6e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2428] = 1.6e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2429] = 1.2e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2429] = 1.2e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2430] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2430] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2431] = 5.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2431] = 5.7e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2432] = 4.89e-11 * pow(Tgas/300.0,
         -0.14) * exp(+36.1/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2433] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2433] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2434] = 7.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2434] = 7.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2435] = 7.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2435] = 7.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2436] = 9.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2436] = 9.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2437] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2437] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2438] = 4.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2438] = 4.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2439] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2439] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2440] = 3.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2440] = 3.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2441] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2441] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2442] = 6.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2442] = 6.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2443] = 6e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-2900.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2443] = 6e-10 * exp(-2900.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2444] = 5e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2444] = 5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2445] = 2e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2445] = 2e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2446] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2446] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2447] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2447] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2448] = 5e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2448] = 5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2449] = 5e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2449] = 5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2450] = 9e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2450] = 9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2451] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2451] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2452] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2452] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2453] = 1.3e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2453] = 1.3e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2454] = 1.3e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2454] = 1.3e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2455] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2455] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2456] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-6380.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2456] = 2e-10 * exp(-6380.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2457] = 3.7e-14 * pow(Tgas/300.0,
-        0.0) * exp(-35.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2457] = 3.7e-14 * exp(-35.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2458] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2458] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2459] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-85.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2459] = 1e-09 * exp(-85.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2460] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2460] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2461] = 2.25e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2461] = 2.25e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2462] = 1.28e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2462] = 1.28e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2463] = 2.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2463] = 2.7e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2464] = 3.09e-13 * pow(Tgas/300.0,
         1.08) * exp(+50.9/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2465] = 1.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2465] = 1.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2466] = 1.7e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2466] = 1.7e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2467] = 3e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2467] = 3e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2468] = 6.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2468] = 6.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2469] = 1.01e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2469] = 1.01e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2470] = 1.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-9860.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2470] = 1.1e-10 * exp(-9860.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2471] = 5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2471] = 5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2472] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2472] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2473] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2473] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2474] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2474] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2475] = 3.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2475] = 3.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2476] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2476] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2477] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2477] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2478] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2478] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2479] = 2.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2480] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2481] = 6e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2481] = 6e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2482] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2483] = 6e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2483] = 6e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2484] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2485] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2485] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2486] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2486] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2487] = 2.16e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2488] = 3.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2489] = 7.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2489] = 7.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2490] = 5.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2490] = 5.5e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2491] = 1.7e-11 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2492] = 5.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2493] = 2e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2493] = 2e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2494] = 2.1e-11 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2495] = 2.1e-11 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2496] = 2.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2497] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2497] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2498] = 2.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2499] = 9.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2500] = 3.35e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2501] = 3.35e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2502] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2502] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2503] = 4.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2503] = 4.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2504] = 4.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2504] = 4.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2505] = 1.92e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2505] = 1.92e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2506] = 1.33e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2506] = 1.33e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2507] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2507] = 5e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2508] = 6.62e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2509] = 2.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2510] = 7.74e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2511] = 5.4e-11 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2512] = 2.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2513] = 2.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2514] = 2.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2515] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2516] = 4.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2516] = 4.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2517] = 4.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2517] = 4.3e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2518] = 2.6e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2519] = 4.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2520] = 4.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2521] = 8.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2522] = 2.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2523] = 1.11e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2524] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2525] = 8.5e-11 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2526] = 2.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2527] = 2.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2528] = 1.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2529] = 2.25e-11 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2530] = 2.48e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2531] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2531] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2532] = 7.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2533] = 7.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2534] = 2.95e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2535] = 4.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2536] = 1.6e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2537] = 1.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2538] = 6.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2539] = 1.63e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2540] = 8.84e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2541] = 7.56e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2542] = 2.6e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2543] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2543] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2544] = 8.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2545] = 2.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2546] = 1.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2547] = 2.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2548] = 2.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2549] = 2.1e-11 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2550] = 2.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2551] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2551] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2552] = 3.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2553] = 3.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2554] = 7.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2555] = 2.13e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2556] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2557] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2557] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2558] = 2.6e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2559] = 2.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2560] = 5.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2561] = 8.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2562] = 4.95e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2563] = 5.5e-11 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2564] = 2.04e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2565] = 7.44e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2566] = 2.52e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2567] = 3.28e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2568] = 1.62e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2569] = 2.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2570] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2570] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2571] = 8e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2571] = 8e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2572] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2572] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2573] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2573] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2574] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2574] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2575] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2576] = 3.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2577] = 8.4e-11 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2578] = 7.56e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2579] = 2.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2580] = 2.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2581] = 4.55e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2582] = 1.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2583] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2583] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2584] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2584] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2585] = 2e-08 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2585] = 2e-08 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2586] = 1.8e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2586] = 1.8e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2587] = 3.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2587] = 3.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2588] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2588] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2589] = 1.15e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2589] = 1.15e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2590] = 1.15e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2590] = 1.15e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2591] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2591] = 1.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2592] = 4e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2592] = 4e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2593] = 2.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2594] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2595] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2595] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2596] = 4e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2596] = 4e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2597] = 1.7e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2597] = 1.7e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2598] = 9e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2598] = 9e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2599] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2599] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2600] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2600] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2601] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2601] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2602] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2602] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2603] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2603] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2604] = 9e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2604] = 9e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2605] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2605] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2606] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2606] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2607] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2607] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2608] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2608] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2609] = 2.3e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2609] = 2.3e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2610] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2610] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2611] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2611] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2612] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2612] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2613] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2613] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2614] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2614] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2615] = 4e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2615] = 4e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2616] = 8e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2616] = 8e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2617] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2617] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2618] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2618] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2619] = 3.9e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2619] = 3.9e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2620] = 2.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2621] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2621] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2622] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2622] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2623] = 4e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2623] = 4e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2624] = 4e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2624] = 4e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2625] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2625] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2626] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2626] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2627] = 2.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2628] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2628] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2629] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2629] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2630] = 4e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2630] = 4e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2631] = 4e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2631] = 4e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2632] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2632] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2633] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2633] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2634] = 1.7e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2634] = 1.7e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2635] = 2.9e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2635] = 2.9e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2636] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2636] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2637] = 9.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2638] = 3.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2639] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2639] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2640] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2640] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2641] = 2.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2641] = 2.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2642] = 9e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2642] = 9e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2643] = 2.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2643] = 2.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2644] = 9e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2644] = 9e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2645] = 2.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2645] = 2.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2646] = 1e-08 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2646] = 1e-08 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2647] = 2.25e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2647] = 2.25e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2648] = 2.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2648] = 2.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2649] = 9e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2649] = 9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2650] = 2.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2650] = 2.1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2651] = 8.97e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2652] = 7.59e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2653] = 1.45e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2654] = 1.52e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2655] = 4.14e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2656] = 8.28e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2657] = 1.04e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2658] = 1.05e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2659] = 1.16e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2660] = 6.61e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2661] = 1.69e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2662] = 1.08e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2663] = 2.31e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2664] = 2.31e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2665] = 2.62e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2666] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2666] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2667] = 3.71e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2668] = 8.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2669] = 2.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2669] = 2.4e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2670] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2671] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2671] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2672] = 1.64e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2673] = 1.64e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2674] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2674] = 2e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2675] = 1.36e-09 * pow(Tgas/300.0,
         -0.14) * exp(+3.4/Tgas); }
@@ -8093,164 +6917,146 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[2676] = 8.49e-10 * pow(Tgas/300.0,
         0.07) * exp(-5.2/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2677] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2677] = 1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2678] = 2.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2679] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2679] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2680] = 4.9e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2680] = 4.9e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2681] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2681] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2682] = 6.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2683] = 2.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2684] = 5.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2685] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2685] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2686] = 3.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2687] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2687] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2688] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2688] = 1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2689] = 9.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2690] = 2.6e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2690] = 2.6e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2691] = 8e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2691] = 8e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2692] = 9e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2692] = 9e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2693] = 1e-08 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2693] = 1e-08 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2694] = 8.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2695] = 6.92e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2696] = 6.92e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2697] = 1.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2698] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2698] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2699] = 1.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2700] = 4.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2701] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2701] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2702] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2702] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2703] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2703] = 2e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2704] = 3.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2705] = 1.2e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2706] = 8.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2707] = 3.69e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2708] = 3.69e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2709] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2709] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2710] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2710] = 2e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2711] = 8.54e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2712] = 8.54e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2713] = 8.54e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2714] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2714] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2715] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2715] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2716] = 1.9e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2716] = 1.9e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2717] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2717] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2718] = 1.8e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2718] = 1.8e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2719] = 2.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2719] = 2.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2720] = 2.8e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2720] = 2.8e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2721] = 1.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2722] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2722] = 1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2723] = 4.39e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2724] = 1.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2725] = 7e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2725] = 7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2726] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2726] = 1.1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2727] = 2.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2728] = 2.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2728] = 2.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2729] = 9.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-100.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2729] = 9.3e-10 * exp(-100.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2730] = 3.42e-10 * pow(Tgas/300.0,
         -0.16) * exp(-1.4/Tgas); }
@@ -8258,6410 +7064,5838 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[2731] = 7.98e-10 * pow(Tgas/300.0,
         -0.16) * exp(-1.4/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2732] = 1.9e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2732] = 1.9e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2733] = 1.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2734] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2734] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2735] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2735] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2736] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2736] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2737] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2737] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2738] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2738] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2739] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2739] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2740] = 2.6e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2740] = 2.6e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2741] = 1.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2742] = 1.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2743] = 3.7e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2743] = 3.7e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2744] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2744] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2745] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2745] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2746] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2746] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2747] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2747] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2748] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2748] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2749] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2749] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2750] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2750] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2751] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2751] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2752] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2752] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2753] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2753] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2754] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2754] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2755] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2755] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2756] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2756] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2757] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2757] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2758] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2758] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2759] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2759] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2760] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2760] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2761] = 8.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2762] = 1.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2763] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2763] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2764] = 9.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2764] = 9.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2765] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2765] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2766] = 9.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2766] = 9.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2767] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2767] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2768] = 2.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2769] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2769] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2770] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2770] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2771] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2771] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2772] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2772] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2773] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2773] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2774] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2774] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2775] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2775] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2776] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2776] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2777] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2777] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2778] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2778] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2779] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2779] = 1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2780] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2781] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2781] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2782] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2782] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2783] = 1.3e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2783] = 1.3e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2784] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2784] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2785] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2785] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2786] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2786] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2787] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2787] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2788] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2788] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2789] = 1.8e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2789] = 1.8e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2790] = 1.7e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2790] = 1.7e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2791] = 3.6e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2792] = 4.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2793] = 3.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2794] = 2.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2795] = 2.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2796] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2796] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2797] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2797] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2798] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2798] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2799] = 3.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2800] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2800] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2801] = 1.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2802] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2802] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2803] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2803] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2804] = 4e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2804] = 4e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2805] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2805] = 1.1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2806] = 3.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2807] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2807] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2808] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2808] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2809] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2809] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2810] = 4e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2810] = 4e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2811] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2811] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2812] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2812] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2813] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2813] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2814] = 3.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2814] = 3.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2815] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2815] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2816] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2816] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2817] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2817] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2818] = 1.8e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2818] = 1.8e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2819] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2819] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2820] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2820] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2821] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2821] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2822] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2822] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2823] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2823] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2824] = 9.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2824] = 9.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2825] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2825] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2826] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2826] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2827] = 6.8e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2827] = 6.8e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2828] = 3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2828] = 3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2829] = 1e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2829] = 1e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2830] = 6.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2830] = 6.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2831] = 6e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2831] = 6e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2832] = 2.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2832] = 2.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2833] = 3.2e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2833] = 3.2e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2834] = 7.35e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2834] = 7.35e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2835] = 9.06e-10 * pow(Tgas/300.0,
         -0.37) * exp(-29.1/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2836] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-7080.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2836] = 1e-09 * exp(-7080.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2837] = 7e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-10560.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2837] = 7e-10 * exp(-10560.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2838] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2838] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2839] = 1e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2839] = 1e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2840] = 1.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2840] = 1.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2841] = 2.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2841] = 2.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2842] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2842] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2843] = 6e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2843] = 6e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2844] = 1.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2844] = 1.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2845] = 9.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2845] = 9.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2846] = 1.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2846] = 1.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2847] = 4.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2847] = 4.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2848] = 1.9e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2848] = 1.9e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2849] = 1.9e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2849] = 1.9e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2850] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2850] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2851] = 7e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2851] = 7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2852] = 6e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2852] = 6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2853] = 2.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2853] = 2.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2854] = 1.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2854] = 1.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2855] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2855] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2856] = 1.6e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2857] = 3.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2858] = 3.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2859] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2859] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2860] = 5.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2860] = 5.7e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2861] = 2.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2862] = 2.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2863] = 2.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2864] = 1.98e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2865] = 5.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2866] = 2.03e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2867] = 2.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2868] = 1.04e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2869] = 9.45e-11 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2870] = 1.23e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2871] = 3.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2872] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2873] = 2.3e-11 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2874] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2875] = 1.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2876] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2877] = 3.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2878] = 9.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2879] = 8.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2880] = 6.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2881] = 3.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2882] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2882] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2883] = 9.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2884] = 3.06e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2885] = 1.4e-12 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2886] = 2.25e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2887] = 2.25e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2888] = 1.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2889] = 1.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2890] = 1.05e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2891] = 1.05e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2892] = 1.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2893] = 1.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2894] = 1.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2895] = 1.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2896] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2896] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2897] = 1.51e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2897] = 1.51e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2898] = 1.51e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2898] = 1.51e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2899] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2899] = 1.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2900] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2900] = 1.4e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2901] = 1.4e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2902] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2902] = 1.4e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2903] = 2.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2904] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2904] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2905] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2905] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2906] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2906] = 2e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2907] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2908] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2909] = 3.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2910] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2910] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2911] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2911] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2912] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2912] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2913] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2913] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2914] = 9e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2914] = 9e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2915] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2916] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2916] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2917] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2917] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2918] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2918] = 2e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2919] = 2.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2920] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2920] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2921] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2921] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2922] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2922] = 1.4e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2923] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2924] = 1.6e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2924] = 1.6e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2925] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2925] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2926] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2926] = 1.4e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2927] = 2.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2928] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2928] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2929] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2929] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2930] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2930] = 1.4e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2931] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2932] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2932] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2933] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2933] = 1.4e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2934] = 2.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2935] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2935] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2936] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2936] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2937] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2937] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2938] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2939] = 3.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2940] = 1.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2941] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2941] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2942] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2942] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2943] = 4e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2943] = 4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2944] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2944] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2945] = 4e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2945] = 4e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2946] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2946] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2947] = 4e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2947] = 4e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2948] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2948] = 1.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2949] = 1.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2949] = 1.2e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2950] = 3.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2951] = 4.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2952] = 2.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2953] = 2.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2954] = 2.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2955] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2955] = 1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2956] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2957] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2958] = 3.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2959] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2960] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2960] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2961] = 1.6e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2962] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2962] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2963] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2963] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2964] = 4e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2964] = 4e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2965] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2965] = 1.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2966] = 8e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2966] = 8e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2967] = 4e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2967] = 4e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2968] = 4e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2968] = 4e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2969] = 7.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2970] = 2.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2971] = 1.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2972] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2972] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2973] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2973] = 1.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2974] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2974] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2975] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2975] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2976] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2976] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2977] = 8.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2977] = 8.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2978] = 3.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2978] = 3.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2979] = 1.3e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2979] = 1.3e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2980] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2980] = 1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2981] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2982] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2982] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2983] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2983] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2984] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2984] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2985] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2985] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2986] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2986] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2987] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2987] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2988] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2988] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2989] = 3.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2989] = 3.3e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[2990] = 7.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2991] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2991] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2992] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2992] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2993] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2993] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2994] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2994] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2995] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2995] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2996] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2996] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2997] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2997] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2998] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2998] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[2999] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[2999] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3000] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3000] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3001] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3001] = 1.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3002] = 8.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3002] = 8.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3003] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3003] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3004] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3004] = 2e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3005] = 7.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3006] = 3.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3007] = 3.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3008] = 7.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3009] = 7.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3010] = 3.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3011] = 7.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3012] = 3.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3013] = 8.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3014] = 2.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3015] = 5.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3016] = 1.55e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3017] = 1.55e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3018] = 1.55e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3019] = 1.55e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3020] = 2.84e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3021] = 3.23e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3022] = 3.23e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3023] = 3.23e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3024] = 3.23e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3025] = 3.23e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3026] = 3.23e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3027] = 1.14e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3028] = 5.19e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3029] = 4.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3030] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3030] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3031] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3031] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3032] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3032] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3033] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3033] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3034] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3034] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3035] = 4.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3036] = 2.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3037] = 2.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3038] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3039] = 1.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3040] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3041] = 3.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3042] = 9.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3043] = 8.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3044] = 3.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3045] = 9.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3046] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3046] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3047] = 1.51e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3047] = 1.51e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3048] = 1.51e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3048] = 1.51e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3049] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3049] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3050] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3050] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3051] = 1.51e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3051] = 1.51e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3052] = 1.51e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3052] = 1.51e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3053] = 1.51e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3053] = 1.51e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3054] = 4.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3055] = 2.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3056] = 5.25e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3056] = 5.25e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3057] = 3.58e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3057] = 3.58e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3058] = 2.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3058] = 2.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3059] = 8.19e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3059] = 8.19e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3060] = 1.82e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3060] = 1.82e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3061] = 4.2e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3061] = 4.2e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3062] = 2.19e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3062] = 2.19e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3063] = 1.65e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3063] = 1.65e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3064] = 5.07e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3064] = 5.07e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3065] = 4.65e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3065] = 4.65e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3066] = 6.79e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3066] = 6.79e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3067] = 3.75e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3068] = 1.13e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3069] = 4.73e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3070] = 4.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3071] = 4.05e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3072] = 3.83e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3073] = 1.6e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3073] = 1.6e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3074] = 1.61e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3074] = 1.61e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3075] = 8.75e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3075] = 8.75e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3076] = 7.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3076] = 7.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3077] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3077] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3078] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3078] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3079] = 4.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3079] = 4.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3080] = 2.2e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3080] = 2.2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3081] = 1.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3081] = 1.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3082] = 4.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3082] = 4.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3083] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3083] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3084] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3084] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3085] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3085] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3086] = 5.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3086] = 5.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3087] = 5.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3087] = 5.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3088] = 5.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3088] = 5.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3089] = 8e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3089] = 8e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3090] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3090] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3091] = 2.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3092] = 2.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3093] = 2.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3094] = 2.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3095] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3095] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3096] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3096] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3097] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3097] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3098] = 8e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3098] = 8e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3099] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3099] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3100] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3100] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3101] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3101] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3102] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3102] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3103] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3103] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3104] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3104] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3105] = 6.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3105] = 6.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3106] = 6.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3106] = 6.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3107] = 6.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3107] = 6.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3108] = 6.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3108] = 6.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3109] = 6.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3109] = 6.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3110] = 6.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3110] = 6.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3111] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3111] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3112] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3112] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3113] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3113] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3114] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3114] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3115] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3115] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3116] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3116] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3117] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3117] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3118] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3118] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3119] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3119] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3120] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3120] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3121] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3121] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3122] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3123] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3124] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3124] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3125] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3125] = 1.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3126] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3126] = 1.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3127] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3127] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3128] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3128] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3129] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3129] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3130] = 7e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3130] = 7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3131] = 7e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3131] = 7e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3132] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3133] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3134] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3134] = 1.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3135] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3135] = 1.4e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3136] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3136] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3137] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3137] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3138] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3138] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3139] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3139] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3140] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3140] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3141] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3141] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3142] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3142] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3143] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3143] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3144] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3144] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3145] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3145] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3146] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3146] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3147] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3148] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3149] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3149] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3150] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3150] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3151] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3151] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3152] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3152] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3153] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3153] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3154] = 2.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3155] = 2.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3156] = 4e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3156] = 4e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3157] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3157] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3158] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3158] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3159] = 3.3e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3159] = 3.3e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3160] = 7.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3160] = 7.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3161] = 7.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3161] = 7.5e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3162] = 6.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3163] = 6.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3164] = 6.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3165] = 5.25e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3166] = 5.25e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3167] = 3.15e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3168] = 1.26e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3169] = 3.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3170] = 3.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3171] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3171] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3172] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3172] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3173] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3173] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3174] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3174] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3175] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3175] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3176] = 1.8e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3176] = 1.8e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3177] = 7e-08 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3177] = 7e-08; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3178] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3178] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3179] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3179] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3180] = 7e-08 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3180] = 7e-08 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3181] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3181] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3182] = 1.5e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3182] = 1.5e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3183] = 7e-08 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3183] = 7e-08 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3184] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3184] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3185] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3185] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3186] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3186] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3187] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3187] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3188] = 8.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3188] = 8.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3189] = 1.8e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3189] = 1.8e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3190] = 4.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3190] = 4.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3191] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3191] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3192] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3193] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3194] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3194] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3195] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3195] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3196] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3197] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3198] = 2.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3198] = 2.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3199] = 9.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3199] = 9.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3200] = 8.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3200] = 8.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3201] = 4.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3201] = 4.8e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3202] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3203] = 8.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3204] = 8.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3205] = 1.99e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3206] = 1.99e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3207] = 8.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3207] = 8.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3208] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3208] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3209] = 1.1e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3209] = 1.1e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3210] = 4e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3210] = 4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3211] = 1.6e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3211] = 1.6e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3212] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3212] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3213] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3213] = 5e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3214] = 1.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3215] = 1.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3216] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3216] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3217] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3217] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3218] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3218] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3219] = 1.88e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3220] = 1.14e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3221] = 1.71e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3222] = 8.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3223] = 8.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3224] = 8.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3225] = 2.86e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3226] = 2.04e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3227] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3227] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3228] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3228] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3229] = 4.84e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3230] = 3.61e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3231] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3231] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3232] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3232] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3233] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3233] = 5e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3234] = 2.84e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3235] = 4e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3235] = 4e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3236] = 2.45e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3237] = 2.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3238] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3238] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3239] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3239] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3240] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3240] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3241] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3241] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3242] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3242] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3243] = 7e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3243] = 7e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3244] = 7e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3244] = 7e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3245] = 1.46e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3246] = 2.17e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3247] = 7.75e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3248] = 6.51e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3249] = 4.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3250] = 3e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3250] = 3e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3251] = 4.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3252] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3252] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3253] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3253] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3254] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3254] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3255] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3255] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3256] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3256] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3257] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3257] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3258] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3258] = 1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3259] = 3.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3260] = 1.1e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3261] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3261] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3262] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3262] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3263] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3263] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3264] = 5.68e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3265] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3265] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3266] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3266] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3267] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3267] = 2e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3268] = 4.47e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3269] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3269] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3270] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3270] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3271] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3271] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3272] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3272] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3273] = 1.7e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3273] = 1.7e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3274] = 9.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3274] = 9.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3275] = 1.24e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3275] = 1.24e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3276] = 2.76e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3276] = 2.76e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3277] = 4.83e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3277] = 4.83e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3278] = 3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3278] = 3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3279] = 2.7e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3279] = 2.7e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3280] = 8e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3280] = 8e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3281] = 8e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3281] = 8e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3282] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3282] = 1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3283] = 1.76e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3284] = 1.76e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3285] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3286] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3286] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3287] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3287] = 1.4e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3288] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3289] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3290] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3290] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3291] = 3e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3291] = 3e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3292] = 3e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3292] = 3e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3293] = 7.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3293] = 7.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3294] = 7.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3294] = 7.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3295] = 7.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3295] = 7.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3296] = 7.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3296] = 7.6e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3297] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3298] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3298] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3299] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3299] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3300] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3300] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3301] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3301] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3302] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3302] = 2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3303] = 9e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3303] = 9e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3304] = 2.97e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3305] = 8.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3306] = 8.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3307] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3307] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3308] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3308] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3309] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3309] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3310] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3310] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3311] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3311] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3312] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3312] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3313] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3313] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3314] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3314] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3315] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3315] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3316] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3316] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3317] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3317] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3318] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3318] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3319] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3319] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3320] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3320] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3321] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3321] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3322] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3322] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3323] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3323] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3324] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3324] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3325] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3325] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3326] = 1.41e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3326] = 1.41e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3327] = 9.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3327] = 9.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3328] = 1.8e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3328] = 1.8e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3329] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3329] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3330] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3330] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3331] = 2e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3331] = 2e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3332] = 8.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3333] = 8.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3334] = 3.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3335] = 3.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3336] = 9.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3337] = 4.96e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3338] = 3.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3339] = 1.24e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3340] = 4.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3340] = 4.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3341] = 5.6e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3341] = 5.6e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3342] = 3.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3342] = 3.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3343] = 2.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3343] = 2.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3344] = 1.45e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3344] = 1.45e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3345] = 7.25e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3346] = 2.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3347] = 5.51e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3348] = 5.7e-11 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3349] = 2.28e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3350] = 4.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3351] = 3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3351] = 3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3352] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3352] = 1.4e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3353] = 2.16e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3354] = 2.16e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3355] = 3.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3356] = 7.9e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3356] = 7.9e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3357] = 2.63e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3357] = 2.63e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3358] = 3.66e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3358] = 3.66e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3359] = 7e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3359] = 7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3360] = 3.08e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3360] = 3.08e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3361] = 2.52e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3362] = 1.13e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3363] = 2.25e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3364] = 3.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3365] = 1.04e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3365] = 1.04e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3366] = 1e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3366] = 1e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3367] = 8e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3367] = 8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3368] = 1.6e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3368] = 1.6e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3369] = 6.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3369] = 6.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3370] = 7.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3370] = 7.7e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3371] = 4.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3372] = 9.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3372] = 9.8e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3373] = 3.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3374] = 4.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3375] = 1.2e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3375] = 1.2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3376] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3376] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3377] = 4e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3377] = 4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3378] = 3e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3378] = 3e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3379] = 3e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3379] = 3e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3380] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3380] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3381] = 5e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3381] = 5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3382] = 5e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3382] = 5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3383] = 4e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3383] = 4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3384] = 1.15e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3384] = 1.15e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3385] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3385] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3386] = 9e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3386] = 9e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3387] = 7.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3387] = 7.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3388] = 1.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3388] = 1.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3389] = 2.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3389] = 2.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3390] = 2.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3390] = 2.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3391] = 3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3391] = 3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3392] = 5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3392] = 5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3393] = 5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3393] = 5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3394] = 2.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3394] = 2.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3395] = 2.5e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3395] = 2.5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3396] = 2.5e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3396] = 2.5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3397] = 3.74e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3397] = 3.74e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3398] = 6.6e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3398] = 6.6e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3399] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3399] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3400] = 1.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3400] = 1.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3401] = 1.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3401] = 1.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3402] = 5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3402] = 5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3403] = 5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3403] = 5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3404] = 3e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3404] = 3e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3405] = 1.71e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3405] = 1.71e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3406] = 9.5e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3406] = 9.5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3407] = 9.5e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3407] = 9.5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3408] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3408] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3409] = 2.3e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3409] = 2.3e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3410] = 8.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3410] = 8.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3411] = 2.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3411] = 2.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3412] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3412] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3413] = 2.5e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3413] = 2.5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3414] = 2.5e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3414] = 2.5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3415] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3415] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3416] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3416] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3417] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3417] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3418] = 8.25e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3418] = 8.25e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3419] = 5.25e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3419] = 5.25e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3420] = 1.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3420] = 1.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3421] = 4.4e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3421] = 4.4e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3422] = 5.6e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3422] = 5.6e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3423] = 1.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3423] = 1.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3424] = 3.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3424] = 3.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3425] = 2.53e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3425] = 2.53e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3426] = 1.65e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3426] = 1.65e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3427] = 1.76e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3427] = 1.76e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3428] = 5.06e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3428] = 5.06e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3429] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3429] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3430] = 2.5e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3430] = 2.5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3431] = 2.5e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3431] = 2.5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3432] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3432] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3433] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3433] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3434] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3434] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3435] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3435] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3436] = 4e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3436] = 4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3437] = 3e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3437] = 3e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3438] = 3e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3438] = 3e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3439] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3439] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3440] = 5e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3440] = 5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3441] = 5e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3441] = 5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3442] = 2e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3442] = 2e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3443] = 1.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3443] = 1.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3444] = 1.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3444] = 1.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3445] = 5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3445] = 5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3446] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3446] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3447] = 2.5e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3447] = 2.5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3448] = 2.5e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3448] = 2.5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3449] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3449] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3450] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3450] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3451] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3451] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3452] = 2.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3452] = 2.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3453] = 1.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3453] = 1.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3454] = 6.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3454] = 6.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3455] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3455] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3456] = 6.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3456] = 6.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3457] = 1.12e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3457] = 1.12e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3458] = 2.8e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3458] = 2.8e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3459] = 7.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3459] = 7.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3460] = 1.44e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3460] = 1.44e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3461] = 9.6e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3461] = 9.6e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3462] = 7.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3462] = 7.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3463] = 1.3e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3463] = 1.3e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3464] = 9.1e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3464] = 9.1e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3465] = 1.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3465] = 1.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3466] = 1e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3466] = 1e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3467] = 8.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3467] = 8.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3468] = 5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3468] = 5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3469] = 7.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3469] = 7.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3470] = 7.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3470] = 7.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3471] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3471] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3472] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3472] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3473] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3473] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3474] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3474] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3475] = 9e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3475] = 9e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3476] = 2.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3476] = 2.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3477] = 4.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3477] = 4.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3478] = 4.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3478] = 4.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3479] = 4.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3479] = 4.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3480] = 1.4e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3480] = 1.4e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3481] = 1.6e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3482] = 3.85e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3482] = 3.85e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3483] = 3.85e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3483] = 3.85e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3484] = 3.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3484] = 3.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3485] = 4.41e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3485] = 4.41e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3486] = 5.39e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3486] = 5.39e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3487] = 4.95e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3488] = 1.82e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3489] = 1.05e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3490] = 3.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3491] = 1.75e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3492] = 8.75e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3493] = 1.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3494] = 1.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3495] = 1.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3496] = 6.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3496] = 6.5e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3497] = 1.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3498] = 6e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3498] = 6e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3499] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3499] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3500] = 1.78e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3500] = 1.78e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3501] = 2.05e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3501] = 2.05e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3502] = 1.64e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3502] = 1.64e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3503] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3503] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3504] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3504] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3505] = 6.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3505] = 6.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3506] = 6.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3506] = 6.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3507] = 9.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3507] = 9.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3508] = 9.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3508] = 9.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3509] = 1e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3509] = 1e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3510] = 2.24e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3511] = 5.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3512] = 2.76e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3513] = 1e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3513] = 1e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3514] = 1.45e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3515] = 2.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3516] = 1.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3517] = 4.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3518] = 1.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3519] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3520] = 4.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3521] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3522] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3522] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3523] = 1.61e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3524] = 1.19e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3524] = 1.19e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3525] = 2.1e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3525] = 2.1e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3526] = 4.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3526] = 4.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3527] = 4.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3527] = 4.4e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3528] = 4.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3529] = 4.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3530] = 4.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3531] = 4.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3532] = 4.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3533] = 9.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3534] = 4.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3535] = 8.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3536] = 4.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3537] = 8.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3538] = 9.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3539] = 9e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3539] = 9e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3540] = 4.45e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3541] = 4.45e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3542] = 8.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3543] = 8.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3544] = 8.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3545] = 1e-11 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3545] = 1e-11 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3546] = 8.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3547] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3547] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3548] = 1e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3548] = 1e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3549] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3550] = 1.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3551] = 1.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3552] = 4.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3553] = 2.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3554] = 5.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3555] = 5.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3556] = 9.61e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3557] = 2.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3558] = 2.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3559] = 1.97e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3560] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3560] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3561] = 1.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3562] = 8e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3562] = 8e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3563] = 4.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3564] = 4e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3564] = 4e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3565] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3566] = 1.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3567] = 1.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3568] = 1.61e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3569] = 1.8e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3570] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3570] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3571] = 2.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3572] = 1.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3573] = 4.08e-11 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3574] = 1.28e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3575] = 9.45e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3576] = 1.36e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3577] = 2.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3578] = 2.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3579] = 1.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3580] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3580] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3581] = 8.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3582] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3583] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3584] = 2.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3585] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3585] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3586] = 1.38e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3587] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3587] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3588] = 1.1e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3589] = 9.75e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3590] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3590] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3591] = 9.7e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3592] = 2.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3593] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3593] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3594] = 2e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3594] = 2e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3595] = 2.67e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3596] = 3.99e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3597] = 5.88e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3598] = 1.11e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3599] = 3.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3600] = 1.62e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3601] = 2.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3602] = 6.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3603] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3603] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3604] = 2.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3605] = 3.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3606] = 3.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3607] = 6.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3608] = 7.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3609] = 7.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3610] = 3.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3611] = 6.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3612] = 7.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3613] = 6.5e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3614] = 6.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3615] = 6.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3616] = 6.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3617] = 7.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3618] = 7.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3619] = 3.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3620] = 3.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3621] = 3.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3622] = 6.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3623] = 3.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3624] = 6.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3625] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3625] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3626] = 4.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3626] = 4.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3627] = 7.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3627] = 7.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3628] = 2.6e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3628] = 2.6e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3629] = 1.35e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3629] = 1.35e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3630] = 1.35e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3630] = 1.35e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3631] = 4.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3631] = 4.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3632] = 1.12e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3632] = 1.12e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3633] = 2.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3633] = 2.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3634] = 4.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3634] = 4.6e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3635] = 1.26e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3636] = 9.5e-11 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3637] = 1.33e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3638] = 1.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3638] = 1.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3639] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3639] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3640] = 9.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3640] = 9.4e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3641] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3642] = 4.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3643] = 2.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3644] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3645] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3646] = 4.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3647] = 2.42e-12 * pow(Tgas/300.0,
         -0.21) * exp(+44.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3648] = 8.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3648] = 8.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3649] = 2e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3649] = 2e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3650] = 3.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3651] = 3.6e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3652] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3652] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3653] = 1.2e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3653] = 1.2e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3654] = 1.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3654] = 1.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3655] = 6.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3655] = 6.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3656] = 5.2e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3656] = 5.2e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3657] = 2.6e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3657] = 2.6e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3658] = 3e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3658] = 3e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3659] = 5.55e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3659] = 5.55e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3660] = 9e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3660] = 9e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3661] = 1.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3661] = 1.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3662] = 3e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3662] = 3e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3663] = 3e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3663] = 3e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3664] = 1.35e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3665] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3665] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3666] = 9.54e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3667] = 5.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3667] = 5.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3668] = 1.75e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3668] = 1.75e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3669] = 1.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3669] = 1.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3670] = 2.5e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3670] = 2.5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3671] = 7.5e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3671] = 7.5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3672] = 1.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3672] = 1.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3673] = 7.8e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3673] = 7.8e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3674] = 1.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3674] = 1.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3675] = 6.23e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3675] = 6.23e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3676] = 2.67e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3676] = 2.67e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3677] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3677] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3678] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3678] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3679] = 1.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3679] = 1.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3680] = 1.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3680] = 1.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3681] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3681] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3682] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3682] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3683] = 3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3683] = 3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3684] = 3.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3684] = 3.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3685] = 2.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3685] = 2.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3686] = 3.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3686] = 3.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3687] = 3.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3687] = 3.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3688] = 8.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3688] = 8.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3689] = 8.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3689] = 8.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3690] = 8.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3690] = 8.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3691] = 1.08e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3691] = 1.08e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3692] = 8.4e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3692] = 8.4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3693] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3693] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3694] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3694] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3695] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3695] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3696] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3696] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3697] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3697] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3698] = 5.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3698] = 5.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3699] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3699] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3700] = 5.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3700] = 5.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3701] = 1.08e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3701] = 1.08e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3702] = 1.35e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3702] = 1.35e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3703] = 6.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3703] = 6.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3704] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3704] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3705] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3705] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3706] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3706] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3707] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3707] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3708] = 4.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3708] = 4.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3709] = 5.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3709] = 5.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3710] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3710] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3711] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3711] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3712] = 5.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3712] = 5.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3713] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3713] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3714] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3714] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3715] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3715] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3716] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3716] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3717] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3717] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3718] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3718] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3719] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3719] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3720] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3720] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3721] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3721] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3722] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3722] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3723] = 5e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3723] = 5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3724] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3724] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3725] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3725] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3726] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3726] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3727] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3727] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3728] = 4.4e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3728] = 4.4e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3729] = 2.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3729] = 2.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3730] = 1.64e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3730] = 1.64e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3731] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3731] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3732] = 6e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3732] = 6e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3733] = 4e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3733] = 4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3734] = 3.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3734] = 3.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3735] = 3.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3735] = 3.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3736] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3736] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3737] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3737] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3738] = 5e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3738] = 5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3739] = 5e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3739] = 5e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3740] = 1e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3740] = 1e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3741] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3741] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3742] = 2.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3742] = 2.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3743] = 2.9e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3743] = 2.9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3744] = 1.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3744] = 1.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3745] = 1.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3745] = 1.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3746] = 7.2e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3746] = 7.2e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3747] = 1e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3747] = 1e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3748] = 6.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3748] = 6.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3749] = 6.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3749] = 6.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3750] = 7.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3750] = 7.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3751] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3751] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3752] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3752] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3753] = 6e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3753] = 6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3754] = 6e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3754] = 6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3755] = 3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3755] = 3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3756] = 4e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3756] = 4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3757] = 6.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3757] = 6.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3758] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3758] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3759] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3759] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3760] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3760] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3761] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3761] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3762] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3762] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3763] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3763] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3764] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3764] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3765] = 1.51e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3765] = 1.51e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3766] = 1.51e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3766] = 1.51e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3767] = 1.64e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3768] = 1.64e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3769] = 4.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3769] = 4.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3770] = 4.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3770] = 4.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3771] = 1.04e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3771] = 1.04e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3772] = 1.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3772] = 1.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3773] = 3.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3773] = 3.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3774] = 3.2e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3774] = 3.2e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3775] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3775] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3776] = 1.44e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3776] = 1.44e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3777] = 1.05e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3777] = 1.05e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3778] = 1.12e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3779] = 1.3e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3780] = 8.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3781] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3782] = 2.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3783] = 2.8e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3784] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3785] = 3.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3785] = 3.6e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3786] = 1.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3787] = 6.11e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3787] = 6.11e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3788] = 7e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3788] = 7e-10 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3789] = 4.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3789] = 4.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3790] = 4.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3790] = 4.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3791] = 1.9e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3791] = 1.9e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3792] = 4.5e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3793] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3793] = 1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3794] = 9.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3795] = 1.2e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3795] = 1.2e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3796] = 6.4e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3797] = 7e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3797] = 7e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3798] = 3.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3799] = 6.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3800] = 6.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3801] = 6.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3802] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3802] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3803] = 6.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3804] = 6.2e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3805] = 7e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3805] = 7e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3806] = 6.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3807] = 5e-10 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3807] = 5e-10 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3808] = 6.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3809] = 6.3e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3810] = 1.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3811] = 4.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3811] = 4.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3812] = 5.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3812] = 5.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3813] = 4.18e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3813] = 4.18e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3814] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3814] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3815] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3815] = 1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3816] = 1.9e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3817] = 1.35e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3818] = 5.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3818] = 5.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3819] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3819] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3820] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3820] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3821] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3821] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3822] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3822] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3823] = 4.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3823] = 4.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3824] = 6e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3824] = 6e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3825] = 1.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3825] = 1.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3826] = 1.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3826] = 1.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3827] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3827] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3828] = 1.89e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3829] = 5.9e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3830] = 1.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3830] = 1.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3831] = 2.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3831] = 2.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3832] = 4.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3832] = 4.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3833] = 9.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3833] = 9.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3834] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3834] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3835] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3835] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3836] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3836] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3837] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3837] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3838] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3838] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3839] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3839] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3840] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3840] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3841] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3841] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3842] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3842] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3843] = 1.87e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3843] = 1.87e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3844] = 6.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3844] = 6.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3845] = 1.1e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3845] = 1.1e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3846] = 2.42e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3846] = 2.42e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3847] = 4.4e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3847] = 4.4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3848] = 2.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3848] = 2.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3849] = 6.6e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3849] = 6.6e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3850] = 6.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3850] = 6.6e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3851] = 4.8e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3851] = 4.8e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3852] = 7.2e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3852] = 7.2e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3853] = 8.4e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3853] = 8.4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3854] = 7.2e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3854] = 7.2e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3855] = 1.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3855] = 1.8e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3856] = 1.69e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3856] = 1.69e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3857] = 5.6e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3857] = 5.6e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3858] = 2.69e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3858] = 2.69e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3859] = 2.2e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3860] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3860] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3861] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3861] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3862] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3862] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3863] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3863] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3864] = 3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3864] = 3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3865] = 7.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3865] = 7.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3866] = 1.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3866] = 1.8e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3867] = 1.65e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3868] = 1e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3868] = 1e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3869] = 1.6e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3869] = 1.6e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3870] = 1.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3870] = 1.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3871] = 9e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3871] = 9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3872] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3872] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3873] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3873] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3874] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3874] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3875] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3875] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3876] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3876] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3877] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3877] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3878] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3878] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3879] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3879] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3880] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3880] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3881] = 1.6e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3881] = 1.6e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3882] = 2.4e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3882] = 2.4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3883] = 1.1e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3883] = 1.1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3884] = 2.9e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3884] = 2.9e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[3885] = 4.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[3885] = 4.2e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3886] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3887] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3888] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3889] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3890] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3891] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3892] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3893] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3894] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3895] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3896] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3897] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3898] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3899] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3900] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3901] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3902] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3903] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3904] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3905] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3906] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3907] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3908] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3909] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3910] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3911] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3912] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3913] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3914] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3915] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3916] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3917] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3918] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3919] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3920] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3921] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3922] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3923] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3924] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3925] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3926] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3927] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3928] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3929] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3930] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3931] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3932] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3933] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3934] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3935] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3936] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3937] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3938] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3939] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3940] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3941] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3942] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3943] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3944] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3945] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3946] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3947] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3948] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3949] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3950] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3951] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3952] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3953] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3954] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3955] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3956] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3957] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3958] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3959] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3960] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3961] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3962] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3963] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3964] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3965] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3966] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3967] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3968] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3969] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3970] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3971] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3972] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3973] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3974] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3975] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3976] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3977] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3978] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3979] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3980] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3981] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3982] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3983] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3984] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3985] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3986] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3987] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3988] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3989] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3990] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3991] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3992] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3993] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3994] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3995] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3996] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3997] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3998] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[3999] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4000] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4001] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4002] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4003] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4004] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4005] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4006] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4007] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4008] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4009] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4010] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4011] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4012] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4013] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4014] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4015] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4016] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4017] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4018] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4019] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4020] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4021] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4022] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4023] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4024] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4025] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4026] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4027] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4028] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4029] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4030] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4031] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4032] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4033] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4034] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4035] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4036] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4037] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4038] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4039] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4040] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4041] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4042] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4043] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4044] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4045] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4046] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4047] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4048] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4049] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4050] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4051] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4052] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4053] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4054] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4055] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4056] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4057] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4058] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4059] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4060] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4061] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4062] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4063] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4064] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4065] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4066] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4067] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4068] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4069] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4070] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4071] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4072] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4073] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4074] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4075] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4076] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4077] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4078] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4079] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4080] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4081] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4082] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4083] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4084] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4085] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4086] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4087] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4088] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4089] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4090] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4091] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4092] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4093] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4094] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4095] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4096] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4097] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4098] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4099] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4100] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4101] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4102] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4103] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4104] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4105] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4106] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4107] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4108] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4109] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4110] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4111] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4112] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4113] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4114] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4115] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4116] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4117] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4118] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4119] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4120] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4121] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4122] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4123] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4124] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4125] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4126] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4127] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4128] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4129] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4130] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4131] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4132] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4133] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4134] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4135] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4136] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4137] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4138] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4139] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4140] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4141] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4142] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4143] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4144] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4145] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4146] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4147] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4148] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4149] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4150] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4151] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4152] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4153] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4154] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4155] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4156] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4157] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4158] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4159] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4160] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4161] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4162] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4163] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4164] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4165] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4166] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4167] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4168] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4169] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4170] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4171] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4172] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4173] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4174] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4175] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4176] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4177] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4178] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4179] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4180] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4181] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4182] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4183] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4184] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4185] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4186] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4187] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4188] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4189] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4190] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4191] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4192] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4193] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4194] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4195] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4196] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4197] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4198] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4199] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4200] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4201] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4202] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4203] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4204] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4205] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4206] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4207] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4208] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4209] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4210] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4211] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4212] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4213] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4214] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4215] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4216] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4217] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4218] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4219] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4220] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4221] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4222] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4223] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4224] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4225] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4226] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4227] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4228] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4229] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4230] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4231] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4232] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4233] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4234] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4235] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4236] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4237] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4238] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4239] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4240] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4241] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4242] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4243] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4244] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4245] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4246] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4247] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4248] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4249] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4250] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4251] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4252] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4253] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4254] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4255] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4256] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4257] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4258] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4259] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4260] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4261] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4262] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4263] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4264] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4265] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4266] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4267] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4268] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4269] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4270] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4271] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4272] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4273] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4274] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4275] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4276] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4277] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4278] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4279] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4280] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4281] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4282] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4283] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4284] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4285] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4286] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4287] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4288] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4289] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4290] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4291] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4292] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4293] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4294] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4295] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4296] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4297] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4298] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4299] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4300] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4301] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4302] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4303] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4304] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4305] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4306] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4307] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4308] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4309] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4310] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4311] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4312] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4313] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4314] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4315] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4316] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4317] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4318] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4319] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4320] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4321] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4322] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4323] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4324] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4325] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4326] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4327] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4328] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4329] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4330] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4331] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4332] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4333] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4334] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4335] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4336] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4337] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4338] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4339] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4340] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4341] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4342] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4343] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4344] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4345] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4346] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4347] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4348] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4349] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4350] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4351] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4352] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4353] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4354] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4355] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4356] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4357] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4358] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4359] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4360] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4361] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4362] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4363] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4364] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4365] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4366] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4367] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4368] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4369] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4370] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4371] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4372] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4373] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4374] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4375] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4376] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4377] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4378] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4379] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4380] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4381] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4382] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4383] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4384] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4385] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4386] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4387] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4388] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4389] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4390] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4391] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4392] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4393] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4394] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4395] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4396] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4397] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4398] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4399] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4400] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4401] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4402] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4403] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4404] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4405] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4406] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4407] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4408] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4409] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4410] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4411] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4412] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4413] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4414] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4415] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4416] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4417] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4418] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4419] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4420] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4421] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4422] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4423] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4424] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4425] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4426] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4427] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4428] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4429] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4430] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4431] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4432] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4433] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4434] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4435] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4436] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4437] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4438] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4439] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4440] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4441] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4442] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4443] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4444] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4445] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4446] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4447] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4448] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4449] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4450] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4451] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4452] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4453] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4454] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4455] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4456] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4457] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4458] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4459] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4460] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4461] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4462] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4463] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4464] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4465] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4466] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4467] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4468] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4469] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4470] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4471] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4472] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4473] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4474] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4475] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4476] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4477] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4478] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4479] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4480] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4481] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4482] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4483] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4484] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4485] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4486] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4487] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4488] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4489] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4490] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4491] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4492] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4493] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4494] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4495] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4496] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4497] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4498] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4499] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4500] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4501] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4502] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4503] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4504] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4505] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4506] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4507] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4508] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4509] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4510] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4511] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4512] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4513] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4514] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4515] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4516] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4517] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4518] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4519] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4520] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4521] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4522] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4523] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4524] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4525] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4526] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4527] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4528] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4529] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4530] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4531] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4532] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4533] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4534] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4535] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4536] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4537] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4538] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4539] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4540] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4541] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4542] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4543] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4544] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4545] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4546] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4547] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4548] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4549] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4550] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4551] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4552] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4553] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4554] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4555] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4556] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4557] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4558] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4559] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4560] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4561] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4562] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4563] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4564] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4565] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4566] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4567] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4568] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4569] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4570] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4571] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4572] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4573] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4574] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4575] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4576] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4577] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4578] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4579] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4580] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4581] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4582] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4583] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4584] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4585] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4586] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4587] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4588] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4589] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4590] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4591] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4592] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4593] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4594] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4595] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4596] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4597] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4598] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4599] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4600] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4601] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4602] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4603] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4604] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4605] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4606] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4607] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4608] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4609] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4610] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4611] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4612] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4613] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4614] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4615] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4616] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4617] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4618] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4619] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4620] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4621] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4622] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4623] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4624] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4625] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4626] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4627] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4628] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4629] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4630] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4631] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4632] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4633] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4634] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4635] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4636] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4637] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4638] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4639] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4640] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4641] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4642] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4643] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4644] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4645] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4646] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4647] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4648] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4649] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4650] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4651] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4652] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4653] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4654] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4655] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4656] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4657] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4658] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4659] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4660] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4661] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4662] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4663] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4664] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4665] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4666] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4667] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4668] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4669] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4670] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4671] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4672] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4673] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4674] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4675] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4676] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4677] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4678] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4679] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4680] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4681] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4682] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4683] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4684] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4685] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4686] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4687] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4688] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4689] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4690] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4691] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4692] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4693] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4694] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4695] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4696] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4697] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4698] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4699] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4700] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4701] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4702] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4703] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4704] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4705] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4706] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4707] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4708] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4709] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4710] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4711] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4712] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4713] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4714] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4715] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4716] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4717] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4718] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4719] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4720] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4721] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4722] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4723] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4724] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4725] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4726] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4727] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4728] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4729] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4730] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4731] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4732] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4733] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4734] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4735] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4736] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4737] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4738] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4739] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4740] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4741] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4742] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4743] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4744] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4745] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4746] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4747] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4748] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4749] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4750] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4751] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4752] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4753] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4754] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4755] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4756] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4757] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4758] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4759] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4760] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4761] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4762] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4763] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4764] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4765] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4766] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4767] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4768] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4769] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4770] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4771] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4772] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4773] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4774] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4775] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4776] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4777] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4778] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4779] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4780] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4781] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4782] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4783] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4784] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4785] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4786] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4787] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4788] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4789] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4790] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4791] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4792] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4793] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4794] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4795] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4796] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4797] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4798] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4799] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4800] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4801] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4802] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4803] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4804] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4805] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4806] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4807] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4808] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4809] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4810] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4811] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4812] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4813] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4814] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4815] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4816] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4817] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4818] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4819] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4820] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4821] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4822] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4823] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4824] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4825] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4826] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4827] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4828] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4829] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4830] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4831] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4832] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4833] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4834] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4835] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4836] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4837] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4838] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4839] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4840] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4841] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4842] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4843] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4844] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4845] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4846] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4847] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4848] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4849] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4850] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4851] = 3.76e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4852] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4853] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4854] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4855] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4856] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4857] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4858] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4859] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4860] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4861] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4862] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4863] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4864] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4865] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4866] = 7.51e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4867] = 2.88e-10 * pow(Tgas/300.0,
         -1.14) * exp(-77.0/Tgas); }
@@ -14672,32 +12906,28 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[4869] = 1.3e-10 * pow(Tgas/300.0,
         -0.94) * exp(-44.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4870] = 4.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4870] = 4.1e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4871] = 8.96e-12 * pow(Tgas/300.0,
         -0.42) * exp(-13.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4872] = 4.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4872] = 4.1e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4873] = 1.11e-10 * pow(Tgas/300.0,
         -0.82) * exp(-9.7/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4874] = 1.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-4300.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4874] = 1.5e-11 * exp(-4300.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4875] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4875] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4876] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4876] = 1e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4877] = 1.81e-10 * pow(Tgas/300.0,
         -1.06) * exp(-65.9/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4878] = 8.97e-12 * pow(Tgas/300.0,
-        0.0) * exp(-18973.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4878] = 8.97e-12 *
+        exp(-18973.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4879] = 1.3e-10 * pow(Tgas/300.0,
         -0.71) * exp(-29.0/Tgas); }
@@ -14724,214 +12954,168 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
         6.0) * exp(-500.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4887] = 1.41e-14 * pow(Tgas/300.0,
-        3.37) * exp(-0.0/Tgas); }
+        3.37); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4888] = 9.39e-11 * pow(Tgas/300.0,
         -0.2) * exp(+4.1/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4889] = 1.06e-10 * pow(Tgas/300.0,
-        -0.25) * exp(-0.0/Tgas); }
+        -0.25); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4890] = 1.06e-10 * pow(Tgas/300.0,
-        -0.25) * exp(-0.0/Tgas); }
+        -0.25); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4891] = 1.06e-10 * pow(Tgas/300.0,
-        -0.25) * exp(-0.0/Tgas); }
+        -0.25); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4892] = 1.06e-10 * pow(Tgas/300.0,
-        -0.25) * exp(-0.0/Tgas); }
+        -0.25); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4893] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4893] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<100.0) { k[4894] = 3.09e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<100.0) { k[4894] = 3.09e-10; }
         
     if (Tgas>=100.0 && Tgas<41000.0) { k[4895] = 2e-10 * pow(Tgas/300.0,
-        -0.4) * exp(-0.0/Tgas); }
+        -0.4); }
         
-    if (Tgas>=5.0 && Tgas<100.0) { k[4896] = 2.92e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<100.0) { k[4896] = 2.92e-10; }
         
     if (Tgas>=100.0 && Tgas<41000.0) { k[4897] = 2.1e-10 * pow(Tgas/300.0,
-        -0.3) * exp(-0.0/Tgas); }
+        -0.3); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4898] = 1.42e-10 * pow(Tgas/300.0,
         -1.24) * exp(-57.6/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4899] = 1.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4899] = 1.7e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4900] = 1.06e-10 * pow(Tgas/300.0,
-        -0.25) * exp(-0.0/Tgas); }
+        -0.25); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4901] = 5.3e-12 * pow(Tgas/300.0,
-        0.0) * exp(-770.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4901] = 5.3e-12 * exp(-770.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4902] = 2.5e-10 * pow(Tgas/300.0,
-        -0.2) * exp(-0.0/Tgas); }
+        -0.2); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4903] = 2e-13 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4903] = 2e-13; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4904] = 3.67e-11 * pow(Tgas/300.0,
-        -0.35) * exp(-0.0/Tgas); }
+        -0.35); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4905] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4905] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4906] = 1.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4906] = 1.7e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4907] = 2.5e-10 * pow(Tgas/300.0,
-        -0.2) * exp(-0.0/Tgas); }
+        -0.2); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4908] = 2e-13 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4908] = 2e-13; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4909] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4909] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4910] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4910] = 2e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4911] = 1.45e-10 * pow(Tgas/300.0,
-        -0.12) * exp(-0.0/Tgas); }
+        -0.12); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4912] = 1.45e-10 * pow(Tgas/300.0,
-        -0.12) * exp(-0.0/Tgas); }
+        -0.12); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4913] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4913] = 1e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4914] = 3e-10 * pow(Tgas/300.0,
-        -0.11) * exp(-0.0/Tgas); }
+        -0.11); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4915] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4915] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4916] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4916] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4917] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4917] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4918] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4918] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4919] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4919] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4920] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4920] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4921] = 1e-13 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4921] = 1e-13; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4922] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4922] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4923] = 9e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4923] = 9e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4924] = 3e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4924] = 3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4925] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4925] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4926] = 1.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4926] = 1.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4927] = 5.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4927] = 5.3e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4928] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4928] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4929] = 1e-13 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4929] = 1e-13; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4930] = 5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4930] = 5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4931] = 5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4931] = 5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4932] = 7.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4932] = 7.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4933] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4933] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4934] = 1.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4934] = 1.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4935] = 8.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4935] = 8.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4936] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4936] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4937] = 1e-13 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4937] = 1e-13; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4938] = 1e-13 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4938] = 1e-13; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4939] = 9e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4939] = 9e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4940] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4940] = 2e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4941] = 2.9e-10 * pow(Tgas/300.0,
-        -0.08) * exp(-0.0/Tgas); }
+        -0.08); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4942] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4942] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4943] = 1e-13 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4943] = 1e-13; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4944] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4944] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4945] = 2.69e-12 * pow(Tgas/300.0,
-        0.0) * exp(-23550.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4945] = 2.69e-12 *
+        exp(-23550.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4946] = 3e-10 * pow(Tgas/300.0,
-        -0.01) * exp(-0.0/Tgas); }
+        -0.01); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4947] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4947] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4948] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4948] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4949] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4949] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4950] = 6.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4950] = 6.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4951] = 8e-10 * pow(Tgas/300.0, 0.17)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4951] = 8e-10 * pow(Tgas/300.0,
+        0.17); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4952] = 2.38e-10 * pow(Tgas/300.0,
-        -0.11) * exp(-0.0/Tgas); }
+        -0.11); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4953] = 4.2e-11 * pow(Tgas/300.0,
-        -0.11) * exp(-0.0/Tgas); }
+        -0.11); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4954] = 2.9e-10 * pow(Tgas/300.0,
-        -0.08) * exp(-0.0/Tgas); }
+        -0.08); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4955] = 6.59e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4955] = 6.59e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4956] = 4.98e-10 * pow(Tgas/300.0,
-        0.0) * exp(-18116.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4956] = 4.98e-10 *
+        exp(-18116.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4957] = 2.94e-11 * pow(Tgas/300.0,
         0.5) * exp(-58025.0/Tgas); }
@@ -14939,35 +13123,27 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[4958] = 1.44e-11 * pow(Tgas/300.0,
         0.5) * exp(-20435.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4959] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4959] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4960] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4960] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4961] = 6.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4961] = 6.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4962] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4962] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4963] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4963] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4964] = 4e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4964] = 4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4965] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4965] = 1e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4966] = 1.2e-11 * pow(Tgas/300.0,
         0.58) * exp(-5880.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4967] = 8.69e-11 * pow(Tgas/300.0,
-        0.0) * exp(-22600.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4967] = 8.69e-11 *
+        exp(-22600.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4968] = 3e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4968] = 3e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4969] = 3.26e-11 * pow(Tgas/300.0,
         -0.1) * exp(+9.0/Tgas); }
@@ -14975,113 +13151,91 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[4970] = 3.26e-11 * pow(Tgas/300.0,
         -0.1) * exp(+9.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4971] = 9.62e-13 * pow(Tgas/300.0,
-        0.0) * exp(-10517.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4971] = 9.62e-13 *
+        exp(-10517.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4972] = 1.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4972] = 1.2e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4973] = 1.73e-11 * pow(Tgas/300.0,
         0.5) * exp(-4000.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4974] = 6e-11 * pow(Tgas/300.0,
-        -0.16) * exp(-0.0/Tgas); }
+        -0.16); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4975] = 9e-11 * pow(Tgas/300.0,
-        -0.16) * exp(-0.0/Tgas); }
+        -0.16); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4976] = 1.73e-11 * pow(Tgas/300.0,
         0.5) * exp(-4000.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4977] = 1.5e-10 * pow(Tgas/300.0,
-        -0.16) * exp(-0.0/Tgas); }
+        -0.16); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4978] = 5.56e-11 * pow(Tgas/300.0,
         0.41) * exp(+26.9/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4979] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4979] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4980] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4980] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4981] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4981] = 1e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4982] = 2.25e-11 * pow(Tgas/300.0,
         0.5) * exp(-14800.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4983] = 7.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4983] = 7.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4984] = 7e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4984] = 7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4985] = 7e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4985] = 7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4986] = 3.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4986] = 3.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4987] = 3.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4987] = 3.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4988] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4988] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4989] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4989] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4990] = 6.59e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4990] = 6.59e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[4991] = 2.64e-10 * pow(Tgas/300.0,
-        -0.9) * exp(-0.0/Tgas); }
+        -0.9); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4992] = 2.63e-09 * pow(Tgas/300.0,
-        0.0) * exp(-6013.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4992] = 2.63e-09 * exp(-6013.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4993] = 1.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-400.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4993] = 1.8e-10 * exp(-400.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4994] = 3.32e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4994] = 3.32e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4995] = 4e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-5000.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4995] = 4e-10 * exp(-5000.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4996] = 7.13e-12 * pow(Tgas/300.0,
-        0.0) * exp(-5050.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4996] = 7.13e-12 * exp(-5050.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4997] = 5.3e-12 * pow(Tgas/300.0,
-        0.0) * exp(-2500.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4997] = 5.3e-12 * exp(-2500.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4998] = 3.3e-13 * pow(Tgas/300.0,
-        0.0) * exp(-3270.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4998] = 3.3e-13 * exp(-3270.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[4999] = 3e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[4999] = 3e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5000] = 1.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5000] = 1.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5001] = 8e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-18000.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5001] = 8e-12 * exp(-18000.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5002] = 6.91e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5002] = 6.91e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5003] = 2.7e-12 * pow(Tgas/300.0,
-        0.0) * exp(-3500.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5003] = 2.7e-12 * exp(-3500.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5004] = 3.65e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5004] = 3.65e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5005] = 3.65e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5005] = 3.65e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5006] = 3.65e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5006] = 3.65e-12; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5007] = 2.92e-11 * pow(Tgas/300.0,
         -3.3) * exp(-1443.0/Tgas); }
@@ -15095,23 +13249,18 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5010] = 3.65e-11 * pow(Tgas/300.0,
         -3.3) * exp(-1443.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5011] = 4.1e-11 * pow(Tgas/300.0,
-        0.0) * exp(-750.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5011] = 4.1e-11 * exp(-750.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5012] = 8e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5012] = 8e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5013] = 1.33e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5013] = 1.33e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5014] = 5.01e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5014] = 5.01e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5015] = 4.98e-10 * pow(Tgas/300.0,
-        0.0) * exp(-6000.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5015] = 4.98e-10 * exp(-6000.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5016] = 3e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5016] = 3e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5017] = 1.44e-11 * pow(Tgas/300.0,
         0.5) * exp(-3000.0/Tgas); }
@@ -15119,14 +13268,11 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5018] = 1.44e-11 * pow(Tgas/300.0,
         0.5) * exp(-3000.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5019] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5019] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5020] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5020] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5021] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5021] = 1e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5022] = 1.84e-10 * pow(Tgas/300.0,
         -1.18) * exp(-91.1/Tgas); }
@@ -15134,20 +13280,19 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5023] = 1.84e-10 * pow(Tgas/300.0,
         -1.18) * exp(-91.1/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5024] = 6.64e-13 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5024] = 6.64e-13; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5025] = 1.7e-10 * pow(Tgas/300.0,
         -1.5) * exp(-300.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5026] = 1.66e-08 * pow(Tgas/300.0,
-        0.0) * exp(-16556.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5026] = 1.66e-08 *
+        exp(-16556.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5027] = 1.46e-11 * pow(Tgas/300.0,
         0.1) * exp(-5335.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5028] = 7.13e-12 * pow(Tgas/300.0,
-        0.0) * exp(-5052.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5028] = 7.13e-12 * exp(-5052.0/Tgas);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5029] = 9.21e-12 * pow(Tgas/300.0,
         0.7) * exp(-1500.0/Tgas); }
@@ -15158,59 +13303,48 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5031] = 2.3e-15 * pow(Tgas/300.0,
         3.47) * exp(-6681.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5032] = 3.3e-13 * pow(Tgas/300.0,
-        0.0) * exp(-1105.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5032] = 3.3e-13 * exp(-1105.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5033] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5033] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5034] = 3.32e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5034] = 3.32e-12; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5035] = 4.76e-17 * pow(Tgas/300.0,
         5.77) * exp(+151.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5036] = 9.55e-14 * pow(Tgas/300.0,
-        0.0) * exp(-4890.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5036] = 9.55e-14 * exp(-4890.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5037] = 5.41e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5037] = 5.41e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5038] = 4e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-7900.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5038] = 4e-12 * exp(-7900.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5039] = 5.64e-13 * pow(Tgas/300.0,
-        0.0) * exp(-4500.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5039] = 5.64e-13 * exp(-4500.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5040] = 1.66e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5040] = 1.66e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5041] = 5.3e-12 * pow(Tgas/300.0,
-        0.0) * exp(-34975.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5041] = 5.3e-12 * exp(-34975.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5042] = 6e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5042] = 6e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5043] = 3.6e-11 * pow(Tgas/300.0,
-        0.0) * exp(-202.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5043] = 3.6e-11 * exp(-202.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5044] = 1.3e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5044] = 1.3e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5045] = 3.27e-14 * pow(Tgas/300.0,
         2.2) * exp(-2240.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5046] = 1.7e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5046] = 1.7e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5047] = 1.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-1400.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5047] = 1.2e-10 * exp(-1400.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5048] = 1.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5048] = 1.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5049] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5049] = 1e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5050] = 1.59e-10 * pow(Tgas/300.0,
         -1.18) * exp(-91.1/Tgas); }
@@ -15233,8 +13367,7 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5056] = 2.08e-11 * pow(Tgas/300.0,
         -2.03) * exp(-170.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<1000.0) { k[5057] = 2.02e-11 * pow(Tgas/300.0,
-        0.0) * exp(-700.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<1000.0) { k[5057] = 2.02e-11 * exp(-700.0/Tgas); }
         
     if (Tgas>=1000.0 && Tgas<41000.0) { k[5058] = 3.69e-13 * pow(Tgas/300.0,
         2.83) * exp(-103.2/Tgas); }
@@ -15242,17 +13375,16 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5059] = 3.14e-12 * pow(Tgas/300.0,
         1.53) * exp(-504.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5060] = 6.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-28640.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5060] = 6.7e-11 * exp(-28640.0/Tgas);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5061] = 3.77e-13 * pow(Tgas/300.0,
         2.42) * exp(-1162.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5062] = 3.39e-10 * pow(Tgas/300.0,
-        0.0) * exp(-10019.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5062] = 3.39e-10 *
+        exp(-10019.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5063] = 3.39e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5063] = 3.39e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5064] = 3.92e-10 * pow(Tgas/300.0,
         -0.45) * exp(-30.4/Tgas); }
@@ -15275,14 +13407,12 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5070] = 6.17e-11 * pow(Tgas/300.0,
         -0.52) * exp(-29.2/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5071] = 9e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5071] = 9e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5072] = 3.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5072] = 3.1e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5073] = 2.49e-10 * pow(Tgas/300.0,
-        -1.93) * exp(-0.0/Tgas); }
+        -1.93); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5074] = 1.05e-10 * pow(Tgas/300.0,
         -1.04) * exp(-36.0/Tgas); }
@@ -15296,14 +13426,13 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5077] = 2.87e-12 * pow(Tgas/300.0,
         0.7) * exp(-500.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5078] = 1.73e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5078] = 1.73e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5079] = 5.6e-13 * pow(Tgas/300.0,
         0.88) * exp(-10128.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5080] = 1.66e-10 * pow(Tgas/300.0,
-        -0.09) * exp(-0.0/Tgas); }
+        -0.09); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5081] = 3.03e-11 * pow(Tgas/300.0,
         0.65) * exp(-1207.0/Tgas); }
@@ -15312,37 +13441,33 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
         -0.41) * exp(-19.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5083] = 1.2e-10 * pow(Tgas/300.0,
-        -0.13) * exp(-0.0/Tgas); }
+        -0.13); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5084] = 1.16e-11 * pow(Tgas/300.0,
-        -0.13) * exp(-0.0/Tgas); }
+        -0.13); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5085] = 3.49e-11 * pow(Tgas/300.0,
-        -0.13) * exp(-0.0/Tgas); }
+        -0.13); }
         
     if (Tgas>=5.0 && Tgas<300.0) { k[5086] = 1.14e-11 * pow(Tgas/300.0,
-        -0.48) * exp(-0.0/Tgas); }
+        -0.48); }
         
-    if (Tgas>=300.0 && Tgas<41000.0) { k[5087] = 1.14e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=300.0 && Tgas<41000.0) { k[5087] = 1.14e-11; }
         
     if (Tgas>=5.0 && Tgas<300.0) { k[5088] = 1.14e-11 * pow(Tgas/300.0,
-        -0.48) * exp(-0.0/Tgas); }
+        -0.48); }
         
-    if (Tgas>=300.0 && Tgas<41000.0) { k[5089] = 1.14e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=300.0 && Tgas<41000.0) { k[5089] = 1.14e-11; }
         
     if (Tgas>=5.0 && Tgas<300.0) { k[5090] = 7.6e-12 * pow(Tgas/300.0,
-        -0.48) * exp(-0.0/Tgas); }
+        -0.48); }
         
-    if (Tgas>=300.0 && Tgas<41000.0) { k[5091] = 7.6e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=300.0 && Tgas<41000.0) { k[5091] = 7.6e-12; }
         
     if (Tgas>=5.0 && Tgas<300.0) { k[5092] = 7.6e-12 * pow(Tgas/300.0,
-        -0.48) * exp(-0.0/Tgas); }
+        -0.48); }
         
-    if (Tgas>=300.0 && Tgas<41000.0) { k[5093] = 7.6e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=300.0 && Tgas<41000.0) { k[5093] = 7.6e-12; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5094] = 1.44e-11 * pow(Tgas/300.0,
         0.5) * exp(-3000.0/Tgas); }
@@ -15353,26 +13478,22 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5096] = 6.02e-11 * pow(Tgas/300.0,
         0.1) * exp(+4.5/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5097] = 2.52e-11 * pow(Tgas/300.0,
-        0.0) * exp(-2381.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5097] = 2.52e-11 * exp(-2381.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5098] = 4e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5098] = 4e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5099] = 1.44e-11 * pow(Tgas/300.0,
         0.5) * exp(-5000.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5100] = 5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5100] = 5e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5101] = 1.73e-11 * pow(Tgas/300.0,
         0.5) * exp(-4000.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5102] = 9e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5102] = 9e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5103] = 1.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5103] = 1.1e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5104] = 2.72e-10 * pow(Tgas/300.0,
         -0.52) * exp(-19.0/Tgas); }
@@ -15389,20 +13510,17 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5108] = 2.72e-10 * pow(Tgas/300.0,
         -0.52) * exp(-19.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5109] = 4.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5109] = 4.1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5110] = 4.1e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5110] = 4.1e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5111] = 2.34e-11 * pow(Tgas/300.0,
         1.02) * exp(+35.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5112] = 2.23e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5112] = 2.23e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5113] = 2.66e-09 * pow(Tgas/300.0,
-        0.0) * exp(-21638.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5113] = 2.66e-09 *
+        exp(-21638.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5114] = 2.6e-10 * pow(Tgas/300.0,
         -0.47) * exp(-826.0/Tgas); }
@@ -15413,23 +13531,19 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5116] = 2.5e-17 * pow(Tgas/300.0,
         1.71) * exp(-770.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5117] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5117] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5118] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5118] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5119] = 3e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5119] = 3e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5120] = 7.02e-11 * pow(Tgas/300.0,
         -0.27) * exp(-8.3/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5121] = 1.6e-13 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5121] = 1.6e-13; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5122] = 1.62e-10 * pow(Tgas/300.0,
-        0.0) * exp(-21205.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5122] = 1.62e-10 *
+        exp(-21205.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5123] = 5.12e-12 * pow(Tgas/300.0,
         -0.49) * exp(+5.2/Tgas); }
@@ -15440,23 +13554,22 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5125] = 5.71e-11 * pow(Tgas/300.0,
         0.5) * exp(-32010.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5126] = 2.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5126] = 2.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5127] = 3.32e-12 * pow(Tgas/300.0,
-        0.0) * exp(-6170.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5127] = 3.32e-12 * exp(-6170.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5128] = 1.62e-13 * pow(Tgas/300.0,
-        0.0) * exp(-8780.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5128] = 1.62e-13 * exp(-8780.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5129] = 1.48e-10 * pow(Tgas/300.0,
-        0.0) * exp(-17000.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5129] = 1.48e-10 *
+        exp(-17000.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5130] = 5.99e-12 * pow(Tgas/300.0,
-        0.0) * exp(-24075.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5130] = 5.99e-12 *
+        exp(-24075.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5131] = 5.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-12160.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5131] = 5.6e-10 * exp(-12160.0/Tgas);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5132] = 5.27e-12 * pow(Tgas/300.0,
         1.4) * exp(-1760.0/Tgas); }
@@ -15464,8 +13577,8 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5133] = 9.11e-13 * pow(Tgas/300.0,
         2.57) * exp(-130.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5134] = 6.64e-10 * pow(Tgas/300.0,
-        0.0) * exp(-11700.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5134] = 6.64e-10 *
+        exp(-11700.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5135] = 5.18e-11 * pow(Tgas/300.0,
         0.17) * exp(-6400.0/Tgas); }
@@ -15473,35 +13586,34 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5136] = 6.86e-14 * pow(Tgas/300.0,
         2.74) * exp(-4740.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5137] = 5.46e-10 * pow(Tgas/300.0,
-        0.0) * exp(-1943.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5137] = 5.46e-10 * exp(-1943.0/Tgas);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5138] = 4.04e-13 * pow(Tgas/300.0,
         2.87) * exp(-820.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5139] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-400.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5139] = 1e-10 * exp(-400.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5140] = 6.52e-12 * pow(Tgas/300.0,
         0.09) * exp(-8050.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5141] = 1.69e-09 * pow(Tgas/300.0,
-        0.0) * exp(-18095.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5141] = 1.69e-09 *
+        exp(-18095.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5142] = 2.05e-15 * pow(Tgas/300.0,
         3.89) * exp(-1400.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5143] = 5.96e-11 * pow(Tgas/300.0,
-        0.0) * exp(-7782.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5143] = 5.96e-11 * exp(-7782.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5144] = 2.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-28500.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5144] = 2.4e-10 * exp(-28500.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5145] = 3.16e-10 * pow(Tgas/300.0,
-        0.0) * exp(-21890.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5145] = 3.16e-10 *
+        exp(-21890.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5146] = 4.38e-12 * pow(Tgas/300.0,
-        0.0) * exp(-10751.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5146] = 4.38e-12 *
+        exp(-10751.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5147] = 3.14e-13 * pow(Tgas/300.0,
         2.7) * exp(-3150.0/Tgas); }
@@ -15512,59 +13624,51 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5149] = 1.76e-13 * pow(Tgas/300.0,
         2.88) * exp(-6126.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5150] = 3.3e-12 * pow(Tgas/300.0,
-        0.0) * exp(-5870.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5150] = 3.3e-12 * exp(-5870.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5151] = 1.4e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5151] = 1.4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5152] = 4.65e-11 * pow(Tgas/300.0,
-        0.0) * exp(-16500.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5152] = 4.65e-11 *
+        exp(-16500.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5153] = 4.67e-10 * pow(Tgas/300.0,
         0.5) * exp(-30450.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5154] = 3.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-13634.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5154] = 3.8e-10 * exp(-13634.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5155] = 3.32e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5155] = 3.32e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5156] = 2.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5156] = 2.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5157] = 5.68e-11 * pow(Tgas/300.0,
-        0.0) * exp(-1897.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5157] = 5.68e-11 * exp(-1897.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5158] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-7600.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5158] = 1e-10 * exp(-7600.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5159] = 5.94e-13 * pow(Tgas/300.0,
         3.0) * exp(-4045.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5160] = 1.31e-10 * pow(Tgas/300.0,
-        0.0) * exp(-80.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5160] = 1.31e-10 * exp(-80.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5161] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5161] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5162] = 3.38e-10 * pow(Tgas/300.0,
-        0.0) * exp(-13163.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5162] = 3.38e-10 *
+        exp(-13163.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5163] = 1.1e-10 * pow(Tgas/300.0,
         0.5) * exp(-77700.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5164] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5164] = 1e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5165] = 4.85e-12 * pow(Tgas/300.0,
         1.9) * exp(-1379.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5166] = 1.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-1800.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5166] = 1.7e-11 * exp(-1800.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5167] = 8e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-4000.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5167] = 8e-11 * exp(-4000.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5168] = 1.59e-11 * pow(Tgas/300.0,
         1.2) * exp(-9610.0/Tgas); }
@@ -15572,17 +13676,15 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5169] = 3.71e-12 * pow(Tgas/300.0,
         1.94) * exp(-455.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5170] = 6.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-12500.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5170] = 6.2e-10 * exp(-12500.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5171] = 1.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5171] = 1.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5172] = 6.61e-11 * pow(Tgas/300.0,
-        0.0) * exp(-51598.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5172] = 6.61e-11 *
+        exp(-51598.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5173] = 1.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5173] = 1.5e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5174] = 1.14e-13 * pow(Tgas/300.0,
         4.23) * exp(+114.6/Tgas); }
@@ -15596,8 +13698,7 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5177] = 2.4e-09 * pow(Tgas/300.0,
         -0.5) * exp(-9010.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5178] = 2.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5178] = 2.5e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5179] = 5.13e-14 * pow(Tgas/300.0,
         3.15) * exp(-3603.0/Tgas); }
@@ -15605,8 +13706,8 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5180] = 4.96e-07 * pow(Tgas/300.0,
         -2.16) * exp(-18700.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5181] = 1.48e-10 * pow(Tgas/300.0,
-        0.0) * exp(-3588.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5181] = 1.48e-10 * exp(-3588.0/Tgas);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5182] = 4.56e-12 * pow(Tgas/300.0,
         1.02) * exp(-2161.0/Tgas); }
@@ -15617,14 +13718,13 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5184] = 1.73e-11 * pow(Tgas/300.0,
         0.5) * exp(-2400.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5185] = 1.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-740.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5185] = 1.4e-10 * exp(-740.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5186] = 9.29e-10 * pow(Tgas/300.0,
         -0.1) * exp(-35220.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5187] = 3.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-24910.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5187] = 3.6e-10 * exp(-24910.0/Tgas);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5188] = 7.27e-11 * pow(Tgas/300.0,
         0.5) * exp(-15700.0/Tgas); }
@@ -15632,29 +13732,27 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5189] = 7.27e-11 * pow(Tgas/300.0,
         0.5) * exp(-20735.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5190] = 2.61e-10 * pow(Tgas/300.0,
-        0.0) * exp(-8156.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5190] = 2.61e-10 * exp(-8156.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5191] = 5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-866.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5191] = 5e-11 * exp(-866.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5192] = 2.06e-11 * pow(Tgas/300.0,
         0.84) * exp(-277.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5193] = 1.66e-10 * pow(Tgas/300.0,
-        0.0) * exp(-413.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5193] = 1.66e-10 * exp(-413.0/Tgas);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5194] = 1.87e-11 * pow(Tgas/300.0,
         0.9) * exp(-2924.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5195] = 1.26e-10 * pow(Tgas/300.0,
-        0.0) * exp(-515.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5195] = 1.26e-10 * exp(-515.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5196] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5196] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5197] = 1.23e-11 * pow(Tgas/300.0,
-        0.0) * exp(-1949.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5197] = 1.23e-11 * exp(-1949.0/Tgas);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5198] = 6.99e-14 * pow(Tgas/300.0,
         2.8) * exp(-1950.0/Tgas); }
@@ -15668,206 +13766,155 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5201] = 5.9e-10 * pow(Tgas/300.0,
         -0.31) * exp(-11100.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5202] = 3.33e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5202] = 3.33e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5203] = 3.33e-11 * pow(Tgas/300.0,
-        0.0) * exp(-195.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5203] = 3.33e-11 * exp(-195.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5204] = 3.63e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5204] = 3.63e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5205] = 3e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5205] = 3e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5206] = 1e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-1000.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5206] = 1e-12 * exp(-1000.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5207] = 1.2e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5207] = 1.2e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5208] = 7.6e-13 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5208] = 7.6e-13; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5209] = 4.64e-12 * pow(Tgas/300.0,
         0.7) * exp(+25.6/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5210] = 5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5210] = 5e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5211] = 2.43e-12 * pow(Tgas/300.0,
         1.44) * exp(-1240.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5212] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5212] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5213] = 1e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5213] = 1e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5214] = 1e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5214] = 1e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5215] = 3.33e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5215] = 3.33e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5216] = 3.33e-11 * pow(Tgas/300.0,
-        0.0) * exp(-2470.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5216] = 3.33e-11 * exp(-2470.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5217] = 3.33e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5217] = 3.33e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5218] = 3.33e-11 * pow(Tgas/300.0,
-        0.0) * exp(-3570.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5218] = 3.33e-11 * exp(-3570.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5219] = 1.3e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5219] = 1.3e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5220] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-55200.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5220] = 1e-10 * exp(-55200.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5221] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5221] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5222] = 5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5222] = 5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5223] = 1.2e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5223] = 1.2e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5224] = 6.2e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5224] = 6.2e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5225] = 3.69e-14 * pow(Tgas/300.0,
-        0.0) * exp(-161.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5225] = 3.69e-14 * exp(-161.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5226] = 7.15e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5226] = 7.15e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5227] = 3.85e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5227] = 3.85e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5228] = 1.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5228] = 1.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5229] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5229] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5230] = 5.5e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5230] = 5.5e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5231] = 1e-13 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5231] = 1e-13; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5232] = 1e-13 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5232] = 1e-13; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5233] = 1.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5233] = 1.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5234] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5234] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5235] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5235] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5236] = 1.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5236] = 1.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5237] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5237] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5238] = 1e-13 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5238] = 1e-13; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5239] = 1e-13 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5239] = 1e-13; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5240] = 1.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5240] = 1.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5241] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5241] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5242] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5242] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5243] = 1e-13 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5243] = 1e-13; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5244] = 1e-13 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5244] = 1e-13; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5245] = 1e-13 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5245] = 1e-13; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5246] = 1.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5246] = 1.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5247] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5247] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5248] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5248] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5249] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5249] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5250] = 1e-13 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5250] = 1e-13; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5251] = 1.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5251] = 1.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5252] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5252] = 1e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5253] = 3.95e-11 * pow(Tgas/300.0,
-        0.17) * exp(-0.0/Tgas); }
+        0.17); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5254] = 3.95e-11 * pow(Tgas/300.0,
-        0.17) * exp(-0.0/Tgas); }
+        0.17); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5255] = 9.96e-13 * pow(Tgas/300.0,
-        0.0) * exp(-20380.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5255] = 9.96e-13 *
+        exp(-20380.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5256] = 8e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5256] = 8e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5257] = 7.4e-11 * pow(Tgas/300.0,
         0.26) * exp(-8.4/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5258] = 1.3e-11 * pow(Tgas/300.0,
-        0.5) * exp(-0.0/Tgas); }
+        0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5259] = 3.32e-13 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5259] = 3.32e-13; }
         
-    if (Tgas>=5.0 && Tgas<300.0) { k[5260] = 1e-10 * pow(Tgas/300.0, 0.18) *
-        exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<300.0) { k[5260] = 1e-10 * pow(Tgas/300.0, 0.18);
+    }
         
     if (Tgas>=300.0 && Tgas<41000.0) { k[5261] = 1e-10 * pow(Tgas/300.0,
-        0.4) * exp(-0.0/Tgas); }
+        0.4); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5262] = 3.2e-13 * pow(Tgas/300.0,
-        0.0) * exp(-1710.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5262] = 3.2e-13 * exp(-1710.0/Tgas);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5263] = 3.8e-11 * pow(Tgas/300.0,
         0.5) * exp(-1160.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5264] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-200.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5264] = 1e-10 * exp(-200.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5265] = 5.71e-12 * pow(Tgas/300.0,
         0.5) * exp(-1000.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5266] = 1.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5266] = 1.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5267] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5267] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5268] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5268] = 1e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5269] = 1.43e-12 * pow(Tgas/300.0,
         0.5) * exp(-1500.0/Tgas); }
@@ -15875,41 +13922,33 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5270] = 2.94e-12 * pow(Tgas/300.0,
         0.5) * exp(-1000.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5271] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5271] = 1e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5272] = 1.73e-11 * pow(Tgas/300.0,
         0.5) * exp(-9060.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5273] = 1e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5273] = 1e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5274] = 4.98e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5274] = 4.98e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5275] = 2.41e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5275] = 2.41e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5276] = 3e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5276] = 3e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5277] = 1e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5277] = 1e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5278] = 1e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5278] = 1e-12; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5279] = 3.38e-11 * pow(Tgas/300.0,
         -0.17) * exp(+2.8/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5280] = 3e-11 * pow(Tgas/300.0, -0.6)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5280] = 3e-11 * pow(Tgas/300.0,
+        -0.6); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5281] = 2.26e-12 * pow(Tgas/300.0,
         0.86) * exp(-3134.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5282] = 1.7e-13 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5282] = 1.7e-13; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5283] = 6.05e-11 * pow(Tgas/300.0,
         -0.23) * exp(-14.9/Tgas); }
@@ -15917,17 +13956,14 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5284] = 1.88e-11 * pow(Tgas/300.0,
         0.1) * exp(-10700.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5285] = 5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5285] = 5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5286] = 1e-18 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5286] = 1e-18; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5287] = 2.55e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5287] = 2.55e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5288] = 3e-11 * pow(Tgas/300.0, -0.6)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5288] = 3e-11 * pow(Tgas/300.0,
+        -0.6); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5289] = 1.73e-11 * pow(Tgas/300.0,
         0.5) * exp(-4000.0/Tgas); }
@@ -15938,20 +13974,17 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5291] = 1.73e-11 * pow(Tgas/300.0,
         0.5) * exp(-750.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5292] = 5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5292] = 5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5293] = 5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5293] = 5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5294] = 8e-11 * pow(Tgas/300.0, 0.17)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5294] = 8e-11 * pow(Tgas/300.0,
+        0.17); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5295] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5295] = 1e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5296] = 1.66e-10 * pow(Tgas/300.0,
-        -0.09) * exp(-0.0/Tgas); }
+        -0.09); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5297] = 2.9e-13 * pow(Tgas/300.0,
         2.87) * exp(-5380.0/Tgas); }
@@ -15959,8 +13992,7 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5298] = 4.27e-11 * pow(Tgas/300.0,
         -2.5) * exp(-331.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5299] = 1.49e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5299] = 1.49e-12; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5300] = 1.35e-12 * pow(Tgas/300.0,
         1.25) * exp(+43.5/Tgas); }
@@ -15969,10 +14001,10 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
         0.76) * exp(-262.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5302] = 2.75e-11 * pow(Tgas/300.0,
-        -1.14) * exp(-0.0/Tgas); }
+        -1.14); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5303] = 1.38e-11 * pow(Tgas/300.0,
-        -1.14) * exp(-0.0/Tgas); }
+        -1.14); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5304] = 6.63e-16 * pow(Tgas/300.0,
         6.13) * exp(-5895.0/Tgas); }
@@ -15983,14 +14015,12 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5306] = 1.83e-12 * pow(Tgas/300.0,
         1.6) * exp(-14090.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5307] = 5.25e-10 * pow(Tgas/300.0,
-        0.0) * exp(-13470.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5307] = 5.25e-10 *
+        exp(-13470.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5308] = 1.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5308] = 1.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5309] = 1.16e-09 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5309] = 1.16e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5310] = 1.81e-13 * pow(Tgas/300.0,
         1.8) * exp(+70.0/Tgas); }
@@ -16001,8 +14031,8 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5312] = 1.7e-11 * pow(Tgas/300.0,
         -1.94) * exp(-56.9/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5313] = 7.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-10540.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5313] = 7.4e-10 * exp(-10540.0/Tgas);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5314] = 1.33e-11 * pow(Tgas/300.0,
         -0.78) * exp(-40.0/Tgas); }
@@ -16016,20 +14046,17 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5317] = 2.54e-14 * pow(Tgas/300.0,
         1.18) * exp(-312.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<300.0) { k[5318] = 6.6e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<300.0) { k[5318] = 6.6e-11; }
         
-    if (Tgas>=300.0 && Tgas<41000.0) { k[5319] = 1.8e-10 * pow(Tgas/300.0,
-        0.0) * exp(-300.0/Tgas); }
+    if (Tgas>=300.0 && Tgas<41000.0) { k[5319] = 1.8e-10 * exp(-300.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5320] = 1.16e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5320] = 1.16e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5321] = 3.11e-12 * pow(Tgas/300.0,
-        1.2) * exp(-0.0/Tgas); }
+        1.2); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5322] = 3.32e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5322] = 3.32e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5323] = 2.93e-12 * pow(Tgas/300.0,
         0.1) * exp(-5800.0/Tgas); }
@@ -16037,23 +14064,22 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5324] = 1.73e-11 * pow(Tgas/300.0,
         0.5) * exp(-4000.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5325] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5325] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5326] = 1.41e-11 * pow(Tgas/300.0,
-        0.0) * exp(-14890.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5326] = 1.41e-11 *
+        exp(-14890.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5327] = 2.92e-13 * pow(Tgas/300.0,
         2.23) * exp(-23292.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5328] = 7.22e-12 * pow(Tgas/300.0,
-        0.0) * exp(-33155.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5328] = 7.22e-12 *
+        exp(-33155.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5329] = 2.51e-11 * pow(Tgas/300.0,
-        0.0) * exp(-30653.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5329] = 2.51e-11 *
+        exp(-30653.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5330] = 2.8e-12 * pow(Tgas/300.0,
-        0.0) * exp(-23400.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5330] = 2.8e-12 * exp(-23400.0/Tgas);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5331] = 4.55e-11 * pow(Tgas/300.0,
         -1.33) * exp(-242.0/Tgas); }
@@ -16064,14 +14090,12 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5333] = 2.94e-11 * pow(Tgas/300.0,
         0.5) * exp(-17465.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5334] = 1.75e-10 * pow(Tgas/300.0,
-        0.0) * exp(-20200.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5334] = 1.75e-10 *
+        exp(-20200.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5335] = 1.32e-12 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5335] = 1.32e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5336] = 8.1e-11 * pow(Tgas/300.0,
-        0.0) * exp(-773.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5336] = 8.1e-11 * exp(-773.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5337] = 1.76e-12 * pow(Tgas/300.0,
         0.81) * exp(+30.8/Tgas); }
@@ -16079,26 +14103,21 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5338] = 1.1e-14 * pow(Tgas/300.0,
         1.89) * exp(-1538.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5339] = 1e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5339] = 1e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5340] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5340] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5341] = 1.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5341] = 1.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5342] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5342] = 1e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5343] = 2e-10 * pow(Tgas/300.0,
-        -0.12) * exp(-0.0/Tgas); }
+        -0.12); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5344] = 1.15e-12 * pow(Tgas/300.0,
         1.4) * exp(-1110.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5345] = 1.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5345] = 1.6e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5346] = 2.42e-13 * pow(Tgas/300.0,
         2.13) * exp(-1338.0/Tgas); }
@@ -16106,104 +14125,74 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5347] = 5.11e-14 * pow(Tgas/300.0,
         1.88) * exp(-92.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5348] = 4.2e-11 * pow(Tgas/300.0,
-        0.0) * exp(-2520.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5348] = 4.2e-11 * exp(-2520.0/Tgas);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5349] = 1.52e-12 * pow(Tgas/300.0,
         1.55) * exp(-215.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5350] = 1.33e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5350] = 1.33e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5351] = 2.67e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5351] = 2.67e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5352] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5352] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5353] = 6e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5353] = 6e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5354] = 8.59e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5354] = 8.59e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5355] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5355] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5356] = 5e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-900.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5356] = 5e-12 * exp(-900.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5357] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5357] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5358] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5358] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5359] = 5e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-900.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5359] = 5e-12 * exp(-900.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5360] = 4e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5360] = 4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5361] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5361] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5362] = 1.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5362] = 1.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5363] = 6e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5363] = 6e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5364] = 1e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5364] = 1e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5365] = 5e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-900.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5365] = 5e-12 * exp(-900.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5366] = 1.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5366] = 1.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5367] = 4e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5367] = 4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5368] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5368] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5369] = 1.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5369] = 1.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5370] = 5e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-900.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5370] = 5e-12 * exp(-900.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5371] = 1.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5371] = 1.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5372] = 4e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5372] = 4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5373] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5373] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5374] = 1.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5374] = 1.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5375] = 5e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-900.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5375] = 5e-12 * exp(-900.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5376] = 1.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5376] = 1.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5377] = 4e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5377] = 4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5378] = 6e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5378] = 6e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5379] = 9.96e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5379] = 9.96e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5380] = 1.38e-10 * pow(Tgas/300.0,
-        0.0) * exp(-16050.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5380] = 1.38e-10 *
+        exp(-16050.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5381] = 1.27e-11 * pow(Tgas/300.0,
         -0.09) * exp(-798.7/Tgas); }
@@ -16214,29 +14203,24 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5383] = 2.11e-12 * pow(Tgas/300.0,
         2.04) * exp(-90.5/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5384] = 4e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5384] = 4e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5385] = 2.29e-12 * pow(Tgas/300.0,
         2.2) * exp(-3820.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<295.0) { k[5386] = 2.54e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<295.0) { k[5386] = 2.54e-11; }
         
-    if (Tgas>=295.0 && Tgas<41000.0) { k[5387] = 5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-200.0/Tgas); }
+    if (Tgas>=295.0 && Tgas<41000.0) { k[5387] = 5e-11 * exp(-200.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5388] = 5.37e-11 * pow(Tgas/300.0,
-        0.0) * exp(-13800.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5388] = 5.37e-11 *
+        exp(-13800.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5389] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5389] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5390] = 2.46e-11 * pow(Tgas/300.0,
-        0.0) * exp(-26567.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5390] = 2.46e-11 *
+        exp(-26567.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5391] = 4e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5391] = 4e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5392] = 2.48e-10 * pow(Tgas/300.0,
         -0.65) * exp(-783.0/Tgas); }
@@ -16244,14 +14228,12 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5393] = 4.68e-11 * pow(Tgas/300.0,
         0.5) * exp(-28940.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5394] = 3.8e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5394] = 3.8e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5395] = 5e-11 * pow(Tgas/300.0, 0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5395] = 5e-11 * pow(Tgas/300.0, 0.5);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5396] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5396] = 1e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5397] = 1.07e-11 * pow(Tgas/300.0,
         1.17) * exp(-1242.0/Tgas); }
@@ -16265,11 +14247,10 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5400] = 2.98e-12 * pow(Tgas/300.0,
         1.62) * exp(-1462.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5401] = 4e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5401] = 4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5402] = 6.21e-10 * pow(Tgas/300.0,
-        0.0) * exp(-12439.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5402] = 6.21e-10 *
+        exp(-12439.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5403] = 7.3e-13 * pow(Tgas/300.0,
         1.14) * exp(-3742.0/Tgas); }
@@ -16277,35 +14258,28 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5404] = 1.36e-12 * pow(Tgas/300.0,
         1.38) * exp(-3693.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5405] = 5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5405] = 5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5406] = 5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5406] = 5e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5407] = 3.61e-13 * pow(Tgas/300.0,
         2.1) * exp(-3080.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5408] = 5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5408] = 5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5409] = 5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5409] = 5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5410] = 2e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5410] = 2e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5411] = 1e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5411] = 1e-12; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5412] = 3.8e-11 * pow(Tgas/300.0,
-        -0.08) * exp(-0.0/Tgas); }
+        -0.08); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5413] = 2.94e-12 * pow(Tgas/300.0,
         0.5) * exp(-3500.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5414] = 3.8e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5414] = 3.8e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5415] = 1.74e-11 * pow(Tgas/300.0,
         0.67) * exp(-956.0/Tgas); }
@@ -16313,170 +14287,141 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5416] = 1.74e-10 * pow(Tgas/300.0,
         -0.2) * exp(-5.7/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5417] = 2.51e-10 * pow(Tgas/300.0,
-        0.0) * exp(-38602.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5417] = 2.51e-10 *
+        exp(-38602.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5418] = 1.15e-10 * pow(Tgas/300.0,
-        0.0) * exp(-13400.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5418] = 1.15e-10 *
+        exp(-13400.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5419] = 1.66e-10 * pow(Tgas/300.0,
-        0.0) * exp(-14100.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5419] = 1.66e-10 *
+        exp(-14100.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5420] = 6.3e-11 * pow(Tgas/300.0,
-        -0.1) * exp(-0.0/Tgas); }
+        -0.1); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5421] = 7e-12 * pow(Tgas/300.0, -0.1)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5421] = 7e-12 * pow(Tgas/300.0,
+        -0.1); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5422] = 1.89e-11 * pow(Tgas/300.0,
-        0.0) * exp(-4003.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5422] = 1.89e-11 * exp(-4003.0/Tgas);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5423] = 9.82e-12 * pow(Tgas/300.0,
         -0.21) * exp(-5.2/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5424] = 1.18e-11 * pow(Tgas/300.0,
-        0.0) * exp(-20413.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5424] = 1.18e-11 *
+        exp(-20413.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5425] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5425] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5426] = 1e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5426] = 1e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5427] = 5.76e-11 * pow(Tgas/300.0,
         -0.3) * exp(-7.5/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5428] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5428] = 1e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5429] = 4.02e-10 * pow(Tgas/300.0,
         -1.43) * exp(-3501.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5430] = 8.3e-11 * pow(Tgas/300.0,
-        0.0) * exp(-5530.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5430] = 8.3e-11 * exp(-5530.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5431] = 1.6e-11 * pow(Tgas/300.0,
-        0.0) * exp(-2150.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5431] = 1.6e-11 * exp(-2150.0/Tgas);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5432] = 3.69e-11 * pow(Tgas/300.0,
         -0.27) * exp(-12.9/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5433] = 8e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5433] = 8e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5434] = 2e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5434] = 2e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5435] = 4e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5435] = 4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5436] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5436] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5437] = 1.7e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5437] = 1.7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5438] = 9.01e-12 * pow(Tgas/300.0,
-        0.0) * exp(-9837.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5438] = 9.01e-12 * exp(-9837.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5439] = 6.6e-13 * pow(Tgas/300.0,
-        0.0) * exp(-2760.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5439] = 6.6e-13 * exp(-2760.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5440] = 4e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5440] = 4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5441] = 4e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5441] = 4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5442] = 4e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5442] = 4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5443] = 5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5443] = 5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5444] = 5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5444] = 5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5445] = 8e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5445] = 8e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5446] = 1.2e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5446] = 1.2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5447] = 1.4e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5447] = 1.4e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5448] = 1.98e-11 * pow(Tgas/300.0,
-        0.0) * exp(-1183.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5448] = 1.98e-11 * exp(-1183.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5449] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5449] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5450] = 5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5450] = 5e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5451] = 5.75e-11 * pow(Tgas/300.0,
         0.1) * exp(-200.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5452] = 1e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5452] = 1e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5453] = 1.05e-13 * pow(Tgas/300.0,
         2.68) * exp(-6060.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5454] = 1.84e-11 * pow(Tgas/300.0,
-        0.0) * exp(-5027.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5454] = 1.84e-11 * exp(-5027.0/Tgas);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5455] = 4.75e-17 * pow(Tgas/300.0,
         3.16) * exp(+128.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5456] = 5e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5456] = 5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5457] = 4e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5457] = 4e-11; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5458] = 1.04e-18 * pow(Tgas/300.0,
         8.8) * exp(-250.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5459] = 1e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-1000.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5459] = 1e-11 * exp(-1000.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5460] = 7e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5460] = 7e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5461] = 2.81e-13 * pow(Tgas/300.0,
-        0.0) * exp(-176.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5461] = 2.81e-13 * exp(-176.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5462] = 3e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5462] = 3e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5463] = 1.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5463] = 1.7e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5464] = 1.6e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5464] = 1.6e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5465] = 7.76e-12 * pow(Tgas/300.0,
         0.82) * exp(+30.6/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5466] = 2e-13 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5466] = 2e-13; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5467] = 5.26e-12 * pow(Tgas/300.0,
-        0.0) * exp(-307.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5467] = 5.26e-12 * exp(-307.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5468] = 6.3e-12 * pow(Tgas/300.0,
-        0.0) * exp(-80.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5468] = 6.3e-12 * exp(-80.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5469] = 1.87e-13 * pow(Tgas/300.0,
         1.5) * exp(-3887.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5470] = 1.07e-13 * pow(Tgas/300.0,
-        0.0) * exp(-5892.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5470] = 1.07e-13 * exp(-5892.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5471] = 1.7e-10 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5471] = 1.7e-10; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5472] = 6.17e-12 * pow(Tgas/300.0,
         1.23) * exp(+44.3/Tgas); }
@@ -16484,17 +14429,17 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5473] = 1.04e-17 * pow(Tgas/300.0,
         4.33) * exp(-12623.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5474] = 3.7e-13 * pow(Tgas/300.0,
-        0.0) * exp(-2740.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5474] = 3.7e-13 * exp(-2740.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5475] = 3.11e-13 * pow(Tgas/300.0,
-        0.0) * exp(-1450.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5475] = 3.11e-13 * exp(-1450.0/Tgas);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5476] = 1.47e-13 * pow(Tgas/300.0,
         2.05) * exp(-7.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5477] = 5.2e-12 * pow(Tgas/300.0,
-        0.0) * exp(-15100.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5477] = 5.2e-12 * exp(-15100.0/Tgas);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5478] = 8.58e-11 * pow(Tgas/300.0,
         -0.56) * exp(-14.8/Tgas); }
@@ -16502,44 +14447,35 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5479] = 1.65e-12 * pow(Tgas/300.0,
         1.14) * exp(-50.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5480] = 6.6e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5480] = 6.6e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5481] = 8.6e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5481] = 8.6e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5482] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5482] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5483] = 2e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5483] = 2e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5484] = 1e-13 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5484] = 1e-13; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5485] = 1e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5485] = 1e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5486] = 8e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5486] = 8e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5487] = 4e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5487] = 4e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5488] = 4.5e-11 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5488] = 4.5e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5489] = 9.76e-12 * pow(Tgas/300.0,
-        0.0) * exp(-4545.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5489] = 9.76e-12 * exp(-4545.0/Tgas);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5490] = 1.73e-11 * pow(Tgas/300.0,
         0.5) * exp(-11500.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5491] = 2.72e-11 * pow(Tgas/300.0,
-        0.0) * exp(-282.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5491] = 2.72e-11 * exp(-282.0/Tgas);
+    }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5492] = 1.3e-09 * pow(Tgas/300.0,
-        0.0) * exp(-34513.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5492] = 1.3e-09 * exp(-34513.0/Tgas);
+    }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5493] = 9e-11 * pow(Tgas/300.0,
         -0.96) * exp(-28.0/Tgas); }
@@ -16547,29 +14483,22 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[5494] = 1.72e-10 * pow(Tgas/300.0,
         -0.53) * exp(-17.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5495] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5495] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5496] = 1e-13 * pow(Tgas/300.0, -1.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5496] = 1e-13 * pow(Tgas/300.0,
+        -1.0); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5497] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5497] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5498] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5498] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5499] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5499] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5500] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5500] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5501] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5501] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5502] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5502] = 1e-09; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5503] = 4.01e-18 * pow(Tgas/300.0,
         0.17) * exp(-101.5/Tgas); }
@@ -16581,55 +14510,52 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
         -0.15) * exp(-68.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<14700.0) { k[5506] = 3.07e-19 * pow(Tgas/300.0,
-        0.15) * exp(-0.0/Tgas); }
+        0.15); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5507] = 1.1e-15 * pow(Tgas/300.0,
-        -2.0) * exp(-0.0/Tgas); }
+        -2.0); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5508] = 2e-12 * pow(Tgas/300.0, -2.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5508] = 2e-12 * pow(Tgas/300.0,
+        -2.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5509] = 2e-12 * pow(Tgas/300.0, -2.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5509] = 2e-12 * pow(Tgas/300.0,
+        -2.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5510] = 2e-12 * pow(Tgas/300.0, -2.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5510] = 2e-12 * pow(Tgas/300.0,
+        -2.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5511] = 1e-09 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5511] = 1e-09; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5512] = 1e-13 * pow(Tgas/300.0, -1.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5512] = 1e-13 * pow(Tgas/300.0,
+        -1.0); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5513] = 2e-15 * pow(Tgas/300.0, -2.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5513] = 2e-15 * pow(Tgas/300.0,
+        -2.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5514] = 1e-16 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5514] = 1e-16; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5515] = 1e-13 * pow(Tgas/300.0, -2.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5515] = 1e-13 * pow(Tgas/300.0,
+        -2.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5516] = 1e-13 * pow(Tgas/300.0, -2.9)
         * exp(-15.0/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5517] = 2e-12 * pow(Tgas/300.0, -2.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5517] = 2e-12 * pow(Tgas/300.0,
+        -2.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5518] = 1e-13 * pow(Tgas/300.0, -2.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5518] = 1e-13 * pow(Tgas/300.0,
+        -2.0); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5519] = 2e-12 * pow(Tgas/300.0, -2.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5519] = 2e-12 * pow(Tgas/300.0,
+        -2.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5520] = 2e-10 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5520] = 2e-10; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5521] = 3e-16 * pow(Tgas/300.0, -1.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5521] = 3e-16 * pow(Tgas/300.0,
+        -1.0); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5522] = 4e-14 * pow(Tgas/300.0, -1.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5522] = 4e-14 * pow(Tgas/300.0,
+        -1.0); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5523] = 4.36e-18 * pow(Tgas/300.0,
         0.35) * exp(-161.3/Tgas); }
@@ -16650,61 +14576,57 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
         0.07) * exp(-301.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<14700.0) { k[5529] = 4.36e-19 * pow(Tgas/300.0,
-        0.22) * exp(-0.0/Tgas); }
+        0.22); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5530] = 8e-13 * pow(Tgas/300.0, -2.5)
         * exp(-9.9/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5531] = 1e-13 * pow(Tgas/300.0, -2.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5531] = 1e-13 * pow(Tgas/300.0,
+        -2.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5532] = 2.15e-11 * pow(Tgas/300.0,
-        -0.66) * exp(-0.0/Tgas); }
+        -0.66); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5533] = 9e-11 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5533] = 9e-11 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5534] = 7.8e-12 * pow(Tgas/300.0,
-        -1.1) * exp(-0.0/Tgas); }
+        -1.1); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5535] = 1.2e-13 * pow(Tgas/300.0,
-        -1.3) * exp(-0.0/Tgas); }
+        -1.3); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5536] = 2e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5536] = 2e-12; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5537] = 8.6e-11 * pow(Tgas/300.0,
-        -1.4) * exp(-0.0/Tgas); }
+        -1.4); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5538] = 8.6e-11 * pow(Tgas/300.0,
-        -1.4) * exp(-0.0/Tgas); }
+        -1.4); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5539] = 8.6e-11 * pow(Tgas/300.0,
-        -1.4) * exp(-0.0/Tgas); }
+        -1.4); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5540] = 9e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5540] = 9e-09 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5541] = 8e-12 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5541] = 8e-12; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5542] = 1e-16 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5542] = 1e-16; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5543] = 1e-17 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5543] = 1e-17; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5544] = 4e-16 * pow(Tgas/300.0, -1.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5544] = 4e-16 * pow(Tgas/300.0,
+        -1.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5545] = 7.2e-24 * pow(Tgas/300.0,
-        -2.3) * exp(-0.0/Tgas); }
+        -2.3); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5546] = 1.15e-18 * pow(Tgas/300.0,
         1.49) * exp(-228.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5547] = 5.26e-20 * pow(Tgas/300.0,
-        -0.51) * exp(-0.0/Tgas); }
+        -0.51); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5548] = 2e-16 * pow(Tgas/300.0, -1.3)
         * exp(-23.0/Tgas); }
@@ -16713,19 +14635,17 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
         -2.01) * exp(-7.2/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5550] = 1.69e-12 * pow(Tgas/300.0,
-        -1.0) * exp(-0.0/Tgas); }
+        -1.0); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5551] = 1.69e-12 * pow(Tgas/300.0,
-        -1.0) * exp(-0.0/Tgas); }
+        -1.0); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5552] = 5.2e-14 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5553] = 6e-11 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5553] = 6e-11; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5554] = 1e-17 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5554] = 1e-17; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5555] = 3.92e-16 * pow(Tgas/300.0,
         -2.29) * exp(-21.3/Tgas); }
@@ -16734,358 +14654,351 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
         -0.71) * exp(-11.6/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5557] = 2.4e-16 * pow(Tgas/300.0,
-        -0.8) * exp(-0.0/Tgas); }
+        -0.8); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5558] = 1e-14 * pow(Tgas/300.0, -1.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5558] = 1e-14 * pow(Tgas/300.0,
+        -1.0); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5559] = 7.5e-18 * pow(Tgas/300.0,
-        -1.3) * exp(-0.0/Tgas); }
+        -1.3); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5560] = 2.4e-17 * pow(Tgas/300.0,
-        -1.4) * exp(-0.0/Tgas); }
+        -1.4); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5561] = 1e-17 * pow(Tgas/300.0, -0.2)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5561] = 1e-17 * pow(Tgas/300.0,
+        -0.2); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5562] = 3e-18 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5562] = 3e-18; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5563] = 3e-16 * pow(Tgas/300.0, -1.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5563] = 3e-16 * pow(Tgas/300.0,
+        -1.0); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5564] = 3e-17 * pow(Tgas/300.0, -1.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5564] = 3e-17 * pow(Tgas/300.0,
+        -1.0); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5565] = 1e-18 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5565] = 1e-18 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5566] = 4e-13 * pow(Tgas/300.0, -1.3)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5566] = 4e-13 * pow(Tgas/300.0,
+        -1.3); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5567] = 4.5e-12 * pow(Tgas/300.0,
-        -1.6) * exp(-0.0/Tgas); }
+        -1.6); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5568] = 2.4e-14 * pow(Tgas/300.0,
-        -2.8) * exp(-0.0/Tgas); }
+        -2.8); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5569] = 1.7e-17 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5569] = 1.7e-17; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5570] = 7e-11 * pow(Tgas/300.0, -0.1)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5570] = 7e-11 * pow(Tgas/300.0,
+        -0.1); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5571] = 6e-14 * pow(Tgas/300.0, -0.7)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5571] = 6e-14 * pow(Tgas/300.0,
+        -0.7); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5572] = 1e-17 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5572] = 1e-17; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5573] = 9.9e-19 * pow(Tgas/300.0,
-        -0.38) * exp(-0.0/Tgas); }
+        -0.38); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5574] = 5.26e-18 * pow(Tgas/300.0,
         -5.22) * exp(-90.0/Tgas); }
         
     if (Tgas>=5.0 && Tgas<10000.0) { k[5575] = 1.17e-17 * pow(Tgas/300.0,
-        -0.14) * exp(-0.0/Tgas); }
+        -0.14); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5576] = 1e-13 * pow(Tgas/300.0, -2.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5576] = 1e-13 * pow(Tgas/300.0,
+        -2.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5577] = 1e-13 * pow(Tgas/300.0, -2.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5577] = 1e-13 * pow(Tgas/300.0,
+        -2.0); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5578] = 1e-13 * pow(Tgas/300.0, -2.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5578] = 1e-13 * pow(Tgas/300.0,
+        -2.0); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5579] = 1e-13 * pow(Tgas/300.0, -2.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5579] = 1e-13 * pow(Tgas/300.0,
+        -2.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5580] = 6e-15 * pow(Tgas/300.0, -1.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5580] = 6e-15 * pow(Tgas/300.0,
+        -1.5); }
         
     if (Tgas>=5.0 && Tgas<14700.0) { k[5581] = 3.71e-18 * pow(Tgas/300.0,
         0.24) * exp(-26.1/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5582] = 4.9e-20 * pow(Tgas/300.0,
-        1.58) * exp(-0.0/Tgas); }
+        1.58); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5583] = 3.2e-16 * pow(Tgas/300.0,
-        -1.5) * exp(-0.0/Tgas); }
+        -1.5); }
         
     if (Tgas>=5.0 && Tgas<14700.0) { k[5584] = 9.22e-19 * pow(Tgas/300.0,
         -0.08) * exp(+21.2/Tgas); }
         
     if (Tgas>=5.0 && Tgas<14700.0) { k[5585] = 5.52e-18 * pow(Tgas/300.0,
-        0.31) * exp(-0.0/Tgas); }
+        0.31); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5586] = 5e-21 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5586] = 5e-21; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5587] = 1.7e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5588] = 6e-08 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5588] = 6e-08 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5589] = 2e-15 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5589] = 2e-15 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5590] = 2e-15 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5590] = 2e-15 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5591] = 1.7e-14 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5592] = 1.7e-14 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5593] = 2.63e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5594] = 1.1e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5595] = 1.1e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5596] = 3.3e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5597] = 4.1e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5598] = 1.25e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5599] = 1.7e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5600] = 6.2e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5601] = 5e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5601] = 5e-07 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5602] = 1.9e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5603] = 1.7e-07 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5604] = 6.2e-08 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5605] = 5e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5605] = 5e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5606] = 2e-07 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5606] = 2e-07 * pow(Tgas/300.0,
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5607] = 2.25e-15 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5607] = 2.25e-15; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5608] = 3.37e-16 * pow(Tgas/300.0,
         0.64) * exp(-9.2/Tgas); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5609] = 1.5e-15 * pow(Tgas/300.0,
-        0.0) * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5609] = 1.5e-15; }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5610] = 5e-15 * pow(Tgas/300.0, 0.0)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5610] = 5e-15; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5611] = 2.36e-12 * pow(Tgas/300.0,
         -0.29) * exp(+17.6/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5612] = 1.1e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5613] = 4.14e-12 * pow(Tgas/300.0,
-        -0.61) * exp(-0.0/Tgas); }
+        -0.61); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5614] = 2.55e-12 * pow(Tgas/300.0,
-        -0.69) * exp(-0.0/Tgas); }
+        -0.69); }
         
     if (Tgas>=5.0 && Tgas<20000.0) { k[5615] = 3.5e-12 * pow(Tgas/300.0,
-        -0.75) * exp(-0.0/Tgas); }
+        -0.75); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5616] = 1.1e-10 * pow(Tgas/300.0,
-        -0.7) * exp(-0.0/Tgas); }
+        -0.7); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5617] = 1.1e-10 * pow(Tgas/300.0,
-        -0.7) * exp(-0.0/Tgas); }
+        -0.7); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5618] = 1.1e-10 * pow(Tgas/300.0,
-        -0.7) * exp(-0.0/Tgas); }
+        -0.7); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5619] = 5.36e-12 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5620] = 2.78e-12 * pow(Tgas/300.0,
-        -0.68) * exp(-0.0/Tgas); }
+        -0.68); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5621] = 3.5e-12 * pow(Tgas/300.0,
         -0.53) * exp(+3.2/Tgas); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5622] = 2.76e-12 * pow(Tgas/300.0,
-        -0.68) * exp(-0.0/Tgas); }
+        -0.68); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5623] = 3.24e-12 * pow(Tgas/300.0,
-        -0.66) * exp(-0.0/Tgas); }
+        -0.66); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5624] = 3.41e-12 * pow(Tgas/300.0,
-        -0.65) * exp(-0.0/Tgas); }
+        -0.65); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5625] = 5.49e-12 * pow(Tgas/300.0,
-        -0.59) * exp(-0.0/Tgas); }
+        -0.59); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5626] = 4.26e-12 * pow(Tgas/300.0,
-        -0.62) * exp(-0.0/Tgas); }
+        -0.62); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5627] = 2.46e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5628] = 4.58e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5629] = 2.05e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5630] = 1.76e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5631] = 2.01e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5632] = 2.01e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5633] = 1.61e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[5634] = 3e-09 * pow(Tgas/300.0, -0.5)
-        * exp(-0.0/Tgas); }
+    if (Tgas>=5.0 && Tgas<41000.0) { k[5634] = 3e-09 * pow(Tgas/300.0,
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5635] = 1.34e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5636] = 1.15e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5637] = 1.32e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5638] = 1.32e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5639] = 2.37e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5640] = 4.47e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5641] = 1.67e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5642] = 1.96e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5643] = 1.96e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5644] = 3.69e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5645] = 6.74e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5646] = 2.71e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5647] = 2.96e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5648] = 2.96e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5649] = 1.77e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5650] = 3.4e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5651] = 1.44e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5652] = 1.21e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5653] = 1.49e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5654] = 1.49e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5655] = 2.72e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5656] = 5.24e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5657] = 2.22e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5658] = 1.86e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5659] = 2.29e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5660] = 2.29e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5661] = 2.7e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5662] = 5.22e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5663] = 2.19e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5664] = 1.82e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5665] = 2.28e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5666] = 2.28e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5667] = 1.72e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5668] = 3.33e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5669] = 7.41e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5670] = 1.16e-09 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5671] = 7.28e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5672] = 7.28e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5673] = 7.28e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5674] = 7.28e-10 * pow(Tgas/300.0,
-        -0.5) * exp(-0.0/Tgas); }
+        -0.5); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[5675] = 2.3e-17 * (zeta_cr + zeta_xr)
         / zism; }
