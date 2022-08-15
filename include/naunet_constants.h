@@ -1,5 +1,7 @@
 #ifndef __NAUNET_CONSTANTS_H__
 #define __NAUNET_CONSTANTS_H__
+
+// 
 // clang-format off
 
 extern const double pi;
@@ -29,8 +31,8 @@ extern const double echarge;
 extern const double kerg;
 
 extern const double gism           ;
-extern const double habing         ;
 extern const double zism           ;
+extern const double habing         ;
 extern const double crphot         ;
 extern const double hbar           ;
 extern const double eb_GCI         ;

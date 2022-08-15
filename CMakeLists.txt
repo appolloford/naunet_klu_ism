@@ -28,6 +28,7 @@ find_package(SUNDIALS ${SUNDIALS_MIN_VERSION} REQUIRED CONFIG)
 
 message(STATUS "SUNDIALS_FOUND             = ${SUNDIALS_FOUND}")
 
+
 list(APPEND SUNDIALSLIB
     SUNDIALS::cvode
     SUNDIALS::sunlinsolklu
@@ -64,5 +65,5 @@ add_subdirectory(src)
 
 if(MAKE_TEST)
     enable_testing()
-    add_subdirectory(test)
+    add_subdirectory(tests)
 endif()

@@ -3,11 +3,9 @@
 #include <nvector/nvector_serial.h>
 #include <sunmatrix/sunmatrix_sparse.h>  // access to sparse SUNMatrix
 /* */
-/*  */
-#include "naunet_ode.h"
-/*  */
 #include "naunet_constants.h"
 #include "naunet_macros.h"
+#include "naunet_ode.h"
 #include "naunet_physics.h"
 
 #define IJth(A, i, j) SM_ELEMENT_D(A, i, j)
@@ -21694,731 +21692,731 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
         sqrt(2.0*sites*kerg*eb_GC11I/(pi*pi*amu*132.0)) * exp(-eb_GC11I/Tcr); }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7434] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7435] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7436] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7437] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7438] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7439] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7440] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7441] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7442] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7443] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7444] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7445] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7446] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7447] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7448] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.0013 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.0013 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7449] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7450] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7451] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7452] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7453] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7454] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7455] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7456] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7457] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7458] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7459] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7460] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7461] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7462] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.00018 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.00018 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7463] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7464] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.0027 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.0027 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7465] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7466] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7467] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7468] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7469] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7470] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7471] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7472] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7473] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7474] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7475] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7476] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7477] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7478] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7479] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7480] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7481] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7482] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.0021 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.0021 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7483] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7484] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7485] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7486] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7487] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7488] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7489] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7490] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7491] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7492] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7493] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7494] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7495] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7496] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7497] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7498] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7499] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7500] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7501] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7502] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7503] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7504] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7505] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7506] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7507] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7508] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7509] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7510] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7511] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7512] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7513] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7514] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7515] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7516] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7517] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7518] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7519] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7520] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7521] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7522] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7523] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7524] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.0023 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.0023 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7525] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7526] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7527] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7528] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7529] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7530] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7531] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7532] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7533] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7534] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7535] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7536] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7537] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7538] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7539] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7540] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7541] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7542] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7543] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7544] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7545] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7546] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7547] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7548] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7549] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7550] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7551] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7552] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7553] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7554] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7555] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7556] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7557] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7558] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7559] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7560] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7561] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7562] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7563] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7564] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7565] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7566] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7567] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7568] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7569] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7570] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7571] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7572] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7573] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7574] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7575] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7576] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7577] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7578] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7579] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7580] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7581] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7582] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7583] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7584] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7585] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7586] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7587] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7588] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7589] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7590] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7591] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7592] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7593] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7594] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7595] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7596] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7597] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7598] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7599] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7600] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7601] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7602] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7603] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7604] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7605] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7606] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7607] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7608] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7609] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7610] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7611] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7612] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7613] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7614] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7615] = opt_uvd * cov *
-        (G0*habing*exp(-Av*3.02) + crphot * zeta_cr/zism) * 0.001 * nMono *
+        (G0*habing*exp(-Av*3.02) + crphot * (zeta_cr/zism)) * 0.001 * nMono *
         garea; }
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[7616] = 3.9e-17 *

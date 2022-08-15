@@ -14,7 +14,7 @@ get_property(
 set(
     TESTTARGETS
     singlegrid
-)
+    )
 
 # force cmake to have the same macro defined in naunet_macros.h
 # use CapWords convention to use in test.py
@@ -26,6 +26,7 @@ if("CUDA" IN_LIST languages)
     list(
         APPEND TESTTARGETS
             multiplegrid
+            
     )
 endif()
 
@@ -68,7 +69,7 @@ foreach(name ${TESTTARGETS})
 endforeach(name ${TESTTARGETS})
 
 if(MAKE_PYTHON)
-    configure_file(test.py.in test.py)
+    configure_file(singlegrid.py.in singlegrid.py)
 
     if( ${NVIDIA_GPU_COUNT} OR NOT ("CUDA" IN_LIST languages) )
         add_test(
@@ -78,7 +79,8 @@ if(MAKE_PYTHON)
                 ${CMAKE_COMMAND} -E env 
                     PYNAUNET_PATH=$<TARGET_FILE_DIR:${PYMODNAME}>
                     NAUNET_CONFIG_PATH=${CMAKE_SOURCE_DIR}
-                ${Python3_EXECUTABLE} ${CMAKE_CURRENT_BINARY_DIR}/test.py
+                ${Python3_EXECUTABLE} ${CMAKE_CURRENT_BINARY_DIR}/singlegrid.py
         )
     endif()
 endif()
+

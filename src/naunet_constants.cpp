@@ -1,3 +1,4 @@
+// 
 // clang-format off
 #include "naunet_constants.h"
 
@@ -28,8 +29,8 @@ const double echarge         = 4.80320425e-10;
 const double kerg            = 1.380658e-16;
 
 const double gism            = 0.0016;
-const double habing          = 100000000.0;
 const double zism            = 1.3e-17;
+const double habing          = 100000000.0;
 const double crphot          = 10000.0;
 const double hbar            = 1.054571726e-27;
 const double eb_GCI          = 800.0;
@@ -214,7 +215,6 @@ const double eb_GSiNCI       = 1350.0;
 const double eb_GSiOI        = 3500.0;
 const double eb_GSiO2I       = 4300.0;
 const double eb_GSiSI        = 3800.0;
-
 
 
 // Table of H2 self-shielding factor (Walsh et al. 2015)
@@ -3815,5 +3815,3 @@ double N2ShieldingTable[5][46][46] =
    5.245e-28, 4.586e-28, 3.836e-28, 3.080e-28, 2.391e-28, 1.791e-28,
    1.286e-28, 8.913e-29, 6.087e-29, 4.069e-29, 2.580e-29, 1.512e-29,
    8.077e-30, 3.838e-30, 1.515e-30, 4.391e-31}}};
-
-
