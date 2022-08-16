@@ -1,6 +1,9 @@
 # build 
-build/
+build*
 
 # chemical network
 rate12_complex.rates
+
+# benchmark data
+benchmark
 

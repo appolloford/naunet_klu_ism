@@ -18,8 +18,8 @@ int main() {
     double nH      = 2e4;
     double zeta_cr = 1.3e-17;
     double zeta_xr = 0.0;
-    double Tgas    = 15.0;
-    double Tdust   = 15.0;
+    double Tgas    = 10.0;
+    double Tdust   = 10.0;
     double Av      = 10.0;
     double G0      = 4.0;
     double rG      = 1e-5;
@@ -51,7 +51,7 @@ int main() {
 
 
     Naunet naunet;
-    if (naunet.Init() == NAUNET_FAIL) {
+    if (naunet.Init(1, 1e-20, 1e-4) == NAUNET_FAIL) {
         printf("Initialize Fail\n");
         return 1;
     }
