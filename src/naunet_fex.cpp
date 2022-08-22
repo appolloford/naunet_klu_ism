@@ -49,7 +49,7 @@ int Fex(realtype t, N_Vector u, N_Vector udot, void *user_data) {
     double h2col = 0.5*1.59e21*Av;
     double cocol = 1e-5 * h2col;
     double n2col = 1e-5 * h2col;
-    double gdens = y[IDX_GRAIN0I] + y[IDX_GRAINM];
+    double gdens = y[IDX_GRAINM] + y[IDX_GRAIN0I];
     double mant = GetMantleDens(y);
     double garea = (4*pi*rG*rG) * gdens;
     double unisites = sites * (4*pi*rG*rG);
