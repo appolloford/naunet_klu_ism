@@ -31,25 +31,25 @@ int Jac(realtype t, N_Vector u, N_Vector fu, SUNMatrix jmatrix, void *user_data,
     // clang-format off
     realtype nH = u_data->nH;
     realtype Tgas = u_data->Tgas;
-    realtype zeta_cr = u_data->zeta_cr;
-    realtype zeta_xr = u_data->zeta_xr;
     realtype Tdust = u_data->Tdust;
+    realtype zeta_cr = u_data->zeta_cr;
     realtype Av = u_data->Av;
-    realtype G0 = u_data->G0;
     realtype omega = u_data->omega;
+    realtype zeta_xr = u_data->zeta_xr;
+    realtype G0 = u_data->G0;
     realtype rG = u_data->rG;
-    realtype barr = u_data->barr;
     realtype sites = u_data->sites;
+    realtype barr = u_data->barr;
     realtype hop = u_data->hop;
     realtype nMono = u_data->nMono;
-    realtype duty = u_data->duty;
-    realtype Tcr = u_data->Tcr;
-    realtype branch = u_data->branch;
     realtype opt_frz = u_data->opt_frz;
     realtype opt_thd = u_data->opt_thd;
-    realtype opt_uvd = u_data->opt_uvd;
     realtype opt_crd = u_data->opt_crd;
+    realtype duty = u_data->duty;
+    realtype Tcr = u_data->Tcr;
+    realtype opt_uvd = u_data->opt_uvd;
     realtype opt_rcd = u_data->opt_rcd;
+    realtype branch = u_data->branch;
         
 #if (NHEATPROCS || NCOOLPROCS)
     if (mu < 0) mu = GetMu(y);

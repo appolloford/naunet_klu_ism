@@ -412,43 +412,43 @@ int Naunet::Solve(realtype *ab, realtype dt, NaunetData *data) {
         /* */
         fprintf(errfp_, "    data.Tgas = %13.7e;\n", data->Tgas);
         /* */
-        fprintf(errfp_, "    data.zeta_cr = %13.7e;\n", data->zeta_cr);
-        /* */
-        fprintf(errfp_, "    data.zeta_xr = %13.7e;\n", data->zeta_xr);
-        /* */
         fprintf(errfp_, "    data.Tdust = %13.7e;\n", data->Tdust);
+        /* */
+        fprintf(errfp_, "    data.zeta_cr = %13.7e;\n", data->zeta_cr);
         /* */
         fprintf(errfp_, "    data.Av = %13.7e;\n", data->Av);
         /* */
-        fprintf(errfp_, "    data.G0 = %13.7e;\n", data->G0);
-        /* */
         fprintf(errfp_, "    data.omega = %13.7e;\n", data->omega);
+        /* */
+        fprintf(errfp_, "    data.zeta_xr = %13.7e;\n", data->zeta_xr);
+        /* */
+        fprintf(errfp_, "    data.G0 = %13.7e;\n", data->G0);
         /* */
         fprintf(errfp_, "    data.rG = %13.7e;\n", data->rG);
         /* */
-        fprintf(errfp_, "    data.barr = %13.7e;\n", data->barr);
-        /* */
         fprintf(errfp_, "    data.sites = %13.7e;\n", data->sites);
+        /* */
+        fprintf(errfp_, "    data.barr = %13.7e;\n", data->barr);
         /* */
         fprintf(errfp_, "    data.hop = %13.7e;\n", data->hop);
         /* */
         fprintf(errfp_, "    data.nMono = %13.7e;\n", data->nMono);
         /* */
-        fprintf(errfp_, "    data.duty = %13.7e;\n", data->duty);
-        /* */
-        fprintf(errfp_, "    data.Tcr = %13.7e;\n", data->Tcr);
-        /* */
-        fprintf(errfp_, "    data.branch = %13.7e;\n", data->branch);
-        /* */
         fprintf(errfp_, "    data.opt_frz = %13.7e;\n", data->opt_frz);
         /* */
         fprintf(errfp_, "    data.opt_thd = %13.7e;\n", data->opt_thd);
         /* */
-        fprintf(errfp_, "    data.opt_uvd = %13.7e;\n", data->opt_uvd);
-        /* */
         fprintf(errfp_, "    data.opt_crd = %13.7e;\n", data->opt_crd);
         /* */
+        fprintf(errfp_, "    data.duty = %13.7e;\n", data->duty);
+        /* */
+        fprintf(errfp_, "    data.Tcr = %13.7e;\n", data->Tcr);
+        /* */
+        fprintf(errfp_, "    data.opt_uvd = %13.7e;\n", data->opt_uvd);
+        /* */
         fprintf(errfp_, "    data.opt_rcd = %13.7e;\n", data->opt_rcd);
+        /* */
+        fprintf(errfp_, "    data.branch = %13.7e;\n", data->branch);
         /*  */
 
         fprintf(errfp_, "\n");
