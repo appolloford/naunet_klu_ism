@@ -38,7 +38,7 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     double h2col = 0.5*1.59e21*Av;
     double cocol = 1e-5 * h2col;
     double n2col = 1e-5 * h2col;
-    double gdens = y[IDX_GRAINM] + y[IDX_GRAIN0I];
+    double gdens = y[IDX_GRAIN0I] + y[IDX_GRAINM];
     double mant = GetMantleDens(y);
     double garea = (4.0*pi*rG*rG) * gdens;
     double unisites = sites * (4*pi*rG*rG);
@@ -27502,7 +27502,7 @@ int EvalHeatingRates(realtype *kh, realtype *y, NaunetData *u_data) {
     double h2col = 0.5*1.59e21*Av;
     double cocol = 1e-5 * h2col;
     double n2col = 1e-5 * h2col;
-    double gdens = y[IDX_GRAINM] + y[IDX_GRAIN0I];
+    double gdens = y[IDX_GRAIN0I] + y[IDX_GRAINM];
     double mant = GetMantleDens(y);
     double garea = (4.0*pi*rG*rG) * gdens;
     double unisites = sites * (4*pi*rG*rG);
@@ -27558,7 +27558,7 @@ int EvalCoolingRates(realtype *kc, realtype *y, NaunetData *u_data) {
     double h2col = 0.5*1.59e21*Av;
     double cocol = 1e-5 * h2col;
     double n2col = 1e-5 * h2col;
-    double gdens = y[IDX_GRAINM] + y[IDX_GRAIN0I];
+    double gdens = y[IDX_GRAIN0I] + y[IDX_GRAINM];
     double mant = GetMantleDens(y);
     double garea = (4.0*pi*rG*rG) * gdens;
     double unisites = sites * (4*pi*rG*rG);
