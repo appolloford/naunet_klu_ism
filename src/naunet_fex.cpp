@@ -46,18 +46,22 @@ int Fex(realtype t, N_Vector u, N_Vector udot, void *user_data) {
     realtype opt_rcd = u_data->opt_rcd;
     realtype branch = u_data->branch;
     
-    double h2col = 0.5*1.59e21*Av;
-    double cocol = 1e-5 * h2col;
-    double n2col = 1e-5 * h2col;
-    double gdens = y[IDX_GRAIN0I] + y[IDX_GRAINM];
-    double mant = GetMantleDens(y);
-    double garea = (4.0*pi*rG*rG) * gdens;
-    double unisites = sites * (4*pi*rG*rG);
-    double densites = garea * sites;
-    double freq = sqrt((2.0*sites*kerg)/((pi*pi)*amu));
-    double quan = -2.0*(barr/hbar) * sqrt(2.0*amu*kerg);
-    double layers = mant/(nMono*densites);
-    double cov = (mant == 0.0) ? 0.0 : fmin(layers/mant, 1.0/mant);
+    realtype h2col = 0.5*1.59e21*Av;
+    realtype cocol = 1e-5 * h2col;
+    realtype n2col = 1e-5 * h2col;
+    realtype stick1 = (1.0 / (1.0 + 4.2e-2*sqrt(Tgas+Tdust) + 2.3e-3*Tgas - 1.3e-7*Tgas*Tgas));
+    realtype stick2 = exp(-1741.0/Tgas) / (1.0 + 5e-2*sqrt(Tgas+Tdust) + 1e-14*pow(Tgas, 4.0));
+    realtype stick = stick1 + stick2;
+    realtype gdens = y[IDX_GRAINM] + y[IDX_GRAIN0I];
+    realtype mant = GetMantleDens(y);
+    realtype garea = (4.0*pi*rG*rG) * gdens;
+    realtype unisites = sites * (4*pi*rG*rG);
+    realtype densites = garea * sites;
+    realtype freq = sqrt((2.0*sites*kerg)/((pi*pi)*amu));
+    realtype quan = -2.0*(barr/hbar) * sqrt(2.0*amu*kerg);
+    realtype layers = mant/(nMono*densites);
+    realtype cov = (mant == 0.0) ? 0.0 : fmin(layers/mant, 1.0/mant);
+    realtype hloss = stick * garea/4.0 * sqrt(8.0*kerg*Tgas/(pi*amu));
     
 #if (NHEATPROCS || NCOOLPROCS)
     if (mu < 0) mu = GetMu(y);
@@ -16342,7 +16346,7 @@ int Fex(realtype t, N_Vector u, N_Vector udot, void *user_data) {
         k[6882]*y[IDX_H3C9NII]*y[IDX_GRAINM] +
         k[6883]*y[IDX_H3C9NII]*y[IDX_GRAINM] - k[6889]*y[IDX_H2I] +
         k[7071]*y[IDX_GH2I] + k[7253]*y[IDX_GH2I] + k[7435]*y[IDX_GH2I] +
-        k[8273]*y[IDX_GHI]*y[IDX_GHI];
+        k[8273]*y[IDX_GHI]*y[IDX_GHI] + (0.5 * hloss) * y[IDX_HI];
     ydot[IDX_eM] = 0.0 + k[0]*y[IDX_CM]*y[IDX_CI] +
         k[1]*y[IDX_CM]*y[IDX_CH2I] + k[2]*y[IDX_CM]*y[IDX_CHI] +
         k[3]*y[IDX_CM]*y[IDX_CO2I] + k[4]*y[IDX_CM]*y[IDX_H2OI] +
@@ -18007,14 +18011,9 @@ int Fex(realtype t, N_Vector u, N_Vector udot, void *user_data) {
         k[6879]*y[IDX_C10H3II]*y[IDX_GRAINM] +
         k[6881]*y[IDX_H2C9NII]*y[IDX_GRAINM] +
         k[6882]*y[IDX_H3C9NII]*y[IDX_GRAINM] - k[6888]*y[IDX_HI] +
-        k[7070]*y[IDX_GHI] + k[7252]*y[IDX_GHI] + k[7434]*y[IDX_GHI];
+        k[7070]*y[IDX_GHI] + k[7252]*y[IDX_GHI] + k[7434]*y[IDX_GHI] + (-hloss)
+        * y[IDX_HI];
     
-    double stick1 = (1.0 / (1.0 + 4.2e-2*sqrt(Tgas+Tdust) + 2.3e-3*Tgas - 1.3e-7*Tgas*Tgas));
-    double stick2 = exp(-1741.0/Tgas) / (1.0 + 5e-2*sqrt(Tgas+Tdust) + 1e-14*pow(Tgas, 4.0));
-    double stick = stick1 + stick2;
-    double hloss = stick * garea/4.0 * sqrt(8.0*kerg*Tgas/(pi*amu));
-    ydot[IDX_H2I] += 0.5*hloss*y[IDX_HI];
-    ydot[IDX_HI] -= hloss*y[IDX_HI];
     
 #if ((NHEATPROCS || NCOOLPROCS) && NAUNET_DEBUG)
     printf("Total heating/cooling rate: %13.7e\n", ydot[IDX_TGAS]);

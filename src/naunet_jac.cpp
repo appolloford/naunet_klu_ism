@@ -50,6 +50,23 @@ int Jac(realtype t, N_Vector u, N_Vector fu, SUNMatrix jmatrix, void *user_data,
     realtype opt_uvd = u_data->opt_uvd;
     realtype opt_rcd = u_data->opt_rcd;
     realtype branch = u_data->branch;
+    
+    realtype h2col = 0.5*1.59e21*Av;
+    realtype cocol = 1e-5 * h2col;
+    realtype n2col = 1e-5 * h2col;
+    realtype stick1 = (1.0 / (1.0 + 4.2e-2*sqrt(Tgas+Tdust) + 2.3e-3*Tgas - 1.3e-7*Tgas*Tgas));
+    realtype stick2 = exp(-1741.0/Tgas) / (1.0 + 5e-2*sqrt(Tgas+Tdust) + 1e-14*pow(Tgas, 4.0));
+    realtype stick = stick1 + stick2;
+    realtype gdens = y[IDX_GRAINM] + y[IDX_GRAIN0I];
+    realtype mant = GetMantleDens(y);
+    realtype garea = (4.0*pi*rG*rG) * gdens;
+    realtype unisites = sites * (4*pi*rG*rG);
+    realtype densites = garea * sites;
+    realtype freq = sqrt((2.0*sites*kerg)/((pi*pi)*amu));
+    realtype quan = -2.0*(barr/hbar) * sqrt(2.0*amu*kerg);
+    realtype layers = mant/(nMono*densites);
+    realtype cov = (mant == 0.0) ? 0.0 : fmin(layers/mant, 1.0/mant);
+    realtype hloss = stick * garea/4.0 * sqrt(8.0*kerg*Tgas/(pi*amu));
         
 #if (NHEATPROCS || NCOOLPROCS)
     if (mu < 0) mu = GetMu(y);
@@ -50206,7 +50223,7 @@ int Jac(realtype t, N_Vector u, N_Vector fu, SUNMatrix jmatrix, void *user_data,
         k[5171]*y[IDX_HCOI] + k[5173]*y[IDX_HCSI] + k[5176]*y[IDX_HNOI] +
         k[5178]*y[IDX_HSI] + k[5182]*y[IDX_NH2I] + k[5183]*y[IDX_NH3I] +
         k[5184]*y[IDX_NHI] + k[5192]*y[IDX_O2HI] + k[5198]*y[IDX_OHI] +
-        k[5211]*y[IDX_HClI];
+        k[5211]*y[IDX_HClI] + (0.5 * hloss);
     data[19983] = 0.0 - k[1155]*y[IDX_eM];
     data[19984] = 0.0 - k[796]*y[IDX_eM] - k[797]*y[IDX_eM];
     data[19985] = 0.0 - k[905]*y[IDX_eM];
@@ -52502,7 +52519,7 @@ int Jac(realtype t, N_Vector u, N_Vector fu, SUNMatrix jmatrix, void *user_data,
         k[5213]*y[IDX_HNC3I] - k[5546]*y[IDX_HII] - k[5569]*y[IDX_CII] -
         k[5570]*y[IDX_C4H2II] - k[5571]*y[IDX_C4H3II] - k[5572]*y[IDX_CI] -
         k[5573]*y[IDX_OI] - k[5574]*y[IDX_OHI] - k[5575]*y[IDX_SiII] -
-        k[5608]*y[IDX_eM] - k[5682] - k[5844] - k[6888];
+        k[5608]*y[IDX_eM] - k[5682] - k[5844] - k[6888] + (-hloss);
     
     // clang-format on
 

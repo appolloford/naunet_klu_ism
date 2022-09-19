@@ -69,18 +69,26 @@ foreach(name ${TESTTARGETS})
 endforeach(name ${TESTTARGETS})
 
 if(MAKE_PYTHON)
-    configure_file(singlegrid.py.in singlegrid.py)
-
-    if( ${NVIDIA_GPU_COUNT} OR NOT ("CUDA" IN_LIST languages) )
-        add_test(
-            NAME
-                test_pymodule
-            COMMAND
-                ${CMAKE_COMMAND} -E env 
-                    PYNAUNET_PATH=$<TARGET_FILE_DIR:${PYMODNAME}>
-                    NAUNET_CONFIG_PATH=${CMAKE_SOURCE_DIR}
-                ${Python3_EXECUTABLE} ${CMAKE_CURRENT_BINARY_DIR}/singlegrid.py
+    set(
+        PYTESTTARGETS
+        singlegrid
         )
-    endif()
+
+    foreach(name ${PYTESTTARGETS})
+        configure_file(${name}.py.in ${name}.py)
+
+        if( ${NVIDIA_GPU_COUNT} OR NOT ("CUDA" IN_LIST languages) )
+            add_test(
+                NAME
+                    test_${name}_py
+                COMMAND
+                    ${CMAKE_COMMAND} -E env 
+                        PYNAUNET_PATH=$<TARGET_FILE_DIR:${PYMODNAME}>
+                        NAUNET_CONFIG_PATH=${CMAKE_SOURCE_DIR}
+                    ${Python3_EXECUTABLE} ${CMAKE_CURRENT_BINARY_DIR}/${name}.py
+            )
+        endif()
+    endforeach(name ${PYTESTTARGETS})
+
 endif()
 

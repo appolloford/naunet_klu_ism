@@ -35,28 +35,24 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     realtype opt_rcd = u_data->opt_rcd;
     realtype branch = u_data->branch;
     
-    double h2col = 0.5*1.59e21*Av;
-    double cocol = 1e-5 * h2col;
-    double n2col = 1e-5 * h2col;
-    double gdens = y[IDX_GRAIN0I] + y[IDX_GRAINM];
-    double mant = GetMantleDens(y);
-    double garea = (4.0*pi*rG*rG) * gdens;
-    double unisites = sites * (4*pi*rG*rG);
-    double densites = garea * sites;
-    double freq = sqrt((2.0*sites*kerg)/((pi*pi)*amu));
-    double quan = -2.0*(barr/hbar) * sqrt(2.0*amu*kerg);
-    double layers = mant/(nMono*densites);
-    double cov = (mant == 0.0) ? 0.0 : fmin(layers/mant, 1.0/mant);
+    realtype h2col = 0.5*1.59e21*Av;
+    realtype cocol = 1e-5 * h2col;
+    realtype n2col = 1e-5 * h2col;
+    realtype stick1 = (1.0 / (1.0 + 4.2e-2*sqrt(Tgas+Tdust) + 2.3e-3*Tgas - 1.3e-7*Tgas*Tgas));
+    realtype stick2 = exp(-1741.0/Tgas) / (1.0 + 5e-2*sqrt(Tgas+Tdust) + 1e-14*pow(Tgas, 4.0));
+    realtype stick = stick1 + stick2;
+    realtype gdens = y[IDX_GRAINM] + y[IDX_GRAIN0I];
+    realtype mant = GetMantleDens(y);
+    realtype garea = (4.0*pi*rG*rG) * gdens;
+    realtype unisites = sites * (4*pi*rG*rG);
+    realtype densites = garea * sites;
+    realtype freq = sqrt((2.0*sites*kerg)/((pi*pi)*amu));
+    realtype quan = -2.0*(barr/hbar) * sqrt(2.0*amu*kerg);
+    realtype layers = mant/(nMono*densites);
+    realtype cov = (mant == 0.0) ? 0.0 : fmin(layers/mant, 1.0/mant);
+    realtype hloss = stick * garea/4.0 * sqrt(8.0*kerg*Tgas/(pi*amu));
     
     // clang-format on
-
-    // Some variable definitions from krome
-    realtype Te      = Tgas * 8.617343e-5;            // Tgas in eV (eV)
-    realtype lnTe    = log(Te);                       // ln of Te (#)
-    realtype T32     = Tgas * 0.0033333333333333335;  // Tgas/(300 K) (#)
-    realtype invT    = 1.0 / Tgas;                    // inverse of T (1/K)
-    realtype invTe   = 1.0 / Te;                      // inverse of T (1/eV)
-    realtype sqrTgas = sqrt(Tgas);  // Tgas rootsquare (K**0.5)
 
     // reaaction rate (k) of each reaction
     // clang-format off
@@ -27477,50 +27473,9 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
 // clang-format off
 int EvalHeatingRates(realtype *kh, realtype *y, NaunetData *u_data) {
 
-    realtype nH = u_data->nH;
-    realtype Tgas = u_data->Tgas;
-    realtype Tdust = u_data->Tdust;
-    realtype zeta_cr = u_data->zeta_cr;
-    realtype Av = u_data->Av;
-    realtype omega = u_data->omega;
-    realtype zeta_xr = u_data->zeta_xr;
-    realtype G0 = u_data->G0;
-    realtype rG = u_data->rG;
-    realtype sites = u_data->sites;
-    realtype barr = u_data->barr;
-    realtype hop = u_data->hop;
-    realtype nMono = u_data->nMono;
-    realtype opt_frz = u_data->opt_frz;
-    realtype opt_thd = u_data->opt_thd;
-    realtype opt_crd = u_data->opt_crd;
-    realtype duty = u_data->duty;
-    realtype Tcr = u_data->Tcr;
-    realtype opt_uvd = u_data->opt_uvd;
-    realtype opt_rcd = u_data->opt_rcd;
-    realtype branch = u_data->branch;
     
-    double h2col = 0.5*1.59e21*Av;
-    double cocol = 1e-5 * h2col;
-    double n2col = 1e-5 * h2col;
-    double gdens = y[IDX_GRAIN0I] + y[IDX_GRAINM];
-    double mant = GetMantleDens(y);
-    double garea = (4.0*pi*rG*rG) * gdens;
-    double unisites = sites * (4*pi*rG*rG);
-    double densites = garea * sites;
-    double freq = sqrt((2.0*sites*kerg)/((pi*pi)*amu));
-    double quan = -2.0*(barr/hbar) * sqrt(2.0*amu*kerg);
-    double layers = mant/(nMono*densites);
-    double cov = (mant == 0.0) ? 0.0 : fmin(layers/mant, 1.0/mant);
     
     // clang-format on
-
-    // Some variable definitions from krome
-    realtype Te      = Tgas * 8.617343e-5;            // Tgas in eV (eV)
-    realtype lnTe    = log(Te);                       // ln of Te (#)
-    realtype T32     = Tgas * 0.0033333333333333335;  // Tgas/(300 K) (#)
-    realtype invT    = 1.0 / Tgas;                    // inverse of T (1/K)
-    realtype invTe   = 1.0 / Te;                      // inverse of T (1/eV)
-    realtype sqrTgas = sqrt(Tgas);  // Tgas rootsquare (K**0.5)
 
     // reaaction rate (k) of each reaction
     // clang-format off
@@ -27533,50 +27488,9 @@ int EvalHeatingRates(realtype *kh, realtype *y, NaunetData *u_data) {
 // clang-format off
 int EvalCoolingRates(realtype *kc, realtype *y, NaunetData *u_data) {
 
-    realtype nH = u_data->nH;
-    realtype Tgas = u_data->Tgas;
-    realtype Tdust = u_data->Tdust;
-    realtype zeta_cr = u_data->zeta_cr;
-    realtype Av = u_data->Av;
-    realtype omega = u_data->omega;
-    realtype zeta_xr = u_data->zeta_xr;
-    realtype G0 = u_data->G0;
-    realtype rG = u_data->rG;
-    realtype sites = u_data->sites;
-    realtype barr = u_data->barr;
-    realtype hop = u_data->hop;
-    realtype nMono = u_data->nMono;
-    realtype opt_frz = u_data->opt_frz;
-    realtype opt_thd = u_data->opt_thd;
-    realtype opt_crd = u_data->opt_crd;
-    realtype duty = u_data->duty;
-    realtype Tcr = u_data->Tcr;
-    realtype opt_uvd = u_data->opt_uvd;
-    realtype opt_rcd = u_data->opt_rcd;
-    realtype branch = u_data->branch;
     
-    double h2col = 0.5*1.59e21*Av;
-    double cocol = 1e-5 * h2col;
-    double n2col = 1e-5 * h2col;
-    double gdens = y[IDX_GRAIN0I] + y[IDX_GRAINM];
-    double mant = GetMantleDens(y);
-    double garea = (4.0*pi*rG*rG) * gdens;
-    double unisites = sites * (4*pi*rG*rG);
-    double densites = garea * sites;
-    double freq = sqrt((2.0*sites*kerg)/((pi*pi)*amu));
-    double quan = -2.0*(barr/hbar) * sqrt(2.0*amu*kerg);
-    double layers = mant/(nMono*densites);
-    double cov = (mant == 0.0) ? 0.0 : fmin(layers/mant, 1.0/mant);
     
     // clang-format on
-
-    // Some variable definitions from krome
-    realtype Te      = Tgas * 8.617343e-5;            // Tgas in eV (eV)
-    realtype lnTe    = log(Te);                       // ln of Te (#)
-    realtype T32     = Tgas * 0.0033333333333333335;  // Tgas/(300 K) (#)
-    realtype invT    = 1.0 / Tgas;                    // inverse of T (1/K)
-    realtype invTe   = 1.0 / Te;                      // inverse of T (1/eV)
-    realtype sqrTgas = sqrt(Tgas);  // Tgas rootsquare (K**0.5)
 
     // reaaction rate (k) of each reaction
     // clang-format off
