@@ -24492,13 +24492,7 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[8272] = G0 * 9e-10 * exp(-1.6*Av); }
         
-    if (Tgas>=5.0 && Tgas<41000.0) { k[8273] = fmax(exp(-0.0/Tdust),
-        exp(quan * sqrt(((1.0*1.0)/(1.0+1.0))*0.0))) * (fmax(freq *
-        sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq * sqrt(600.0/1.0)
-        * exp(quan * sqrt(hop*1.0*600.0)) / unisites)+fmax(freq *
-        sqrt(600.0/1.0) * exp(-600.0*hop/Tdust)/unisites, freq * sqrt(600.0/1.0)
-        * exp(quan * sqrt(hop*1.0*600.0)) / unisites)) * pow((nMono*densites),
-        2.0) / gdens * cov * cov; }
+    k[8273] = 0.0
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[8274] = fmax(exp(-0.0/Tdust),
         exp(quan * sqrt(((1.0*12.0)/(1.0+12.0))*0.0))) * (fmax(freq *
@@ -27463,8 +27457,6 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
     if (Tgas>=5.0 && Tgas<41000.0) { k[8763] = pi * rG * rG *
         sqrt(8.0*kerg*(Tgas)/pi/amu/meu); }
         
-    
-    k[8273] = 0.0;
         // clang-format on
 
     return NAUNET_SUCCESS;

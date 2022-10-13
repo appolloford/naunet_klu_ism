@@ -1,7 +1,6 @@
 // 
 // clang-format off
 #include "naunet_constants.h"
-
 const double pi              = 3.1415926;
 
 // atomic mass unit (g)
@@ -219,11 +218,9 @@ const double eb_GH2I = 430.0;
 const double eb_GCI = 800.0;
 const double eb_GHI = 600.0;
 
-
 // Table of H2 self-shielding factor (Walsh et al. 2015)
 // H2 column density
-const
-double H2ShieldingTableX[105] = 
+const double H2ShieldingTableX[105] = 
 {0.000e+00, 3.690e+11, 3.715e+12, 3.948e+13, 1.233e+14, 
  2.536e+14, 4.342e+14, 6.653e+14, 6.689e+14, 9.075e+14, 
  1.234e+15, 1.631e+15, 2.105e+15, 2.363e+15, 2.899e+15, 
@@ -246,8 +243,7 @@ double H2ShieldingTableX[105] =
  3.303e+21, 3.497e+21, 3.722e+21, 3.983e+21, 4.283e+21, 
  4.644e+21, 5.127e+21, 5.945e+21, 8.205e+21, 1.015e+22};
 
-const
-double H2ShieldingTable[105] =
+const double H2ShieldingTable[105] =
 {1.000e+00, 9.983e-01, 9.853e-01, 8.761e-01, 7.199e-01, 
  5.728e-01, 4.455e-01, 3.431e-01, 3.418e-01, 2.732e-01, 
  2.110e-01, 1.619e-01, 1.236e-01, 1.084e-01, 8.447e-02, 
@@ -272,13 +268,11 @@ double H2ShieldingTable[105] =
 
 // Table of CO self-shielding factor
 // Excitation temperature
-const
-double COShieldingTableX[5] = 
+const double COShieldingTableX[5] = 
 {5.0, 20.0, 50.0, 100.0, 1000.0};
 
 // H2 column density
-const
-double COShieldingTableY[41] = 
+const double COShieldingTableY[41] = 
 {1.000e+15, 1.585e+15, 2.512e+15, 3.981e+15, 6.310e+15, 1.000e+16, 1.585e+16,
  2.512e+16, 3.981e+16, 6.310e+16, 1.000e+17, 1.585e+17, 2.512e+17, 3.981e+17,
  6.310e+17, 1.000e+18, 1.585e+18, 2.512e+18, 3.981e+18, 6.310e+18, 1.000e+19,
@@ -287,8 +281,7 @@ double COShieldingTableY[41] =
  1.000e+22, 1.585e+22, 2.512e+22, 3.981e+22, 6.310e+22, 1.000e+23};
 
 // CO column density
-const
-double COShieldingTableZ[46] = 
+const double COShieldingTableZ[46] = 
 {1.000e+10, 1.585e+10, 2.512e+10, 3.981e+10, 6.310e+10, 1.000e+11, 1.585e+11,
  2.512e+11, 3.981e+11, 6.310e+11, 1.000e+12, 1.585e+12, 2.512e+12, 3.981e+12,
  6.310e+12, 1.000e+13, 1.585e+13, 2.512e+13, 3.981e+13, 6.310e+13, 1.000e+14,
@@ -297,8 +290,7 @@ double COShieldingTableZ[46] =
  1.000e+17, 1.585e+17, 2.512e+17, 3.981e+17, 6.310e+17, 1.000e+18, 1.585e+18,
  2.512e+18, 3.981e+18, 6.310e+18, 1.000e+19};
 
-const
-double COShieldingTable[5][41][46] = 
+const double COShieldingTable[5][41][46] = 
 {{{8.524e-01, 8.524e-01, 8.523e-01, 8.523e-01, 8.522e-01, 8.521e-01,
    8.519e-01, 8.515e-01, 8.510e-01, 8.502e-01, 8.489e-01, 8.468e-01,
    8.436e-01, 8.385e-01, 8.305e-01, 8.183e-01, 7.998e-01, 7.724e-01,
@@ -1946,13 +1938,11 @@ double COShieldingTable[5][41][46] =
 
 // Table of N2 self-shielding factor
 // Excitation temperature
-const
-double N2ShieldingTableX[5] = 
+const double N2ShieldingTableX[5] = 
 {10.0, 30.0, 50.0, 100.0, 1000.0};
 
 // H2 column density
-const
-double N2ShieldingTableY[46] = 
+const double N2ShieldingTableY[46] = 
 {1.000e+14, 1.585e+14, 2.512e+14, 3.981e+14, 6.310e+14, 1.000e+15, 1.585e+15,
  2.512e+15, 3.981e+15, 6.310e+15, 1.000e+16, 1.585e+16, 2.512e+16, 3.981e+16,
  6.310e+16, 1.000e+17, 1.585e+17, 2.512e+17, 3.981e+17, 6.310e+17, 1.000e+18,
@@ -1962,8 +1952,7 @@ double N2ShieldingTableY[46] =
  2.512e+22, 3.981e+22, 6.310e+22, 1.000e+23};
 
 // N2 column density
-const
-double N2ShieldingTableZ[46] = 
+const double N2ShieldingTableZ[46] = 
 {1.000e+10, 1.585e+10, 2.512e+10, 3.981e+10, 6.310e+10, 1.000e+11, 1.585e+11,
  2.512e+11, 3.981e+11, 6.310e+11, 1.000e+12, 1.585e+12, 2.512e+12, 3.981e+12,
  6.310e+12, 1.000e+13, 1.585e+13, 2.512e+13, 3.981e+13, 6.310e+13, 1.000e+14,
@@ -1972,8 +1961,7 @@ double N2ShieldingTableZ[46] =
  1.000e+17, 1.585e+17, 2.512e+17, 3.981e+17, 6.310e+17, 1.000e+18, 1.585e+18,
  2.512e+18, 3.981e+18, 6.310e+18, 1.000e+19};
 
-const
-double N2ShieldingTable[5][46][46] = 
+const double N2ShieldingTable[5][46][46] = 
 {{{9.375e-01, 9.374e-01, 9.372e-01, 9.369e-01, 9.364e-01, 9.356e-01,
    9.344e-01, 9.325e-01, 9.295e-01, 9.249e-01, 9.179e-01, 9.073e-01,
    8.918e-01, 8.693e-01, 8.379e-01, 7.956e-01, 7.414e-01, 6.762e-01,

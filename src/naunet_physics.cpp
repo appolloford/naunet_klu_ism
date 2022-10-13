@@ -929,8 +929,8 @@ double GetH2shieldingInt(double coldens) {
     double x2 = H2ShieldingTableX[i + 1];
     double y1 = H2ShieldingTable[i];
     double y2 = H2ShieldingTable[i + 1];
-    shielding = log10(y1) +
-                log10(y2 / y1) * log10(coldens / x1) / log10(x2 / x1);
+    shielding =
+        log10(y1) + log10(y2 / y1) * log10(coldens / x1) / log10(x2 / x1);
     shielding = pow(10.0, shielding);
     return shielding;
 
@@ -1016,9 +1016,9 @@ double GetCOshieldingInt(double tgas, double h2col, double coldens) {
             break;
         }
     }
-    k2 = k1 + 1;
-    z1 = COShieldingTableZ[k1];
-    z2 = COShieldingTableZ[k2];
+    k2        = k1 + 1;
+    z1        = COShieldingTableZ[k1];
+    z2        = COShieldingTableZ[k2];
 
     double mx = log10(tgas / x1) / log10(x2 / x1);
     double my = log10(h2col / y1) / log10(y2 / y1);
@@ -1068,14 +1068,14 @@ double GetN2shieldingInt(double tgas, double h2col, double coldens) {
     int i1, i2, j1, j2, k1, k2;
     // find the index where tags falls in the range]
     for (i1 = 0; i1 < 3; i1++) {
-        if (tgas < N2ShieldingTableX[i1+1]) {
+        if (tgas < N2ShieldingTableX[i1 + 1]) {
             break;
         }
     }
     i2 = i1 + 1;
     x1 = N2ShieldingTableX[i1];
     x2 = N2ShieldingTableX[i2];
-    
+
     for (j1 = 0; j1 < 44; j1++) {
         if (h2col < N2ShieldingTableY[j1 + 1]) {
             break;
@@ -1090,9 +1090,9 @@ double GetN2shieldingInt(double tgas, double h2col, double coldens) {
             break;
         }
     }
-    k2 = k1 + 1;
-    z1 = N2ShieldingTableZ[k1];
-    z2 = N2ShieldingTableZ[k2];
+    k2        = k1 + 1;
+    z1        = N2ShieldingTableZ[k1];
+    z2        = N2ShieldingTableZ[k2];
 
     double mx = log10(tgas / x1) / log10(x2 / x1);
     double my = log10(h2col / y1) / log10(y2 / y1);

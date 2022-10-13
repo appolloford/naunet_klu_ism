@@ -3,7 +3,6 @@
 
 // 
 // clang-format off
-
 extern const double pi;
 
 // atomic mass unit (g)
@@ -223,7 +222,7 @@ extern const double eb_GHI;
 
 // H2 column density
 extern const double H2ShieldingTableX[105];
-// shielding factor (theta)
+// H2 shielding factor
 extern const double H2ShieldingTable[105];
 
 // Excitation temperature
@@ -235,6 +234,7 @@ extern const double COShieldingTableZ[46];
 // CO shielding factor
 extern const double COShieldingTable[5][41][46];
 
+
 // Excitation temperature
 extern const double N2ShieldingTableX[5];
 // H2 column density
@@ -243,6 +243,5 @@ extern const double N2ShieldingTableY[46];
 extern const double N2ShieldingTableZ[46];
 // N2 shielding factor
 extern const double N2ShieldingTable[5][46][46];
-
 
 #endif
