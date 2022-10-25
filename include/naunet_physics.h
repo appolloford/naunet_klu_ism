@@ -9,8 +9,8 @@ double GetHNuclei(double *y);
 double GetMu(double *y);
 double GetGamma(double *y);
 double GetNumDens(double *y);
-double GetShieldingFactor(int specidx, double h2coldens, double spcoldens,
-                          double tgas, int method);
+/*  */
+double GetShieldingFactor(int specidx, double h2coldens, double spcoldens, double tgas, int method);
 double GetH2shielding(double coldens, int method);
 double GetCOshielding(double tgas, double h2col, double coldens, int method);
 double GetN2shielding(double tgas, double h2col, double coldens, int method);
@@ -21,5 +21,4 @@ double GetCOshieldingInt1(double h2col, double coldens);
 double GetN2shieldingInt(double tgas, double h2col, double coldens);
 double GetGrainScattering(double av, double wavelength);
 double GetCharactWavelength(double h2col, double cocol);
-/*  */
 #endif
