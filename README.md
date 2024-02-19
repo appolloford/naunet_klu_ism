@@ -5,8 +5,8 @@ It is also a test example of [naunet](https://github.com/appolloford/naunet).
 
 ## Dependencies
 
-- [suitesparse](https://github.com/DrTimothyAldenDavis/SuiteSparse)^5.7.2 (tested by sundials)
-- [sundials](https://github.com/LLNL/sundials)^5.6.1
+- [suitesparse](https://github.com/DrTimothyAldenDavis/SuiteSparse)^5.10.1 (tested by sundials)
+- [sundials](https://github.com/LLNL/sundials)^6.0.0
 
 ### Install denpendencies
 
@@ -14,12 +14,12 @@ As the KLU solver in sundials requires the suitesparse library, suitesparese mus
 
 - MacOS: 
   1. `brew install suite-sparse`
-  2. `brew` supported installing sundials, but it was updated to 6.2.0 recently. Here is an example showing how to install from source
+  2. `brew` supported installing sundials 6.7.0 and it should work. Here is also an example showing how to install from source
      ```bash
-     $ wget https://github.com/LLNL/sundials/releases/download/v5.7.0/sundials-5.7.0.tar.gz
-     $ tar -zxvf sundials-5.7.0.tar.gz
+     $ wget https://github.com/LLNL/sundials/releases/download/v6.0.0/sundials-6.0.0.tar.gz
+     $ tar -zxvf sundials-6.0.0.tar.gz
      $ mkdir build-sundials && cd build-sundials
-     $ cmake ../sundials-5.7.0 -DCMAKE_INSTALL_PREFIX=/usr/local/sundials \
+     $ cmake ../sundials-6.0.0 -DCMAKE_INSTALL_PREFIX=/usr/local/sundials \
               -DSUNDIALS_INDEX_SIZE=32 -DENABLE_KLU=ON \
               -DKLU_INCLUDE_DIR=$(brew --prefix suite-sparse)/include \
               -DKLU_LIBRARY_DIR=$(brew --prefix suite-sparse)/lib \
@@ -32,8 +32,8 @@ As the KLU solver in sundials requires the suitesparse library, suitesparese mus
      Here is an example of installing from sources. It may take for a while, or you can install only the required part.
      ```bash
      $ sudo apt-get install libgmp3-dev libmpc-dev # install suitesparse dependencies
-     $ wget https://github.com/DrTimothyAldenDavis/SuiteSparse/archive/refs/tags/v5.9.0.tar.gz 
-     $ tar -zxvf v5.9.0.tar.gz && cd SuiteSparse-5.9.0
+     $ wget https://github.com/DrTimothyAldenDavis/SuiteSparse/archive/refs/tags/v5.13.0.tar.gz 
+     $ tar -zxvf v5.13.0.tar.gz && cd SuiteSparse-5.13.0
      $ make library -j4 && sudo make install
      ```
 
@@ -48,6 +48,10 @@ As the KLU solver in sundials requires the suitesparse library, suitesparese mus
 4. Build project: `cmake --build build`
 5. To test, go into `build` folder and run `ctest`: `cd build && ctest`. The executables are in `build/tests/`
 6. If you want to install it, execute `make install` in `build` folder
+
+## Troubleshooting
+
+TBD.
 
 ## Usage
 
