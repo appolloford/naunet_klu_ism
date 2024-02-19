@@ -1,0 +1,56 @@
+# test on MacOS
+name: macos
+
+on:
+  push:
+    branches: [ main ]
+
+  pull_request:
+    branches: [ main ]
+
+jobs:
+
+  build_and_test:
+    needs: package_install_and_test
+
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-11, macos-latest]
+
+    runs-on: ${{ matrix.os }}
+
+    env:
+      build_dir: "build"
+      config: "Release"
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+
+      - name: Install BLAS & LAPACK
+        run: brew install openblas lapack
+          
+      - name: Install SuiteSparse
+        run: brew install suite-sparse
+
+      - name: Install SUNDIALS
+        run: brew install sundials
+ 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.8
+
+      - name: Install numpy
+        run: pip install numpy
+
+      - name: Configuration
+        run: cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release -DMAKE_PYTHON=ON
+
+      - name: Build
+        run: cmake --build build
+
+      - name: Test
+        run: ctest -V --output-on-failure --test-dir build
+
