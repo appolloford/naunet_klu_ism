@@ -24492,7 +24492,7 @@ int EvalRates(realtype *k, realtype *y, NaunetData *u_data) {
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[8272] = G0 * 9e-10 * exp(-1.6*Av); }
         
-    k[8273] = 0.0
+    k[8273] = 0.0;
         
     if (Tgas>=5.0 && Tgas<41000.0) { k[8274] = fmax(exp(-0.0/Tdust),
         exp(quan * sqrt(((1.0*12.0)/(1.0+12.0))*0.0))) * (fmax(freq *

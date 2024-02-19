@@ -2,6 +2,7 @@
 #define __NAUNET_PHYSICS_H__
 
 // 
+// clang-format off
 /*  */
 double GetElementAbund(double *y, int elemidx);
 double GetMantleDens(double *y);
